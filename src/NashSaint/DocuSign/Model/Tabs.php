@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Tabs Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,45 +59,45 @@ class Tabs implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'approve_tabs' => '\DocuSign\eSign\Model\Approve[]',
-        'checkbox_tabs' => '\DocuSign\eSign\Model\Checkbox[]',
-        'comment_thread_tabs' => '\DocuSign\eSign\Model\CommentThread[]',
-        'commission_county_tabs' => '\DocuSign\eSign\Model\CommissionCounty[]',
-        'commission_expiration_tabs' => '\DocuSign\eSign\Model\CommissionExpiration[]',
-        'commission_number_tabs' => '\DocuSign\eSign\Model\CommissionNumber[]',
-        'commission_state_tabs' => '\DocuSign\eSign\Model\CommissionState[]',
-        'company_tabs' => '\DocuSign\eSign\Model\Company[]',
-        'currency_tabs' => '\DocuSign\eSign\Model\Currency[]',
-        'date_signed_tabs' => '\DocuSign\eSign\Model\DateSigned[]',
-        'date_tabs' => '\DocuSign\eSign\Model\Date[]',
-        'decline_tabs' => '\DocuSign\eSign\Model\Decline[]',
-        'draw_tabs' => '\DocuSign\eSign\Model\Draw[]',
-        'email_address_tabs' => '\DocuSign\eSign\Model\EmailAddress[]',
-        'email_tabs' => '\DocuSign\eSign\Model\Email[]',
-        'envelope_id_tabs' => '\DocuSign\eSign\Model\EnvelopeId[]',
-        'first_name_tabs' => '\DocuSign\eSign\Model\FirstName[]',
-        'formula_tabs' => '\DocuSign\eSign\Model\FormulaTab[]',
-        'full_name_tabs' => '\DocuSign\eSign\Model\FullName[]',
-        'initial_here_tabs' => '\DocuSign\eSign\Model\InitialHere[]',
-        'last_name_tabs' => '\DocuSign\eSign\Model\LastName[]',
-        'list_tabs' => '\DocuSign\eSign\Model\ModelList[]',
-        'notarize_tabs' => '\DocuSign\eSign\Model\Notarize[]',
-        'notary_seal_tabs' => '\DocuSign\eSign\Model\NotarySeal[]',
-        'note_tabs' => '\DocuSign\eSign\Model\Note[]',
-        'number_tabs' => '\DocuSign\eSign\Model\Number[]',
-        'phone_number_tabs' => '\DocuSign\eSign\Model\PhoneNumber[]',
-        'poly_line_overlay_tabs' => '\DocuSign\eSign\Model\PolyLineOverlay[]',
-        'prefill_tabs' => '\DocuSign\eSign\Model\PrefillTabs',
-        'radio_group_tabs' => '\DocuSign\eSign\Model\RadioGroup[]',
-        'signer_attachment_tabs' => '\DocuSign\eSign\Model\SignerAttachment[]',
-        'sign_here_tabs' => '\DocuSign\eSign\Model\SignHere[]',
-        'smart_section_tabs' => '\DocuSign\eSign\Model\SmartSection[]',
-        'ssn_tabs' => '\DocuSign\eSign\Model\Ssn[]',
-        'tab_groups' => '\DocuSign\eSign\Model\TabGroup[]',
-        'text_tabs' => '\DocuSign\eSign\Model\Text[]',
-        'title_tabs' => '\DocuSign\eSign\Model\Title[]',
-        'view_tabs' => '\DocuSign\eSign\Model\View[]',
-        'zip_tabs' => '\DocuSign\eSign\Model\Zip[]'
+        'approve_tabs' => '\DocuSign\Model\Approve[]',
+        'checkbox_tabs' => '\DocuSign\Model\Checkbox[]',
+        'comment_thread_tabs' => '\DocuSign\Model\CommentThread[]',
+        'commission_county_tabs' => '\DocuSign\Model\CommissionCounty[]',
+        'commission_expiration_tabs' => '\DocuSign\Model\CommissionExpiration[]',
+        'commission_number_tabs' => '\DocuSign\Model\CommissionNumber[]',
+        'commission_state_tabs' => '\DocuSign\Model\CommissionState[]',
+        'company_tabs' => '\DocuSign\Model\Company[]',
+        'currency_tabs' => '\DocuSign\Model\Currency[]',
+        'date_signed_tabs' => '\DocuSign\Model\DateSigned[]',
+        'date_tabs' => '\DocuSign\Model\Date[]',
+        'decline_tabs' => '\DocuSign\Model\Decline[]',
+        'draw_tabs' => '\DocuSign\Model\Draw[]',
+        'email_address_tabs' => '\DocuSign\Model\EmailAddress[]',
+        'email_tabs' => '\DocuSign\Model\Email[]',
+        'envelope_id_tabs' => '\DocuSign\Model\EnvelopeId[]',
+        'first_name_tabs' => '\DocuSign\Model\FirstName[]',
+        'formula_tabs' => '\DocuSign\Model\FormulaTab[]',
+        'full_name_tabs' => '\DocuSign\Model\FullName[]',
+        'initial_here_tabs' => '\DocuSign\Model\InitialHere[]',
+        'last_name_tabs' => '\DocuSign\Model\LastName[]',
+        'list_tabs' => '\DocuSign\Model\ModelList[]',
+        'notarize_tabs' => '\DocuSign\Model\Notarize[]',
+        'notary_seal_tabs' => '\DocuSign\Model\NotarySeal[]',
+        'note_tabs' => '\DocuSign\Model\Note[]',
+        'number_tabs' => '\DocuSign\Model\Number[]',
+        'phone_number_tabs' => '\DocuSign\Model\PhoneNumber[]',
+        'poly_line_overlay_tabs' => '\DocuSign\Model\PolyLineOverlay[]',
+        'prefill_tabs' => '\DocuSign\Model\PrefillTabs',
+        'radio_group_tabs' => '\DocuSign\Model\RadioGroup[]',
+        'signer_attachment_tabs' => '\DocuSign\Model\SignerAttachment[]',
+        'sign_here_tabs' => '\DocuSign\Model\SignHere[]',
+        'smart_section_tabs' => '\DocuSign\Model\SmartSection[]',
+        'ssn_tabs' => '\DocuSign\Model\Ssn[]',
+        'tab_groups' => '\DocuSign\Model\TabGroup[]',
+        'text_tabs' => '\DocuSign\Model\Text[]',
+        'title_tabs' => '\DocuSign\Model\Title[]',
+        'view_tabs' => '\DocuSign\Model\View[]',
+        'zip_tabs' => '\DocuSign\Model\Zip[]'
     ];
 
     /**
@@ -437,7 +437,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets approve_tabs
      *
-     * @return \DocuSign\eSign\Model\Approve[]
+     * @return \DocuSign\Model\Approve[]
      */
     public function getApproveTabs()
     {
@@ -447,7 +447,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets approve_tabs
      *
-     * @param \DocuSign\eSign\Model\Approve[] $approve_tabs Specifies a tag on the document where you want the recipient to approve documents in an envelope without placing a signature or initials on the document. If the recipient clicks the Approve tag during the signing process, the recipient is considered to have signed the document. No information is shown on the document for the approval, but it is recorded as a signature in the envelope history.
+     * @param \DocuSign\Model\Approve[] $approve_tabs Specifies a tag on the document where you want the recipient to approve documents in an envelope without placing a signature or initials on the document. If the recipient clicks the Approve tag during the signing process, the recipient is considered to have signed the document. No information is shown on the document for the approval, but it is recorded as a signature in the envelope history.
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets checkbox_tabs
      *
-     * @return \DocuSign\eSign\Model\Checkbox[]
+     * @return \DocuSign\Model\Checkbox[]
      */
     public function getCheckboxTabs()
     {
@@ -471,7 +471,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets checkbox_tabs
      *
-     * @param \DocuSign\eSign\Model\Checkbox[] $checkbox_tabs Specifies a tag on the document in a location where the recipient can select an option.
+     * @param \DocuSign\Model\Checkbox[] $checkbox_tabs Specifies a tag on the document in a location where the recipient can select an option.
      *
      * @return $this
      */
@@ -485,7 +485,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets comment_thread_tabs
      *
-     * @return \DocuSign\eSign\Model\CommentThread[]
+     * @return \DocuSign\Model\CommentThread[]
      */
     public function getCommentThreadTabs()
     {
@@ -495,7 +495,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets comment_thread_tabs
      *
-     * @param \DocuSign\eSign\Model\CommentThread[] $comment_thread_tabs
+     * @param \DocuSign\Model\CommentThread[] $comment_thread_tabs
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets commission_county_tabs
      *
-     * @return \DocuSign\eSign\Model\CommissionCounty[]
+     * @return \DocuSign\Model\CommissionCounty[]
      */
     public function getCommissionCountyTabs()
     {
@@ -519,7 +519,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets commission_county_tabs
      *
-     * @param \DocuSign\eSign\Model\CommissionCounty[] $commission_county_tabs
+     * @param \DocuSign\Model\CommissionCounty[] $commission_county_tabs
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets commission_expiration_tabs
      *
-     * @return \DocuSign\eSign\Model\CommissionExpiration[]
+     * @return \DocuSign\Model\CommissionExpiration[]
      */
     public function getCommissionExpirationTabs()
     {
@@ -543,7 +543,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets commission_expiration_tabs
      *
-     * @param \DocuSign\eSign\Model\CommissionExpiration[] $commission_expiration_tabs
+     * @param \DocuSign\Model\CommissionExpiration[] $commission_expiration_tabs
      *
      * @return $this
      */
@@ -557,7 +557,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets commission_number_tabs
      *
-     * @return \DocuSign\eSign\Model\CommissionNumber[]
+     * @return \DocuSign\Model\CommissionNumber[]
      */
     public function getCommissionNumberTabs()
     {
@@ -567,7 +567,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets commission_number_tabs
      *
-     * @param \DocuSign\eSign\Model\CommissionNumber[] $commission_number_tabs
+     * @param \DocuSign\Model\CommissionNumber[] $commission_number_tabs
      *
      * @return $this
      */
@@ -581,7 +581,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets commission_state_tabs
      *
-     * @return \DocuSign\eSign\Model\CommissionState[]
+     * @return \DocuSign\Model\CommissionState[]
      */
     public function getCommissionStateTabs()
     {
@@ -591,7 +591,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets commission_state_tabs
      *
-     * @param \DocuSign\eSign\Model\CommissionState[] $commission_state_tabs
+     * @param \DocuSign\Model\CommissionState[] $commission_state_tabs
      *
      * @return $this
      */
@@ -605,7 +605,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets company_tabs
      *
-     * @return \DocuSign\eSign\Model\Company[]
+     * @return \DocuSign\Model\Company[]
      */
     public function getCompanyTabs()
     {
@@ -615,7 +615,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets company_tabs
      *
-     * @param \DocuSign\eSign\Model\Company[] $company_tabs Specifies a tag on the document where you want the recipient's company name to appear.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Company[] $company_tabs Specifies a tag on the document where you want the recipient's company name to appear.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -629,7 +629,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets currency_tabs
      *
-     * @return \DocuSign\eSign\Model\Currency[]
+     * @return \DocuSign\Model\Currency[]
      */
     public function getCurrencyTabs()
     {
@@ -639,7 +639,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets currency_tabs
      *
-     * @param \DocuSign\eSign\Model\Currency[] $currency_tabs
+     * @param \DocuSign\Model\Currency[] $currency_tabs
      *
      * @return $this
      */
@@ -653,7 +653,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets date_signed_tabs
      *
-     * @return \DocuSign\eSign\Model\DateSigned[]
+     * @return \DocuSign\Model\DateSigned[]
      */
     public function getDateSignedTabs()
     {
@@ -663,7 +663,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets date_signed_tabs
      *
-     * @param \DocuSign\eSign\Model\DateSigned[] $date_signed_tabs Specifies a tab on the document where the date the document was signed will automatically appear.
+     * @param \DocuSign\Model\DateSigned[] $date_signed_tabs Specifies a tab on the document where the date the document was signed will automatically appear.
      *
      * @return $this
      */
@@ -677,7 +677,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets date_tabs
      *
-     * @return \DocuSign\eSign\Model\Date[]
+     * @return \DocuSign\Model\Date[]
      */
     public function getDateTabs()
     {
@@ -687,7 +687,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets date_tabs
      *
-     * @param \DocuSign\eSign\Model\Date[] $date_tabs Specifies a tab on the document where you want the recipient to enter a date. Date tabs are single-line fields that allow date information to be entered in any format. The tooltip for this tab recommends entering the date as MM/DD/YYYY, but this is not enforced. The format entered by the signer is retained.   If you need a particular date format enforced, DocuSign recommends using a Text tab with a Validation Pattern and Validation Message to enforce the format.
+     * @param \DocuSign\Model\Date[] $date_tabs Specifies a tab on the document where you want the recipient to enter a date. Date tabs are single-line fields that allow date information to be entered in any format. The tooltip for this tab recommends entering the date as MM/DD/YYYY, but this is not enforced. The format entered by the signer is retained.   If you need a particular date format enforced, DocuSign recommends using a Text tab with a Validation Pattern and Validation Message to enforce the format.
      *
      * @return $this
      */
@@ -701,7 +701,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets decline_tabs
      *
-     * @return \DocuSign\eSign\Model\Decline[]
+     * @return \DocuSign\Model\Decline[]
      */
     public function getDeclineTabs()
     {
@@ -711,7 +711,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets decline_tabs
      *
-     * @param \DocuSign\eSign\Model\Decline[] $decline_tabs Specifies a tag on the document where you want to give the recipient the option of declining an envelope. If the recipient clicks the Decline tag during the signing process, the envelope is voided.
+     * @param \DocuSign\Model\Decline[] $decline_tabs Specifies a tag on the document where you want to give the recipient the option of declining an envelope. If the recipient clicks the Decline tag during the signing process, the envelope is voided.
      *
      * @return $this
      */
@@ -725,7 +725,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets draw_tabs
      *
-     * @return \DocuSign\eSign\Model\Draw[]
+     * @return \DocuSign\Model\Draw[]
      */
     public function getDrawTabs()
     {
@@ -735,7 +735,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets draw_tabs
      *
-     * @param \DocuSign\eSign\Model\Draw[] $draw_tabs
+     * @param \DocuSign\Model\Draw[] $draw_tabs
      *
      * @return $this
      */
@@ -749,7 +749,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets email_address_tabs
      *
-     * @return \DocuSign\eSign\Model\EmailAddress[]
+     * @return \DocuSign\Model\EmailAddress[]
      */
     public function getEmailAddressTabs()
     {
@@ -759,7 +759,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets email_address_tabs
      *
-     * @param \DocuSign\eSign\Model\EmailAddress[] $email_address_tabs Specifies a location on the document where you want where you want the recipient's email, as entered in the recipient information, to display.
+     * @param \DocuSign\Model\EmailAddress[] $email_address_tabs Specifies a location on the document where you want where you want the recipient's email, as entered in the recipient information, to display.
      *
      * @return $this
      */
@@ -773,7 +773,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets email_tabs
      *
-     * @return \DocuSign\eSign\Model\Email[]
+     * @return \DocuSign\Model\Email[]
      */
     public function getEmailTabs()
     {
@@ -783,7 +783,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets email_tabs
      *
-     * @param \DocuSign\eSign\Model\Email[] $email_tabs Specifies a tag on the document where you want the recipient to enter an email. Email tags are single-line fields that accept any characters. The system checks that a valid email format (i.e. xxx@yyy.zzz) is entered in the tag. It uses the same parameters as a Text tab, with the validation message and pattern set for email information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Email[] $email_tabs Specifies a tag on the document where you want the recipient to enter an email. Email tags are single-line fields that accept any characters. The system checks that a valid email format (i.e. xxx@yyy.zzz) is entered in the tag. It uses the same parameters as a Text tab, with the validation message and pattern set for email information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -797,7 +797,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_id_tabs
      *
-     * @return \DocuSign\eSign\Model\EnvelopeId[]
+     * @return \DocuSign\Model\EnvelopeId[]
      */
     public function getEnvelopeIdTabs()
     {
@@ -807,7 +807,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_id_tabs
      *
-     * @param \DocuSign\eSign\Model\EnvelopeId[] $envelope_id_tabs Specifies a tag on the document where you want the envelope ID for to appear. Recipients cannot enter or change the information in this tab, it is for informational purposes only.
+     * @param \DocuSign\Model\EnvelopeId[] $envelope_id_tabs Specifies a tag on the document where you want the envelope ID for to appear. Recipients cannot enter or change the information in this tab, it is for informational purposes only.
      *
      * @return $this
      */
@@ -821,7 +821,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets first_name_tabs
      *
-     * @return \DocuSign\eSign\Model\FirstName[]
+     * @return \DocuSign\Model\FirstName[]
      */
     public function getFirstNameTabs()
     {
@@ -831,7 +831,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets first_name_tabs
      *
-     * @param \DocuSign\eSign\Model\FirstName[] $first_name_tabs Specifies tag on a document where you want the recipient's first name to appear. This tag takes the recipient's name, as entered in the recipient information, splits it into sections based on spaces and uses the first section as the first name.
+     * @param \DocuSign\Model\FirstName[] $first_name_tabs Specifies tag on a document where you want the recipient's first name to appear. This tag takes the recipient's name, as entered in the recipient information, splits it into sections based on spaces and uses the first section as the first name.
      *
      * @return $this
      */
@@ -845,7 +845,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets formula_tabs
      *
-     * @return \DocuSign\eSign\Model\FormulaTab[]
+     * @return \DocuSign\Model\FormulaTab[]
      */
     public function getFormulaTabs()
     {
@@ -855,7 +855,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets formula_tabs
      *
-     * @param \DocuSign\eSign\Model\FormulaTab[] $formula_tabs Specifies a tag that is used to add a calculated field to a document. Envelope recipients cannot directly enter information into the tag; the formula tab calculates and displays a new value when changes are made to the reference tag values. The reference tag information and calculation operations are entered in the \"formula\" element. See the [ML:Using the Calculated Fields Feature] quick start guide or [ML:DocuSign Service User Guide] for more information about formulas.
+     * @param \DocuSign\Model\FormulaTab[] $formula_tabs Specifies a tag that is used to add a calculated field to a document. Envelope recipients cannot directly enter information into the tag; the formula tab calculates and displays a new value when changes are made to the reference tag values. The reference tag information and calculation operations are entered in the \"formula\" element. See the [ML:Using the Calculated Fields Feature] quick start guide or [ML:DocuSign Service User Guide] for more information about formulas.
      *
      * @return $this
      */
@@ -869,7 +869,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets full_name_tabs
      *
-     * @return \DocuSign\eSign\Model\FullName[]
+     * @return \DocuSign\Model\FullName[]
      */
     public function getFullNameTabs()
     {
@@ -879,7 +879,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets full_name_tabs
      *
-     * @param \DocuSign\eSign\Model\FullName[] $full_name_tabs Specifies a tag on the document where you want the recipient's name to appear.
+     * @param \DocuSign\Model\FullName[] $full_name_tabs Specifies a tag on the document where you want the recipient's name to appear.
      *
      * @return $this
      */
@@ -893,7 +893,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets initial_here_tabs
      *
-     * @return \DocuSign\eSign\Model\InitialHere[]
+     * @return \DocuSign\Model\InitialHere[]
      */
     public function getInitialHereTabs()
     {
@@ -903,7 +903,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets initial_here_tabs
      *
-     * @param \DocuSign\eSign\Model\InitialHere[] $initial_here_tabs Specifies a tag location in the document at which a recipient will place their initials. The `optional` parameter specifies whether the initials are required or optional.
+     * @param \DocuSign\Model\InitialHere[] $initial_here_tabs Specifies a tag location in the document at which a recipient will place their initials. The `optional` parameter specifies whether the initials are required or optional.
      *
      * @return $this
      */
@@ -917,7 +917,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets last_name_tabs
      *
-     * @return \DocuSign\eSign\Model\LastName[]
+     * @return \DocuSign\Model\LastName[]
      */
     public function getLastNameTabs()
     {
@@ -927,7 +927,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets last_name_tabs
      *
-     * @param \DocuSign\eSign\Model\LastName[] $last_name_tabs Specifies a tag on a document where you want the recipient's last name to appear. This tag takes the recipient's name, as entered in the recipient information, splits it into sections based on spaces and uses the last section as the last name.
+     * @param \DocuSign\Model\LastName[] $last_name_tabs Specifies a tag on a document where you want the recipient's last name to appear. This tag takes the recipient's name, as entered in the recipient information, splits it into sections based on spaces and uses the last section as the last name.
      *
      * @return $this
      */
@@ -941,7 +941,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets list_tabs
      *
-     * @return \DocuSign\eSign\Model\ModelList[]
+     * @return \DocuSign\Model\ModelList[]
      */
     public function getListTabs()
     {
@@ -951,7 +951,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets list_tabs
      *
-     * @param \DocuSign\eSign\Model\ModelList[] $list_tabs Specify this tag to give your recipient a list of options, presented as a drop-down list, from which they can select.
+     * @param \DocuSign\Model\ModelList[] $list_tabs Specify this tag to give your recipient a list of options, presented as a drop-down list, from which they can select.
      *
      * @return $this
      */
@@ -965,7 +965,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets notarize_tabs
      *
-     * @return \DocuSign\eSign\Model\Notarize[]
+     * @return \DocuSign\Model\Notarize[]
      */
     public function getNotarizeTabs()
     {
@@ -975,7 +975,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets notarize_tabs
      *
-     * @param \DocuSign\eSign\Model\Notarize[] $notarize_tabs
+     * @param \DocuSign\Model\Notarize[] $notarize_tabs
      *
      * @return $this
      */
@@ -989,7 +989,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets notary_seal_tabs
      *
-     * @return \DocuSign\eSign\Model\NotarySeal[]
+     * @return \DocuSign\Model\NotarySeal[]
      */
     public function getNotarySealTabs()
     {
@@ -999,7 +999,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets notary_seal_tabs
      *
-     * @param \DocuSign\eSign\Model\NotarySeal[] $notary_seal_tabs
+     * @param \DocuSign\Model\NotarySeal[] $notary_seal_tabs
      *
      * @return $this
      */
@@ -1013,7 +1013,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets note_tabs
      *
-     * @return \DocuSign\eSign\Model\Note[]
+     * @return \DocuSign\Model\Note[]
      */
     public function getNoteTabs()
     {
@@ -1023,7 +1023,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets note_tabs
      *
-     * @param \DocuSign\eSign\Model\Note[] $note_tabs Specifies a location on the document where you want to place additional information, in the form of a note, for a recipient.
+     * @param \DocuSign\Model\Note[] $note_tabs Specifies a location on the document where you want to place additional information, in the form of a note, for a recipient.
      *
      * @return $this
      */
@@ -1037,7 +1037,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets number_tabs
      *
-     * @return \DocuSign\eSign\Model\Number[]
+     * @return \DocuSign\Model\Number[]
      */
     public function getNumberTabs()
     {
@@ -1047,7 +1047,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets number_tabs
      *
-     * @param \DocuSign\eSign\Model\Number[] $number_tabs Specifies a tag on the document where you want the recipient to enter a number. It uses the same parameters as a Text tab, with the validation message and pattern set for number information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Number[] $number_tabs Specifies a tag on the document where you want the recipient to enter a number. It uses the same parameters as a Text tab, with the validation message and pattern set for number information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -1061,7 +1061,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets phone_number_tabs
      *
-     * @return \DocuSign\eSign\Model\PhoneNumber[]
+     * @return \DocuSign\Model\PhoneNumber[]
      */
     public function getPhoneNumberTabs()
     {
@@ -1071,7 +1071,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets phone_number_tabs
      *
-     * @param \DocuSign\eSign\Model\PhoneNumber[] $phone_number_tabs
+     * @param \DocuSign\Model\PhoneNumber[] $phone_number_tabs
      *
      * @return $this
      */
@@ -1085,7 +1085,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets poly_line_overlay_tabs
      *
-     * @return \DocuSign\eSign\Model\PolyLineOverlay[]
+     * @return \DocuSign\Model\PolyLineOverlay[]
      */
     public function getPolyLineOverlayTabs()
     {
@@ -1095,7 +1095,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets poly_line_overlay_tabs
      *
-     * @param \DocuSign\eSign\Model\PolyLineOverlay[] $poly_line_overlay_tabs
+     * @param \DocuSign\Model\PolyLineOverlay[] $poly_line_overlay_tabs
      *
      * @return $this
      */
@@ -1109,7 +1109,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets prefill_tabs
      *
-     * @return \DocuSign\eSign\Model\PrefillTabs
+     * @return \DocuSign\Model\PrefillTabs
      */
     public function getPrefillTabs()
     {
@@ -1119,7 +1119,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets prefill_tabs
      *
-     * @param \DocuSign\eSign\Model\PrefillTabs $prefill_tabs prefill_tabs
+     * @param \DocuSign\Model\PrefillTabs $prefill_tabs prefill_tabs
      *
      * @return $this
      */
@@ -1133,7 +1133,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets radio_group_tabs
      *
-     * @return \DocuSign\eSign\Model\RadioGroup[]
+     * @return \DocuSign\Model\RadioGroup[]
      */
     public function getRadioGroupTabs()
     {
@@ -1143,7 +1143,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets radio_group_tabs
      *
-     * @param \DocuSign\eSign\Model\RadioGroup[] $radio_group_tabs Specifies a tag on the document in a location where the recipient can select one option from a group of options using a radio button. The radio buttons do not have to be on the same page in a document.
+     * @param \DocuSign\Model\RadioGroup[] $radio_group_tabs Specifies a tag on the document in a location where the recipient can select one option from a group of options using a radio button. The radio buttons do not have to be on the same page in a document.
      *
      * @return $this
      */
@@ -1157,7 +1157,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets signer_attachment_tabs
      *
-     * @return \DocuSign\eSign\Model\SignerAttachment[]
+     * @return \DocuSign\Model\SignerAttachment[]
      */
     public function getSignerAttachmentTabs()
     {
@@ -1167,7 +1167,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets signer_attachment_tabs
      *
-     * @param \DocuSign\eSign\Model\SignerAttachment[] $signer_attachment_tabs Specifies a tag on the document when you want the recipient to add supporting documents to an envelope.
+     * @param \DocuSign\Model\SignerAttachment[] $signer_attachment_tabs Specifies a tag on the document when you want the recipient to add supporting documents to an envelope.
      *
      * @return $this
      */
@@ -1181,7 +1181,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets sign_here_tabs
      *
-     * @return \DocuSign\eSign\Model\SignHere[]
+     * @return \DocuSign\Model\SignHere[]
      */
     public function getSignHereTabs()
     {
@@ -1191,7 +1191,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets sign_here_tabs
      *
-     * @param \DocuSign\eSign\Model\SignHere[] $sign_here_tabs A complex type the contains information about the tag that specifies where the recipient places their signature in the document. The \"optional\" parameter sets if the signature is required or optional.
+     * @param \DocuSign\Model\SignHere[] $sign_here_tabs A complex type the contains information about the tag that specifies where the recipient places their signature in the document. The \"optional\" parameter sets if the signature is required or optional.
      *
      * @return $this
      */
@@ -1205,7 +1205,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets smart_section_tabs
      *
-     * @return \DocuSign\eSign\Model\SmartSection[]
+     * @return \DocuSign\Model\SmartSection[]
      */
     public function getSmartSectionTabs()
     {
@@ -1215,7 +1215,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets smart_section_tabs
      *
-     * @param \DocuSign\eSign\Model\SmartSection[] $smart_section_tabs
+     * @param \DocuSign\Model\SmartSection[] $smart_section_tabs
      *
      * @return $this
      */
@@ -1229,7 +1229,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets ssn_tabs
      *
-     * @return \DocuSign\eSign\Model\Ssn[]
+     * @return \DocuSign\Model\Ssn[]
      */
     public function getSsnTabs()
     {
@@ -1239,7 +1239,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets ssn_tabs
      *
-     * @param \DocuSign\eSign\Model\Ssn[] $ssn_tabs Specifies a tag on the document where you want the recipient to enter a Social Security Number (SSN). A SSN can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for SSN information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Ssn[] $ssn_tabs Specifies a tag on the document where you want the recipient to enter a Social Security Number (SSN). A SSN can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for SSN information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -1253,7 +1253,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets tab_groups
      *
-     * @return \DocuSign\eSign\Model\TabGroup[]
+     * @return \DocuSign\Model\TabGroup[]
      */
     public function getTabGroups()
     {
@@ -1263,7 +1263,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets tab_groups
      *
-     * @param \DocuSign\eSign\Model\TabGroup[] $tab_groups
+     * @param \DocuSign\Model\TabGroup[] $tab_groups
      *
      * @return $this
      */
@@ -1277,7 +1277,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets text_tabs
      *
-     * @return \DocuSign\eSign\Model\Text[]
+     * @return \DocuSign\Model\Text[]
      */
     public function getTextTabs()
     {
@@ -1287,7 +1287,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets text_tabs
      *
-     * @param \DocuSign\eSign\Model\Text[] $text_tabs Specifies a that that is an adaptable field that allows the recipient to enter different text information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Text[] $text_tabs Specifies a that that is an adaptable field that allows the recipient to enter different text information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -1301,7 +1301,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets title_tabs
      *
-     * @return \DocuSign\eSign\Model\Title[]
+     * @return \DocuSign\Model\Title[]
      */
     public function getTitleTabs()
     {
@@ -1311,7 +1311,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets title_tabs
      *
-     * @param \DocuSign\eSign\Model\Title[] $title_tabs Specifies a tag on the document where you want the recipient's title to appear.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Title[] $title_tabs Specifies a tag on the document where you want the recipient's title to appear.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -1325,7 +1325,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets view_tabs
      *
-     * @return \DocuSign\eSign\Model\View[]
+     * @return \DocuSign\Model\View[]
      */
     public function getViewTabs()
     {
@@ -1335,7 +1335,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets view_tabs
      *
-     * @param \DocuSign\eSign\Model\View[] $view_tabs
+     * @param \DocuSign\Model\View[] $view_tabs
      *
      * @return $this
      */
@@ -1349,7 +1349,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Gets zip_tabs
      *
-     * @return \DocuSign\eSign\Model\Zip[]
+     * @return \DocuSign\Model\Zip[]
      */
     public function getZipTabs()
     {
@@ -1359,7 +1359,7 @@ class Tabs implements ModelInterface, ArrayAccess
     /**
      * Sets zip_tabs
      *
-     * @param \DocuSign\eSign\Model\Zip[] $zip_tabs Specifies a tag on the document where you want the recipient to enter a ZIP code. The ZIP code can be a five numbers or the ZIP+4 format with nine numbers. The zip code can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for ZIP code information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Zip[] $zip_tabs Specifies a tag on the document where you want the recipient to enter a ZIP code. The ZIP code can be a five numbers or the ZIP+4 format with nine numbers. The zip code can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for ZIP code information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */

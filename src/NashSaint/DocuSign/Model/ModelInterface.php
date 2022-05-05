@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign\Model
+ * @package  DocuSign\Model
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,13 +28,13 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 /**
  * Interface abstracting model access.
  *
  * @category Interface
- * @package DocuSign\eSign\Model
+ * @package DocuSign\Model
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen

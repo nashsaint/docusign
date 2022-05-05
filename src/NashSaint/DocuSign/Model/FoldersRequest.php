@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FoldersRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class FoldersRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'envelope_ids' => '?string[]',
-        'folders' => '\DocuSign\eSign\Model\Folder[]',
+        'folders' => '\DocuSign\Model\Folder[]',
         'from_folder_id' => '?string'
     ];
 
@@ -245,7 +245,7 @@ class FoldersRequest implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\Folder[]
+     * @return \DocuSign\Model\Folder[]
      */
     public function getFolders()
     {
@@ -255,7 +255,7 @@ class FoldersRequest implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\Folder[] $folders
+     * @param \DocuSign\Model\Folder[] $folders
      *
      * @return $this
      */

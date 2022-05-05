@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Country Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class Country implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'iso_code' => '?string',
         'name' => '?string',
-        'provinces' => '\DocuSign\eSign\Model\Province[]',
+        'provinces' => '\DocuSign\Model\Province[]',
         'province_validated' => '?string'
     ];
 
@@ -275,7 +275,7 @@ class Country implements ModelInterface, ArrayAccess
     /**
      * Gets provinces
      *
-     * @return \DocuSign\eSign\Model\Province[]
+     * @return \DocuSign\Model\Province[]
      */
     public function getProvinces()
     {
@@ -285,7 +285,7 @@ class Country implements ModelInterface, ArrayAccess
     /**
      * Sets provinces
      *
-     * @param \DocuSign\eSign\Model\Province[] $provinces
+     * @param \DocuSign\Model\Province[] $provinces
      *
      * @return $this
      */

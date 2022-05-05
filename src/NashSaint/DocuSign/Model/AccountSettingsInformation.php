@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountSettingsInformation Class Doc Comment
  *
  * @category    Class
  * @description Contains account settings information.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,599 +60,599 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'access_code_format' => '\DocuSign\eSign\Model\AccessCodeFormat',
+        'access_code_format' => '\DocuSign\Model\AccessCodeFormat',
         'account_date_time_format' => '?string',
-        'account_date_time_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'account_date_time_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'account_default_language' => '?string',
-        'account_default_language_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'account_default_language_metadata' => '\DocuSign\Model\SettingsMetadata',
         'account_name' => '?string',
-        'account_name_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'account_notification' => '\DocuSign\eSign\Model\AccountNotification',
-        'account_ui_settings' => '\DocuSign\eSign\Model\AccountUISettings',
+        'account_name_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'account_notification' => '\DocuSign\Model\AccountNotification',
+        'account_ui_settings' => '\DocuSign\Model\AccountUISettings',
         'adopt_sig_config' => '?string',
-        'adopt_sig_config_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'adopt_sig_config_metadata' => '\DocuSign\Model\SettingsMetadata',
         'advanced_correct' => '?string',
-        'advanced_correct_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'advanced_correct_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_access_code_format' => '?string',
-        'allow_access_code_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_access_code_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_account_management_granular' => '?string',
-        'allow_account_management_granular_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_account_management_granular_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_account_member_name_change' => '?string',
-        'allow_account_member_name_change_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_account_member_name_change_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_advanced_recipient_routing_conditional' => '?string',
-        'allow_advanced_recipient_routing_conditional_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_advanced_recipient_routing_conditional_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_agent_name_email_edit' => '?string',
-        'allow_agent_name_email_edit_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_agent_name_email_edit_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_agreement_actions' => '?string',
-        'allow_agreement_actions_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_agreement_actions_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_auto_nav_settings' => '?string',
-        'allow_auto_nav_settings_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_auto_nav_settings_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_auto_tagging' => '?string',
-        'allow_auto_tagging_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_auto_tagging_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_bulk_send' => '?string',
-        'allow_bulk_send_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_bulk_send_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_cd_withdraw' => '?string',
-        'allow_cd_withdraw_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_cd_withdraw_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_connect_http_listener_configs' => '?string',
         'allow_connect_send_finish_later' => '?string',
-        'allow_connect_send_finish_later_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_connect_send_finish_later_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_connect_unified_payload_ui' => '?string',
         'allow_consumer_disclosure_override' => '?string',
-        'allow_consumer_disclosure_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_consumer_disclosure_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_data_download' => '?string',
-        'allow_data_download_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_data_download_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_delayed_routing' => '?string',
-        'allow_delayed_routing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_delayed_routing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_delegated_signing' => '?string',
-        'allow_delegated_signing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_delegated_signing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_document_disclosures' => '?string',
-        'allow_document_disclosures_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_document_disclosures_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_documents_on_signed_envelopes' => '?string',
-        'allow_documents_on_signed_envelopes_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_documents_on_signed_envelopes_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_document_visibility' => '?string',
-        'allow_document_visibility_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_document_visibility_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_e_hanko_stamps' => '?string',
-        'allow_e_hanko_stamps_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_e_hanko_stamps_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_e_note_e_original' => '?string',
-        'allow_e_note_e_original_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_e_note_e_original_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_envelope_correct' => '?string',
-        'allow_envelope_correct_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_envelope_correct_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_envelope_custody_transfer' => '?string',
-        'allow_envelope_custody_transfer_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_envelope_custody_transfer_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_envelope_custom_fields' => '?string',
-        'allow_envelope_custom_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_envelope_custom_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_envelope_publish_reporting' => '?string',
-        'allow_envelope_publish_reporting_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_envelope_publish_reporting_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_envelope_reporting' => '?string',
-        'allow_envelope_reporting_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_envelope_reporting_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_expression' => '?string',
-        'allow_expression_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_expression_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_express_signer_certificate' => '?string',
-        'allow_express_signer_certificate_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_express_signer_certificate_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_extended_sending_resource_file' => '?string',
-        'allow_extended_sending_resource_file_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_extended_sending_resource_file_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_external_linked_accounts' => '?string',
-        'allow_external_linked_accounts_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_external_linked_accounts_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_external_signature_pad' => '?string',
-        'allow_external_signature_pad_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_external_signature_pad_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_idv_level1' => '?string',
-        'allow_idv_level1_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_idv_level1_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_idv_level2' => '?string',
-        'allow_idv_level2_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_idv_level2_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_idv_level3' => '?string',
-        'allow_idv_level3_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_idv_level3_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_idv_platform' => '?string',
-        'allow_idv_platform_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_idv_platform_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_in_person' => '?string',
         'allow_in_person_electronic_notary' => '?string',
-        'allow_in_person_electronic_notary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'allow_in_person_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_in_person_electronic_notary_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'allow_in_person_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_managed_stamps' => '?string',
-        'allow_managed_stamps_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_managed_stamps_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_markup' => '?string',
-        'allow_markup_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_markup_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_member_time_zone' => '?string',
-        'allow_member_time_zone_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_member_time_zone_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_merge_fields' => '?string',
-        'allow_merge_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_merge_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_multiple_brand_profiles' => '?string',
-        'allow_multiple_brand_profiles_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_multiple_brand_profiles_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_multiple_signer_attachments' => '?string',
-        'allow_multiple_signer_attachments_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_multiple_signer_attachments_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_non_us_phone_auth' => '?string',
-        'allow_non_us_phone_auth_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_non_us_phone_auth_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_ocr_of_envelope_documents' => '?string',
-        'allow_ocr_of_envelope_documents_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_ocr_of_envelope_documents_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_offline_signing' => '?string',
-        'allow_offline_signing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_offline_signing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_open_trust_signer_certificate' => '?string',
-        'allow_open_trust_signer_certificate_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_open_trust_signer_certificate_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organization_docusign_monitor' => '?string',
-        'allow_organization_docusign_monitor_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organization_docusign_monitor_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organization_domain_user_management' => '?string',
-        'allow_organization_domain_user_management_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organization_domain_user_management_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organizations' => '?string',
-        'allow_organizations_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organizations_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organization_sso_management' => '?string',
-        'allow_organization_sso_management_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organization_sso_management_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organization_to_use_in_person_electronic_notary' => '?string',
-        'allow_organization_to_use_in_person_electronic_notary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organization_to_use_in_person_electronic_notary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_organization_to_use_remote_notary' => '?string',
-        'allow_organization_to_use_remote_notary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_organization_to_use_remote_notary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_payment_processing' => '?string',
-        'allow_payment_processing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_payment_processing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_phone_authentication' => '?string',
-        'allow_phone_authentication_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_phone_authentication_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_phone_auth_override' => '?string',
-        'allow_phone_auth_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_phone_auth_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_private_signing_groups' => '?string',
-        'allow_private_signing_groups_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_private_signing_groups_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_recipient_connect' => '?string',
-        'allow_recipient_connect_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_recipient_connect_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_reminders' => '?string',
-        'allow_reminders_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_reminders_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_remote_notary' => '?string',
-        'allow_remote_notary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_remote_notary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_resource_file_branding' => '?string',
-        'allow_resource_file_branding_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_resource_file_branding_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_safe_bio_pharma_signer_certificate' => '?string',
-        'allow_safe_bio_pharma_signer_certificate_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_safe_bio_pharma_signer_certificate_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_scheduled_sending' => '?string',
-        'allow_scheduled_sending_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_scheduled_sending_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_security_appliance' => '?string',
-        'allow_security_appliance_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_security_appliance_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_send_to_certified_delivery' => '?string',
-        'allow_send_to_certified_delivery_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_send_to_certified_delivery_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_send_to_intermediary' => '?string',
-        'allow_send_to_intermediary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_send_to_intermediary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_server_templates' => '?string',
-        'allow_server_templates_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_server_templates_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_set_embedded_recipient_start_url' => '?string',
-        'allow_set_embedded_recipient_start_url_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_set_embedded_recipient_start_url_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_shared_tabs' => '?string',
-        'allow_shared_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_shared_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signature_stamps' => '?string',
-        'allow_signature_stamps_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signature_stamps_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_sign_document_from_home_page' => '?string',
-        'allow_sign_document_from_home_page_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_sign_document_from_home_page_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signer_reassign' => '?string',
-        'allow_signer_reassign_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signer_reassign_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signer_reassign_override' => '?string',
-        'allow_signer_reassign_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signer_reassign_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signing_extensions' => '?string',
-        'allow_signing_extensions_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signing_extensions_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signing_groups' => '?string',
-        'allow_signing_groups_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signing_groups_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signing_insights' => '?string',
-        'allow_signing_insights_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signing_insights_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_signing_radio_deselect' => '?string',
-        'allow_signing_radio_deselect_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_signing_radio_deselect_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_sign_now' => '?string',
         'allow_sign_now_metadata' => '?string',
         'allow_sms_delivery' => '?string',
-        'allow_sms_delivery_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_sms_delivery_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_social_id_login' => '?string',
-        'allow_social_id_login_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_social_id_login_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_supplemental_documents' => '?string',
-        'allow_supplemental_documents_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_supplemental_documents_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_users_to_access_directory' => '?string',
-        'allow_users_to_access_directory_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_users_to_access_directory_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_value_insights' => '?string',
-        'allow_value_insights_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_value_insights_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_web_forms' => '?string',
-        'allow_web_forms_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_web_forms_metadata' => '\DocuSign\Model\SettingsMetadata',
         'anchor_population_scope' => '?string',
-        'anchor_population_scope_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'anchor_population_scope_metadata' => '\DocuSign\Model\SettingsMetadata',
         'anchor_tag_versioned_placement_enabled' => '?string',
-        'anchor_tag_versioned_placement_metadata_enabled' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'anchor_tag_versioned_placement_metadata_enabled' => '\DocuSign\Model\SettingsMetadata',
         'attach_completed_envelope' => '?string',
-        'attach_completed_envelope_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'attach_completed_envelope_metadata' => '\DocuSign\Model\SettingsMetadata',
         'authentication_check' => '?string',
-        'authentication_check_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'authentication_check_metadata' => '\DocuSign\Model\SettingsMetadata',
         'auto_nav_rule' => '?string',
-        'auto_nav_rule_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'auto_nav_rule_metadata' => '\DocuSign\Model\SettingsMetadata',
         'auto_provision_signer_account' => '?string',
-        'auto_provision_signer_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'auto_provision_signer_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'bcc_email_archive' => '?string',
-        'bcc_email_archive_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'bcc_email_archive_metadata' => '\DocuSign\Model\SettingsMetadata',
         'beta_switch_configuration' => '?string',
-        'beta_switch_configuration_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'billing_address' => '\DocuSign\eSign\Model\AddressInformation',
-        'billing_address_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'beta_switch_configuration_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'billing_address' => '\DocuSign\Model\AddressInformation',
+        'billing_address_metadata' => '\DocuSign\Model\SettingsMetadata',
         'bulk_send' => '?string',
         'bulk_send_max_copies_in_batch' => '?string',
         'bulk_send_max_unprocessed_envelopes_count' => '?string',
-        'bulk_send_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'bulk_send_metadata' => '\DocuSign\Model\SettingsMetadata',
         'can_self_brand_send' => '?string',
-        'can_self_brand_send_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'can_self_brand_send_metadata' => '\DocuSign\Model\SettingsMetadata',
         'can_self_brand_sign' => '?string',
-        'can_self_brand_sign_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'can_self_brand_sign_metadata' => '\DocuSign\Model\SettingsMetadata',
         'can_use_salesforce_o_auth' => '?string',
-        'can_use_salesforce_o_auth_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'can_use_salesforce_o_auth_metadata' => '\DocuSign\Model\SettingsMetadata',
         'capture_voice_recording' => '?string',
-        'capture_voice_recording_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'capture_voice_recording_metadata' => '\DocuSign\Model\SettingsMetadata',
         'cfr21_simplified_signing_enabled' => '?string',
-        'cfr21_simplified_signing_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'cfr21_simplified_signing_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'cfr_use_wide_image' => '?string',
-        'cfr_use_wide_image_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'cfr_use_wide_image_metadata' => '\DocuSign\Model\SettingsMetadata',
         'check_for_multiple_admins_on_account' => '?string',
-        'check_for_multiple_admins_on_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'check_for_multiple_admins_on_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'chrome_signature_enabled' => '?string',
-        'chrome_signature_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'chrome_signature_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'comment_email_show_message_text' => '?string',
-        'comment_email_show_message_text_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'comment_email_show_message_text_metadata' => '\DocuSign\Model\SettingsMetadata',
         'comments_allow_envelope_override' => '?string',
-        'comments_allow_envelope_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'comments_allow_envelope_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'conditional_fields_enabled' => '?string',
-        'conditional_fields_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'conditional_fields_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'consumer_disclosure_frequency' => '?string',
-        'consumer_disclosure_frequency_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'consumer_disclosure_frequency_metadata' => '\DocuSign\Model\SettingsMetadata',
         'convert_pdf_fields' => '?string',
-        'convert_pdf_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'convert_pdf_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'data_population_scope' => '?string',
-        'data_population_scope_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'data_population_scope_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_auto_template_matching' => '?string',
-        'disable_auto_template_matching_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_auto_template_matching_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_mobile_app' => '?string',
-        'disable_mobile_app_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_mobile_app_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_mobile_push_notifications' => '?string',
-        'disable_mobile_push_notifications_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_mobile_push_notifications_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_mobile_sending' => '?string',
-        'disable_mobile_sending_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_mobile_sending_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_multiple_sessions' => '?string',
-        'disable_multiple_sessions_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'disable_purge_notifications_for_sender_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_multiple_sessions_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'disable_purge_notifications_for_sender_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_signer_cert_view' => '?string',
-        'disable_signer_cert_view_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_signer_cert_view_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_signer_history_view' => '?string',
-        'disable_signer_history_view_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_signer_history_view_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_style_signature' => '?string',
-        'disable_style_signature_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_style_signature_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_upload_signature' => '?string',
-        'disable_upload_signature_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_upload_signature_metadata' => '\DocuSign\Model\SettingsMetadata',
         'disable_user_sharing' => '?string',
-        'disable_user_sharing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'disable_user_sharing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'display_beta_switch' => '?string',
-        'display_beta_switch_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'display_beta_switch_metadata' => '\DocuSign\Model\SettingsMetadata',
         'document_conversion_restrictions' => '?string',
-        'document_conversion_restrictions_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'document_conversion_restrictions_metadata' => '\DocuSign\Model\SettingsMetadata',
         'document_retention' => '?string',
-        'document_retention_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'document_retention_metadata' => '\DocuSign\Model\SettingsMetadata',
         'document_retention_purge_tabs' => '?string',
         'document_visibility' => '?string',
-        'document_visibility_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'document_visibility_metadata' => '\DocuSign\Model\SettingsMetadata',
         'dss_sign_28411_enable_leave_page_prompt_radmin_option' => '?string',
         'dss_sign_29182_slide_up_bar_radmin_option' => '?string',
         'email_template_version' => '?string',
-        'email_template_version_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'email_template_version_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_access_code_generator' => '?string',
-        'enable_access_code_generator_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_access_code_generator_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_advanced_payments' => '?string',
-        'enable_advanced_payments_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_advanced_payments_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_advanced_power_forms' => '?string',
-        'enable_advanced_power_forms_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_advanced_power_forms_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_agreement_actions_for_clm' => '?string',
-        'enable_agreement_actions_for_clm_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_agreement_actions_for_clm_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_agreement_actions_for_e_sign' => '?string',
-        'enable_agreement_actions_for_e_sign_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_agreement_actions_for_e_sign_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_auto_nav' => '?string',
-        'enable_auto_nav_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_auto_nav_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_bcc_dummy_link' => '?string',
-        'enable_bcc_dummy_link_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_bcc_dummy_link_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_calculated_fields' => '?string',
-        'enable_calculated_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_calculated_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_clickwraps' => '?string',
-        'enable_clickwraps_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_clickwraps_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_comments_history_download_in_signing' => '?string',
-        'enable_comments_history_download_in_signing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_comments_history_download_in_signing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_customer_satisfaction_metric_tracking' => '?string',
-        'enable_customer_satisfaction_metric_tracking_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_customer_satisfaction_metric_tracking_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_ds_pro' => '?string',
-        'enable_ds_pro_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_ds_pro_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_envelope_stamping_by_account_admin' => '?string',
-        'enable_envelope_stamping_by_account_admin_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_envelope_stamping_by_account_admin_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_envelope_stamping_by_ds_admin' => '?string',
-        'enable_envelope_stamping_by_ds_admin_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_envelope_stamping_by_ds_admin_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_esign_communities' => '?string',
-        'enable_esign_communities_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_esign_communities_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_id_fx_intuit_kba' => '?string',
-        'enable_id_fx_intuit_kba_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_id_fx_intuit_kba_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_id_fx_phone_authentication' => '?string',
-        'enable_id_fx_phone_authentication_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_id_fx_phone_authentication_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_in_browser_editor' => '?string',
-        'enable_in_browser_editor_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_in_browser_editor_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_payment_processing' => '?string',
-        'enable_payment_processing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_payment_processing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_pdfa_conversion' => '?string',
-        'enable_pdfa_conversion_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_pdfa_conversion_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_power_form' => '?string',
         'enable_power_form_direct' => '?string',
-        'enable_power_form_direct_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'enable_power_form_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_power_form_direct_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'enable_power_form_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_recipient_domain_validation' => '?string',
-        'enable_recipient_domain_validation_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_recipient_domain_validation_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_recipient_may_provide_phone_number' => '?string',
-        'enable_recipient_may_provide_phone_number_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_recipient_may_provide_phone_number_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_report_links' => '?string',
-        'enable_report_links_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_report_links_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_require_sign_on_paper' => '?string',
-        'enable_require_sign_on_paper_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_require_sign_on_paper_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_reserved_domain' => '?string',
-        'enable_reserved_domain_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_reserved_domain_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_responsive_signing' => '?string',
-        'enable_responsive_signing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_responsive_signing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_scheduled_release' => '?string',
-        'enable_scheduled_release_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_scheduled_release_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_search' => '?string',
-        'enable_search_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_search_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_search_ui' => '?string',
-        'enable_search_ui_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_search_ui_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sending_tags_font_settings' => '?string',
-        'enable_sending_tags_font_settings_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sending_tags_font_settings_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_send_to_agent' => '?string',
-        'enable_send_to_agent_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_send_to_agent_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_send_to_intermediary' => '?string',
-        'enable_send_to_intermediary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_send_to_intermediary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_send_to_manage' => '?string',
-        'enable_send_to_manage_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_send_to_manage_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sequential_signing_api' => '?string',
-        'enable_sequential_signing_api_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sequential_signing_api_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sequential_signing_ui' => '?string',
-        'enable_sequential_signing_ui_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sequential_signing_ui_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_signer_attachments' => '?string',
-        'enable_signer_attachments_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_signer_attachments_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_signing_extension_comments' => '?string',
-        'enable_signing_extension_comments_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_signing_extension_comments_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_signing_extension_conversations' => '?string',
-        'enable_signing_extension_conversations_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_signing_extension_conversations_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_signing_order_settings_for_account' => '?string',
-        'enable_signing_order_settings_for_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_signing_order_settings_for_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sign_on_paper' => '?string',
-        'enable_sign_on_paper_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sign_on_paper_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sign_on_paper_override' => '?string',
-        'enable_sign_on_paper_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sign_on_paper_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sign_with_notary' => '?string',
-        'enable_sign_with_notary_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sign_with_notary_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_smart_contracts' => '?string',
-        'enable_smart_contracts_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_smart_contracts_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sms_authentication' => '?string',
-        'enable_sms_authentication_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sms_authentication_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sms_delivery_additional_notification' => '?string',
-        'enable_sms_delivery_additional_notification_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_sms_delivery_additional_notification_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_sms_delivery_primary' => '?string',
         'enable_social_id_login' => '?string',
-        'enable_social_id_login_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_social_id_login_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_strike_through' => '?string',
-        'enable_strike_through_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_strike_through_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_transaction_point' => '?string',
-        'enable_transaction_point_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_transaction_point_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_vaulting' => '?string',
-        'enable_vaulting_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_vaulting_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enable_witnessing' => '?string',
-        'enable_witnessing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enable_witnessing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'enforce_template_name_uniqueness' => '?string',
-        'enforce_template_name_uniqueness_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'enforce_template_name_uniqueness_metadata' => '\DocuSign\Model\SettingsMetadata',
         'envelope_integration_allowed' => '?string',
-        'envelope_integration_allowed_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'envelope_integration_allowed_metadata' => '\DocuSign\Model\SettingsMetadata',
         'envelope_integration_enabled' => '?string',
-        'envelope_integration_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'envelope_integration_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'envelope_stamping_default_value' => '?string',
-        'envelope_stamping_default_value_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'envelope_stamping_default_value_metadata' => '\DocuSign\Model\SettingsMetadata',
         'exit_prompt' => '?string',
-        'exit_prompt_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'exit_prompt_metadata' => '\DocuSign\Model\SettingsMetadata',
         'express_send' => '?string',
         'express_send_allow_tabs' => '?string',
-        'express_send_allow_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'express_send_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'external_document_sources' => '\DocuSign\eSign\Model\ExternalDocumentSources',
+        'express_send_allow_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'express_send_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'external_document_sources' => '\DocuSign\Model\ExternalDocumentSources',
         'external_signature_pad_type' => '?string',
-        'external_signature_pad_type_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'external_signature_pad_type_metadata' => '\DocuSign\Model\SettingsMetadata',
         'fax_out_enabled' => '?string',
-        'fax_out_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'fax_out_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'finish_reminder' => '?string',
-        'finish_reminder_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'finish_reminder_metadata' => '\DocuSign\Model\SettingsMetadata',
         'guided_forms_html_allowed' => '?string',
-        'guided_forms_html_allowed_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'guided_forms_html_allowed_metadata' => '\DocuSign\Model\SettingsMetadata',
         'has_recipient_connect_claimed_domain' => '?string',
         'hide_account_address_in_co_c' => '?string',
-        'hide_account_address_in_co_c_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'hide_account_address_in_co_c_metadata' => '\DocuSign\Model\SettingsMetadata',
         'hide_pricing' => '?string',
-        'hide_pricing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'id_check_configurations' => '\DocuSign\eSign\Model\IdCheckConfiguration[]',
+        'hide_pricing_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'id_check_configurations' => '\DocuSign\Model\IdCheckConfiguration[]',
         'id_check_expire' => '?string',
         'id_check_expire_days' => '?string',
-        'id_check_expire_days_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'id_check_expire_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'id_check_expire_days_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'id_check_expire_metadata' => '\DocuSign\Model\SettingsMetadata',
         'id_check_expire_minutes' => '?string',
-        'id_check_expire_minutes_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'id_check_expire_minutes_metadata' => '\DocuSign\Model\SettingsMetadata',
         'id_check_required' => '?string',
-        'id_check_required_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'identity_verification' => '\DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[]',
-        'identity_verification_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'id_check_required_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'identity_verification' => '\DocuSign\Model\AccountIdentityVerificationWorkflow[]',
+        'identity_verification_metadata' => '\DocuSign\Model\SettingsMetadata',
         'idfx_phone_authentication_override' => '?string',
-        'idfx_phone_authentication_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'idfx_phone_authentication_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'ignore_error_if_anchor_tab_not_found' => '?string',
-        'ignore_error_if_anchor_tab_not_found_metadata_enabled' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'ignore_error_if_anchor_tab_not_found_metadata_enabled' => '\DocuSign\Model\SettingsMetadata',
         'in_person_id_check_question' => '?string',
-        'in_person_id_check_question_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'in_person_id_check_question_metadata' => '\DocuSign\Model\SettingsMetadata',
         'in_person_signing_enabled' => '?string',
-        'in_person_signing_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'in_person_signing_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'in_session_enabled' => '?string',
-        'in_session_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'in_session_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'in_session_suppress_emails' => '?string',
-        'in_session_suppress_emails_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'linked_external_primary_accounts' => '\DocuSign\eSign\Model\LinkedExternalPrimaryAccount[]',
+        'in_session_suppress_emails_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'linked_external_primary_accounts' => '\DocuSign\Model\LinkedExternalPrimaryAccount[]',
         'maximum_signing_groups' => '?string',
-        'maximum_signing_groups_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'maximum_signing_groups_metadata' => '\DocuSign\Model\SettingsMetadata',
         'maximum_users_per_signing_group' => '?string',
-        'maximum_users_per_signing_group_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'maximum_users_per_signing_group_metadata' => '\DocuSign\Model\SettingsMetadata',
         'max_number_of_custom_stamps' => '?string',
         'mobile_session_timeout' => '?string',
-        'mobile_session_timeout_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'mobile_session_timeout_metadata' => '\DocuSign\Model\SettingsMetadata',
         'number_of_active_custom_stamps' => '?string',
         'opt_in_mobile_signing_v02' => '?string',
-        'opt_in_mobile_signing_v02_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'opt_in_mobile_signing_v02_metadata' => '\DocuSign\Model\SettingsMetadata',
         'opt_out_auto_nav_text_and_tab_color_updates' => '?string',
-        'opt_out_auto_nav_text_and_tab_color_updates_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'opt_out_auto_nav_text_and_tab_color_updates_metadata' => '\DocuSign\Model\SettingsMetadata',
         'opt_out_new_platform_seal' => '?string',
-        'opt_out_new_platform_seal_platform_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'opt_out_new_platform_seal_platform_metadata' => '\DocuSign\Model\SettingsMetadata',
         'phone_auth_recipient_may_provide_phone_number' => '?string',
-        'phone_auth_recipient_may_provide_phone_number_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'phone_auth_recipient_may_provide_phone_number_metadata' => '\DocuSign\Model\SettingsMetadata',
         'pki_sign_downloaded_pdf_docs' => '?string',
-        'pki_sign_downloaded_pdf_docs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'pki_sign_downloaded_pdf_docs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'read_only_mode' => '?string',
-        'read_only_mode_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'read_only_mode_metadata' => '\DocuSign\Model\SettingsMetadata',
         'recipients_can_sign_offline' => '?string',
-        'recipients_can_sign_offline_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'recipients_can_sign_offline_metadata' => '\DocuSign\Model\SettingsMetadata',
         'recipient_signing_auto_navigation_control' => '?string',
-        'recipient_signing_auto_navigation_control_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'recipient_signing_auto_navigation_control_metadata' => '\DocuSign\Model\SettingsMetadata',
         'require21_cf_rpt11_compliance' => '?string',
-        'require21_cf_rpt11_compliance_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'require21_cf_rpt11_compliance_metadata' => '\DocuSign\Model\SettingsMetadata',
         'require_decline_reason' => '?string',
-        'require_decline_reason_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'require_decline_reason_metadata' => '\DocuSign\Model\SettingsMetadata',
         'require_external_user_management' => '?string',
-        'require_external_user_management_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'require_external_user_management_metadata' => '\DocuSign\Model\SettingsMetadata',
         'require_signer_certificate_type' => '?string',
-        'require_signer_certificate_type_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'require_signer_certificate_type_metadata' => '\DocuSign\Model\SettingsMetadata',
         'rsa_verid_account_name' => '?string',
         'rsa_verid_password' => '?string',
         'rsa_verid_ruleset' => '?string',
         'rsa_verid_user_id' => '?string',
         'self_signed_recipient_email_document' => '?string',
-        'self_signed_recipient_email_document_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'self_signed_recipient_email_document_metadata' => '\DocuSign\Model\SettingsMetadata',
         'self_signed_recipient_email_document_user_override' => '?string',
-        'self_signed_recipient_email_document_user_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'self_signed_recipient_email_document_user_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sender_can_sign_in_each_location' => '?string',
-        'sender_can_sign_in_each_location_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sender_can_sign_in_each_location_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sender_must_authenticate_signing' => '?string',
-        'sender_must_authenticate_signing_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sender_must_authenticate_signing_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sending_tags_font_color' => '?string',
-        'sending_tags_font_color_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sending_tags_font_color_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sending_tags_font_name' => '?string',
-        'sending_tags_font_name_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sending_tags_font_name_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sending_tags_font_size' => '?string',
-        'sending_tags_font_size_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sending_tags_font_size_metadata' => '\DocuSign\Model\SettingsMetadata',
         'send_lockout_recipient_notification' => '?string',
-        'send_lockout_recipient_notification_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'send_lockout_recipient_notification_metadata' => '\DocuSign\Model\SettingsMetadata',
         'send_to_certified_delivery_enabled' => '?string',
-        'send_to_certified_delivery_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'send_to_certified_delivery_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'session_timeout' => '?string',
-        'session_timeout_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'session_timeout_metadata' => '\DocuSign\Model\SettingsMetadata',
         'set_recip_email_lang' => '?string',
-        'set_recip_email_lang_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'set_recip_email_lang_metadata' => '\DocuSign\Model\SettingsMetadata',
         'set_recip_sign_lang' => '?string',
-        'set_recip_sign_lang_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'set_recip_sign_lang_metadata' => '\DocuSign\Model\SettingsMetadata',
         'shared_template_folders' => '?string',
-        'shared_template_folders_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'shared_template_folders_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_complete_dialog_in_embedded_session' => '?string',
-        'show_complete_dialog_in_embedded_session_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_complete_dialog_in_embedded_session_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_conditional_routing_on_send' => '?string',
-        'show_conditional_routing_on_send_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_conditional_routing_on_send_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_initial_conditional_fields' => '?string',
-        'show_initial_conditional_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_initial_conditional_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_localized_watermarks' => '?string',
-        'show_localized_watermarks_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_localized_watermarks_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_masked_fields_when_downloading_document_as_sender' => '?string',
-        'show_masked_fields_when_downloading_document_as_sender_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_masked_fields_when_downloading_document_as_sender_metadata' => '\DocuSign\Model\SettingsMetadata',
         'show_tutorials' => '?string',
-        'show_tutorials_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'show_tutorials_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signature_providers' => '?string[]',
-        'signature_providers_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signature_providers_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_date_format' => '?string',
-        'sign_date_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_date_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_date_time_account_language_override' => '?string',
-        'sign_date_time_account_language_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_date_time_account_language_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_date_time_account_timezone_override' => '?string',
-        'sign_date_time_account_timezone_override_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_date_time_account_timezone_override_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_attach_certificate_to_envelope_pdf' => '?string',
-        'signer_attach_certificate_to_envelope_pdf_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_attach_certificate_to_envelope_pdf_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_attach_concat' => '?string',
-        'signer_attach_concat_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_attach_concat_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_can_create_account' => '?string',
-        'signer_can_create_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_can_create_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_can_sign_on_mobile' => '?string',
-        'signer_can_sign_on_mobile_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_can_sign_on_mobile_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_in_session_use_envelope_complete_email' => '?string',
-        'signer_in_session_use_envelope_complete_email_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_in_session_use_envelope_complete_email_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_login_requirements' => '?string',
-        'signer_login_requirements_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_login_requirements_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_must_have_account' => '?string',
-        'signer_must_have_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_must_have_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_must_login_to_sign' => '?string',
-        'signer_must_login_to_sign_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_must_login_to_sign_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signer_show_secure_field_initial_values' => '?string',
-        'signer_show_secure_field_initial_values_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signer_show_secure_field_initial_values_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signing_session_timeout' => '?string',
-        'signing_session_timeout_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signing_session_timeout_metadata' => '\DocuSign\Model\SettingsMetadata',
         'signing_ui_version' => '?string',
-        'signing_ui_version_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'signing_ui_version_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_time_format' => '?string',
-        'sign_time_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_time_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_time_show_am_pm' => '?string',
-        'sign_time_show_am_pm_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_time_show_am_pm_metadata' => '\DocuSign\Model\SettingsMetadata',
         'simplified_sending_enabled' => '?string',
-        'simplified_sending_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'simplified_sending_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'single_sign_on_enabled' => '?string',
-        'single_sign_on_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'single_sign_on_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'skip_auth_completed_envelopes' => '?string',
-        'skip_auth_completed_envelopes_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'skip_auth_completed_envelopes_metadata' => '\DocuSign\Model\SettingsMetadata',
         'social_id_recip_auth' => '?string',
-        'social_id_recip_auth_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'social_id_recip_auth_metadata' => '\DocuSign\Model\SettingsMetadata',
         'specify_document_visibility' => '?string',
-        'specify_document_visibility_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'specify_document_visibility_metadata' => '\DocuSign\Model\SettingsMetadata',
         'start_in_advanced_correct' => '?string',
-        'start_in_advanced_correct_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'start_in_advanced_correct_metadata' => '\DocuSign\Model\SettingsMetadata',
         'supplemental_documents_must_accept' => '?string',
-        'supplemental_documents_must_accept_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'supplemental_documents_must_accept_metadata' => '\DocuSign\Model\SettingsMetadata',
         'supplemental_documents_must_read' => '?string',
-        'supplemental_documents_must_read_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'supplemental_documents_must_read_metadata' => '\DocuSign\Model\SettingsMetadata',
         'supplemental_documents_must_view' => '?string',
-        'supplemental_documents_must_view_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'supplemental_documents_must_view_metadata' => '\DocuSign\Model\SettingsMetadata',
         'suppress_certificate_enforcement' => '?string',
-        'suppress_certificate_enforcement_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
-        'tab_account_settings' => '\DocuSign\eSign\Model\TabAccountSettings',
+        'suppress_certificate_enforcement_metadata' => '\DocuSign\Model\SettingsMetadata',
+        'tab_account_settings' => '\DocuSign\Model\TabAccountSettings',
         'timezone_offset_api' => '?string',
-        'timezone_offset_api_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'timezone_offset_api_metadata' => '\DocuSign\Model\SettingsMetadata',
         'timezone_offset_ui' => '?string',
-        'timezone_offset_ui_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'timezone_offset_ui_metadata' => '\DocuSign\Model\SettingsMetadata',
         'universal_signature_opt_in' => '?string',
         'use_account_level_email' => '?string',
-        'use_account_level_email_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_account_level_email_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_consumer_disclosure' => '?string',
-        'use_consumer_disclosure_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_consumer_disclosure_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_consumer_disclosure_within_account' => '?string',
-        'use_consumer_disclosure_within_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_consumer_disclosure_within_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_derived_keys' => '?string',
-        'use_derived_keys_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_derived_keys_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_docu_sign_express_signer_certificate' => '?string',
-        'use_docu_sign_express_signer_certificate_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_docu_sign_express_signer_certificate_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_multi_app_groups_data' => '?string',
-        'use_multi_app_groups_data_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_multi_app_groups_data_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_new_blob_for_pdf' => '?string',
-        'use_new_blob_for_pdf_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_new_blob_for_pdf_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_safe_signer_certificates' => '?string',
-        'use_safe_signer_certificates_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_safe_signer_certificates_metadata' => '\DocuSign\Model\SettingsMetadata',
         'uses_api' => '?string',
-        'uses_api_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'uses_api_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_signature_provider_platform' => '?string',
-        'use_signature_provider_platform_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_signature_provider_platform_metadata' => '\DocuSign\Model\SettingsMetadata',
         'use_smart_contracts_v1' => '?string',
         'validations_allowed' => '?string',
-        'validations_allowed_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'validations_allowed_metadata' => '\DocuSign\Model\SettingsMetadata',
         'validations_brand' => '?string',
-        'validations_brand_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'validations_brand_metadata' => '\DocuSign\Model\SettingsMetadata',
         'validations_cadence' => '?string',
-        'validations_cadence_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'validations_cadence_metadata' => '\DocuSign\Model\SettingsMetadata',
         'validations_enabled' => '?string',
-        'validations_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'validations_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'validations_report' => '?string',
-        'validations_report_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'validations_report_metadata' => '\DocuSign\Model\SettingsMetadata',
         'water_mark_enabled' => '?string',
-        'water_mark_enabled_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'water_mark_enabled_metadata' => '\DocuSign\Model\SettingsMetadata',
         'write_reminder_to_envelope_history' => '?string',
-        'write_reminder_to_envelope_history_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'write_reminder_to_envelope_history_metadata' => '\DocuSign\Model\SettingsMetadata',
         'wurfl_min_allowable_screen_size' => '?string',
-        'wurfl_min_allowable_screen_size_metadata' => '\DocuSign\eSign\Model\SettingsMetadata'
+        'wurfl_min_allowable_screen_size_metadata' => '\DocuSign\Model\SettingsMetadata'
     ];
 
     /**
@@ -3762,7 +3762,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets access_code_format
      *
-     * @return \DocuSign\eSign\Model\AccessCodeFormat
+     * @return \DocuSign\Model\AccessCodeFormat
      */
     public function getAccessCodeFormat()
     {
@@ -3772,7 +3772,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets access_code_format
      *
-     * @param \DocuSign\eSign\Model\AccessCodeFormat $access_code_format access_code_format
+     * @param \DocuSign\Model\AccessCodeFormat $access_code_format access_code_format
      *
      * @return $this
      */
@@ -3810,7 +3810,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_date_time_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAccountDateTimeFormatMetadata()
     {
@@ -3820,7 +3820,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_date_time_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $account_date_time_format_metadata account_date_time_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $account_date_time_format_metadata account_date_time_format_metadata
      *
      * @return $this
      */
@@ -3858,7 +3858,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_default_language_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAccountDefaultLanguageMetadata()
     {
@@ -3868,7 +3868,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_default_language_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $account_default_language_metadata account_default_language_metadata
+     * @param \DocuSign\Model\SettingsMetadata $account_default_language_metadata account_default_language_metadata
      *
      * @return $this
      */
@@ -3906,7 +3906,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_name_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAccountNameMetadata()
     {
@@ -3916,7 +3916,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_name_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $account_name_metadata account_name_metadata
+     * @param \DocuSign\Model\SettingsMetadata $account_name_metadata account_name_metadata
      *
      * @return $this
      */
@@ -3930,7 +3930,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_notification
      *
-     * @return \DocuSign\eSign\Model\AccountNotification
+     * @return \DocuSign\Model\AccountNotification
      */
     public function getAccountNotification()
     {
@@ -3940,7 +3940,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_notification
      *
-     * @param \DocuSign\eSign\Model\AccountNotification $account_notification account_notification
+     * @param \DocuSign\Model\AccountNotification $account_notification account_notification
      *
      * @return $this
      */
@@ -3954,7 +3954,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_ui_settings
      *
-     * @return \DocuSign\eSign\Model\AccountUISettings
+     * @return \DocuSign\Model\AccountUISettings
      */
     public function getAccountUiSettings()
     {
@@ -3964,7 +3964,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_ui_settings
      *
-     * @param \DocuSign\eSign\Model\AccountUISettings $account_ui_settings account_ui_settings
+     * @param \DocuSign\Model\AccountUISettings $account_ui_settings account_ui_settings
      *
      * @return $this
      */
@@ -4002,7 +4002,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets adopt_sig_config_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAdoptSigConfigMetadata()
     {
@@ -4012,7 +4012,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets adopt_sig_config_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $adopt_sig_config_metadata adopt_sig_config_metadata
+     * @param \DocuSign\Model\SettingsMetadata $adopt_sig_config_metadata adopt_sig_config_metadata
      *
      * @return $this
      */
@@ -4050,7 +4050,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets advanced_correct_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAdvancedCorrectMetadata()
     {
@@ -4060,7 +4060,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets advanced_correct_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $advanced_correct_metadata advanced_correct_metadata
+     * @param \DocuSign\Model\SettingsMetadata $advanced_correct_metadata advanced_correct_metadata
      *
      * @return $this
      */
@@ -4098,7 +4098,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_access_code_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAccessCodeFormatMetadata()
     {
@@ -4108,7 +4108,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_access_code_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_access_code_format_metadata allow_access_code_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_access_code_format_metadata allow_access_code_format_metadata
      *
      * @return $this
      */
@@ -4146,7 +4146,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_account_management_granular_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAccountManagementGranularMetadata()
     {
@@ -4156,7 +4156,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_account_management_granular_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_account_management_granular_metadata allow_account_management_granular_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_account_management_granular_metadata allow_account_management_granular_metadata
      *
      * @return $this
      */
@@ -4194,7 +4194,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_account_member_name_change_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAccountMemberNameChangeMetadata()
     {
@@ -4204,7 +4204,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_account_member_name_change_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_account_member_name_change_metadata allow_account_member_name_change_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_account_member_name_change_metadata allow_account_member_name_change_metadata
      *
      * @return $this
      */
@@ -4242,7 +4242,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_advanced_recipient_routing_conditional_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAdvancedRecipientRoutingConditionalMetadata()
     {
@@ -4252,7 +4252,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_advanced_recipient_routing_conditional_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_advanced_recipient_routing_conditional_metadata allow_advanced_recipient_routing_conditional_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_advanced_recipient_routing_conditional_metadata allow_advanced_recipient_routing_conditional_metadata
      *
      * @return $this
      */
@@ -4290,7 +4290,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_agent_name_email_edit_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAgentNameEmailEditMetadata()
     {
@@ -4300,7 +4300,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_agent_name_email_edit_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_agent_name_email_edit_metadata allow_agent_name_email_edit_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_agent_name_email_edit_metadata allow_agent_name_email_edit_metadata
      *
      * @return $this
      */
@@ -4338,7 +4338,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_agreement_actions_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAgreementActionsMetadata()
     {
@@ -4348,7 +4348,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_agreement_actions_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_agreement_actions_metadata allow_agreement_actions_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_agreement_actions_metadata allow_agreement_actions_metadata
      *
      * @return $this
      */
@@ -4386,7 +4386,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_auto_nav_settings_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAutoNavSettingsMetadata()
     {
@@ -4396,7 +4396,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_auto_nav_settings_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_auto_nav_settings_metadata allow_auto_nav_settings_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_auto_nav_settings_metadata allow_auto_nav_settings_metadata
      *
      * @return $this
      */
@@ -4434,7 +4434,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_auto_tagging_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowAutoTaggingMetadata()
     {
@@ -4444,7 +4444,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_auto_tagging_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_auto_tagging_metadata allow_auto_tagging_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_auto_tagging_metadata allow_auto_tagging_metadata
      *
      * @return $this
      */
@@ -4482,7 +4482,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_bulk_send_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowBulkSendMetadata()
     {
@@ -4492,7 +4492,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_bulk_send_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_bulk_send_metadata allow_bulk_send_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_bulk_send_metadata allow_bulk_send_metadata
      *
      * @return $this
      */
@@ -4530,7 +4530,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_cd_withdraw_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowCdWithdrawMetadata()
     {
@@ -4540,7 +4540,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_cd_withdraw_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_cd_withdraw_metadata allow_cd_withdraw_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_cd_withdraw_metadata allow_cd_withdraw_metadata
      *
      * @return $this
      */
@@ -4602,7 +4602,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_connect_send_finish_later_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowConnectSendFinishLaterMetadata()
     {
@@ -4612,7 +4612,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_connect_send_finish_later_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_connect_send_finish_later_metadata allow_connect_send_finish_later_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_connect_send_finish_later_metadata allow_connect_send_finish_later_metadata
      *
      * @return $this
      */
@@ -4674,7 +4674,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_consumer_disclosure_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowConsumerDisclosureOverrideMetadata()
     {
@@ -4684,7 +4684,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_consumer_disclosure_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_consumer_disclosure_override_metadata allow_consumer_disclosure_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_consumer_disclosure_override_metadata allow_consumer_disclosure_override_metadata
      *
      * @return $this
      */
@@ -4722,7 +4722,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_data_download_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDataDownloadMetadata()
     {
@@ -4732,7 +4732,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_data_download_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_data_download_metadata allow_data_download_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_data_download_metadata allow_data_download_metadata
      *
      * @return $this
      */
@@ -4770,7 +4770,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_delayed_routing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDelayedRoutingMetadata()
     {
@@ -4780,7 +4780,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_delayed_routing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_delayed_routing_metadata allow_delayed_routing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_delayed_routing_metadata allow_delayed_routing_metadata
      *
      * @return $this
      */
@@ -4818,7 +4818,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_delegated_signing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDelegatedSigningMetadata()
     {
@@ -4828,7 +4828,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_delegated_signing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_delegated_signing_metadata allow_delegated_signing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_delegated_signing_metadata allow_delegated_signing_metadata
      *
      * @return $this
      */
@@ -4866,7 +4866,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_document_disclosures_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDocumentDisclosuresMetadata()
     {
@@ -4876,7 +4876,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_document_disclosures_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_document_disclosures_metadata allow_document_disclosures_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_document_disclosures_metadata allow_document_disclosures_metadata
      *
      * @return $this
      */
@@ -4914,7 +4914,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_documents_on_signed_envelopes_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDocumentsOnSignedEnvelopesMetadata()
     {
@@ -4924,7 +4924,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_documents_on_signed_envelopes_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_documents_on_signed_envelopes_metadata allow_documents_on_signed_envelopes_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_documents_on_signed_envelopes_metadata allow_documents_on_signed_envelopes_metadata
      *
      * @return $this
      */
@@ -4962,7 +4962,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_document_visibility_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowDocumentVisibilityMetadata()
     {
@@ -4972,7 +4972,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_document_visibility_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_document_visibility_metadata allow_document_visibility_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_document_visibility_metadata allow_document_visibility_metadata
      *
      * @return $this
      */
@@ -5010,7 +5010,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_e_hanko_stamps_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEHankoStampsMetadata()
     {
@@ -5020,7 +5020,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_e_hanko_stamps_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_e_hanko_stamps_metadata allow_e_hanko_stamps_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_e_hanko_stamps_metadata allow_e_hanko_stamps_metadata
      *
      * @return $this
      */
@@ -5058,7 +5058,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_e_note_e_original_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowENoteEOriginalMetadata()
     {
@@ -5068,7 +5068,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_e_note_e_original_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_e_note_e_original_metadata allow_e_note_e_original_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_e_note_e_original_metadata allow_e_note_e_original_metadata
      *
      * @return $this
      */
@@ -5106,7 +5106,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_envelope_correct_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEnvelopeCorrectMetadata()
     {
@@ -5116,7 +5116,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_envelope_correct_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_envelope_correct_metadata allow_envelope_correct_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_envelope_correct_metadata allow_envelope_correct_metadata
      *
      * @return $this
      */
@@ -5154,7 +5154,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_envelope_custody_transfer_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEnvelopeCustodyTransferMetadata()
     {
@@ -5164,7 +5164,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_envelope_custody_transfer_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_envelope_custody_transfer_metadata allow_envelope_custody_transfer_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_envelope_custody_transfer_metadata allow_envelope_custody_transfer_metadata
      *
      * @return $this
      */
@@ -5202,7 +5202,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_envelope_custom_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEnvelopeCustomFieldsMetadata()
     {
@@ -5212,7 +5212,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_envelope_custom_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_envelope_custom_fields_metadata allow_envelope_custom_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_envelope_custom_fields_metadata allow_envelope_custom_fields_metadata
      *
      * @return $this
      */
@@ -5250,7 +5250,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_envelope_publish_reporting_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEnvelopePublishReportingMetadata()
     {
@@ -5260,7 +5260,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_envelope_publish_reporting_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_envelope_publish_reporting_metadata allow_envelope_publish_reporting_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_envelope_publish_reporting_metadata allow_envelope_publish_reporting_metadata
      *
      * @return $this
      */
@@ -5298,7 +5298,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_envelope_reporting_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowEnvelopeReportingMetadata()
     {
@@ -5308,7 +5308,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_envelope_reporting_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_envelope_reporting_metadata allow_envelope_reporting_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_envelope_reporting_metadata allow_envelope_reporting_metadata
      *
      * @return $this
      */
@@ -5346,7 +5346,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_expression_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowExpressionMetadata()
     {
@@ -5356,7 +5356,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_expression_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_expression_metadata allow_expression_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_expression_metadata allow_expression_metadata
      *
      * @return $this
      */
@@ -5394,7 +5394,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_express_signer_certificate_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowExpressSignerCertificateMetadata()
     {
@@ -5404,7 +5404,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_express_signer_certificate_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_express_signer_certificate_metadata allow_express_signer_certificate_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_express_signer_certificate_metadata allow_express_signer_certificate_metadata
      *
      * @return $this
      */
@@ -5442,7 +5442,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_extended_sending_resource_file_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowExtendedSendingResourceFileMetadata()
     {
@@ -5452,7 +5452,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_extended_sending_resource_file_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_extended_sending_resource_file_metadata allow_extended_sending_resource_file_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_extended_sending_resource_file_metadata allow_extended_sending_resource_file_metadata
      *
      * @return $this
      */
@@ -5490,7 +5490,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_external_linked_accounts_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowExternalLinkedAccountsMetadata()
     {
@@ -5500,7 +5500,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_external_linked_accounts_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_external_linked_accounts_metadata allow_external_linked_accounts_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_external_linked_accounts_metadata allow_external_linked_accounts_metadata
      *
      * @return $this
      */
@@ -5538,7 +5538,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_external_signature_pad_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowExternalSignaturePadMetadata()
     {
@@ -5548,7 +5548,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_external_signature_pad_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_external_signature_pad_metadata allow_external_signature_pad_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_external_signature_pad_metadata allow_external_signature_pad_metadata
      *
      * @return $this
      */
@@ -5586,7 +5586,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_idv_level1_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowIdvLevel1Metadata()
     {
@@ -5596,7 +5596,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_idv_level1_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_idv_level1_metadata allow_idv_level1_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_idv_level1_metadata allow_idv_level1_metadata
      *
      * @return $this
      */
@@ -5634,7 +5634,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_idv_level2_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowIdvLevel2Metadata()
     {
@@ -5644,7 +5644,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_idv_level2_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_idv_level2_metadata allow_idv_level2_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_idv_level2_metadata allow_idv_level2_metadata
      *
      * @return $this
      */
@@ -5682,7 +5682,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_idv_level3_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowIdvLevel3Metadata()
     {
@@ -5692,7 +5692,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_idv_level3_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_idv_level3_metadata allow_idv_level3_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_idv_level3_metadata allow_idv_level3_metadata
      *
      * @return $this
      */
@@ -5730,7 +5730,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_idv_platform_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowIdvPlatformMetadata()
     {
@@ -5740,7 +5740,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_idv_platform_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_idv_platform_metadata allow_idv_platform_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_idv_platform_metadata allow_idv_platform_metadata
      *
      * @return $this
      */
@@ -5802,7 +5802,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_in_person_electronic_notary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowInPersonElectronicNotaryMetadata()
     {
@@ -5812,7 +5812,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_in_person_electronic_notary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_in_person_electronic_notary_metadata allow_in_person_electronic_notary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_in_person_electronic_notary_metadata allow_in_person_electronic_notary_metadata
      *
      * @return $this
      */
@@ -5826,7 +5826,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_in_person_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowInPersonMetadata()
     {
@@ -5836,7 +5836,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_in_person_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_in_person_metadata allow_in_person_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_in_person_metadata allow_in_person_metadata
      *
      * @return $this
      */
@@ -5874,7 +5874,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_managed_stamps_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowManagedStampsMetadata()
     {
@@ -5884,7 +5884,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_managed_stamps_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_managed_stamps_metadata allow_managed_stamps_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_managed_stamps_metadata allow_managed_stamps_metadata
      *
      * @return $this
      */
@@ -5922,7 +5922,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_markup_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowMarkupMetadata()
     {
@@ -5932,7 +5932,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_markup_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_markup_metadata allow_markup_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_markup_metadata allow_markup_metadata
      *
      * @return $this
      */
@@ -5970,7 +5970,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_member_time_zone_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowMemberTimeZoneMetadata()
     {
@@ -5980,7 +5980,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_member_time_zone_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_member_time_zone_metadata allow_member_time_zone_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_member_time_zone_metadata allow_member_time_zone_metadata
      *
      * @return $this
      */
@@ -6018,7 +6018,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_merge_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowMergeFieldsMetadata()
     {
@@ -6028,7 +6028,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_merge_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_merge_fields_metadata allow_merge_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_merge_fields_metadata allow_merge_fields_metadata
      *
      * @return $this
      */
@@ -6066,7 +6066,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_multiple_brand_profiles_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowMultipleBrandProfilesMetadata()
     {
@@ -6076,7 +6076,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_multiple_brand_profiles_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_multiple_brand_profiles_metadata allow_multiple_brand_profiles_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_multiple_brand_profiles_metadata allow_multiple_brand_profiles_metadata
      *
      * @return $this
      */
@@ -6114,7 +6114,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_multiple_signer_attachments_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowMultipleSignerAttachmentsMetadata()
     {
@@ -6124,7 +6124,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_multiple_signer_attachments_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_multiple_signer_attachments_metadata allow_multiple_signer_attachments_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_multiple_signer_attachments_metadata allow_multiple_signer_attachments_metadata
      *
      * @return $this
      */
@@ -6162,7 +6162,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_non_us_phone_auth_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowNonUsPhoneAuthMetadata()
     {
@@ -6172,7 +6172,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_non_us_phone_auth_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_non_us_phone_auth_metadata allow_non_us_phone_auth_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_non_us_phone_auth_metadata allow_non_us_phone_auth_metadata
      *
      * @return $this
      */
@@ -6210,7 +6210,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_ocr_of_envelope_documents_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOcrOfEnvelopeDocumentsMetadata()
     {
@@ -6220,7 +6220,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_ocr_of_envelope_documents_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_ocr_of_envelope_documents_metadata allow_ocr_of_envelope_documents_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_ocr_of_envelope_documents_metadata allow_ocr_of_envelope_documents_metadata
      *
      * @return $this
      */
@@ -6258,7 +6258,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_offline_signing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOfflineSigningMetadata()
     {
@@ -6268,7 +6268,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_offline_signing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_offline_signing_metadata allow_offline_signing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_offline_signing_metadata allow_offline_signing_metadata
      *
      * @return $this
      */
@@ -6306,7 +6306,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_open_trust_signer_certificate_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOpenTrustSignerCertificateMetadata()
     {
@@ -6316,7 +6316,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_open_trust_signer_certificate_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_open_trust_signer_certificate_metadata allow_open_trust_signer_certificate_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_open_trust_signer_certificate_metadata allow_open_trust_signer_certificate_metadata
      *
      * @return $this
      */
@@ -6354,7 +6354,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organization_docusign_monitor_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationDocusignMonitorMetadata()
     {
@@ -6364,7 +6364,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organization_docusign_monitor_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organization_docusign_monitor_metadata allow_organization_docusign_monitor_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organization_docusign_monitor_metadata allow_organization_docusign_monitor_metadata
      *
      * @return $this
      */
@@ -6402,7 +6402,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organization_domain_user_management_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationDomainUserManagementMetadata()
     {
@@ -6412,7 +6412,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organization_domain_user_management_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organization_domain_user_management_metadata allow_organization_domain_user_management_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organization_domain_user_management_metadata allow_organization_domain_user_management_metadata
      *
      * @return $this
      */
@@ -6450,7 +6450,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organizations_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationsMetadata()
     {
@@ -6460,7 +6460,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organizations_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organizations_metadata allow_organizations_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organizations_metadata allow_organizations_metadata
      *
      * @return $this
      */
@@ -6498,7 +6498,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organization_sso_management_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationSsoManagementMetadata()
     {
@@ -6508,7 +6508,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organization_sso_management_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organization_sso_management_metadata allow_organization_sso_management_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organization_sso_management_metadata allow_organization_sso_management_metadata
      *
      * @return $this
      */
@@ -6546,7 +6546,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organization_to_use_in_person_electronic_notary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationToUseInPersonElectronicNotaryMetadata()
     {
@@ -6556,7 +6556,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organization_to_use_in_person_electronic_notary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organization_to_use_in_person_electronic_notary_metadata allow_organization_to_use_in_person_electronic_notary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organization_to_use_in_person_electronic_notary_metadata allow_organization_to_use_in_person_electronic_notary_metadata
      *
      * @return $this
      */
@@ -6594,7 +6594,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_organization_to_use_remote_notary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowOrganizationToUseRemoteNotaryMetadata()
     {
@@ -6604,7 +6604,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_organization_to_use_remote_notary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_organization_to_use_remote_notary_metadata allow_organization_to_use_remote_notary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_organization_to_use_remote_notary_metadata allow_organization_to_use_remote_notary_metadata
      *
      * @return $this
      */
@@ -6642,7 +6642,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_payment_processing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowPaymentProcessingMetadata()
     {
@@ -6652,7 +6652,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_payment_processing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_payment_processing_metadata allow_payment_processing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_payment_processing_metadata allow_payment_processing_metadata
      *
      * @return $this
      */
@@ -6690,7 +6690,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_phone_authentication_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowPhoneAuthenticationMetadata()
     {
@@ -6700,7 +6700,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_phone_authentication_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_phone_authentication_metadata allow_phone_authentication_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_phone_authentication_metadata allow_phone_authentication_metadata
      *
      * @return $this
      */
@@ -6738,7 +6738,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_phone_auth_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowPhoneAuthOverrideMetadata()
     {
@@ -6748,7 +6748,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_phone_auth_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_phone_auth_override_metadata allow_phone_auth_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_phone_auth_override_metadata allow_phone_auth_override_metadata
      *
      * @return $this
      */
@@ -6786,7 +6786,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_private_signing_groups_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowPrivateSigningGroupsMetadata()
     {
@@ -6796,7 +6796,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_private_signing_groups_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_private_signing_groups_metadata allow_private_signing_groups_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_private_signing_groups_metadata allow_private_signing_groups_metadata
      *
      * @return $this
      */
@@ -6834,7 +6834,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_recipient_connect_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowRecipientConnectMetadata()
     {
@@ -6844,7 +6844,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_recipient_connect_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_recipient_connect_metadata allow_recipient_connect_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_recipient_connect_metadata allow_recipient_connect_metadata
      *
      * @return $this
      */
@@ -6882,7 +6882,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_reminders_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowRemindersMetadata()
     {
@@ -6892,7 +6892,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_reminders_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_reminders_metadata allow_reminders_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_reminders_metadata allow_reminders_metadata
      *
      * @return $this
      */
@@ -6930,7 +6930,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_remote_notary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowRemoteNotaryMetadata()
     {
@@ -6940,7 +6940,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_remote_notary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_remote_notary_metadata allow_remote_notary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_remote_notary_metadata allow_remote_notary_metadata
      *
      * @return $this
      */
@@ -6978,7 +6978,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_resource_file_branding_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowResourceFileBrandingMetadata()
     {
@@ -6988,7 +6988,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_resource_file_branding_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_resource_file_branding_metadata allow_resource_file_branding_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_resource_file_branding_metadata allow_resource_file_branding_metadata
      *
      * @return $this
      */
@@ -7026,7 +7026,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_safe_bio_pharma_signer_certificate_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSafeBioPharmaSignerCertificateMetadata()
     {
@@ -7036,7 +7036,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_safe_bio_pharma_signer_certificate_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_safe_bio_pharma_signer_certificate_metadata allow_safe_bio_pharma_signer_certificate_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_safe_bio_pharma_signer_certificate_metadata allow_safe_bio_pharma_signer_certificate_metadata
      *
      * @return $this
      */
@@ -7074,7 +7074,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_scheduled_sending_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowScheduledSendingMetadata()
     {
@@ -7084,7 +7084,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_scheduled_sending_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_scheduled_sending_metadata allow_scheduled_sending_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_scheduled_sending_metadata allow_scheduled_sending_metadata
      *
      * @return $this
      */
@@ -7122,7 +7122,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_security_appliance_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSecurityApplianceMetadata()
     {
@@ -7132,7 +7132,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_security_appliance_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_security_appliance_metadata allow_security_appliance_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_security_appliance_metadata allow_security_appliance_metadata
      *
      * @return $this
      */
@@ -7170,7 +7170,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_send_to_certified_delivery_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSendToCertifiedDeliveryMetadata()
     {
@@ -7180,7 +7180,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_send_to_certified_delivery_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_send_to_certified_delivery_metadata allow_send_to_certified_delivery_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_send_to_certified_delivery_metadata allow_send_to_certified_delivery_metadata
      *
      * @return $this
      */
@@ -7218,7 +7218,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_send_to_intermediary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSendToIntermediaryMetadata()
     {
@@ -7228,7 +7228,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_send_to_intermediary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_send_to_intermediary_metadata allow_send_to_intermediary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_send_to_intermediary_metadata allow_send_to_intermediary_metadata
      *
      * @return $this
      */
@@ -7266,7 +7266,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_server_templates_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowServerTemplatesMetadata()
     {
@@ -7276,7 +7276,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_server_templates_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_server_templates_metadata allow_server_templates_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_server_templates_metadata allow_server_templates_metadata
      *
      * @return $this
      */
@@ -7314,7 +7314,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_set_embedded_recipient_start_url_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSetEmbeddedRecipientStartUrlMetadata()
     {
@@ -7324,7 +7324,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_set_embedded_recipient_start_url_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_set_embedded_recipient_start_url_metadata allow_set_embedded_recipient_start_url_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_set_embedded_recipient_start_url_metadata allow_set_embedded_recipient_start_url_metadata
      *
      * @return $this
      */
@@ -7362,7 +7362,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_shared_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSharedTabsMetadata()
     {
@@ -7372,7 +7372,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_shared_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_shared_tabs_metadata allow_shared_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_shared_tabs_metadata allow_shared_tabs_metadata
      *
      * @return $this
      */
@@ -7410,7 +7410,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signature_stamps_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSignatureStampsMetadata()
     {
@@ -7420,7 +7420,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signature_stamps_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signature_stamps_metadata allow_signature_stamps_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signature_stamps_metadata allow_signature_stamps_metadata
      *
      * @return $this
      */
@@ -7458,7 +7458,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_sign_document_from_home_page_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSignDocumentFromHomePageMetadata()
     {
@@ -7468,7 +7468,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_sign_document_from_home_page_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_sign_document_from_home_page_metadata allow_sign_document_from_home_page_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_sign_document_from_home_page_metadata allow_sign_document_from_home_page_metadata
      *
      * @return $this
      */
@@ -7506,7 +7506,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signer_reassign_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSignerReassignMetadata()
     {
@@ -7516,7 +7516,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signer_reassign_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signer_reassign_metadata allow_signer_reassign_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signer_reassign_metadata allow_signer_reassign_metadata
      *
      * @return $this
      */
@@ -7554,7 +7554,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signer_reassign_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSignerReassignOverrideMetadata()
     {
@@ -7564,7 +7564,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signer_reassign_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signer_reassign_override_metadata allow_signer_reassign_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signer_reassign_override_metadata allow_signer_reassign_override_metadata
      *
      * @return $this
      */
@@ -7602,7 +7602,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signing_extensions_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSigningExtensionsMetadata()
     {
@@ -7612,7 +7612,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signing_extensions_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signing_extensions_metadata allow_signing_extensions_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signing_extensions_metadata allow_signing_extensions_metadata
      *
      * @return $this
      */
@@ -7650,7 +7650,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signing_groups_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSigningGroupsMetadata()
     {
@@ -7660,7 +7660,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signing_groups_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signing_groups_metadata allow_signing_groups_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signing_groups_metadata allow_signing_groups_metadata
      *
      * @return $this
      */
@@ -7698,7 +7698,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signing_insights_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSigningInsightsMetadata()
     {
@@ -7708,7 +7708,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signing_insights_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signing_insights_metadata allow_signing_insights_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signing_insights_metadata allow_signing_insights_metadata
      *
      * @return $this
      */
@@ -7746,7 +7746,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_signing_radio_deselect_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSigningRadioDeselectMetadata()
     {
@@ -7756,7 +7756,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_signing_radio_deselect_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_signing_radio_deselect_metadata allow_signing_radio_deselect_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_signing_radio_deselect_metadata allow_signing_radio_deselect_metadata
      *
      * @return $this
      */
@@ -7842,7 +7842,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_sms_delivery_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSmsDeliveryMetadata()
     {
@@ -7852,7 +7852,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_sms_delivery_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_sms_delivery_metadata allow_sms_delivery_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_sms_delivery_metadata allow_sms_delivery_metadata
      *
      * @return $this
      */
@@ -7890,7 +7890,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_social_id_login_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSocialIdLoginMetadata()
     {
@@ -7900,7 +7900,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_social_id_login_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_social_id_login_metadata allow_social_id_login_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_social_id_login_metadata allow_social_id_login_metadata
      *
      * @return $this
      */
@@ -7938,7 +7938,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_supplemental_documents_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowSupplementalDocumentsMetadata()
     {
@@ -7948,7 +7948,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_supplemental_documents_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_supplemental_documents_metadata allow_supplemental_documents_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_supplemental_documents_metadata allow_supplemental_documents_metadata
      *
      * @return $this
      */
@@ -7986,7 +7986,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_users_to_access_directory_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowUsersToAccessDirectoryMetadata()
     {
@@ -7996,7 +7996,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_users_to_access_directory_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_users_to_access_directory_metadata allow_users_to_access_directory_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_users_to_access_directory_metadata allow_users_to_access_directory_metadata
      *
      * @return $this
      */
@@ -8034,7 +8034,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_value_insights_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowValueInsightsMetadata()
     {
@@ -8044,7 +8044,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_value_insights_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_value_insights_metadata allow_value_insights_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_value_insights_metadata allow_value_insights_metadata
      *
      * @return $this
      */
@@ -8082,7 +8082,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets allow_web_forms_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowWebFormsMetadata()
     {
@@ -8092,7 +8092,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets allow_web_forms_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_web_forms_metadata allow_web_forms_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_web_forms_metadata allow_web_forms_metadata
      *
      * @return $this
      */
@@ -8130,7 +8130,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_population_scope_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAnchorPopulationScopeMetadata()
     {
@@ -8140,7 +8140,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_population_scope_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $anchor_population_scope_metadata anchor_population_scope_metadata
+     * @param \DocuSign\Model\SettingsMetadata $anchor_population_scope_metadata anchor_population_scope_metadata
      *
      * @return $this
      */
@@ -8178,7 +8178,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_tag_versioned_placement_metadata_enabled
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAnchorTagVersionedPlacementMetadataEnabled()
     {
@@ -8188,7 +8188,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_tag_versioned_placement_metadata_enabled
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $anchor_tag_versioned_placement_metadata_enabled anchor_tag_versioned_placement_metadata_enabled
+     * @param \DocuSign\Model\SettingsMetadata $anchor_tag_versioned_placement_metadata_enabled anchor_tag_versioned_placement_metadata_enabled
      *
      * @return $this
      */
@@ -8226,7 +8226,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets attach_completed_envelope_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAttachCompletedEnvelopeMetadata()
     {
@@ -8236,7 +8236,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets attach_completed_envelope_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $attach_completed_envelope_metadata attach_completed_envelope_metadata
+     * @param \DocuSign\Model\SettingsMetadata $attach_completed_envelope_metadata attach_completed_envelope_metadata
      *
      * @return $this
      */
@@ -8274,7 +8274,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets authentication_check_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAuthenticationCheckMetadata()
     {
@@ -8284,7 +8284,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets authentication_check_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $authentication_check_metadata authentication_check_metadata
+     * @param \DocuSign\Model\SettingsMetadata $authentication_check_metadata authentication_check_metadata
      *
      * @return $this
      */
@@ -8322,7 +8322,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets auto_nav_rule_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAutoNavRuleMetadata()
     {
@@ -8332,7 +8332,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets auto_nav_rule_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $auto_nav_rule_metadata auto_nav_rule_metadata
+     * @param \DocuSign\Model\SettingsMetadata $auto_nav_rule_metadata auto_nav_rule_metadata
      *
      * @return $this
      */
@@ -8370,7 +8370,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets auto_provision_signer_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAutoProvisionSignerAccountMetadata()
     {
@@ -8380,7 +8380,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets auto_provision_signer_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $auto_provision_signer_account_metadata auto_provision_signer_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $auto_provision_signer_account_metadata auto_provision_signer_account_metadata
      *
      * @return $this
      */
@@ -8418,7 +8418,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets bcc_email_archive_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getBccEmailArchiveMetadata()
     {
@@ -8428,7 +8428,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets bcc_email_archive_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $bcc_email_archive_metadata bcc_email_archive_metadata
+     * @param \DocuSign\Model\SettingsMetadata $bcc_email_archive_metadata bcc_email_archive_metadata
      *
      * @return $this
      */
@@ -8466,7 +8466,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets beta_switch_configuration_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getBetaSwitchConfigurationMetadata()
     {
@@ -8476,7 +8476,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets beta_switch_configuration_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $beta_switch_configuration_metadata beta_switch_configuration_metadata
+     * @param \DocuSign\Model\SettingsMetadata $beta_switch_configuration_metadata beta_switch_configuration_metadata
      *
      * @return $this
      */
@@ -8490,7 +8490,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets billing_address
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getBillingAddress()
     {
@@ -8500,7 +8500,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets billing_address
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $billing_address billing_address
+     * @param \DocuSign\Model\AddressInformation $billing_address billing_address
      *
      * @return $this
      */
@@ -8514,7 +8514,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets billing_address_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getBillingAddressMetadata()
     {
@@ -8524,7 +8524,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets billing_address_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $billing_address_metadata billing_address_metadata
+     * @param \DocuSign\Model\SettingsMetadata $billing_address_metadata billing_address_metadata
      *
      * @return $this
      */
@@ -8610,7 +8610,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_send_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getBulkSendMetadata()
     {
@@ -8620,7 +8620,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_send_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $bulk_send_metadata bulk_send_metadata
+     * @param \DocuSign\Model\SettingsMetadata $bulk_send_metadata bulk_send_metadata
      *
      * @return $this
      */
@@ -8658,7 +8658,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets can_self_brand_send_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCanSelfBrandSendMetadata()
     {
@@ -8668,7 +8668,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets can_self_brand_send_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $can_self_brand_send_metadata can_self_brand_send_metadata
+     * @param \DocuSign\Model\SettingsMetadata $can_self_brand_send_metadata can_self_brand_send_metadata
      *
      * @return $this
      */
@@ -8706,7 +8706,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets can_self_brand_sign_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCanSelfBrandSignMetadata()
     {
@@ -8716,7 +8716,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets can_self_brand_sign_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $can_self_brand_sign_metadata can_self_brand_sign_metadata
+     * @param \DocuSign\Model\SettingsMetadata $can_self_brand_sign_metadata can_self_brand_sign_metadata
      *
      * @return $this
      */
@@ -8754,7 +8754,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets can_use_salesforce_o_auth_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCanUseSalesforceOAuthMetadata()
     {
@@ -8764,7 +8764,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets can_use_salesforce_o_auth_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $can_use_salesforce_o_auth_metadata can_use_salesforce_o_auth_metadata
+     * @param \DocuSign\Model\SettingsMetadata $can_use_salesforce_o_auth_metadata can_use_salesforce_o_auth_metadata
      *
      * @return $this
      */
@@ -8802,7 +8802,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets capture_voice_recording_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCaptureVoiceRecordingMetadata()
     {
@@ -8812,7 +8812,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets capture_voice_recording_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $capture_voice_recording_metadata capture_voice_recording_metadata
+     * @param \DocuSign\Model\SettingsMetadata $capture_voice_recording_metadata capture_voice_recording_metadata
      *
      * @return $this
      */
@@ -8850,7 +8850,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets cfr21_simplified_signing_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCfr21SimplifiedSigningEnabledMetadata()
     {
@@ -8860,7 +8860,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets cfr21_simplified_signing_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $cfr21_simplified_signing_enabled_metadata cfr21_simplified_signing_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $cfr21_simplified_signing_enabled_metadata cfr21_simplified_signing_enabled_metadata
      *
      * @return $this
      */
@@ -8898,7 +8898,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets cfr_use_wide_image_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCfrUseWideImageMetadata()
     {
@@ -8908,7 +8908,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets cfr_use_wide_image_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $cfr_use_wide_image_metadata cfr_use_wide_image_metadata
+     * @param \DocuSign\Model\SettingsMetadata $cfr_use_wide_image_metadata cfr_use_wide_image_metadata
      *
      * @return $this
      */
@@ -8946,7 +8946,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets check_for_multiple_admins_on_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCheckForMultipleAdminsOnAccountMetadata()
     {
@@ -8956,7 +8956,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets check_for_multiple_admins_on_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $check_for_multiple_admins_on_account_metadata check_for_multiple_admins_on_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $check_for_multiple_admins_on_account_metadata check_for_multiple_admins_on_account_metadata
      *
      * @return $this
      */
@@ -8994,7 +8994,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets chrome_signature_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getChromeSignatureEnabledMetadata()
     {
@@ -9004,7 +9004,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets chrome_signature_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $chrome_signature_enabled_metadata chrome_signature_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $chrome_signature_enabled_metadata chrome_signature_enabled_metadata
      *
      * @return $this
      */
@@ -9042,7 +9042,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets comment_email_show_message_text_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCommentEmailShowMessageTextMetadata()
     {
@@ -9052,7 +9052,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets comment_email_show_message_text_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $comment_email_show_message_text_metadata comment_email_show_message_text_metadata
+     * @param \DocuSign\Model\SettingsMetadata $comment_email_show_message_text_metadata comment_email_show_message_text_metadata
      *
      * @return $this
      */
@@ -9090,7 +9090,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets comments_allow_envelope_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCommentsAllowEnvelopeOverrideMetadata()
     {
@@ -9100,7 +9100,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets comments_allow_envelope_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $comments_allow_envelope_override_metadata comments_allow_envelope_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $comments_allow_envelope_override_metadata comments_allow_envelope_override_metadata
      *
      * @return $this
      */
@@ -9138,7 +9138,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_fields_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getConditionalFieldsEnabledMetadata()
     {
@@ -9148,7 +9148,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_fields_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $conditional_fields_enabled_metadata conditional_fields_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $conditional_fields_enabled_metadata conditional_fields_enabled_metadata
      *
      * @return $this
      */
@@ -9186,7 +9186,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets consumer_disclosure_frequency_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getConsumerDisclosureFrequencyMetadata()
     {
@@ -9196,7 +9196,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets consumer_disclosure_frequency_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $consumer_disclosure_frequency_metadata consumer_disclosure_frequency_metadata
+     * @param \DocuSign\Model\SettingsMetadata $consumer_disclosure_frequency_metadata consumer_disclosure_frequency_metadata
      *
      * @return $this
      */
@@ -9234,7 +9234,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets convert_pdf_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getConvertPdfFieldsMetadata()
     {
@@ -9244,7 +9244,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets convert_pdf_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $convert_pdf_fields_metadata convert_pdf_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $convert_pdf_fields_metadata convert_pdf_fields_metadata
      *
      * @return $this
      */
@@ -9282,7 +9282,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets data_population_scope_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDataPopulationScopeMetadata()
     {
@@ -9292,7 +9292,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets data_population_scope_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $data_population_scope_metadata data_population_scope_metadata
+     * @param \DocuSign\Model\SettingsMetadata $data_population_scope_metadata data_population_scope_metadata
      *
      * @return $this
      */
@@ -9330,7 +9330,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_auto_template_matching_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableAutoTemplateMatchingMetadata()
     {
@@ -9340,7 +9340,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_auto_template_matching_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_auto_template_matching_metadata disable_auto_template_matching_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_auto_template_matching_metadata disable_auto_template_matching_metadata
      *
      * @return $this
      */
@@ -9378,7 +9378,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_mobile_app_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableMobileAppMetadata()
     {
@@ -9388,7 +9388,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_mobile_app_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_mobile_app_metadata disable_mobile_app_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_mobile_app_metadata disable_mobile_app_metadata
      *
      * @return $this
      */
@@ -9426,7 +9426,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_mobile_push_notifications_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableMobilePushNotificationsMetadata()
     {
@@ -9436,7 +9436,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_mobile_push_notifications_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_mobile_push_notifications_metadata disable_mobile_push_notifications_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_mobile_push_notifications_metadata disable_mobile_push_notifications_metadata
      *
      * @return $this
      */
@@ -9474,7 +9474,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_mobile_sending_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableMobileSendingMetadata()
     {
@@ -9484,7 +9484,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_mobile_sending_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_mobile_sending_metadata disable_mobile_sending_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_mobile_sending_metadata disable_mobile_sending_metadata
      *
      * @return $this
      */
@@ -9522,7 +9522,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_multiple_sessions_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableMultipleSessionsMetadata()
     {
@@ -9532,7 +9532,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_multiple_sessions_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_multiple_sessions_metadata disable_multiple_sessions_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_multiple_sessions_metadata disable_multiple_sessions_metadata
      *
      * @return $this
      */
@@ -9546,7 +9546,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_purge_notifications_for_sender_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisablePurgeNotificationsForSenderMetadata()
     {
@@ -9556,7 +9556,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_purge_notifications_for_sender_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_purge_notifications_for_sender_metadata disable_purge_notifications_for_sender_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_purge_notifications_for_sender_metadata disable_purge_notifications_for_sender_metadata
      *
      * @return $this
      */
@@ -9594,7 +9594,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_signer_cert_view_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableSignerCertViewMetadata()
     {
@@ -9604,7 +9604,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_signer_cert_view_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_signer_cert_view_metadata disable_signer_cert_view_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_signer_cert_view_metadata disable_signer_cert_view_metadata
      *
      * @return $this
      */
@@ -9642,7 +9642,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_signer_history_view_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableSignerHistoryViewMetadata()
     {
@@ -9652,7 +9652,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_signer_history_view_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_signer_history_view_metadata disable_signer_history_view_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_signer_history_view_metadata disable_signer_history_view_metadata
      *
      * @return $this
      */
@@ -9690,7 +9690,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_style_signature_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableStyleSignatureMetadata()
     {
@@ -9700,7 +9700,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_style_signature_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_style_signature_metadata disable_style_signature_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_style_signature_metadata disable_style_signature_metadata
      *
      * @return $this
      */
@@ -9738,7 +9738,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_upload_signature_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableUploadSignatureMetadata()
     {
@@ -9748,7 +9748,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_upload_signature_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_upload_signature_metadata disable_upload_signature_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_upload_signature_metadata disable_upload_signature_metadata
      *
      * @return $this
      */
@@ -9786,7 +9786,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets disable_user_sharing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisableUserSharingMetadata()
     {
@@ -9796,7 +9796,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets disable_user_sharing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $disable_user_sharing_metadata disable_user_sharing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $disable_user_sharing_metadata disable_user_sharing_metadata
      *
      * @return $this
      */
@@ -9834,7 +9834,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets display_beta_switch_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDisplayBetaSwitchMetadata()
     {
@@ -9844,7 +9844,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets display_beta_switch_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $display_beta_switch_metadata display_beta_switch_metadata
+     * @param \DocuSign\Model\SettingsMetadata $display_beta_switch_metadata display_beta_switch_metadata
      *
      * @return $this
      */
@@ -9882,7 +9882,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets document_conversion_restrictions_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDocumentConversionRestrictionsMetadata()
     {
@@ -9892,7 +9892,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets document_conversion_restrictions_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $document_conversion_restrictions_metadata document_conversion_restrictions_metadata
+     * @param \DocuSign\Model\SettingsMetadata $document_conversion_restrictions_metadata document_conversion_restrictions_metadata
      *
      * @return $this
      */
@@ -9930,7 +9930,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets document_retention_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDocumentRetentionMetadata()
     {
@@ -9940,7 +9940,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets document_retention_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $document_retention_metadata document_retention_metadata
+     * @param \DocuSign\Model\SettingsMetadata $document_retention_metadata document_retention_metadata
      *
      * @return $this
      */
@@ -10002,7 +10002,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets document_visibility_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDocumentVisibilityMetadata()
     {
@@ -10012,7 +10012,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets document_visibility_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $document_visibility_metadata document_visibility_metadata
+     * @param \DocuSign\Model\SettingsMetadata $document_visibility_metadata document_visibility_metadata
      *
      * @return $this
      */
@@ -10098,7 +10098,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets email_template_version_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEmailTemplateVersionMetadata()
     {
@@ -10108,7 +10108,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets email_template_version_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $email_template_version_metadata email_template_version_metadata
+     * @param \DocuSign\Model\SettingsMetadata $email_template_version_metadata email_template_version_metadata
      *
      * @return $this
      */
@@ -10146,7 +10146,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_access_code_generator_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAccessCodeGeneratorMetadata()
     {
@@ -10156,7 +10156,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_access_code_generator_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_access_code_generator_metadata enable_access_code_generator_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_access_code_generator_metadata enable_access_code_generator_metadata
      *
      * @return $this
      */
@@ -10194,7 +10194,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_advanced_payments_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAdvancedPaymentsMetadata()
     {
@@ -10204,7 +10204,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_advanced_payments_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_advanced_payments_metadata enable_advanced_payments_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_advanced_payments_metadata enable_advanced_payments_metadata
      *
      * @return $this
      */
@@ -10242,7 +10242,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_advanced_power_forms_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAdvancedPowerFormsMetadata()
     {
@@ -10252,7 +10252,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_advanced_power_forms_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_advanced_power_forms_metadata enable_advanced_power_forms_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_advanced_power_forms_metadata enable_advanced_power_forms_metadata
      *
      * @return $this
      */
@@ -10290,7 +10290,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_agreement_actions_for_clm_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAgreementActionsForClmMetadata()
     {
@@ -10300,7 +10300,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_agreement_actions_for_clm_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_agreement_actions_for_clm_metadata enable_agreement_actions_for_clm_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_agreement_actions_for_clm_metadata enable_agreement_actions_for_clm_metadata
      *
      * @return $this
      */
@@ -10338,7 +10338,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_agreement_actions_for_e_sign_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAgreementActionsForESignMetadata()
     {
@@ -10348,7 +10348,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_agreement_actions_for_e_sign_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_agreement_actions_for_e_sign_metadata enable_agreement_actions_for_e_sign_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_agreement_actions_for_e_sign_metadata enable_agreement_actions_for_e_sign_metadata
      *
      * @return $this
      */
@@ -10386,7 +10386,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_auto_nav_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableAutoNavMetadata()
     {
@@ -10396,7 +10396,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_auto_nav_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_auto_nav_metadata enable_auto_nav_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_auto_nav_metadata enable_auto_nav_metadata
      *
      * @return $this
      */
@@ -10434,7 +10434,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_bcc_dummy_link_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableBccDummyLinkMetadata()
     {
@@ -10444,7 +10444,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_bcc_dummy_link_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_bcc_dummy_link_metadata enable_bcc_dummy_link_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_bcc_dummy_link_metadata enable_bcc_dummy_link_metadata
      *
      * @return $this
      */
@@ -10482,7 +10482,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_calculated_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableCalculatedFieldsMetadata()
     {
@@ -10492,7 +10492,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_calculated_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_calculated_fields_metadata enable_calculated_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_calculated_fields_metadata enable_calculated_fields_metadata
      *
      * @return $this
      */
@@ -10530,7 +10530,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_clickwraps_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableClickwrapsMetadata()
     {
@@ -10540,7 +10540,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_clickwraps_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_clickwraps_metadata enable_clickwraps_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_clickwraps_metadata enable_clickwraps_metadata
      *
      * @return $this
      */
@@ -10578,7 +10578,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_comments_history_download_in_signing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableCommentsHistoryDownloadInSigningMetadata()
     {
@@ -10588,7 +10588,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_comments_history_download_in_signing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_comments_history_download_in_signing_metadata enable_comments_history_download_in_signing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_comments_history_download_in_signing_metadata enable_comments_history_download_in_signing_metadata
      *
      * @return $this
      */
@@ -10626,7 +10626,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_customer_satisfaction_metric_tracking_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableCustomerSatisfactionMetricTrackingMetadata()
     {
@@ -10636,7 +10636,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_customer_satisfaction_metric_tracking_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_customer_satisfaction_metric_tracking_metadata enable_customer_satisfaction_metric_tracking_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_customer_satisfaction_metric_tracking_metadata enable_customer_satisfaction_metric_tracking_metadata
      *
      * @return $this
      */
@@ -10674,7 +10674,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_ds_pro_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableDsProMetadata()
     {
@@ -10684,7 +10684,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_ds_pro_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_ds_pro_metadata enable_ds_pro_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_ds_pro_metadata enable_ds_pro_metadata
      *
      * @return $this
      */
@@ -10722,7 +10722,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_envelope_stamping_by_account_admin_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableEnvelopeStampingByAccountAdminMetadata()
     {
@@ -10732,7 +10732,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_envelope_stamping_by_account_admin_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_envelope_stamping_by_account_admin_metadata enable_envelope_stamping_by_account_admin_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_envelope_stamping_by_account_admin_metadata enable_envelope_stamping_by_account_admin_metadata
      *
      * @return $this
      */
@@ -10770,7 +10770,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_envelope_stamping_by_ds_admin_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableEnvelopeStampingByDsAdminMetadata()
     {
@@ -10780,7 +10780,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_envelope_stamping_by_ds_admin_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_envelope_stamping_by_ds_admin_metadata enable_envelope_stamping_by_ds_admin_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_envelope_stamping_by_ds_admin_metadata enable_envelope_stamping_by_ds_admin_metadata
      *
      * @return $this
      */
@@ -10818,7 +10818,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_esign_communities_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableEsignCommunitiesMetadata()
     {
@@ -10828,7 +10828,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_esign_communities_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_esign_communities_metadata enable_esign_communities_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_esign_communities_metadata enable_esign_communities_metadata
      *
      * @return $this
      */
@@ -10866,7 +10866,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_id_fx_intuit_kba_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableIdFxIntuitKbaMetadata()
     {
@@ -10876,7 +10876,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_id_fx_intuit_kba_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_id_fx_intuit_kba_metadata enable_id_fx_intuit_kba_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_id_fx_intuit_kba_metadata enable_id_fx_intuit_kba_metadata
      *
      * @return $this
      */
@@ -10914,7 +10914,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_id_fx_phone_authentication_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableIdFxPhoneAuthenticationMetadata()
     {
@@ -10924,7 +10924,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_id_fx_phone_authentication_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_id_fx_phone_authentication_metadata enable_id_fx_phone_authentication_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_id_fx_phone_authentication_metadata enable_id_fx_phone_authentication_metadata
      *
      * @return $this
      */
@@ -10962,7 +10962,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_in_browser_editor_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableInBrowserEditorMetadata()
     {
@@ -10972,7 +10972,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_in_browser_editor_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_in_browser_editor_metadata enable_in_browser_editor_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_in_browser_editor_metadata enable_in_browser_editor_metadata
      *
      * @return $this
      */
@@ -11010,7 +11010,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_payment_processing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnablePaymentProcessingMetadata()
     {
@@ -11020,7 +11020,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_payment_processing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_payment_processing_metadata enable_payment_processing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_payment_processing_metadata enable_payment_processing_metadata
      *
      * @return $this
      */
@@ -11058,7 +11058,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_pdfa_conversion_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnablePdfaConversionMetadata()
     {
@@ -11068,7 +11068,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_pdfa_conversion_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_pdfa_conversion_metadata enable_pdfa_conversion_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_pdfa_conversion_metadata enable_pdfa_conversion_metadata
      *
      * @return $this
      */
@@ -11130,7 +11130,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_power_form_direct_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnablePowerFormDirectMetadata()
     {
@@ -11140,7 +11140,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_power_form_direct_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_power_form_direct_metadata enable_power_form_direct_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_power_form_direct_metadata enable_power_form_direct_metadata
      *
      * @return $this
      */
@@ -11154,7 +11154,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_power_form_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnablePowerFormMetadata()
     {
@@ -11164,7 +11164,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_power_form_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_power_form_metadata enable_power_form_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_power_form_metadata enable_power_form_metadata
      *
      * @return $this
      */
@@ -11202,7 +11202,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_recipient_domain_validation_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableRecipientDomainValidationMetadata()
     {
@@ -11212,7 +11212,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_recipient_domain_validation_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_recipient_domain_validation_metadata enable_recipient_domain_validation_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_recipient_domain_validation_metadata enable_recipient_domain_validation_metadata
      *
      * @return $this
      */
@@ -11250,7 +11250,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_recipient_may_provide_phone_number_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableRecipientMayProvidePhoneNumberMetadata()
     {
@@ -11260,7 +11260,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_recipient_may_provide_phone_number_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_recipient_may_provide_phone_number_metadata enable_recipient_may_provide_phone_number_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_recipient_may_provide_phone_number_metadata enable_recipient_may_provide_phone_number_metadata
      *
      * @return $this
      */
@@ -11298,7 +11298,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_report_links_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableReportLinksMetadata()
     {
@@ -11308,7 +11308,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_report_links_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_report_links_metadata enable_report_links_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_report_links_metadata enable_report_links_metadata
      *
      * @return $this
      */
@@ -11346,7 +11346,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_require_sign_on_paper_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableRequireSignOnPaperMetadata()
     {
@@ -11356,7 +11356,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_require_sign_on_paper_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_require_sign_on_paper_metadata enable_require_sign_on_paper_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_require_sign_on_paper_metadata enable_require_sign_on_paper_metadata
      *
      * @return $this
      */
@@ -11394,7 +11394,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_reserved_domain_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableReservedDomainMetadata()
     {
@@ -11404,7 +11404,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_reserved_domain_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_reserved_domain_metadata enable_reserved_domain_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_reserved_domain_metadata enable_reserved_domain_metadata
      *
      * @return $this
      */
@@ -11442,7 +11442,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_responsive_signing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableResponsiveSigningMetadata()
     {
@@ -11452,7 +11452,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_responsive_signing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_responsive_signing_metadata enable_responsive_signing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_responsive_signing_metadata enable_responsive_signing_metadata
      *
      * @return $this
      */
@@ -11490,7 +11490,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_scheduled_release_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableScheduledReleaseMetadata()
     {
@@ -11500,7 +11500,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_scheduled_release_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_scheduled_release_metadata enable_scheduled_release_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_scheduled_release_metadata enable_scheduled_release_metadata
      *
      * @return $this
      */
@@ -11538,7 +11538,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_search_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSearchMetadata()
     {
@@ -11548,7 +11548,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_search_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_search_metadata enable_search_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_search_metadata enable_search_metadata
      *
      * @return $this
      */
@@ -11586,7 +11586,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_search_ui_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSearchUiMetadata()
     {
@@ -11596,7 +11596,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_search_ui_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_search_ui_metadata enable_search_ui_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_search_ui_metadata enable_search_ui_metadata
      *
      * @return $this
      */
@@ -11634,7 +11634,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sending_tags_font_settings_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSendingTagsFontSettingsMetadata()
     {
@@ -11644,7 +11644,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sending_tags_font_settings_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sending_tags_font_settings_metadata enable_sending_tags_font_settings_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sending_tags_font_settings_metadata enable_sending_tags_font_settings_metadata
      *
      * @return $this
      */
@@ -11682,7 +11682,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_send_to_agent_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSendToAgentMetadata()
     {
@@ -11692,7 +11692,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_send_to_agent_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_send_to_agent_metadata enable_send_to_agent_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_send_to_agent_metadata enable_send_to_agent_metadata
      *
      * @return $this
      */
@@ -11730,7 +11730,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_send_to_intermediary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSendToIntermediaryMetadata()
     {
@@ -11740,7 +11740,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_send_to_intermediary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_send_to_intermediary_metadata enable_send_to_intermediary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_send_to_intermediary_metadata enable_send_to_intermediary_metadata
      *
      * @return $this
      */
@@ -11778,7 +11778,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_send_to_manage_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSendToManageMetadata()
     {
@@ -11788,7 +11788,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_send_to_manage_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_send_to_manage_metadata enable_send_to_manage_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_send_to_manage_metadata enable_send_to_manage_metadata
      *
      * @return $this
      */
@@ -11826,7 +11826,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sequential_signing_api_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSequentialSigningApiMetadata()
     {
@@ -11836,7 +11836,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sequential_signing_api_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sequential_signing_api_metadata enable_sequential_signing_api_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sequential_signing_api_metadata enable_sequential_signing_api_metadata
      *
      * @return $this
      */
@@ -11874,7 +11874,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sequential_signing_ui_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSequentialSigningUiMetadata()
     {
@@ -11884,7 +11884,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sequential_signing_ui_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sequential_signing_ui_metadata enable_sequential_signing_ui_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sequential_signing_ui_metadata enable_sequential_signing_ui_metadata
      *
      * @return $this
      */
@@ -11922,7 +11922,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_signer_attachments_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSignerAttachmentsMetadata()
     {
@@ -11932,7 +11932,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_signer_attachments_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_signer_attachments_metadata enable_signer_attachments_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_signer_attachments_metadata enable_signer_attachments_metadata
      *
      * @return $this
      */
@@ -11970,7 +11970,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_signing_extension_comments_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSigningExtensionCommentsMetadata()
     {
@@ -11980,7 +11980,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_signing_extension_comments_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_signing_extension_comments_metadata enable_signing_extension_comments_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_signing_extension_comments_metadata enable_signing_extension_comments_metadata
      *
      * @return $this
      */
@@ -12018,7 +12018,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_signing_extension_conversations_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSigningExtensionConversationsMetadata()
     {
@@ -12028,7 +12028,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_signing_extension_conversations_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_signing_extension_conversations_metadata enable_signing_extension_conversations_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_signing_extension_conversations_metadata enable_signing_extension_conversations_metadata
      *
      * @return $this
      */
@@ -12066,7 +12066,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_signing_order_settings_for_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSigningOrderSettingsForAccountMetadata()
     {
@@ -12076,7 +12076,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_signing_order_settings_for_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_signing_order_settings_for_account_metadata enable_signing_order_settings_for_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_signing_order_settings_for_account_metadata enable_signing_order_settings_for_account_metadata
      *
      * @return $this
      */
@@ -12114,7 +12114,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sign_on_paper_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSignOnPaperMetadata()
     {
@@ -12124,7 +12124,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sign_on_paper_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sign_on_paper_metadata enable_sign_on_paper_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sign_on_paper_metadata enable_sign_on_paper_metadata
      *
      * @return $this
      */
@@ -12162,7 +12162,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sign_on_paper_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSignOnPaperOverrideMetadata()
     {
@@ -12172,7 +12172,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sign_on_paper_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sign_on_paper_override_metadata enable_sign_on_paper_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sign_on_paper_override_metadata enable_sign_on_paper_override_metadata
      *
      * @return $this
      */
@@ -12210,7 +12210,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sign_with_notary_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSignWithNotaryMetadata()
     {
@@ -12220,7 +12220,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sign_with_notary_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sign_with_notary_metadata enable_sign_with_notary_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sign_with_notary_metadata enable_sign_with_notary_metadata
      *
      * @return $this
      */
@@ -12258,7 +12258,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_smart_contracts_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSmartContractsMetadata()
     {
@@ -12268,7 +12268,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_smart_contracts_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_smart_contracts_metadata enable_smart_contracts_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_smart_contracts_metadata enable_smart_contracts_metadata
      *
      * @return $this
      */
@@ -12306,7 +12306,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sms_authentication_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSmsAuthenticationMetadata()
     {
@@ -12316,7 +12316,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sms_authentication_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sms_authentication_metadata enable_sms_authentication_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sms_authentication_metadata enable_sms_authentication_metadata
      *
      * @return $this
      */
@@ -12354,7 +12354,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_sms_delivery_additional_notification_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSmsDeliveryAdditionalNotificationMetadata()
     {
@@ -12364,7 +12364,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_sms_delivery_additional_notification_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_sms_delivery_additional_notification_metadata enable_sms_delivery_additional_notification_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_sms_delivery_additional_notification_metadata enable_sms_delivery_additional_notification_metadata
      *
      * @return $this
      */
@@ -12426,7 +12426,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_social_id_login_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableSocialIdLoginMetadata()
     {
@@ -12436,7 +12436,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_social_id_login_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_social_id_login_metadata enable_social_id_login_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_social_id_login_metadata enable_social_id_login_metadata
      *
      * @return $this
      */
@@ -12474,7 +12474,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_strike_through_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableStrikeThroughMetadata()
     {
@@ -12484,7 +12484,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_strike_through_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_strike_through_metadata enable_strike_through_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_strike_through_metadata enable_strike_through_metadata
      *
      * @return $this
      */
@@ -12522,7 +12522,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_transaction_point_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableTransactionPointMetadata()
     {
@@ -12532,7 +12532,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_transaction_point_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_transaction_point_metadata enable_transaction_point_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_transaction_point_metadata enable_transaction_point_metadata
      *
      * @return $this
      */
@@ -12570,7 +12570,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_vaulting_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableVaultingMetadata()
     {
@@ -12580,7 +12580,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_vaulting_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_vaulting_metadata enable_vaulting_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_vaulting_metadata enable_vaulting_metadata
      *
      * @return $this
      */
@@ -12618,7 +12618,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enable_witnessing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnableWitnessingMetadata()
     {
@@ -12628,7 +12628,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enable_witnessing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enable_witnessing_metadata enable_witnessing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enable_witnessing_metadata enable_witnessing_metadata
      *
      * @return $this
      */
@@ -12666,7 +12666,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets enforce_template_name_uniqueness_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnforceTemplateNameUniquenessMetadata()
     {
@@ -12676,7 +12676,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets enforce_template_name_uniqueness_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $enforce_template_name_uniqueness_metadata enforce_template_name_uniqueness_metadata
+     * @param \DocuSign\Model\SettingsMetadata $enforce_template_name_uniqueness_metadata enforce_template_name_uniqueness_metadata
      *
      * @return $this
      */
@@ -12714,7 +12714,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_integration_allowed_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnvelopeIntegrationAllowedMetadata()
     {
@@ -12724,7 +12724,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_integration_allowed_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $envelope_integration_allowed_metadata envelope_integration_allowed_metadata
+     * @param \DocuSign\Model\SettingsMetadata $envelope_integration_allowed_metadata envelope_integration_allowed_metadata
      *
      * @return $this
      */
@@ -12762,7 +12762,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_integration_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnvelopeIntegrationEnabledMetadata()
     {
@@ -12772,7 +12772,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_integration_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $envelope_integration_enabled_metadata envelope_integration_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $envelope_integration_enabled_metadata envelope_integration_enabled_metadata
      *
      * @return $this
      */
@@ -12810,7 +12810,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_stamping_default_value_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getEnvelopeStampingDefaultValueMetadata()
     {
@@ -12820,7 +12820,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_stamping_default_value_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $envelope_stamping_default_value_metadata envelope_stamping_default_value_metadata
+     * @param \DocuSign\Model\SettingsMetadata $envelope_stamping_default_value_metadata envelope_stamping_default_value_metadata
      *
      * @return $this
      */
@@ -12858,7 +12858,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets exit_prompt_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getExitPromptMetadata()
     {
@@ -12868,7 +12868,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets exit_prompt_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $exit_prompt_metadata exit_prompt_metadata
+     * @param \DocuSign\Model\SettingsMetadata $exit_prompt_metadata exit_prompt_metadata
      *
      * @return $this
      */
@@ -12930,7 +12930,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets express_send_allow_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getExpressSendAllowTabsMetadata()
     {
@@ -12940,7 +12940,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets express_send_allow_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $express_send_allow_tabs_metadata express_send_allow_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $express_send_allow_tabs_metadata express_send_allow_tabs_metadata
      *
      * @return $this
      */
@@ -12954,7 +12954,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets express_send_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getExpressSendMetadata()
     {
@@ -12964,7 +12964,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets express_send_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $express_send_metadata express_send_metadata
+     * @param \DocuSign\Model\SettingsMetadata $express_send_metadata express_send_metadata
      *
      * @return $this
      */
@@ -12978,7 +12978,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets external_document_sources
      *
-     * @return \DocuSign\eSign\Model\ExternalDocumentSources
+     * @return \DocuSign\Model\ExternalDocumentSources
      */
     public function getExternalDocumentSources()
     {
@@ -12988,7 +12988,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets external_document_sources
      *
-     * @param \DocuSign\eSign\Model\ExternalDocumentSources $external_document_sources external_document_sources
+     * @param \DocuSign\Model\ExternalDocumentSources $external_document_sources external_document_sources
      *
      * @return $this
      */
@@ -13026,7 +13026,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets external_signature_pad_type_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getExternalSignaturePadTypeMetadata()
     {
@@ -13036,7 +13036,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets external_signature_pad_type_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $external_signature_pad_type_metadata external_signature_pad_type_metadata
+     * @param \DocuSign\Model\SettingsMetadata $external_signature_pad_type_metadata external_signature_pad_type_metadata
      *
      * @return $this
      */
@@ -13074,7 +13074,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets fax_out_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getFaxOutEnabledMetadata()
     {
@@ -13084,7 +13084,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets fax_out_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $fax_out_enabled_metadata fax_out_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $fax_out_enabled_metadata fax_out_enabled_metadata
      *
      * @return $this
      */
@@ -13122,7 +13122,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets finish_reminder_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getFinishReminderMetadata()
     {
@@ -13132,7 +13132,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets finish_reminder_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $finish_reminder_metadata finish_reminder_metadata
+     * @param \DocuSign\Model\SettingsMetadata $finish_reminder_metadata finish_reminder_metadata
      *
      * @return $this
      */
@@ -13170,7 +13170,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets guided_forms_html_allowed_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getGuidedFormsHtmlAllowedMetadata()
     {
@@ -13180,7 +13180,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets guided_forms_html_allowed_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $guided_forms_html_allowed_metadata guided_forms_html_allowed_metadata
+     * @param \DocuSign\Model\SettingsMetadata $guided_forms_html_allowed_metadata guided_forms_html_allowed_metadata
      *
      * @return $this
      */
@@ -13242,7 +13242,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets hide_account_address_in_co_c_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getHideAccountAddressInCoCMetadata()
     {
@@ -13252,7 +13252,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets hide_account_address_in_co_c_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $hide_account_address_in_co_c_metadata hide_account_address_in_co_c_metadata
+     * @param \DocuSign\Model\SettingsMetadata $hide_account_address_in_co_c_metadata hide_account_address_in_co_c_metadata
      *
      * @return $this
      */
@@ -13290,7 +13290,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets hide_pricing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getHidePricingMetadata()
     {
@@ -13300,7 +13300,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets hide_pricing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $hide_pricing_metadata hide_pricing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $hide_pricing_metadata hide_pricing_metadata
      *
      * @return $this
      */
@@ -13314,7 +13314,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_configurations
      *
-     * @return \DocuSign\eSign\Model\IdCheckConfiguration[]
+     * @return \DocuSign\Model\IdCheckConfiguration[]
      */
     public function getIdCheckConfigurations()
     {
@@ -13324,7 +13324,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_configurations
      *
-     * @param \DocuSign\eSign\Model\IdCheckConfiguration[] $id_check_configurations
+     * @param \DocuSign\Model\IdCheckConfiguration[] $id_check_configurations
      *
      * @return $this
      */
@@ -13386,7 +13386,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_expire_days_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdCheckExpireDaysMetadata()
     {
@@ -13396,7 +13396,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_expire_days_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $id_check_expire_days_metadata id_check_expire_days_metadata
+     * @param \DocuSign\Model\SettingsMetadata $id_check_expire_days_metadata id_check_expire_days_metadata
      *
      * @return $this
      */
@@ -13410,7 +13410,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_expire_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdCheckExpireMetadata()
     {
@@ -13420,7 +13420,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_expire_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $id_check_expire_metadata id_check_expire_metadata
+     * @param \DocuSign\Model\SettingsMetadata $id_check_expire_metadata id_check_expire_metadata
      *
      * @return $this
      */
@@ -13458,7 +13458,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_expire_minutes_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdCheckExpireMinutesMetadata()
     {
@@ -13468,7 +13468,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_expire_minutes_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $id_check_expire_minutes_metadata id_check_expire_minutes_metadata
+     * @param \DocuSign\Model\SettingsMetadata $id_check_expire_minutes_metadata id_check_expire_minutes_metadata
      *
      * @return $this
      */
@@ -13506,7 +13506,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_required_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdCheckRequiredMetadata()
     {
@@ -13516,7 +13516,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_required_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $id_check_required_metadata id_check_required_metadata
+     * @param \DocuSign\Model\SettingsMetadata $id_check_required_metadata id_check_required_metadata
      *
      * @return $this
      */
@@ -13530,7 +13530,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets identity_verification
      *
-     * @return \DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[]
+     * @return \DocuSign\Model\AccountIdentityVerificationWorkflow[]
      */
     public function getIdentityVerification()
     {
@@ -13540,7 +13540,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets identity_verification
      *
-     * @param \DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[] $identity_verification
+     * @param \DocuSign\Model\AccountIdentityVerificationWorkflow[] $identity_verification
      *
      * @return $this
      */
@@ -13554,7 +13554,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets identity_verification_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdentityVerificationMetadata()
     {
@@ -13564,7 +13564,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets identity_verification_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $identity_verification_metadata identity_verification_metadata
+     * @param \DocuSign\Model\SettingsMetadata $identity_verification_metadata identity_verification_metadata
      *
      * @return $this
      */
@@ -13602,7 +13602,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets idfx_phone_authentication_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIdfxPhoneAuthenticationOverrideMetadata()
     {
@@ -13612,7 +13612,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets idfx_phone_authentication_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $idfx_phone_authentication_override_metadata idfx_phone_authentication_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $idfx_phone_authentication_override_metadata idfx_phone_authentication_override_metadata
      *
      * @return $this
      */
@@ -13650,7 +13650,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets ignore_error_if_anchor_tab_not_found_metadata_enabled
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getIgnoreErrorIfAnchorTabNotFoundMetadataEnabled()
     {
@@ -13660,7 +13660,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets ignore_error_if_anchor_tab_not_found_metadata_enabled
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $ignore_error_if_anchor_tab_not_found_metadata_enabled ignore_error_if_anchor_tab_not_found_metadata_enabled
+     * @param \DocuSign\Model\SettingsMetadata $ignore_error_if_anchor_tab_not_found_metadata_enabled ignore_error_if_anchor_tab_not_found_metadata_enabled
      *
      * @return $this
      */
@@ -13698,7 +13698,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets in_person_id_check_question_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getInPersonIdCheckQuestionMetadata()
     {
@@ -13708,7 +13708,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets in_person_id_check_question_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $in_person_id_check_question_metadata in_person_id_check_question_metadata
+     * @param \DocuSign\Model\SettingsMetadata $in_person_id_check_question_metadata in_person_id_check_question_metadata
      *
      * @return $this
      */
@@ -13746,7 +13746,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets in_person_signing_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getInPersonSigningEnabledMetadata()
     {
@@ -13756,7 +13756,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets in_person_signing_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $in_person_signing_enabled_metadata in_person_signing_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $in_person_signing_enabled_metadata in_person_signing_enabled_metadata
      *
      * @return $this
      */
@@ -13794,7 +13794,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets in_session_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getInSessionEnabledMetadata()
     {
@@ -13804,7 +13804,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets in_session_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $in_session_enabled_metadata in_session_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $in_session_enabled_metadata in_session_enabled_metadata
      *
      * @return $this
      */
@@ -13842,7 +13842,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets in_session_suppress_emails_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getInSessionSuppressEmailsMetadata()
     {
@@ -13852,7 +13852,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets in_session_suppress_emails_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $in_session_suppress_emails_metadata in_session_suppress_emails_metadata
+     * @param \DocuSign\Model\SettingsMetadata $in_session_suppress_emails_metadata in_session_suppress_emails_metadata
      *
      * @return $this
      */
@@ -13866,7 +13866,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets linked_external_primary_accounts
      *
-     * @return \DocuSign\eSign\Model\LinkedExternalPrimaryAccount[]
+     * @return \DocuSign\Model\LinkedExternalPrimaryAccount[]
      */
     public function getLinkedExternalPrimaryAccounts()
     {
@@ -13876,7 +13876,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets linked_external_primary_accounts
      *
-     * @param \DocuSign\eSign\Model\LinkedExternalPrimaryAccount[] $linked_external_primary_accounts
+     * @param \DocuSign\Model\LinkedExternalPrimaryAccount[] $linked_external_primary_accounts
      *
      * @return $this
      */
@@ -13914,7 +13914,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets maximum_signing_groups_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getMaximumSigningGroupsMetadata()
     {
@@ -13924,7 +13924,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets maximum_signing_groups_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $maximum_signing_groups_metadata maximum_signing_groups_metadata
+     * @param \DocuSign\Model\SettingsMetadata $maximum_signing_groups_metadata maximum_signing_groups_metadata
      *
      * @return $this
      */
@@ -13962,7 +13962,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets maximum_users_per_signing_group_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getMaximumUsersPerSigningGroupMetadata()
     {
@@ -13972,7 +13972,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets maximum_users_per_signing_group_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $maximum_users_per_signing_group_metadata maximum_users_per_signing_group_metadata
+     * @param \DocuSign\Model\SettingsMetadata $maximum_users_per_signing_group_metadata maximum_users_per_signing_group_metadata
      *
      * @return $this
      */
@@ -14034,7 +14034,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets mobile_session_timeout_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getMobileSessionTimeoutMetadata()
     {
@@ -14044,7 +14044,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets mobile_session_timeout_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $mobile_session_timeout_metadata mobile_session_timeout_metadata
+     * @param \DocuSign\Model\SettingsMetadata $mobile_session_timeout_metadata mobile_session_timeout_metadata
      *
      * @return $this
      */
@@ -14106,7 +14106,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets opt_in_mobile_signing_v02_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getOptInMobileSigningV02Metadata()
     {
@@ -14116,7 +14116,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets opt_in_mobile_signing_v02_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $opt_in_mobile_signing_v02_metadata opt_in_mobile_signing_v02_metadata
+     * @param \DocuSign\Model\SettingsMetadata $opt_in_mobile_signing_v02_metadata opt_in_mobile_signing_v02_metadata
      *
      * @return $this
      */
@@ -14154,7 +14154,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets opt_out_auto_nav_text_and_tab_color_updates_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getOptOutAutoNavTextAndTabColorUpdatesMetadata()
     {
@@ -14164,7 +14164,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets opt_out_auto_nav_text_and_tab_color_updates_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $opt_out_auto_nav_text_and_tab_color_updates_metadata opt_out_auto_nav_text_and_tab_color_updates_metadata
+     * @param \DocuSign\Model\SettingsMetadata $opt_out_auto_nav_text_and_tab_color_updates_metadata opt_out_auto_nav_text_and_tab_color_updates_metadata
      *
      * @return $this
      */
@@ -14202,7 +14202,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets opt_out_new_platform_seal_platform_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getOptOutNewPlatformSealPlatformMetadata()
     {
@@ -14212,7 +14212,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets opt_out_new_platform_seal_platform_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $opt_out_new_platform_seal_platform_metadata opt_out_new_platform_seal_platform_metadata
+     * @param \DocuSign\Model\SettingsMetadata $opt_out_new_platform_seal_platform_metadata opt_out_new_platform_seal_platform_metadata
      *
      * @return $this
      */
@@ -14250,7 +14250,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets phone_auth_recipient_may_provide_phone_number_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getPhoneAuthRecipientMayProvidePhoneNumberMetadata()
     {
@@ -14260,7 +14260,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets phone_auth_recipient_may_provide_phone_number_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $phone_auth_recipient_may_provide_phone_number_metadata phone_auth_recipient_may_provide_phone_number_metadata
+     * @param \DocuSign\Model\SettingsMetadata $phone_auth_recipient_may_provide_phone_number_metadata phone_auth_recipient_may_provide_phone_number_metadata
      *
      * @return $this
      */
@@ -14298,7 +14298,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets pki_sign_downloaded_pdf_docs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getPkiSignDownloadedPdfDocsMetadata()
     {
@@ -14308,7 +14308,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets pki_sign_downloaded_pdf_docs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $pki_sign_downloaded_pdf_docs_metadata pki_sign_downloaded_pdf_docs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $pki_sign_downloaded_pdf_docs_metadata pki_sign_downloaded_pdf_docs_metadata
      *
      * @return $this
      */
@@ -14346,7 +14346,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets read_only_mode_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getReadOnlyModeMetadata()
     {
@@ -14356,7 +14356,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets read_only_mode_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $read_only_mode_metadata read_only_mode_metadata
+     * @param \DocuSign\Model\SettingsMetadata $read_only_mode_metadata read_only_mode_metadata
      *
      * @return $this
      */
@@ -14394,7 +14394,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets recipients_can_sign_offline_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRecipientsCanSignOfflineMetadata()
     {
@@ -14404,7 +14404,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets recipients_can_sign_offline_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $recipients_can_sign_offline_metadata recipients_can_sign_offline_metadata
+     * @param \DocuSign\Model\SettingsMetadata $recipients_can_sign_offline_metadata recipients_can_sign_offline_metadata
      *
      * @return $this
      */
@@ -14442,7 +14442,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_signing_auto_navigation_control_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRecipientSigningAutoNavigationControlMetadata()
     {
@@ -14452,7 +14452,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_signing_auto_navigation_control_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $recipient_signing_auto_navigation_control_metadata recipient_signing_auto_navigation_control_metadata
+     * @param \DocuSign\Model\SettingsMetadata $recipient_signing_auto_navigation_control_metadata recipient_signing_auto_navigation_control_metadata
      *
      * @return $this
      */
@@ -14490,7 +14490,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets require21_cf_rpt11_compliance_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRequire21CfRpt11ComplianceMetadata()
     {
@@ -14500,7 +14500,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets require21_cf_rpt11_compliance_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $require21_cf_rpt11_compliance_metadata require21_cf_rpt11_compliance_metadata
+     * @param \DocuSign\Model\SettingsMetadata $require21_cf_rpt11_compliance_metadata require21_cf_rpt11_compliance_metadata
      *
      * @return $this
      */
@@ -14538,7 +14538,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets require_decline_reason_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRequireDeclineReasonMetadata()
     {
@@ -14548,7 +14548,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets require_decline_reason_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $require_decline_reason_metadata require_decline_reason_metadata
+     * @param \DocuSign\Model\SettingsMetadata $require_decline_reason_metadata require_decline_reason_metadata
      *
      * @return $this
      */
@@ -14586,7 +14586,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets require_external_user_management_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRequireExternalUserManagementMetadata()
     {
@@ -14596,7 +14596,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets require_external_user_management_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $require_external_user_management_metadata require_external_user_management_metadata
+     * @param \DocuSign\Model\SettingsMetadata $require_external_user_management_metadata require_external_user_management_metadata
      *
      * @return $this
      */
@@ -14634,7 +14634,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets require_signer_certificate_type_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRequireSignerCertificateTypeMetadata()
     {
@@ -14644,7 +14644,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets require_signer_certificate_type_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $require_signer_certificate_type_metadata require_signer_certificate_type_metadata
+     * @param \DocuSign\Model\SettingsMetadata $require_signer_certificate_type_metadata require_signer_certificate_type_metadata
      *
      * @return $this
      */
@@ -14778,7 +14778,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets self_signed_recipient_email_document_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSelfSignedRecipientEmailDocumentMetadata()
     {
@@ -14788,7 +14788,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets self_signed_recipient_email_document_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $self_signed_recipient_email_document_metadata self_signed_recipient_email_document_metadata
+     * @param \DocuSign\Model\SettingsMetadata $self_signed_recipient_email_document_metadata self_signed_recipient_email_document_metadata
      *
      * @return $this
      */
@@ -14826,7 +14826,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets self_signed_recipient_email_document_user_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSelfSignedRecipientEmailDocumentUserOverrideMetadata()
     {
@@ -14836,7 +14836,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets self_signed_recipient_email_document_user_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $self_signed_recipient_email_document_user_override_metadata self_signed_recipient_email_document_user_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $self_signed_recipient_email_document_user_override_metadata self_signed_recipient_email_document_user_override_metadata
      *
      * @return $this
      */
@@ -14874,7 +14874,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sender_can_sign_in_each_location_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSenderCanSignInEachLocationMetadata()
     {
@@ -14884,7 +14884,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sender_can_sign_in_each_location_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sender_can_sign_in_each_location_metadata sender_can_sign_in_each_location_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sender_can_sign_in_each_location_metadata sender_can_sign_in_each_location_metadata
      *
      * @return $this
      */
@@ -14922,7 +14922,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sender_must_authenticate_signing_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSenderMustAuthenticateSigningMetadata()
     {
@@ -14932,7 +14932,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sender_must_authenticate_signing_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sender_must_authenticate_signing_metadata sender_must_authenticate_signing_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sender_must_authenticate_signing_metadata sender_must_authenticate_signing_metadata
      *
      * @return $this
      */
@@ -14970,7 +14970,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sending_tags_font_color_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSendingTagsFontColorMetadata()
     {
@@ -14980,7 +14980,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sending_tags_font_color_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sending_tags_font_color_metadata sending_tags_font_color_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sending_tags_font_color_metadata sending_tags_font_color_metadata
      *
      * @return $this
      */
@@ -15018,7 +15018,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sending_tags_font_name_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSendingTagsFontNameMetadata()
     {
@@ -15028,7 +15028,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sending_tags_font_name_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sending_tags_font_name_metadata sending_tags_font_name_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sending_tags_font_name_metadata sending_tags_font_name_metadata
      *
      * @return $this
      */
@@ -15066,7 +15066,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sending_tags_font_size_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSendingTagsFontSizeMetadata()
     {
@@ -15076,7 +15076,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sending_tags_font_size_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sending_tags_font_size_metadata sending_tags_font_size_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sending_tags_font_size_metadata sending_tags_font_size_metadata
      *
      * @return $this
      */
@@ -15114,7 +15114,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets send_lockout_recipient_notification_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSendLockoutRecipientNotificationMetadata()
     {
@@ -15124,7 +15124,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets send_lockout_recipient_notification_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $send_lockout_recipient_notification_metadata send_lockout_recipient_notification_metadata
+     * @param \DocuSign\Model\SettingsMetadata $send_lockout_recipient_notification_metadata send_lockout_recipient_notification_metadata
      *
      * @return $this
      */
@@ -15162,7 +15162,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets send_to_certified_delivery_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSendToCertifiedDeliveryEnabledMetadata()
     {
@@ -15172,7 +15172,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets send_to_certified_delivery_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $send_to_certified_delivery_enabled_metadata send_to_certified_delivery_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $send_to_certified_delivery_enabled_metadata send_to_certified_delivery_enabled_metadata
      *
      * @return $this
      */
@@ -15210,7 +15210,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets session_timeout_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSessionTimeoutMetadata()
     {
@@ -15220,7 +15220,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets session_timeout_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $session_timeout_metadata session_timeout_metadata
+     * @param \DocuSign\Model\SettingsMetadata $session_timeout_metadata session_timeout_metadata
      *
      * @return $this
      */
@@ -15258,7 +15258,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets set_recip_email_lang_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSetRecipEmailLangMetadata()
     {
@@ -15268,7 +15268,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets set_recip_email_lang_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $set_recip_email_lang_metadata set_recip_email_lang_metadata
+     * @param \DocuSign\Model\SettingsMetadata $set_recip_email_lang_metadata set_recip_email_lang_metadata
      *
      * @return $this
      */
@@ -15306,7 +15306,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets set_recip_sign_lang_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSetRecipSignLangMetadata()
     {
@@ -15316,7 +15316,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets set_recip_sign_lang_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $set_recip_sign_lang_metadata set_recip_sign_lang_metadata
+     * @param \DocuSign\Model\SettingsMetadata $set_recip_sign_lang_metadata set_recip_sign_lang_metadata
      *
      * @return $this
      */
@@ -15354,7 +15354,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets shared_template_folders_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSharedTemplateFoldersMetadata()
     {
@@ -15364,7 +15364,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets shared_template_folders_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $shared_template_folders_metadata shared_template_folders_metadata
+     * @param \DocuSign\Model\SettingsMetadata $shared_template_folders_metadata shared_template_folders_metadata
      *
      * @return $this
      */
@@ -15402,7 +15402,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_complete_dialog_in_embedded_session_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowCompleteDialogInEmbeddedSessionMetadata()
     {
@@ -15412,7 +15412,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_complete_dialog_in_embedded_session_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_complete_dialog_in_embedded_session_metadata show_complete_dialog_in_embedded_session_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_complete_dialog_in_embedded_session_metadata show_complete_dialog_in_embedded_session_metadata
      *
      * @return $this
      */
@@ -15450,7 +15450,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_conditional_routing_on_send_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowConditionalRoutingOnSendMetadata()
     {
@@ -15460,7 +15460,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_conditional_routing_on_send_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_conditional_routing_on_send_metadata show_conditional_routing_on_send_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_conditional_routing_on_send_metadata show_conditional_routing_on_send_metadata
      *
      * @return $this
      */
@@ -15498,7 +15498,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_initial_conditional_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowInitialConditionalFieldsMetadata()
     {
@@ -15508,7 +15508,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_initial_conditional_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_initial_conditional_fields_metadata show_initial_conditional_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_initial_conditional_fields_metadata show_initial_conditional_fields_metadata
      *
      * @return $this
      */
@@ -15546,7 +15546,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_localized_watermarks_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowLocalizedWatermarksMetadata()
     {
@@ -15556,7 +15556,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_localized_watermarks_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_localized_watermarks_metadata show_localized_watermarks_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_localized_watermarks_metadata show_localized_watermarks_metadata
      *
      * @return $this
      */
@@ -15594,7 +15594,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_masked_fields_when_downloading_document_as_sender_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowMaskedFieldsWhenDownloadingDocumentAsSenderMetadata()
     {
@@ -15604,7 +15604,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_masked_fields_when_downloading_document_as_sender_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_masked_fields_when_downloading_document_as_sender_metadata show_masked_fields_when_downloading_document_as_sender_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_masked_fields_when_downloading_document_as_sender_metadata show_masked_fields_when_downloading_document_as_sender_metadata
      *
      * @return $this
      */
@@ -15642,7 +15642,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets show_tutorials_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getShowTutorialsMetadata()
     {
@@ -15652,7 +15652,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets show_tutorials_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $show_tutorials_metadata show_tutorials_metadata
+     * @param \DocuSign\Model\SettingsMetadata $show_tutorials_metadata show_tutorials_metadata
      *
      * @return $this
      */
@@ -15690,7 +15690,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signature_providers_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignatureProvidersMetadata()
     {
@@ -15700,7 +15700,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signature_providers_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signature_providers_metadata signature_providers_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signature_providers_metadata signature_providers_metadata
      *
      * @return $this
      */
@@ -15738,7 +15738,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sign_date_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignDateFormatMetadata()
     {
@@ -15748,7 +15748,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sign_date_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_date_format_metadata sign_date_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_date_format_metadata sign_date_format_metadata
      *
      * @return $this
      */
@@ -15786,7 +15786,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sign_date_time_account_language_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignDateTimeAccountLanguageOverrideMetadata()
     {
@@ -15796,7 +15796,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sign_date_time_account_language_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_date_time_account_language_override_metadata sign_date_time_account_language_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_date_time_account_language_override_metadata sign_date_time_account_language_override_metadata
      *
      * @return $this
      */
@@ -15834,7 +15834,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sign_date_time_account_timezone_override_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignDateTimeAccountTimezoneOverrideMetadata()
     {
@@ -15844,7 +15844,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sign_date_time_account_timezone_override_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_date_time_account_timezone_override_metadata sign_date_time_account_timezone_override_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_date_time_account_timezone_override_metadata sign_date_time_account_timezone_override_metadata
      *
      * @return $this
      */
@@ -15882,7 +15882,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_attach_certificate_to_envelope_pdf_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerAttachCertificateToEnvelopePdfMetadata()
     {
@@ -15892,7 +15892,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_attach_certificate_to_envelope_pdf_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_attach_certificate_to_envelope_pdf_metadata signer_attach_certificate_to_envelope_pdf_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_attach_certificate_to_envelope_pdf_metadata signer_attach_certificate_to_envelope_pdf_metadata
      *
      * @return $this
      */
@@ -15930,7 +15930,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_attach_concat_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerAttachConcatMetadata()
     {
@@ -15940,7 +15940,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_attach_concat_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_attach_concat_metadata signer_attach_concat_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_attach_concat_metadata signer_attach_concat_metadata
      *
      * @return $this
      */
@@ -15978,7 +15978,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_can_create_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerCanCreateAccountMetadata()
     {
@@ -15988,7 +15988,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_can_create_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_can_create_account_metadata signer_can_create_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_can_create_account_metadata signer_can_create_account_metadata
      *
      * @return $this
      */
@@ -16026,7 +16026,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_can_sign_on_mobile_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerCanSignOnMobileMetadata()
     {
@@ -16036,7 +16036,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_can_sign_on_mobile_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_can_sign_on_mobile_metadata signer_can_sign_on_mobile_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_can_sign_on_mobile_metadata signer_can_sign_on_mobile_metadata
      *
      * @return $this
      */
@@ -16074,7 +16074,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_in_session_use_envelope_complete_email_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerInSessionUseEnvelopeCompleteEmailMetadata()
     {
@@ -16084,7 +16084,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_in_session_use_envelope_complete_email_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_in_session_use_envelope_complete_email_metadata signer_in_session_use_envelope_complete_email_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_in_session_use_envelope_complete_email_metadata signer_in_session_use_envelope_complete_email_metadata
      *
      * @return $this
      */
@@ -16122,7 +16122,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_login_requirements_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerLoginRequirementsMetadata()
     {
@@ -16132,7 +16132,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_login_requirements_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_login_requirements_metadata signer_login_requirements_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_login_requirements_metadata signer_login_requirements_metadata
      *
      * @return $this
      */
@@ -16170,7 +16170,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_must_have_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerMustHaveAccountMetadata()
     {
@@ -16180,7 +16180,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_must_have_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_must_have_account_metadata signer_must_have_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_must_have_account_metadata signer_must_have_account_metadata
      *
      * @return $this
      */
@@ -16218,7 +16218,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_must_login_to_sign_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerMustLoginToSignMetadata()
     {
@@ -16228,7 +16228,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_must_login_to_sign_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_must_login_to_sign_metadata signer_must_login_to_sign_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_must_login_to_sign_metadata signer_must_login_to_sign_metadata
      *
      * @return $this
      */
@@ -16266,7 +16266,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signer_show_secure_field_initial_values_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignerShowSecureFieldInitialValuesMetadata()
     {
@@ -16276,7 +16276,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signer_show_secure_field_initial_values_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signer_show_secure_field_initial_values_metadata signer_show_secure_field_initial_values_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signer_show_secure_field_initial_values_metadata signer_show_secure_field_initial_values_metadata
      *
      * @return $this
      */
@@ -16314,7 +16314,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signing_session_timeout_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSigningSessionTimeoutMetadata()
     {
@@ -16324,7 +16324,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signing_session_timeout_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signing_session_timeout_metadata signing_session_timeout_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signing_session_timeout_metadata signing_session_timeout_metadata
      *
      * @return $this
      */
@@ -16362,7 +16362,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets signing_ui_version_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSigningUiVersionMetadata()
     {
@@ -16372,7 +16372,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets signing_ui_version_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $signing_ui_version_metadata signing_ui_version_metadata
+     * @param \DocuSign\Model\SettingsMetadata $signing_ui_version_metadata signing_ui_version_metadata
      *
      * @return $this
      */
@@ -16410,7 +16410,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sign_time_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignTimeFormatMetadata()
     {
@@ -16420,7 +16420,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sign_time_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_time_format_metadata sign_time_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_time_format_metadata sign_time_format_metadata
      *
      * @return $this
      */
@@ -16458,7 +16458,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets sign_time_show_am_pm_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignTimeShowAmPmMetadata()
     {
@@ -16468,7 +16468,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets sign_time_show_am_pm_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_time_show_am_pm_metadata sign_time_show_am_pm_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_time_show_am_pm_metadata sign_time_show_am_pm_metadata
      *
      * @return $this
      */
@@ -16506,7 +16506,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets simplified_sending_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSimplifiedSendingEnabledMetadata()
     {
@@ -16516,7 +16516,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets simplified_sending_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $simplified_sending_enabled_metadata simplified_sending_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $simplified_sending_enabled_metadata simplified_sending_enabled_metadata
      *
      * @return $this
      */
@@ -16554,7 +16554,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets single_sign_on_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSingleSignOnEnabledMetadata()
     {
@@ -16564,7 +16564,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets single_sign_on_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $single_sign_on_enabled_metadata single_sign_on_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $single_sign_on_enabled_metadata single_sign_on_enabled_metadata
      *
      * @return $this
      */
@@ -16602,7 +16602,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets skip_auth_completed_envelopes_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSkipAuthCompletedEnvelopesMetadata()
     {
@@ -16612,7 +16612,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets skip_auth_completed_envelopes_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $skip_auth_completed_envelopes_metadata skip_auth_completed_envelopes_metadata
+     * @param \DocuSign\Model\SettingsMetadata $skip_auth_completed_envelopes_metadata skip_auth_completed_envelopes_metadata
      *
      * @return $this
      */
@@ -16650,7 +16650,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets social_id_recip_auth_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSocialIdRecipAuthMetadata()
     {
@@ -16660,7 +16660,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets social_id_recip_auth_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $social_id_recip_auth_metadata social_id_recip_auth_metadata
+     * @param \DocuSign\Model\SettingsMetadata $social_id_recip_auth_metadata social_id_recip_auth_metadata
      *
      * @return $this
      */
@@ -16698,7 +16698,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets specify_document_visibility_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSpecifyDocumentVisibilityMetadata()
     {
@@ -16708,7 +16708,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets specify_document_visibility_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $specify_document_visibility_metadata specify_document_visibility_metadata
+     * @param \DocuSign\Model\SettingsMetadata $specify_document_visibility_metadata specify_document_visibility_metadata
      *
      * @return $this
      */
@@ -16746,7 +16746,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets start_in_advanced_correct_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getStartInAdvancedCorrectMetadata()
     {
@@ -16756,7 +16756,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets start_in_advanced_correct_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $start_in_advanced_correct_metadata start_in_advanced_correct_metadata
+     * @param \DocuSign\Model\SettingsMetadata $start_in_advanced_correct_metadata start_in_advanced_correct_metadata
      *
      * @return $this
      */
@@ -16794,7 +16794,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets supplemental_documents_must_accept_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSupplementalDocumentsMustAcceptMetadata()
     {
@@ -16804,7 +16804,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets supplemental_documents_must_accept_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $supplemental_documents_must_accept_metadata supplemental_documents_must_accept_metadata
+     * @param \DocuSign\Model\SettingsMetadata $supplemental_documents_must_accept_metadata supplemental_documents_must_accept_metadata
      *
      * @return $this
      */
@@ -16842,7 +16842,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets supplemental_documents_must_read_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSupplementalDocumentsMustReadMetadata()
     {
@@ -16852,7 +16852,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets supplemental_documents_must_read_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $supplemental_documents_must_read_metadata supplemental_documents_must_read_metadata
+     * @param \DocuSign\Model\SettingsMetadata $supplemental_documents_must_read_metadata supplemental_documents_must_read_metadata
      *
      * @return $this
      */
@@ -16890,7 +16890,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets supplemental_documents_must_view_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSupplementalDocumentsMustViewMetadata()
     {
@@ -16900,7 +16900,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets supplemental_documents_must_view_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $supplemental_documents_must_view_metadata supplemental_documents_must_view_metadata
+     * @param \DocuSign\Model\SettingsMetadata $supplemental_documents_must_view_metadata supplemental_documents_must_view_metadata
      *
      * @return $this
      */
@@ -16938,7 +16938,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets suppress_certificate_enforcement_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSuppressCertificateEnforcementMetadata()
     {
@@ -16948,7 +16948,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets suppress_certificate_enforcement_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $suppress_certificate_enforcement_metadata suppress_certificate_enforcement_metadata
+     * @param \DocuSign\Model\SettingsMetadata $suppress_certificate_enforcement_metadata suppress_certificate_enforcement_metadata
      *
      * @return $this
      */
@@ -16962,7 +16962,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets tab_account_settings
      *
-     * @return \DocuSign\eSign\Model\TabAccountSettings
+     * @return \DocuSign\Model\TabAccountSettings
      */
     public function getTabAccountSettings()
     {
@@ -16972,7 +16972,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets tab_account_settings
      *
-     * @param \DocuSign\eSign\Model\TabAccountSettings $tab_account_settings tab_account_settings
+     * @param \DocuSign\Model\TabAccountSettings $tab_account_settings tab_account_settings
      *
      * @return $this
      */
@@ -17010,7 +17010,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets timezone_offset_api_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTimezoneOffsetApiMetadata()
     {
@@ -17020,7 +17020,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets timezone_offset_api_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $timezone_offset_api_metadata timezone_offset_api_metadata
+     * @param \DocuSign\Model\SettingsMetadata $timezone_offset_api_metadata timezone_offset_api_metadata
      *
      * @return $this
      */
@@ -17058,7 +17058,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets timezone_offset_ui_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTimezoneOffsetUiMetadata()
     {
@@ -17068,7 +17068,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets timezone_offset_ui_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $timezone_offset_ui_metadata timezone_offset_ui_metadata
+     * @param \DocuSign\Model\SettingsMetadata $timezone_offset_ui_metadata timezone_offset_ui_metadata
      *
      * @return $this
      */
@@ -17130,7 +17130,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_account_level_email_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseAccountLevelEmailMetadata()
     {
@@ -17140,7 +17140,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_account_level_email_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_account_level_email_metadata use_account_level_email_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_account_level_email_metadata use_account_level_email_metadata
      *
      * @return $this
      */
@@ -17178,7 +17178,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_consumer_disclosure_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseConsumerDisclosureMetadata()
     {
@@ -17188,7 +17188,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_consumer_disclosure_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_consumer_disclosure_metadata use_consumer_disclosure_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_consumer_disclosure_metadata use_consumer_disclosure_metadata
      *
      * @return $this
      */
@@ -17226,7 +17226,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_consumer_disclosure_within_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseConsumerDisclosureWithinAccountMetadata()
     {
@@ -17236,7 +17236,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_consumer_disclosure_within_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_consumer_disclosure_within_account_metadata use_consumer_disclosure_within_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_consumer_disclosure_within_account_metadata use_consumer_disclosure_within_account_metadata
      *
      * @return $this
      */
@@ -17274,7 +17274,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_derived_keys_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseDerivedKeysMetadata()
     {
@@ -17284,7 +17284,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_derived_keys_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_derived_keys_metadata use_derived_keys_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_derived_keys_metadata use_derived_keys_metadata
      *
      * @return $this
      */
@@ -17322,7 +17322,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_docu_sign_express_signer_certificate_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseDocuSignExpressSignerCertificateMetadata()
     {
@@ -17332,7 +17332,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_docu_sign_express_signer_certificate_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_docu_sign_express_signer_certificate_metadata use_docu_sign_express_signer_certificate_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_docu_sign_express_signer_certificate_metadata use_docu_sign_express_signer_certificate_metadata
      *
      * @return $this
      */
@@ -17370,7 +17370,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_multi_app_groups_data_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseMultiAppGroupsDataMetadata()
     {
@@ -17380,7 +17380,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_multi_app_groups_data_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_multi_app_groups_data_metadata use_multi_app_groups_data_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_multi_app_groups_data_metadata use_multi_app_groups_data_metadata
      *
      * @return $this
      */
@@ -17418,7 +17418,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_new_blob_for_pdf_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseNewBlobForPdfMetadata()
     {
@@ -17428,7 +17428,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_new_blob_for_pdf_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_new_blob_for_pdf_metadata use_new_blob_for_pdf_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_new_blob_for_pdf_metadata use_new_blob_for_pdf_metadata
      *
      * @return $this
      */
@@ -17466,7 +17466,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_safe_signer_certificates_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseSafeSignerCertificatesMetadata()
     {
@@ -17476,7 +17476,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_safe_signer_certificates_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_safe_signer_certificates_metadata use_safe_signer_certificates_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_safe_signer_certificates_metadata use_safe_signer_certificates_metadata
      *
      * @return $this
      */
@@ -17514,7 +17514,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets uses_api_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUsesApiMetadata()
     {
@@ -17524,7 +17524,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets uses_api_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $uses_api_metadata uses_api_metadata
+     * @param \DocuSign\Model\SettingsMetadata $uses_api_metadata uses_api_metadata
      *
      * @return $this
      */
@@ -17562,7 +17562,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets use_signature_provider_platform_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseSignatureProviderPlatformMetadata()
     {
@@ -17572,7 +17572,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets use_signature_provider_platform_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_signature_provider_platform_metadata use_signature_provider_platform_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_signature_provider_platform_metadata use_signature_provider_platform_metadata
      *
      * @return $this
      */
@@ -17634,7 +17634,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets validations_allowed_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getValidationsAllowedMetadata()
     {
@@ -17644,7 +17644,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets validations_allowed_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $validations_allowed_metadata validations_allowed_metadata
+     * @param \DocuSign\Model\SettingsMetadata $validations_allowed_metadata validations_allowed_metadata
      *
      * @return $this
      */
@@ -17682,7 +17682,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets validations_brand_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getValidationsBrandMetadata()
     {
@@ -17692,7 +17692,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets validations_brand_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $validations_brand_metadata validations_brand_metadata
+     * @param \DocuSign\Model\SettingsMetadata $validations_brand_metadata validations_brand_metadata
      *
      * @return $this
      */
@@ -17730,7 +17730,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets validations_cadence_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getValidationsCadenceMetadata()
     {
@@ -17740,7 +17740,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets validations_cadence_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $validations_cadence_metadata validations_cadence_metadata
+     * @param \DocuSign\Model\SettingsMetadata $validations_cadence_metadata validations_cadence_metadata
      *
      * @return $this
      */
@@ -17778,7 +17778,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets validations_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getValidationsEnabledMetadata()
     {
@@ -17788,7 +17788,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets validations_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $validations_enabled_metadata validations_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $validations_enabled_metadata validations_enabled_metadata
      *
      * @return $this
      */
@@ -17826,7 +17826,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets validations_report_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getValidationsReportMetadata()
     {
@@ -17836,7 +17836,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets validations_report_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $validations_report_metadata validations_report_metadata
+     * @param \DocuSign\Model\SettingsMetadata $validations_report_metadata validations_report_metadata
      *
      * @return $this
      */
@@ -17874,7 +17874,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets water_mark_enabled_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getWaterMarkEnabledMetadata()
     {
@@ -17884,7 +17884,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets water_mark_enabled_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $water_mark_enabled_metadata water_mark_enabled_metadata
+     * @param \DocuSign\Model\SettingsMetadata $water_mark_enabled_metadata water_mark_enabled_metadata
      *
      * @return $this
      */
@@ -17922,7 +17922,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets write_reminder_to_envelope_history_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getWriteReminderToEnvelopeHistoryMetadata()
     {
@@ -17932,7 +17932,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets write_reminder_to_envelope_history_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $write_reminder_to_envelope_history_metadata write_reminder_to_envelope_history_metadata
+     * @param \DocuSign\Model\SettingsMetadata $write_reminder_to_envelope_history_metadata write_reminder_to_envelope_history_metadata
      *
      * @return $this
      */
@@ -17970,7 +17970,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets wurfl_min_allowable_screen_size_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getWurflMinAllowableScreenSizeMetadata()
     {
@@ -17980,7 +17980,7 @@ class AccountSettingsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets wurfl_min_allowable_screen_size_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $wurfl_min_allowable_screen_size_metadata wurfl_min_allowable_screen_size_metadata
+     * @param \DocuSign\Model\SettingsMetadata $wurfl_min_allowable_screen_size_metadata wurfl_min_allowable_screen_size_metadata
      *
      * @return $this
      */

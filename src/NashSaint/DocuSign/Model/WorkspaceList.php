@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspaceList Class Doc Comment
  *
  * @category    Class
  * @description Provides properties that describe the workspaces avaialble.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,7 +64,7 @@ class WorkspaceList implements ModelInterface, ArrayAccess
         'result_set_size' => '?string',
         'start_position' => '?string',
         'total_set_size' => '?string',
-        'workspaces' => '\DocuSign\eSign\Model\Workspace[]'
+        'workspaces' => '\DocuSign\Model\Workspace[]'
     ];
 
     /**
@@ -330,7 +330,7 @@ class WorkspaceList implements ModelInterface, ArrayAccess
     /**
      * Gets workspaces
      *
-     * @return \DocuSign\eSign\Model\Workspace[]
+     * @return \DocuSign\Model\Workspace[]
      */
     public function getWorkspaces()
     {
@@ -340,7 +340,7 @@ class WorkspaceList implements ModelInterface, ArrayAccess
     /**
      * Sets workspaces
      *
-     * @param \DocuSign\eSign\Model\Workspace[] $workspaces A list of workspaces.
+     * @param \DocuSign\Model\Workspace[] $workspaces A list of workspaces.
      *
      * @return $this
      */

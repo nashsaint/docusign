@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ReportInProductGet Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -69,7 +69,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
         'envelope_recipient_name_contains_filter' => '?string',
         'envelope_status_filter' => '?string',
         'envelope_subject_contains_filter' => '?string',
-        'fields' => '\DocuSign\eSign\Model\ReportInProductField[]',
+        'fields' => '\DocuSign\Model\ReportInProductField[]',
         'last_scheduled_execution_date' => '?string',
         'last_scheduled_execution_success_date' => '?string',
         'max_download_rows' => '?string',
@@ -84,7 +84,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
         'run_uri' => '?string',
         'save_uri' => '?string',
         'schedule_id' => '?string',
-        'sent_by_details' => '\DocuSign\eSign\Model\ReportInProductSentByDetails',
+        'sent_by_details' => '\DocuSign\Model\ReportInProductSentByDetails',
         'sent_by_filter' => '?string',
         'sent_by_ids' => '?string',
         'sort_field_direction' => '?string',
@@ -629,7 +629,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
     /**
      * Gets fields
      *
-     * @return \DocuSign\eSign\Model\ReportInProductField[]
+     * @return \DocuSign\Model\ReportInProductField[]
      */
     public function getFields()
     {
@@ -639,7 +639,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
     /**
      * Sets fields
      *
-     * @param \DocuSign\eSign\Model\ReportInProductField[] $fields
+     * @param \DocuSign\Model\ReportInProductField[] $fields
      *
      * @return $this
      */
@@ -989,7 +989,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
     /**
      * Gets sent_by_details
      *
-     * @return \DocuSign\eSign\Model\ReportInProductSentByDetails
+     * @return \DocuSign\Model\ReportInProductSentByDetails
      */
     public function getSentByDetails()
     {
@@ -999,7 +999,7 @@ class ReportInProductGet implements ModelInterface, ArrayAccess
     /**
      * Sets sent_by_details
      *
-     * @param \DocuSign\eSign\Model\ReportInProductSentByDetails $sent_by_details sent_by_details
+     * @param \DocuSign\Model\ReportInProductSentByDetails $sent_by_details sent_by_details
      *
      * @return $this
      */

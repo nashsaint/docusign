@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Workspace Class Doc Comment
  *
  * @category    Class
  * @description Provides properties that describe a workspace.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,12 +61,12 @@ class Workspace implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'billable_account_id' => '?string',
-        'caller_information' => '\DocuSign\eSign\Model\WorkspaceUser',
+        'caller_information' => '\DocuSign\Model\WorkspaceUser',
         'created' => '?string',
-        'created_by_information' => '\DocuSign\eSign\Model\WorkspaceUser',
+        'created_by_information' => '\DocuSign\Model\WorkspaceUser',
         'last_modified' => '?string',
-        'last_modified_by_information' => '\DocuSign\eSign\Model\WorkspaceUser',
-        'settings' => '\DocuSign\eSign\Model\WorkspaceSettings',
+        'last_modified_by_information' => '\DocuSign\Model\WorkspaceUser',
+        'settings' => '\DocuSign\Model\WorkspaceSettings',
         'status' => '?string',
         'workspace_base_url' => '?string',
         'workspace_description' => '?string',
@@ -306,7 +306,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Gets caller_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getCallerInformation()
     {
@@ -316,7 +316,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Sets caller_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $caller_information caller_information
+     * @param \DocuSign\Model\WorkspaceUser $caller_information caller_information
      *
      * @return $this
      */
@@ -354,7 +354,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Gets created_by_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getCreatedByInformation()
     {
@@ -364,7 +364,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Sets created_by_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $created_by_information created_by_information
+     * @param \DocuSign\Model\WorkspaceUser $created_by_information created_by_information
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Gets last_modified_by_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getLastModifiedByInformation()
     {
@@ -412,7 +412,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Sets last_modified_by_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $last_modified_by_information last_modified_by_information
+     * @param \DocuSign\Model\WorkspaceUser $last_modified_by_information last_modified_by_information
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Gets settings
      *
-     * @return \DocuSign\eSign\Model\WorkspaceSettings
+     * @return \DocuSign\Model\WorkspaceSettings
      */
     public function getSettings()
     {
@@ -436,7 +436,7 @@ class Workspace implements ModelInterface, ArrayAccess
     /**
      * Sets settings
      *
-     * @param \DocuSign\eSign\Model\WorkspaceSettings $settings settings
+     * @param \DocuSign\Model\WorkspaceSettings $settings settings
      *
      * @return $this
      */

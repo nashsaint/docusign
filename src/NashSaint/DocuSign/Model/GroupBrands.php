@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,17 +27,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * GroupBrands Class Doc Comment
  *
  * @category    Class
  * @description
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class GroupBrands implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'recipient_brand_id_default' => '?string',
         'sender_brand_id_default' => '?string',
-        'brand_options' => '\DocuSign\eSign\Model\Brand[]'
+        'brand_options' => '\DocuSign\Model\Brand[]'
     ];
 
     /**
@@ -268,7 +268,7 @@ class GroupBrands implements ModelInterface, ArrayAccess
     /**
      * Gets brand_options
      *
-     * @return \DocuSign\eSign\Model\Brand[]
+     * @return \DocuSign\Model\Brand[]
      */
     public function getBrandOptions()
     {
@@ -278,7 +278,7 @@ class GroupBrands implements ModelInterface, ArrayAccess
     /**
      * Sets brand_options
      *
-     * @param \DocuSign\eSign\Model\Brand[] $brand_options The list of brands.
+     * @param \DocuSign\Model\Brand[] $brand_options The list of brands.
      *
      * @return $this
      */

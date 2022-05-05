@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentTemplate Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class DocumentTemplate implements ModelInterface, ArrayAccess
         'document_end_page' => '?string',
         'document_id' => '?string',
         'document_start_page' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'template_id' => '?string'
     ];
 
@@ -305,7 +305,7 @@ class DocumentTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -315,7 +315,7 @@ class DocumentTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */

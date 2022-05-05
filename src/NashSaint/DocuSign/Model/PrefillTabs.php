@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PrefillTabs Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,17 +59,17 @@ class PrefillTabs implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'checkbox_tabs' => '\DocuSign\eSign\Model\Checkbox[]',
-        'date_tabs' => '\DocuSign\eSign\Model\Date[]',
-        'email_tabs' => '\DocuSign\eSign\Model\Email[]',
-        'number_tabs' => '\DocuSign\eSign\Model\Number[]',
-        'radio_group_tabs' => '\DocuSign\eSign\Model\RadioGroup[]',
-        'sender_company_tabs' => '\DocuSign\eSign\Model\SenderCompany[]',
-        'sender_name_tabs' => '\DocuSign\eSign\Model\SenderName[]',
-        'ssn_tabs' => '\DocuSign\eSign\Model\Ssn[]',
-        'tab_groups' => '\DocuSign\eSign\Model\TabGroup[]',
-        'text_tabs' => '\DocuSign\eSign\Model\Text[]',
-        'zip_tabs' => '\DocuSign\eSign\Model\Zip[]'
+        'checkbox_tabs' => '\DocuSign\Model\Checkbox[]',
+        'date_tabs' => '\DocuSign\Model\Date[]',
+        'email_tabs' => '\DocuSign\Model\Email[]',
+        'number_tabs' => '\DocuSign\Model\Number[]',
+        'radio_group_tabs' => '\DocuSign\Model\RadioGroup[]',
+        'sender_company_tabs' => '\DocuSign\Model\SenderCompany[]',
+        'sender_name_tabs' => '\DocuSign\Model\SenderName[]',
+        'ssn_tabs' => '\DocuSign\Model\Ssn[]',
+        'tab_groups' => '\DocuSign\Model\TabGroup[]',
+        'text_tabs' => '\DocuSign\Model\Text[]',
+        'zip_tabs' => '\DocuSign\Model\Zip[]'
     ];
 
     /**
@@ -269,7 +269,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets checkbox_tabs
      *
-     * @return \DocuSign\eSign\Model\Checkbox[]
+     * @return \DocuSign\Model\Checkbox[]
      */
     public function getCheckboxTabs()
     {
@@ -279,7 +279,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets checkbox_tabs
      *
-     * @param \DocuSign\eSign\Model\Checkbox[] $checkbox_tabs Specifies a tag on the document in a location where the recipient can select an option.
+     * @param \DocuSign\Model\Checkbox[] $checkbox_tabs Specifies a tag on the document in a location where the recipient can select an option.
      *
      * @return $this
      */
@@ -293,7 +293,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets date_tabs
      *
-     * @return \DocuSign\eSign\Model\Date[]
+     * @return \DocuSign\Model\Date[]
      */
     public function getDateTabs()
     {
@@ -303,7 +303,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets date_tabs
      *
-     * @param \DocuSign\eSign\Model\Date[] $date_tabs Specifies a tab on the document where you want the recipient to enter a date. Date tabs are single-line fields that allow date information to be entered in any format. The tooltip for this tab recommends entering the date as MM/DD/YYYY, but this is not enforced. The format entered by the signer is retained.   If you need a particular date format enforced, DocuSign recommends using a Text tab with a Validation Pattern and Validation Message to enforce the format.
+     * @param \DocuSign\Model\Date[] $date_tabs Specifies a tab on the document where you want the recipient to enter a date. Date tabs are single-line fields that allow date information to be entered in any format. The tooltip for this tab recommends entering the date as MM/DD/YYYY, but this is not enforced. The format entered by the signer is retained.   If you need a particular date format enforced, DocuSign recommends using a Text tab with a Validation Pattern and Validation Message to enforce the format.
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets email_tabs
      *
-     * @return \DocuSign\eSign\Model\Email[]
+     * @return \DocuSign\Model\Email[]
      */
     public function getEmailTabs()
     {
@@ -327,7 +327,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets email_tabs
      *
-     * @param \DocuSign\eSign\Model\Email[] $email_tabs Specifies a tag on the document where you want the recipient to enter an email. Email tags are single-line fields that accept any characters. The system checks that a valid email format (i.e. xxx@yyy.zzz) is entered in the tag. It uses the same parameters as a Text tab, with the validation message and pattern set for email information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Email[] $email_tabs Specifies a tag on the document where you want the recipient to enter an email. Email tags are single-line fields that accept any characters. The system checks that a valid email format (i.e. xxx@yyy.zzz) is entered in the tag. It uses the same parameters as a Text tab, with the validation message and pattern set for email information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets number_tabs
      *
-     * @return \DocuSign\eSign\Model\Number[]
+     * @return \DocuSign\Model\Number[]
      */
     public function getNumberTabs()
     {
@@ -351,7 +351,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets number_tabs
      *
-     * @param \DocuSign\eSign\Model\Number[] $number_tabs Specifies a tag on the document where you want the recipient to enter a number. It uses the same parameters as a Text tab, with the validation message and pattern set for number information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Number[] $number_tabs Specifies a tag on the document where you want the recipient to enter a number. It uses the same parameters as a Text tab, with the validation message and pattern set for number information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets radio_group_tabs
      *
-     * @return \DocuSign\eSign\Model\RadioGroup[]
+     * @return \DocuSign\Model\RadioGroup[]
      */
     public function getRadioGroupTabs()
     {
@@ -375,7 +375,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets radio_group_tabs
      *
-     * @param \DocuSign\eSign\Model\RadioGroup[] $radio_group_tabs Specifies a tag on the document in a location where the recipient can select one option from a group of options using a radio button. The radio buttons do not have to be on the same page in a document.
+     * @param \DocuSign\Model\RadioGroup[] $radio_group_tabs Specifies a tag on the document in a location where the recipient can select one option from a group of options using a radio button. The radio buttons do not have to be on the same page in a document.
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets sender_company_tabs
      *
-     * @return \DocuSign\eSign\Model\SenderCompany[]
+     * @return \DocuSign\Model\SenderCompany[]
      */
     public function getSenderCompanyTabs()
     {
@@ -399,7 +399,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets sender_company_tabs
      *
-     * @param \DocuSign\eSign\Model\SenderCompany[] $sender_company_tabs
+     * @param \DocuSign\Model\SenderCompany[] $sender_company_tabs
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets sender_name_tabs
      *
-     * @return \DocuSign\eSign\Model\SenderName[]
+     * @return \DocuSign\Model\SenderName[]
      */
     public function getSenderNameTabs()
     {
@@ -423,7 +423,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets sender_name_tabs
      *
-     * @param \DocuSign\eSign\Model\SenderName[] $sender_name_tabs
+     * @param \DocuSign\Model\SenderName[] $sender_name_tabs
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets ssn_tabs
      *
-     * @return \DocuSign\eSign\Model\Ssn[]
+     * @return \DocuSign\Model\Ssn[]
      */
     public function getSsnTabs()
     {
@@ -447,7 +447,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets ssn_tabs
      *
-     * @param \DocuSign\eSign\Model\Ssn[] $ssn_tabs Specifies a tag on the document where you want the recipient to enter a Social Security Number (SSN). A SSN can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for SSN information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Ssn[] $ssn_tabs Specifies a tag on the document where you want the recipient to enter a Social Security Number (SSN). A SSN can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for SSN information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets tab_groups
      *
-     * @return \DocuSign\eSign\Model\TabGroup[]
+     * @return \DocuSign\Model\TabGroup[]
      */
     public function getTabGroups()
     {
@@ -471,7 +471,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets tab_groups
      *
-     * @param \DocuSign\eSign\Model\TabGroup[] $tab_groups
+     * @param \DocuSign\Model\TabGroup[] $tab_groups
      *
      * @return $this
      */
@@ -485,7 +485,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets text_tabs
      *
-     * @return \DocuSign\eSign\Model\Text[]
+     * @return \DocuSign\Model\Text[]
      */
     public function getTextTabs()
     {
@@ -495,7 +495,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets text_tabs
      *
-     * @param \DocuSign\eSign\Model\Text[] $text_tabs Specifies a that that is an adaptable field that allows the recipient to enter different text information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Text[] $text_tabs Specifies a that that is an adaptable field that allows the recipient to enter different text information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Gets zip_tabs
      *
-     * @return \DocuSign\eSign\Model\Zip[]
+     * @return \DocuSign\Model\Zip[]
      */
     public function getZipTabs()
     {
@@ -519,7 +519,7 @@ class PrefillTabs implements ModelInterface, ArrayAccess
     /**
      * Sets zip_tabs
      *
-     * @param \DocuSign\eSign\Model\Zip[] $zip_tabs Specifies a tag on the document where you want the recipient to enter a ZIP code. The ZIP code can be a five numbers or the ZIP+4 format with nine numbers. The zip code can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for ZIP code information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
+     * @param \DocuSign\Model\Zip[] $zip_tabs Specifies a tag on the document where you want the recipient to enter a ZIP code. The ZIP code can be a five numbers or the ZIP+4 format with nine numbers. The zip code can be typed with or without dashes. It uses the same parameters as a Text tab, with the validation message and pattern set for ZIP code information.  When getting information that includes this tab type, the original value of the tab when the associated envelope was sent is included in the response.
      *
      * @return $this
      */

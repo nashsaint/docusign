@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserPasswordRules Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class UserPasswordRules implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'password_rules' => '\DocuSign\eSign\Model\AccountPasswordRules',
+        'password_rules' => '\DocuSign\Model\AccountPasswordRules',
         'user_id' => '?string'
     ];
 
@@ -215,7 +215,7 @@ class UserPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets password_rules
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordRules
+     * @return \DocuSign\Model\AccountPasswordRules
      */
     public function getPasswordRules()
     {
@@ -225,7 +225,7 @@ class UserPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets password_rules
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordRules $password_rules password_rules
+     * @param \DocuSign\Model\AccountPasswordRules $password_rules password_rules
      *
      * @return $this
      */

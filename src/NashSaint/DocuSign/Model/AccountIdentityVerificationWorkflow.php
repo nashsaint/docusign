@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountIdentityVerificationWorkflow Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'default_description' => '?string',
         'default_name' => '?string',
-        'input_options' => '\DocuSign\eSign\Model\AccountIdentityInputOption[]',
-        'signature_provider' => '\DocuSign\eSign\Model\AccountSignatureProvider',
-        'steps' => '\DocuSign\eSign\Model\AccountIdentityVerificationStep[]',
+        'input_options' => '\DocuSign\Model\AccountIdentityInputOption[]',
+        'signature_provider' => '\DocuSign\Model\AccountSignatureProvider',
+        'steps' => '\DocuSign\Model\AccountIdentityVerificationStep[]',
         'workflow_id' => '?string',
         'workflow_resource_key' => '?string'
     ];
@@ -293,7 +293,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Gets input_options
      *
-     * @return \DocuSign\eSign\Model\AccountIdentityInputOption[]
+     * @return \DocuSign\Model\AccountIdentityInputOption[]
      */
     public function getInputOptions()
     {
@@ -303,7 +303,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Sets input_options
      *
-     * @param \DocuSign\eSign\Model\AccountIdentityInputOption[] $input_options
+     * @param \DocuSign\Model\AccountIdentityInputOption[] $input_options
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider
      *
-     * @return \DocuSign\eSign\Model\AccountSignatureProvider
+     * @return \DocuSign\Model\AccountSignatureProvider
      */
     public function getSignatureProvider()
     {
@@ -327,7 +327,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider
      *
-     * @param \DocuSign\eSign\Model\AccountSignatureProvider $signature_provider signature_provider
+     * @param \DocuSign\Model\AccountSignatureProvider $signature_provider signature_provider
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Gets steps
      *
-     * @return \DocuSign\eSign\Model\AccountIdentityVerificationStep[]
+     * @return \DocuSign\Model\AccountIdentityVerificationStep[]
      */
     public function getSteps()
     {
@@ -351,7 +351,7 @@ class AccountIdentityVerificationWorkflow implements ModelInterface, ArrayAccess
     /**
      * Sets steps
      *
-     * @param \DocuSign\eSign\Model\AccountIdentityVerificationStep[] $steps
+     * @param \DocuSign\Model\AccountIdentityVerificationStep[] $steps
      *
      * @return $this
      */

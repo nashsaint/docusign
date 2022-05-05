@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PermissionProfileInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class PermissionProfileInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'permission_profiles' => '\DocuSign\eSign\Model\PermissionProfile[]'
+        'permission_profiles' => '\DocuSign\Model\PermissionProfile[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class PermissionProfileInformation implements ModelInterface, ArrayAccess
     /**
      * Gets permission_profiles
      *
-     * @return \DocuSign\eSign\Model\PermissionProfile[]
+     * @return \DocuSign\Model\PermissionProfile[]
      */
     public function getPermissionProfiles()
     {
@@ -219,7 +219,7 @@ class PermissionProfileInformation implements ModelInterface, ArrayAccess
     /**
      * Sets permission_profiles
      *
-     * @param \DocuSign\eSign\Model\PermissionProfile[] $permission_profiles A complex type containing a collection of permission profiles.
+     * @param \DocuSign\Model\PermissionProfile[] $permission_profiles A complex type containing a collection of permission profiles.
      *
      * @return $this
      */

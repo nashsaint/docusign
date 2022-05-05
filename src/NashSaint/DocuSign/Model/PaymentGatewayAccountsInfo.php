@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PaymentGatewayAccountsInfo Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class PaymentGatewayAccountsInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'payment_gateway_accounts' => '\DocuSign\eSign\Model\PaymentGatewayAccount[]'
+        'payment_gateway_accounts' => '\DocuSign\Model\PaymentGatewayAccount[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class PaymentGatewayAccountsInfo implements ModelInterface, ArrayAccess
     /**
      * Gets payment_gateway_accounts
      *
-     * @return \DocuSign\eSign\Model\PaymentGatewayAccount[]
+     * @return \DocuSign\Model\PaymentGatewayAccount[]
      */
     public function getPaymentGatewayAccounts()
     {
@@ -219,7 +219,7 @@ class PaymentGatewayAccountsInfo implements ModelInterface, ArrayAccess
     /**
      * Sets payment_gateway_accounts
      *
-     * @param \DocuSign\eSign\Model\PaymentGatewayAccount[] $payment_gateway_accounts
+     * @param \DocuSign\Model\PaymentGatewayAccount[] $payment_gateway_accounts
      *
      * @return $this
      */

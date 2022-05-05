@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConnectLogs Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class ConnectLogs implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'failures' => '\DocuSign\eSign\Model\ConnectLog[]',
-        'logs' => '\DocuSign\eSign\Model\ConnectLog[]',
+        'failures' => '\DocuSign\Model\ConnectLog[]',
+        'logs' => '\DocuSign\Model\ConnectLog[]',
         'total_records' => '?string',
         'type' => '?string'
     ];
@@ -227,7 +227,7 @@ class ConnectLogs implements ModelInterface, ArrayAccess
     /**
      * Gets failures
      *
-     * @return \DocuSign\eSign\Model\ConnectLog[]
+     * @return \DocuSign\Model\ConnectLog[]
      */
     public function getFailures()
     {
@@ -237,7 +237,7 @@ class ConnectLogs implements ModelInterface, ArrayAccess
     /**
      * Sets failures
      *
-     * @param \DocuSign\eSign\Model\ConnectLog[] $failures An array of containing failure information from the Connect failure log.
+     * @param \DocuSign\Model\ConnectLog[] $failures An array of containing failure information from the Connect failure log.
      *
      * @return $this
      */
@@ -251,7 +251,7 @@ class ConnectLogs implements ModelInterface, ArrayAccess
     /**
      * Gets logs
      *
-     * @return \DocuSign\eSign\Model\ConnectLog[]
+     * @return \DocuSign\Model\ConnectLog[]
      */
     public function getLogs()
     {
@@ -261,7 +261,7 @@ class ConnectLogs implements ModelInterface, ArrayAccess
     /**
      * Sets logs
      *
-     * @param \DocuSign\eSign\Model\ConnectLog[] $logs A complex type containing Connect log information. It is divided into two sections, one for regular logs and one for Connect failures.
+     * @param \DocuSign\Model\ConnectLog[] $logs A complex type containing Connect log information. It is divided into two sections, one for regular logs and one for Connect failures.
      *
      * @return $this
      */

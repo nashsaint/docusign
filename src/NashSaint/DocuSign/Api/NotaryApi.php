@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\NotaryApi;
+namespace NashSaint\DocuSign\Api\NotaryApi;
 
 
 /**
  * GetNotaryOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -78,7 +78,7 @@ class GetNotaryOptions
  * ListNotaryJournalsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -170,18 +170,18 @@ class ListNotaryJournalsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -254,10 +254,10 @@ class NotaryApi
      *
      * Add a notary to the system
      *
-     * @param \DocuSign\eSign\Model\Notary $notary  (optional)
+     * @param \DocuSign\Model\Notary $notary  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notary
+     * @return \DocuSign\Model\Notary
      */
     public function createNotary($notary = null)
     {
@@ -270,10 +270,10 @@ class NotaryApi
      *
      * Add a notary to the system
      *
-     * @param \DocuSign\eSign\Model\Notary $notary  (optional)
+     * @param \DocuSign\Model\Notary $notary  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notary, HTTP status code, HTTP response headers (array of strings)
      */
     public function createNotaryWithHttpInfo($notary = null): array
     {
@@ -312,19 +312,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notary',
+                '\DocuSign\Model\Notary',
                 '/v2.1/current_user/notary'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -338,10 +338,10 @@ class NotaryApi
      *
      * Add a notary jurisdiction to the system
      *
-     * @param \DocuSign\eSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
+     * @param \DocuSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryJurisdiction
+     * @return \DocuSign\Model\NotaryJurisdiction
      */
     public function createNotaryJurisdictions($notary_jurisdiction = null)
     {
@@ -354,10 +354,10 @@ class NotaryApi
      *
      * Add a notary jurisdiction to the system
      *
-     * @param \DocuSign\eSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
+     * @param \DocuSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
      */
     public function createNotaryJurisdictionsWithHttpInfo($notary_jurisdiction = null): array
     {
@@ -396,19 +396,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryJurisdiction',
+                '\DocuSign\Model\NotaryJurisdiction',
                 '/v2.1/current_user/notary/jurisdictions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -491,7 +491,7 @@ class NotaryApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -505,12 +505,12 @@ class NotaryApi
      *
      * Get notary settings for a user
      *
-     * @param  \DocuSign\eSign\Api\NotaryApi\GetNotaryOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\NotaryApi\GetNotaryOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryResult
+     * @return \DocuSign\Model\NotaryResult
      */
-    public function getNotary(\DocuSign\eSign\Api\NotaryApi\GetNotaryOptions $options = null)
+    public function getNotary(\DocuSign\Api\NotaryApi\GetNotaryOptions $options = null)
     {
         list($response) = $this->getNotaryWithHttpInfo($options);
         return $response;
@@ -521,12 +521,12 @@ class NotaryApi
      *
      * Get notary settings for a user
      *
-     * @param  \DocuSign\eSign\Api\NotaryApi\GetNotaryOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\NotaryApi\GetNotaryOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryResult, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getNotaryWithHttpInfo(\DocuSign\eSign\Api\NotaryApi\GetNotaryOptions $options = null): array
+    public function getNotaryWithHttpInfo(\DocuSign\Api\NotaryApi\GetNotaryOptions $options = null): array
     {
         // parse inputs
         $resourcePath = "/v2.1/current_user/notary";
@@ -565,19 +565,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryResult',
+                '\DocuSign\Model\NotaryResult',
                 '/v2.1/current_user/notary'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -594,7 +594,7 @@ class NotaryApi
      * @param ?string $jurisdiction_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryJurisdiction
+     * @return \DocuSign\Model\NotaryJurisdiction
      */
     public function getNotaryJurisdiction($jurisdiction_id)
     {
@@ -610,7 +610,7 @@ class NotaryApi
      * @param ?string $jurisdiction_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNotaryJurisdictionWithHttpInfo($jurisdiction_id): array
     {
@@ -652,19 +652,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryJurisdiction',
+                '\DocuSign\Model\NotaryJurisdiction',
                 '/v2.1/current_user/notary/jurisdictions/{jurisdictionId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -747,7 +747,7 @@ class NotaryApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -763,7 +763,7 @@ class NotaryApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryJurisdictionList
+     * @return \DocuSign\Model\NotaryJurisdictionList
      */
     public function getNotaryJurisdictions()
     {
@@ -778,7 +778,7 @@ class NotaryApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryJurisdictionList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryJurisdictionList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNotaryJurisdictionsWithHttpInfo(): array
     {
@@ -812,19 +812,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryJurisdictionList',
+                '\DocuSign\Model\NotaryJurisdictionList',
                 '/v2.1/current_user/notary/jurisdictions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryJurisdictionList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryJurisdictionList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryJurisdictionList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryJurisdictionList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -838,12 +838,12 @@ class NotaryApi
      *
      * Get notary jurisdictions for a user
      *
-     * @param  \DocuSign\eSign\Api\NotaryApi\ListNotaryJournalsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\NotaryApi\ListNotaryJournalsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryJournalList
+     * @return \DocuSign\Model\NotaryJournalList
      */
-    public function listNotaryJournals(\DocuSign\eSign\Api\NotaryApi\ListNotaryJournalsOptions $options = null)
+    public function listNotaryJournals(\DocuSign\Api\NotaryApi\ListNotaryJournalsOptions $options = null)
     {
         list($response) = $this->listNotaryJournalsWithHttpInfo($options);
         return $response;
@@ -854,12 +854,12 @@ class NotaryApi
      *
      * Get notary jurisdictions for a user
      *
-     * @param  \DocuSign\eSign\Api\NotaryApi\ListNotaryJournalsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\NotaryApi\ListNotaryJournalsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryJournalList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryJournalList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listNotaryJournalsWithHttpInfo(\DocuSign\eSign\Api\NotaryApi\ListNotaryJournalsOptions $options = null): array
+    public function listNotaryJournalsWithHttpInfo(\DocuSign\Api\NotaryApi\ListNotaryJournalsOptions $options = null): array
     {
         // parse inputs
         $resourcePath = "/v2.1/current_user/notary/journals";
@@ -904,19 +904,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryJournalList',
+                '\DocuSign\Model\NotaryJournalList',
                 '/v2.1/current_user/notary/journals'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryJournalList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryJournalList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryJournalList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryJournalList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -930,10 +930,10 @@ class NotaryApi
      *
      * Update a notary
      *
-     * @param \DocuSign\eSign\Model\Notary $notary  (optional)
+     * @param \DocuSign\Model\Notary $notary  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notary
+     * @return \DocuSign\Model\Notary
      */
     public function updateNotary($notary = null)
     {
@@ -946,10 +946,10 @@ class NotaryApi
      *
      * Update a notary
      *
-     * @param \DocuSign\eSign\Model\Notary $notary  (optional)
+     * @param \DocuSign\Model\Notary $notary  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notary, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNotaryWithHttpInfo($notary = null): array
     {
@@ -988,19 +988,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notary',
+                '\DocuSign\Model\Notary',
                 '/v2.1/current_user/notary'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1015,10 +1015,10 @@ class NotaryApi
      * Update a notary jurisdiction
      *
      * @param ?string $jurisdiction_id
-     * @param \DocuSign\eSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
+     * @param \DocuSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\NotaryJurisdiction
+     * @return \DocuSign\Model\NotaryJurisdiction
      */
     public function updateNotaryJurisdiction($jurisdiction_id, $notary_jurisdiction = null)
     {
@@ -1032,10 +1032,10 @@ class NotaryApi
      * Update a notary jurisdiction
      *
      * @param ?string $jurisdiction_id
-     * @param \DocuSign\eSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
+     * @param \DocuSign\Model\NotaryJurisdiction $notary_jurisdiction  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\NotaryJurisdiction, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNotaryJurisdictionWithHttpInfo($jurisdiction_id, $notary_jurisdiction = null): array
     {
@@ -1082,19 +1082,19 @@ class NotaryApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\NotaryJurisdiction',
+                '\DocuSign\Model\NotaryJurisdiction',
                 '/v2.1/current_user/notary/jurisdictions/{jurisdictionId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\NotaryJurisdiction', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\NotaryJurisdiction', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

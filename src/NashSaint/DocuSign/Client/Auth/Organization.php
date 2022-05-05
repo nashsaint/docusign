@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Client\Auth;
+namespace NashSaint\DocuSign\Client\Auth;
 
 use \ArrayAccess;
 
@@ -36,7 +36,7 @@ use \ArrayAccess;
  *
  * @category    Class
  * @description Contains account Information.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -50,7 +50,7 @@ class Organization implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'organization_id' => 'string',
-        'links' => '\DocuSign\eSign\Client\Auth\Link[]',
+        'links' => '\DocuSign\Client\Auth\Link[]',
     ];
 
     public static function swaggerTypes()
@@ -250,10 +250,10 @@ class Organization implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

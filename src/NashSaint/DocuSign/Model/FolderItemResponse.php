@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FolderItemResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class FolderItemResponse implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'end_position' => '?string',
-        'folder_items' => '\DocuSign\eSign\Model\FolderItemV2[]',
+        'folder_items' => '\DocuSign\Model\FolderItemV2[]',
         'next_uri' => '?string',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
@@ -269,7 +269,7 @@ class FolderItemResponse implements ModelInterface, ArrayAccess
     /**
      * Gets folder_items
      *
-     * @return \DocuSign\eSign\Model\FolderItemV2[]
+     * @return \DocuSign\Model\FolderItemV2[]
      */
     public function getFolderItems()
     {
@@ -279,7 +279,7 @@ class FolderItemResponse implements ModelInterface, ArrayAccess
     /**
      * Sets folder_items
      *
-     * @param \DocuSign\eSign\Model\FolderItemV2[] $folder_items A list of the envelopes in the specified folder or folders.
+     * @param \DocuSign\Model\FolderItemV2[] $folder_items A list of the envelopes in the specified folder or folders.
      *
      * @return $this
      */

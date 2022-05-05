@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EmailSettings Class Doc Comment
  *
  * @category    Class
  * @description A complex element that allows  the sender to override some envelope email setting information. This can be used to override the Reply To email address and name associated with the envelope and to override the BCC email addresses to which an envelope is sent.   When the emailSettings information is used for an envelope, it only applies to that envelope.   **IMPORTANT**: The emailSettings information is not returned in the GET for envelope status. Use GET /email_settings to return information about the emailSettings.   EmailSettings consists of:   * replyEmailAddressOverride - The Reply To email used for the envelope. DocuSign will verify that a correct email format is used, but does not verify that the email is active. Maximum Length: 100 characters. * replyEmailNameOverride - The name associated with the Reply To email address. Maximum Length: 100 characters. * bccEmailAddresses - An array of up to five email addresses to which the envelope is sent to as a BCC email. Only users with canManageAccount setting set to true can use this option.  DocuSign verifies that the email format is correct, but does not verify that the email is active. Using this overrides the BCC for Email Archive information setting for this envelope. Maximum Length: 100 characters. *Example*: if your account has BCC for Email Archive set up for the email address &#39;archive@mycompany.com&#39; and you send an envelope using the BCC Email Override to send a BCC email to &#39;salesarchive@mycompany.com&#39;, then a copy of the envelope is only sent to the &#39;salesarchive@mycompany.com&#39; email address.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class EmailSettings implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bcc_email_addresses' => '\DocuSign\eSign\Model\BccEmailAddress[]',
+        'bcc_email_addresses' => '\DocuSign\Model\BccEmailAddress[]',
         'reply_email_address_override' => '?string',
         'reply_email_name_override' => '?string'
     ];
@@ -222,7 +222,7 @@ class EmailSettings implements ModelInterface, ArrayAccess
     /**
      * Gets bcc_email_addresses
      *
-     * @return \DocuSign\eSign\Model\BccEmailAddress[]
+     * @return \DocuSign\Model\BccEmailAddress[]
      */
     public function getBccEmailAddresses()
     {
@@ -232,7 +232,7 @@ class EmailSettings implements ModelInterface, ArrayAccess
     /**
      * Sets bcc_email_addresses
      *
-     * @param \DocuSign\eSign\Model\BccEmailAddress[] $bcc_email_addresses A list of email addresses that receive a copy of all email communications for an envelope. You can use this for archiving purposes.
+     * @param \DocuSign\Model\BccEmailAddress[] $bcc_email_addresses A list of email addresses that receive a copy of all email communications for an envelope. You can use this for archiving purposes.
      *
      * @return $this
      */

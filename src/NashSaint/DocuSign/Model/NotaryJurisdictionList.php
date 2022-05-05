@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryJurisdictionList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class NotaryJurisdictionList implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'end_position' => '?string',
         'next_uri' => '?string',
-        'notary_jurisdictions' => '\DocuSign\eSign\Model\NotaryJurisdiction[]',
+        'notary_jurisdictions' => '\DocuSign\Model\NotaryJurisdiction[]',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
         'start_position' => '?string',
@@ -293,7 +293,7 @@ class NotaryJurisdictionList implements ModelInterface, ArrayAccess
     /**
      * Gets notary_jurisdictions
      *
-     * @return \DocuSign\eSign\Model\NotaryJurisdiction[]
+     * @return \DocuSign\Model\NotaryJurisdiction[]
      */
     public function getNotaryJurisdictions()
     {
@@ -303,7 +303,7 @@ class NotaryJurisdictionList implements ModelInterface, ArrayAccess
     /**
      * Sets notary_jurisdictions
      *
-     * @param \DocuSign\eSign\Model\NotaryJurisdiction[] $notary_jurisdictions
+     * @param \DocuSign\Model\NotaryJurisdiction[] $notary_jurisdictions
      *
      * @return $this
      */

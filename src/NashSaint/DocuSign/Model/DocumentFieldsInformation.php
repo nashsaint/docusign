@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentFieldsInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class DocumentFieldsInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_fields' => '\DocuSign\eSign\Model\NameValue[]'
+        'document_fields' => '\DocuSign\Model\NameValue[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class DocumentFieldsInformation implements ModelInterface, ArrayAccess
     /**
      * Gets document_fields
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getDocumentFields()
     {
@@ -219,7 +219,7 @@ class DocumentFieldsInformation implements ModelInterface, ArrayAccess
     /**
      * Sets document_fields
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $document_fields The array of name/value custom data strings to be added to a document. Custom document field information is returned in the status, but otherwise is not used by DocuSign. The array contains the elements:   * name - A string that can be a maximum of 50 characters.  * value - A string that can be a maximum of 200 characters.  *IMPORTANT*: If you are using xml, the name/value pair is contained in a nameValue element.
+     * @param \DocuSign\Model\NameValue[] $document_fields The array of name/value custom data strings to be added to a document. Custom document field information is returned in the status, but otherwise is not used by DocuSign. The array contains the elements:   * name - A string that can be a maximum of 50 characters.  * value - A string that can be a maximum of 200 characters.  *IMPORTANT*: If you are using xml, the name/value pair is contained in a nameValue element.
      *
      * @return $this
      */

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\EnvelopesApi;
+namespace NashSaint\DocuSign\Api\EnvelopesApi;
 
 
 /**
  * ApplyTemplateOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -78,7 +78,7 @@ class ApplyTemplateOptions
  * ApplyTemplateToDocumentOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -119,7 +119,7 @@ class ApplyTemplateToDocumentOptions
  * CreateEnvelopeOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -268,7 +268,7 @@ class CreateEnvelopeOptions
  * CreateRecipientOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -309,7 +309,7 @@ class CreateRecipientOptions
  * GetChunkedUploadOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -350,7 +350,7 @@ class GetChunkedUploadOptions
  * GetCommentsTranscriptOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -391,7 +391,7 @@ class GetCommentsTranscriptOptions
  * GetConsumerDisclosureOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -432,7 +432,7 @@ class GetConsumerDisclosureOptions
  * GetConsumerDisclosureDefaultOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -473,7 +473,7 @@ class GetConsumerDisclosureDefaultOptions
  * GetDocumentOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -730,7 +730,7 @@ class GetDocumentOptions
  * GetDocumentPageImageOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -852,7 +852,7 @@ class GetDocumentPageImageOptions
  * GetDocumentTabsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -920,7 +920,7 @@ class GetDocumentTabsOptions
  * GetEnvelopeOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -988,7 +988,7 @@ class GetEnvelopeOptions
  * GetEnvelopeTransferRulesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1056,7 +1056,7 @@ class GetEnvelopeTransferRulesOptions
  * GetPagesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1259,7 +1259,7 @@ class GetPagesOptions
  * GetRecipientInitialsImageOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1300,7 +1300,7 @@ class GetRecipientInitialsImageOptions
  * GetRecipientSignatureImageOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1341,7 +1341,7 @@ class GetRecipientSignatureImageOptions
  * ListDocumentsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1517,7 +1517,7 @@ class ListDocumentsOptions
  * ListRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1639,7 +1639,7 @@ class ListRecipientsOptions
  * ListStatusOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1977,7 +1977,7 @@ class ListStatusOptions
  * ListStatusChangesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -2801,7 +2801,7 @@ class ListStatusChangesOptions
  * ListTabsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -2869,7 +2869,7 @@ class ListTabsOptions
  * ListTemplatesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -2910,7 +2910,7 @@ class ListTemplatesOptions
  * ListTemplatesForDocumentOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -2951,7 +2951,7 @@ class ListTemplatesForDocumentOptions
  * UpdateOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -3019,7 +3019,7 @@ class UpdateOptions
  * UpdateChunkedUploadOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -3060,7 +3060,7 @@ class UpdateChunkedUploadOptions
  * UpdateRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -3152,18 +3152,18 @@ class UpdateRecipientsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopesApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -3238,13 +3238,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentTemplateList $document_template_list  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\DocumentTemplateList $document_template_list  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ApplyTemplateOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentTemplateList
+     * @return \DocuSign\Model\DocumentTemplateList
      */
-    public function applyTemplate($account_id, $envelope_id, $document_template_list = null, \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateOptions $options = null)
+    public function applyTemplate($account_id, $envelope_id, $document_template_list = null, \DocuSign\Api\EnvelopesApi\ApplyTemplateOptions $options = null)
     {
         list($response) = $this->applyTemplateWithHttpInfo($account_id, $envelope_id, $document_template_list, $options);
         return $response;
@@ -3257,13 +3257,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentTemplateList $document_template_list  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\DocumentTemplateList $document_template_list  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ApplyTemplateOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentTemplateList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentTemplateList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function applyTemplateWithHttpInfo($account_id, $envelope_id, $document_template_list = null, \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateOptions $options = null): array
+    public function applyTemplateWithHttpInfo($account_id, $envelope_id, $document_template_list = null, \DocuSign\Api\EnvelopesApi\ApplyTemplateOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -3323,19 +3323,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentTemplateList',
+                '\DocuSign\Model\DocumentTemplateList',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentTemplateList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentTemplateList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentTemplateList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentTemplateList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3352,13 +3352,13 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentTemplateList $document_template_list  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\DocumentTemplateList $document_template_list  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentTemplateList
+     * @return \DocuSign\Model\DocumentTemplateList
      */
-    public function applyTemplateToDocument($account_id, $document_id, $envelope_id, $document_template_list = null, \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions $options = null)
+    public function applyTemplateToDocument($account_id, $document_id, $envelope_id, $document_template_list = null, \DocuSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions $options = null)
     {
         list($response) = $this->applyTemplateToDocumentWithHttpInfo($account_id, $document_id, $envelope_id, $document_template_list, $options);
         return $response;
@@ -3372,13 +3372,13 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentTemplateList $document_template_list  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\DocumentTemplateList $document_template_list  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentTemplateList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentTemplateList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function applyTemplateToDocumentWithHttpInfo($account_id, $document_id, $envelope_id, $document_template_list = null, \DocuSign\eSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions $options = null): array
+    public function applyTemplateToDocumentWithHttpInfo($account_id, $document_id, $envelope_id, $document_template_list = null, \DocuSign\Api\EnvelopesApi\ApplyTemplateToDocumentOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -3446,19 +3446,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentTemplateList',
+                '\DocuSign\Model\DocumentTemplateList',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentTemplateList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentTemplateList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentTemplateList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentTemplateList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3473,10 +3473,10 @@ class EnvelopesApi
      * Initiate a new ChunkedUpload.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
+     * @param \DocuSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ChunkedUploadResponse
+     * @return \DocuSign\Model\ChunkedUploadResponse
      */
     public function createChunkedUpload($account_id, $chunked_upload_request = null)
     {
@@ -3490,10 +3490,10 @@ class EnvelopesApi
      * Initiate a new ChunkedUpload.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
+     * @param \DocuSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createChunkedUploadWithHttpInfo($account_id, $chunked_upload_request = null): array
     {
@@ -3540,19 +3540,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ChunkedUploadResponse',
+                '\DocuSign\Model\ChunkedUploadResponse',
                 '/v2.1/accounts/{accountId}/chunked_uploads'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3567,10 +3567,10 @@ class EnvelopesApi
      * Returns a URL to the authentication view UI.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\ConsoleViewRequest $console_view_request  (optional)
+     * @param \DocuSign\Model\ConsoleViewRequest $console_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createConsoleView($account_id, $console_view_request = null)
     {
@@ -3584,10 +3584,10 @@ class EnvelopesApi
      * Returns a URL to the authentication view UI.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\ConsoleViewRequest $console_view_request  (optional)
+     * @param \DocuSign\Model\ConsoleViewRequest $console_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createConsoleViewWithHttpInfo($account_id, $console_view_request = null): array
     {
@@ -3634,19 +3634,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/views/console'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3662,10 +3662,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CorrectViewRequest $correct_view_request  (optional)
+     * @param \DocuSign\Model\CorrectViewRequest $correct_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createCorrectView($account_id, $envelope_id, $correct_view_request = null)
     {
@@ -3680,10 +3680,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CorrectViewRequest $correct_view_request  (optional)
+     * @param \DocuSign\Model\CorrectViewRequest $correct_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCorrectViewWithHttpInfo($account_id, $envelope_id, $correct_view_request = null): array
     {
@@ -3738,19 +3738,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/correct'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3766,10 +3766,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function createCustomFields($account_id, $envelope_id, $custom_fields = null)
     {
@@ -3784,10 +3784,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCustomFieldsWithHttpInfo($account_id, $envelope_id, $custom_fields = null): array
     {
@@ -3842,19 +3842,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3871,10 +3871,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function createDocumentFields($account_id, $document_id, $envelope_id, $document_fields_information = null)
     {
@@ -3890,10 +3890,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createDocumentFieldsWithHttpInfo($account_id, $document_id, $envelope_id, $document_fields_information = null): array
     {
@@ -3956,19 +3956,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3985,10 +3985,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitions
+     * @return \DocuSign\Model\DocumentHtmlDefinitions
      */
     public function createDocumentResponsiveHtmlPreview($account_id, $document_id, $envelope_id, $document_html_definition = null)
     {
@@ -4004,10 +4004,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
      */
     public function createDocumentResponsiveHtmlPreviewWithHttpInfo($account_id, $document_id, $envelope_id, $document_html_definition = null): array
     {
@@ -4070,19 +4070,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitions',
+                '\DocuSign\Model\DocumentHtmlDefinitions',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/responsive_html_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4099,10 +4099,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function createDocumentTabs($account_id, $document_id, $envelope_id, $tabs = null)
     {
@@ -4118,10 +4118,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function createDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, $tabs = null): array
     {
@@ -4184,19 +4184,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4212,10 +4212,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createEditView($account_id, $envelope_id, $return_url_request = null)
     {
@@ -4230,10 +4230,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEditViewWithHttpInfo($account_id, $envelope_id, $return_url_request = null): array
     {
@@ -4288,19 +4288,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/edit'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4316,10 +4316,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings  (optional)
+     * @param \DocuSign\Model\EmailSettings $email_settings  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function createEmailSettings($account_id, $envelope_id, $email_settings = null)
     {
@@ -4334,10 +4334,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings  (optional)
+     * @param \DocuSign\Model\EmailSettings $email_settings  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEmailSettingsWithHttpInfo($account_id, $envelope_id, $email_settings = null): array
     {
@@ -4392,19 +4392,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EmailSettings',
+                '\DocuSign\Model\EmailSettings',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/email_settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EmailSettings', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EmailSettings', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4419,13 +4419,13 @@ class EnvelopesApi
      * Creates an envelope.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\CreateEnvelopeOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\CreateEnvelopeOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeSummary
+     * @return \DocuSign\Model\EnvelopeSummary
      */
-    public function createEnvelope($account_id, $envelope_definition = null, \DocuSign\eSign\Api\EnvelopesApi\CreateEnvelopeOptions $options = null)
+    public function createEnvelope($account_id, $envelope_definition = null, \DocuSign\Api\EnvelopesApi\CreateEnvelopeOptions $options = null)
     {
         list($response) = $this->createEnvelopeWithHttpInfo($account_id, $envelope_definition, $options);
         return $response;
@@ -4437,13 +4437,13 @@ class EnvelopesApi
      * Creates an envelope.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\CreateEnvelopeOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\CreateEnvelopeOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeSummary, HTTP status code, HTTP response headers (array of strings)
      */
-    public function createEnvelopeWithHttpInfo($account_id, $envelope_definition = null, \DocuSign\eSign\Api\EnvelopesApi\CreateEnvelopeOptions $options = null): array
+    public function createEnvelopeWithHttpInfo($account_id, $envelope_definition = null, \DocuSign\Api\EnvelopesApi\CreateEnvelopeOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4507,19 +4507,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeSummary',
+                '\DocuSign\Model\EnvelopeSummary',
                 '/v2.1/accounts/{accountId}/envelopes'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4535,10 +4535,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CommentsPublish $comments_publish  (optional)
+     * @param \DocuSign\Model\CommentsPublish $comments_publish  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CommentHistoryResult
+     * @return \DocuSign\Model\CommentHistoryResult
      */
     public function createEnvelopeComments($account_id, $envelope_id, $comments_publish = null)
     {
@@ -4553,10 +4553,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CommentsPublish $comments_publish  (optional)
+     * @param \DocuSign\Model\CommentsPublish $comments_publish  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CommentHistoryResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CommentHistoryResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEnvelopeCommentsWithHttpInfo($account_id, $envelope_id, $comments_publish = null): array
     {
@@ -4611,19 +4611,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CommentHistoryResult',
+                '\DocuSign\Model\CommentHistoryResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/comments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CommentHistoryResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CommentHistoryResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CommentHistoryResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CommentHistoryResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4639,10 +4639,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
+     * @param \DocuSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createEnvelopeRecipientPreview($account_id, $envelope_id, $recipient_preview_request = null)
     {
@@ -4657,10 +4657,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
+     * @param \DocuSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEnvelopeRecipientPreviewWithHttpInfo($account_id, $envelope_id, $recipient_preview_request = null): array
     {
@@ -4715,19 +4715,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/recipient_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4743,10 +4743,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientViewRequest $recipient_view_request  (optional)
+     * @param \DocuSign\Model\RecipientViewRequest $recipient_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createEnvelopeRecipientSharedView($account_id, $envelope_id, $recipient_view_request = null)
     {
@@ -4761,10 +4761,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientViewRequest $recipient_view_request  (optional)
+     * @param \DocuSign\Model\RecipientViewRequest $recipient_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEnvelopeRecipientSharedViewWithHttpInfo($account_id, $envelope_id, $recipient_view_request = null): array
     {
@@ -4819,19 +4819,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/shared'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4846,10 +4846,10 @@ class EnvelopesApi
      * Add envelope transfer rules to an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRuleRequest $envelope_transfer_rule_request  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRuleRequest $envelope_transfer_rule_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTransferRuleInformation
+     * @return \DocuSign\Model\EnvelopeTransferRuleInformation
      */
     public function createEnvelopeTransferRules($account_id, $envelope_transfer_rule_request = null)
     {
@@ -4863,10 +4863,10 @@ class EnvelopesApi
      * Add envelope transfer rules to an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRuleRequest $envelope_transfer_rule_request  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRuleRequest $envelope_transfer_rule_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEnvelopeTransferRulesWithHttpInfo($account_id, $envelope_transfer_rule_request = null): array
     {
@@ -4913,19 +4913,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation',
+                '\DocuSign\Model\EnvelopeTransferRuleInformation',
                 '/v2.1/accounts/{accountId}/envelopes/transfer_rules'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4941,10 +4941,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function createLock($account_id, $envelope_id, $lock_request = null)
     {
@@ -4959,10 +4959,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createLockWithHttpInfo($account_id, $envelope_id, $lock_request = null): array
     {
@@ -5017,19 +5017,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5045,13 +5045,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\CreateRecipientOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\CreateRecipientOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
-    public function createRecipient($account_id, $envelope_id, $recipients = null, \DocuSign\eSign\Api\EnvelopesApi\CreateRecipientOptions $options = null)
+    public function createRecipient($account_id, $envelope_id, $recipients = null, \DocuSign\Api\EnvelopesApi\CreateRecipientOptions $options = null)
     {
         list($response) = $this->createRecipientWithHttpInfo($account_id, $envelope_id, $recipients, $options);
         return $response;
@@ -5064,13 +5064,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\CreateRecipientOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\CreateRecipientOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
-    public function createRecipientWithHttpInfo($account_id, $envelope_id, $recipients = null, \DocuSign\eSign\Api\EnvelopesApi\CreateRecipientOptions $options = null): array
+    public function createRecipientWithHttpInfo($account_id, $envelope_id, $recipients = null, \DocuSign\Api\EnvelopesApi\CreateRecipientOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5130,19 +5130,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5161,7 +5161,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createRecipientManualReviewView($account_id, $envelope_id, $recipient_id)
     {
@@ -5179,7 +5179,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRecipientManualReviewViewWithHttpInfo($account_id, $envelope_id, $recipient_id): array
     {
@@ -5237,19 +5237,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/views/identity_manual_review'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5268,7 +5268,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ProofServiceViewLink
+     * @return \DocuSign\Model\ProofServiceViewLink
      */
     public function createRecipientProofFileLink($account_id, $envelope_id, $recipient_id)
     {
@@ -5286,7 +5286,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ProofServiceViewLink, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ProofServiceViewLink, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRecipientProofFileLinkWithHttpInfo($account_id, $envelope_id, $recipient_id): array
     {
@@ -5344,19 +5344,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ProofServiceViewLink',
+                '\DocuSign\Model\ProofServiceViewLink',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/identity_proof'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ProofServiceViewLink', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ProofServiceViewLink', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ProofServiceViewLink', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ProofServiceViewLink', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5376,7 +5376,7 @@ class EnvelopesApi
      * @param ?string $token_scopes
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ProofServiceResourceToken
+     * @return \DocuSign\Model\ProofServiceResourceToken
      */
     public function createRecipientProofFileResourceToken($account_id, $envelope_id, $recipient_id, $token_scopes)
     {
@@ -5395,7 +5395,7 @@ class EnvelopesApi
      * @param ?string $token_scopes
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ProofServiceResourceToken, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ProofServiceResourceToken, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRecipientProofFileResourceTokenWithHttpInfo($account_id, $envelope_id, $recipient_id, $token_scopes): array
     {
@@ -5461,19 +5461,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ProofServiceResourceToken',
+                '\DocuSign\Model\ProofServiceResourceToken',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/identity_proof_token'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ProofServiceResourceToken', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ProofServiceResourceToken', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ProofServiceResourceToken', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ProofServiceResourceToken', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5489,10 +5489,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientViewRequest $recipient_view_request  (optional)
+     * @param \DocuSign\Model\RecipientViewRequest $recipient_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createRecipientView($account_id, $envelope_id, $recipient_view_request = null)
     {
@@ -5507,10 +5507,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\RecipientViewRequest $recipient_view_request  (optional)
+     * @param \DocuSign\Model\RecipientViewRequest $recipient_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createRecipientViewWithHttpInfo($account_id, $envelope_id, $recipient_view_request = null): array
     {
@@ -5565,19 +5565,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/recipient'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5593,10 +5593,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitions
+     * @return \DocuSign\Model\DocumentHtmlDefinitions
      */
     public function createResponsiveHtmlPreview($account_id, $envelope_id, $document_html_definition = null)
     {
@@ -5611,10 +5611,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
      */
     public function createResponsiveHtmlPreviewWithHttpInfo($account_id, $envelope_id, $document_html_definition = null): array
     {
@@ -5669,19 +5669,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitions',
+                '\DocuSign\Model\DocumentHtmlDefinitions',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/responsive_html_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5697,10 +5697,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createSenderView($account_id, $envelope_id, $return_url_request = null)
     {
@@ -5715,10 +5715,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createSenderViewWithHttpInfo($account_id, $envelope_id, $return_url_request = null): array
     {
@@ -5773,19 +5773,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/views/sender'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5802,10 +5802,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function createTabs($account_id, $envelope_id, $recipient_id, $tabs = null)
     {
@@ -5821,10 +5821,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, $tabs = null): array
     {
@@ -5887,19 +5887,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5915,10 +5915,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
+     * @param \DocuSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeAttachmentsResult
+     * @return \DocuSign\Model\EnvelopeAttachmentsResult
      */
     public function deleteAttachments($account_id, $envelope_id, $envelope_attachments_request = null)
     {
@@ -5933,10 +5933,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
+     * @param \DocuSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteAttachmentsWithHttpInfo($account_id, $envelope_id, $envelope_attachments_request = null): array
     {
@@ -5991,19 +5991,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeAttachmentsResult',
+                '\DocuSign\Model\EnvelopeAttachmentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/attachments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6021,7 +6021,7 @@ class EnvelopesApi
      * @param ?string $chunked_upload_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ChunkedUploadResponse
+     * @return \DocuSign\Model\ChunkedUploadResponse
      */
     public function deleteChunkedUpload($account_id, $chunked_upload_id)
     {
@@ -6038,7 +6038,7 @@ class EnvelopesApi
      * @param ?string $chunked_upload_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteChunkedUploadWithHttpInfo($account_id, $chunked_upload_id): array
     {
@@ -6088,19 +6088,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ChunkedUploadResponse',
+                '\DocuSign\Model\ChunkedUploadResponse',
                 '/v2.1/accounts/{accountId}/chunked_uploads/{chunkedUploadId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6116,10 +6116,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function deleteCustomFields($account_id, $envelope_id, $custom_fields = null)
     {
@@ -6134,10 +6134,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteCustomFieldsWithHttpInfo($account_id, $envelope_id, $custom_fields = null): array
     {
@@ -6192,19 +6192,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6221,10 +6221,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function deleteDocumentFields($account_id, $document_id, $envelope_id, $document_fields_information = null)
     {
@@ -6240,10 +6240,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteDocumentFieldsWithHttpInfo($account_id, $document_id, $envelope_id, $document_fields_information = null): array
     {
@@ -6306,19 +6306,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6431,7 +6431,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6448,10 +6448,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function deleteDocumentTabs($account_id, $document_id, $envelope_id, $tabs = null)
     {
@@ -6467,10 +6467,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, $tabs = null): array
     {
@@ -6533,19 +6533,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6561,10 +6561,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeDocumentsResult
+     * @return \DocuSign\Model\EnvelopeDocumentsResult
      */
     public function deleteDocuments($account_id, $envelope_id, $envelope_definition = null)
     {
@@ -6579,10 +6579,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteDocumentsWithHttpInfo($account_id, $envelope_id, $envelope_definition = null): array
     {
@@ -6637,19 +6637,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeDocumentsResult',
+                '\DocuSign\Model\EnvelopeDocumentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6667,7 +6667,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function deleteEmailSettings($account_id, $envelope_id)
     {
@@ -6684,7 +6684,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteEmailSettingsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -6734,19 +6734,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EmailSettings',
+                '\DocuSign\Model\EmailSettings',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/email_settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EmailSettings', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EmailSettings', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6762,7 +6762,7 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CorrectViewRequest $correct_view_request  (optional)
+     * @param \DocuSign\Model\CorrectViewRequest $correct_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -6780,7 +6780,7 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CorrectViewRequest $correct_view_request  (optional)
+     * @param \DocuSign\Model\CorrectViewRequest $correct_view_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -6846,7 +6846,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6939,7 +6939,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7032,7 +7032,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7050,7 +7050,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function deleteLock($account_id, $envelope_id)
     {
@@ -7067,7 +7067,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteLockWithHttpInfo($account_id, $envelope_id): array
     {
@@ -7117,19 +7117,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7148,7 +7148,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function deleteRecipient($account_id, $envelope_id, $recipient_id)
     {
@@ -7166,7 +7166,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteRecipientWithHttpInfo($account_id, $envelope_id, $recipient_id): array
     {
@@ -7224,19 +7224,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7252,10 +7252,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function deleteRecipients($account_id, $envelope_id, $recipients = null)
     {
@@ -7270,10 +7270,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteRecipientsWithHttpInfo($account_id, $envelope_id, $recipients = null): array
     {
@@ -7328,19 +7328,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7357,10 +7357,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function deleteTabs($account_id, $envelope_id, $recipient_id, $tabs = null)
     {
@@ -7376,10 +7376,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, $tabs = null): array
     {
@@ -7442,19 +7442,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7547,7 +7547,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7660,7 +7660,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7763,7 +7763,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7781,7 +7781,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeAttachmentsResult
+     * @return \DocuSign\Model\EnvelopeAttachmentsResult
      */
     public function getAttachments($account_id, $envelope_id)
     {
@@ -7798,7 +7798,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAttachmentsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -7848,19 +7848,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeAttachmentsResult',
+                '\DocuSign\Model\EnvelopeAttachmentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/attachments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7876,12 +7876,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ChunkedUploadResponse
+     * @return \DocuSign\Model\ChunkedUploadResponse
      */
-    public function getChunkedUpload($account_id, $chunked_upload_id, \DocuSign\eSign\Api\EnvelopesApi\GetChunkedUploadOptions $options = null)
+    public function getChunkedUpload($account_id, $chunked_upload_id, \DocuSign\Api\EnvelopesApi\GetChunkedUploadOptions $options = null)
     {
         list($response) = $this->getChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, $options);
         return $response;
@@ -7894,12 +7894,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, \DocuSign\eSign\Api\EnvelopesApi\GetChunkedUploadOptions $options = null): array
+    public function getChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, \DocuSign\Api\EnvelopesApi\GetChunkedUploadOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -7954,19 +7954,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ChunkedUploadResponse',
+                '\DocuSign\Model\ChunkedUploadResponse',
                 '/v2.1/accounts/{accountId}/chunked_uploads/{chunkedUploadId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7982,12 +7982,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetCommentsTranscriptOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetCommentsTranscriptOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getCommentsTranscript($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetCommentsTranscriptOptions $options = null)
+    public function getCommentsTranscript($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetCommentsTranscriptOptions $options = null)
     {
         list($response) = $this->getCommentsTranscriptWithHttpInfo($account_id, $envelope_id, $options);
         return $response;
@@ -8000,12 +8000,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetCommentsTranscriptOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetCommentsTranscriptOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getCommentsTranscriptWithHttpInfo($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetCommentsTranscriptOptions $options = null): array
+    public function getCommentsTranscriptWithHttpInfo($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetCommentsTranscriptOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8072,7 +8072,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8090,12 +8090,12 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $lang_code The simple type enumeration the language used in the response. The supported languages, with the language value shown in parenthesis, are:Arabic (ar), Armenian (hy), Bulgarian (bg), Czech (cs), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW), Croatian (hr), Danish (da), Dutch (nl), English US (en), English UK (en_GB), Estonian (et), Farsi (fa), Finnish (fi), French (fr), French Canada (fr_CA), German (de), Greek (el), Hebrew (he), Hindi (hi), Hungarian (hu), Bahasa Indonesia (id), Italian (it), Japanese (ja), Korean (ko), Latvian (lv), Lithuanian (lt), Bahasa Melayu (ms), Norwegian (no), Polish (pl), Portuguese (pt), Portuguese Brazil (pt_BR), Romanian (ro), Russian (ru), Serbian (sr), Slovak (sk), Slovenian (sl), Spanish (es),Spanish Latin America (es_MX), Swedish (sv), Thai (th), Turkish (tr), Ukrainian (uk) and Vietnamese (vi). Additionally, the value can be set to ï¿½browserï¿½ to automatically detect the browser language being used by the viewer and display the disclosure in that language.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ConsumerDisclosure
+     * @return \DocuSign\Model\ConsumerDisclosure
      */
-    public function getConsumerDisclosure($account_id, $envelope_id, $lang_code, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureOptions $options = null)
+    public function getConsumerDisclosure($account_id, $envelope_id, $lang_code, $recipient_id, \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureOptions $options = null)
     {
         list($response) = $this->getConsumerDisclosureWithHttpInfo($account_id, $envelope_id, $lang_code, $recipient_id, $options);
         return $response;
@@ -8110,12 +8110,12 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $lang_code The simple type enumeration the language used in the response. The supported languages, with the language value shown in parenthesis, are:Arabic (ar), Armenian (hy), Bulgarian (bg), Czech (cs), Chinese Simplified (zh_CN), Chinese Traditional (zh_TW), Croatian (hr), Danish (da), Dutch (nl), English US (en), English UK (en_GB), Estonian (et), Farsi (fa), Finnish (fi), French (fr), French Canada (fr_CA), German (de), Greek (el), Hebrew (he), Hindi (hi), Hungarian (hu), Bahasa Indonesia (id), Italian (it), Japanese (ja), Korean (ko), Latvian (lv), Lithuanian (lt), Bahasa Melayu (ms), Norwegian (no), Polish (pl), Portuguese (pt), Portuguese Brazil (pt_BR), Romanian (ro), Russian (ru), Serbian (sr), Slovak (sk), Slovenian (sl), Spanish (es),Spanish Latin America (es_MX), Swedish (sv), Thai (th), Turkish (tr), Ukrainian (uk) and Vietnamese (vi). Additionally, the value can be set to ï¿½browserï¿½ to automatically detect the browser language being used by the viewer and display the disclosure in that language.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ConsumerDisclosure, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ConsumerDisclosure, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getConsumerDisclosureWithHttpInfo($account_id, $envelope_id, $lang_code, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureOptions $options = null): array
+    public function getConsumerDisclosureWithHttpInfo($account_id, $envelope_id, $lang_code, $recipient_id, \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8186,19 +8186,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ConsumerDisclosure',
+                '\DocuSign\Model\ConsumerDisclosure',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/consumer_disclosure/{langCode}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ConsumerDisclosure', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ConsumerDisclosure', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ConsumerDisclosure', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ConsumerDisclosure', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8215,12 +8215,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ConsumerDisclosure
+     * @return \DocuSign\Model\ConsumerDisclosure
      */
-    public function getConsumerDisclosureDefault($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions $options = null)
+    public function getConsumerDisclosureDefault($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions $options = null)
     {
         list($response) = $this->getConsumerDisclosureDefaultWithHttpInfo($account_id, $envelope_id, $recipient_id, $options);
         return $response;
@@ -8234,12 +8234,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ConsumerDisclosure, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ConsumerDisclosure, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getConsumerDisclosureDefaultWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions $options = null): array
+    public function getConsumerDisclosureDefaultWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetConsumerDisclosureDefaultOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8302,19 +8302,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ConsumerDisclosure',
+                '\DocuSign\Model\ConsumerDisclosure',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/consumer_disclosure'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ConsumerDisclosure', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ConsumerDisclosure', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ConsumerDisclosure', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ConsumerDisclosure', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8331,12 +8331,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getDocument($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentOptions $options = null)
+    public function getDocument($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetDocumentOptions $options = null)
     {
         list($response) = $this->getDocumentWithHttpInfo($account_id, $document_id, $envelope_id, $options);
         return $response;
@@ -8350,12 +8350,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentOptions $options = null): array
+    public function getDocumentWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetDocumentOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8454,7 +8454,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8472,12 +8472,12 @@ class EnvelopesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $page_number The page number being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getDocumentPageImage($account_id, $document_id, $envelope_id, $page_number, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentPageImageOptions $options = null)
+    public function getDocumentPageImage($account_id, $document_id, $envelope_id, $page_number, \DocuSign\Api\EnvelopesApi\GetDocumentPageImageOptions $options = null)
     {
         list($response) = $this->getDocumentPageImageWithHttpInfo($account_id, $document_id, $envelope_id, $page_number, $options);
         return $response;
@@ -8492,12 +8492,12 @@ class EnvelopesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $page_number The page number being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentPageImageWithHttpInfo($account_id, $document_id, $envelope_id, $page_number, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentPageImageOptions $options = null): array
+    public function getDocumentPageImageWithHttpInfo($account_id, $document_id, $envelope_id, $page_number, \DocuSign\Api\EnvelopesApi\GetDocumentPageImageOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8589,7 +8589,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8606,12 +8606,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
-    public function getDocumentTabs($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentTabsOptions $options = null)
+    public function getDocumentTabs($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetDocumentTabsOptions $options = null)
     {
         list($response) = $this->getDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, $options);
         return $response;
@@ -8625,12 +8625,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetDocumentTabsOptions $options = null): array
+    public function getDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetDocumentTabsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8696,19 +8696,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8726,7 +8726,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function getEmailSettings($account_id, $envelope_id)
     {
@@ -8743,7 +8743,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEmailSettingsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -8793,19 +8793,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EmailSettings',
+                '\DocuSign\Model\EmailSettings',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/email_settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EmailSettings', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EmailSettings', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8821,12 +8821,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetEnvelopeOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Envelope
+     * @return \DocuSign\Model\Envelope
      */
-    public function getEnvelope($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeOptions $options = null)
+    public function getEnvelope($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetEnvelopeOptions $options = null)
     {
         list($response) = $this->getEnvelopeWithHttpInfo($account_id, $envelope_id, $options);
         return $response;
@@ -8839,12 +8839,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetEnvelopeOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Envelope, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Envelope, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getEnvelopeWithHttpInfo($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeOptions $options = null): array
+    public function getEnvelopeWithHttpInfo($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetEnvelopeOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -8902,19 +8902,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Envelope',
+                '\DocuSign\Model\Envelope',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Envelope', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Envelope', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Envelope', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Envelope', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -8933,7 +8933,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals
+     * @return \DocuSign\Model\DocumentHtmlDefinitionOriginals
      */
     public function getEnvelopeDocumentHtmlDefinitions($account_id, $document_id, $envelope_id)
     {
@@ -8951,7 +8951,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEnvelopeDocumentHtmlDefinitionsWithHttpInfo($account_id, $document_id, $envelope_id): array
     {
@@ -9009,19 +9009,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals',
+                '\DocuSign\Model\DocumentHtmlDefinitionOriginals',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/html_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9039,7 +9039,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals
+     * @return \DocuSign\Model\DocumentHtmlDefinitionOriginals
      */
     public function getEnvelopeHtmlDefinitions($account_id, $envelope_id)
     {
@@ -9056,7 +9056,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEnvelopeHtmlDefinitionsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -9106,19 +9106,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals',
+                '\DocuSign\Model\DocumentHtmlDefinitionOriginals',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/html_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9133,12 +9133,12 @@ class EnvelopesApi
      * Returns a list of envelope transfer rules in the specified account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTransferRuleInformation
+     * @return \DocuSign\Model\EnvelopeTransferRuleInformation
      */
-    public function getEnvelopeTransferRules($account_id, \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions $options = null)
+    public function getEnvelopeTransferRules($account_id, \DocuSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions $options = null)
     {
         list($response) = $this->getEnvelopeTransferRulesWithHttpInfo($account_id, $options);
         return $response;
@@ -9150,12 +9150,12 @@ class EnvelopesApi
      * Returns a list of envelope transfer rules in the specified account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getEnvelopeTransferRulesWithHttpInfo($account_id, \DocuSign\eSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions $options = null): array
+    public function getEnvelopeTransferRulesWithHttpInfo($account_id, \DocuSign\Api\EnvelopesApi\GetEnvelopeTransferRulesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -9205,19 +9205,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation',
+                '\DocuSign\Model\EnvelopeTransferRuleInformation',
                 '/v2.1/accounts/{accountId}/envelopes/transfer_rules'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9235,7 +9235,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workflow
+     * @return \DocuSign\Model\Workflow
      */
     public function getEnvelopeWorkflowDefinition($account_id, $envelope_id)
     {
@@ -9252,7 +9252,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEnvelopeWorkflowDefinitionWithHttpInfo($account_id, $envelope_id): array
     {
@@ -9302,19 +9302,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workflow',
+                '\DocuSign\Model\Workflow',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/workflow'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workflow', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workflow', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9332,7 +9332,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeFormData
+     * @return \DocuSign\Model\EnvelopeFormData
      */
     public function getFormData($account_id, $envelope_id)
     {
@@ -9349,7 +9349,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeFormData, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeFormData, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFormDataWithHttpInfo($account_id, $envelope_id): array
     {
@@ -9399,19 +9399,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeFormData',
+                '\DocuSign\Model\EnvelopeFormData',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/form_data'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeFormData', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeFormData', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeFormData', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeFormData', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9429,7 +9429,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function getLock($account_id, $envelope_id)
     {
@@ -9446,7 +9446,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getLockWithHttpInfo($account_id, $envelope_id): array
     {
@@ -9496,19 +9496,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9526,7 +9526,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function getNotificationSettings($account_id, $envelope_id)
     {
@@ -9543,7 +9543,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNotificationSettingsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -9593,19 +9593,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notification',
+                '\DocuSign\Model\Notification',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/notification'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notification', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notification', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9625,7 +9625,7 @@ class EnvelopesApi
      * @param ?string $page_number The page number being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function getPageTabs($account_id, $document_id, $envelope_id, $page_number)
     {
@@ -9644,7 +9644,7 @@ class EnvelopesApi
      * @param ?string $page_number The page number being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPageTabsWithHttpInfo($account_id, $document_id, $envelope_id, $page_number): array
     {
@@ -9710,19 +9710,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/pages/{pageNumber}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9739,12 +9739,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PageImages
+     * @return \DocuSign\Model\PageImages
      */
-    public function getPages($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetPagesOptions $options = null)
+    public function getPages($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetPagesOptions $options = null)
     {
         list($response) = $this->getPagesWithHttpInfo($account_id, $document_id, $envelope_id, $options);
         return $response;
@@ -9758,12 +9758,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getPagesWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\GetPagesOptions $options = null): array
+    public function getPagesWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\GetPagesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -9844,19 +9844,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PageImages',
+                '\DocuSign\Model\PageImages',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/pages'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PageImages', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PageImages', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9875,7 +9875,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentVisibilityList
+     * @return \DocuSign\Model\DocumentVisibilityList
      */
     public function getRecipientDocumentVisibility($account_id, $envelope_id, $recipient_id)
     {
@@ -9893,7 +9893,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRecipientDocumentVisibilityWithHttpInfo($account_id, $envelope_id, $recipient_id): array
     {
@@ -9951,19 +9951,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentVisibilityList',
+                '\DocuSign\Model\DocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -9980,12 +9980,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getRecipientInitialsImage($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions $options = null)
+    public function getRecipientInitialsImage($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions $options = null)
     {
         list($response) = $this->getRecipientInitialsImageWithHttpInfo($account_id, $envelope_id, $recipient_id, $options);
         return $response;
@@ -9999,12 +9999,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getRecipientInitialsImageWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions $options = null): array
+    public function getRecipientInitialsImageWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetRecipientInitialsImageOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -10079,7 +10079,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10098,7 +10098,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\UserSignature
+     * @return \DocuSign\Model\UserSignature
      */
     public function getRecipientSignature($account_id, $envelope_id, $recipient_id)
     {
@@ -10116,7 +10116,7 @@ class EnvelopesApi
      * @param ?string $recipient_id The ID of the recipient being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\UserSignature, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\UserSignature, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRecipientSignatureWithHttpInfo($account_id, $envelope_id, $recipient_id): array
     {
@@ -10174,19 +10174,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\UserSignature',
+                '\DocuSign\Model\UserSignature',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/signature'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\UserSignature', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\UserSignature', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\UserSignature', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\UserSignature', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10203,12 +10203,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getRecipientSignatureImage($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions $options = null)
+    public function getRecipientSignatureImage($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions $options = null)
     {
         list($response) = $this->getRecipientSignatureImageWithHttpInfo($account_id, $envelope_id, $recipient_id, $options);
         return $response;
@@ -10222,12 +10222,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getRecipientSignatureImageWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions $options = null): array
+    public function getRecipientSignatureImageWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\GetRecipientSignatureImageOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -10302,7 +10302,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10395,7 +10395,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10414,7 +10414,7 @@ class EnvelopesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentVisibilityList
+     * @return \DocuSign\Model\DocumentVisibilityList
      */
     public function getTemplateRecipientDocumentVisibility($account_id, $recipient_id, $template_id)
     {
@@ -10432,7 +10432,7 @@ class EnvelopesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTemplateRecipientDocumentVisibilityWithHttpInfo($account_id, $recipient_id, $template_id): array
     {
@@ -10490,19 +10490,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentVisibilityList',
+                '\DocuSign\Model\DocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10520,7 +10520,7 @@ class EnvelopesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workflow
+     * @return \DocuSign\Model\Workflow
      */
     public function getTemplateWorkflowDefinition($account_id, $template_id)
     {
@@ -10537,7 +10537,7 @@ class EnvelopesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTemplateWorkflowDefinitionWithHttpInfo($account_id, $template_id): array
     {
@@ -10587,19 +10587,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workflow',
+                '\DocuSign\Model\Workflow',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/workflow'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workflow', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workflow', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10617,7 +10617,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeAuditEventResponse
+     * @return \DocuSign\Model\EnvelopeAuditEventResponse
      */
     public function listAuditEvents($account_id, $envelope_id)
     {
@@ -10634,7 +10634,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeAuditEventResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeAuditEventResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listAuditEventsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -10684,19 +10684,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeAuditEventResponse',
+                '\DocuSign\Model\EnvelopeAuditEventResponse',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/audit_events'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeAuditEventResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeAuditEventResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeAuditEventResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeAuditEventResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10714,7 +10714,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFieldsEnvelope
+     * @return \DocuSign\Model\CustomFieldsEnvelope
      */
     public function listCustomFields($account_id, $envelope_id)
     {
@@ -10731,7 +10731,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFieldsEnvelope, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFieldsEnvelope, HTTP status code, HTTP response headers (array of strings)
      */
     public function listCustomFieldsWithHttpInfo($account_id, $envelope_id): array
     {
@@ -10781,19 +10781,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFieldsEnvelope',
+                '\DocuSign\Model\CustomFieldsEnvelope',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFieldsEnvelope', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFieldsEnvelope', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFieldsEnvelope', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFieldsEnvelope', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10812,7 +10812,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function listDocumentFields($account_id, $document_id, $envelope_id)
     {
@@ -10830,7 +10830,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function listDocumentFieldsWithHttpInfo($account_id, $document_id, $envelope_id): array
     {
@@ -10888,19 +10888,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -10916,12 +10916,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeDocumentsResult
+     * @return \DocuSign\Model\EnvelopeDocumentsResult
      */
-    public function listDocuments($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListDocumentsOptions $options = null)
+    public function listDocuments($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListDocumentsOptions $options = null)
     {
         list($response) = $this->listDocumentsWithHttpInfo($account_id, $envelope_id, $options);
         return $response;
@@ -10934,12 +10934,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listDocumentsWithHttpInfo($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListDocumentsOptions $options = null): array
+    public function listDocumentsWithHttpInfo($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListDocumentsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11009,19 +11009,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeDocumentsResult',
+                '\DocuSign\Model\EnvelopeDocumentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11037,12 +11037,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
-    public function listRecipients($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListRecipientsOptions $options = null)
+    public function listRecipients($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListRecipientsOptions $options = null)
     {
         list($response) = $this->listRecipientsWithHttpInfo($account_id, $envelope_id, $options);
         return $response;
@@ -11055,12 +11055,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listRecipientsWithHttpInfo($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListRecipientsOptions $options = null): array
+    public function listRecipientsWithHttpInfo($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11124,19 +11124,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11151,13 +11151,13 @@ class EnvelopesApi
      * Gets the envelope status for the specified envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeIdsRequest $envelope_ids_request  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListStatusOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeIdsRequest $envelope_ids_request  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListStatusOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopesInformation
+     * @return \DocuSign\Model\EnvelopesInformation
      */
-    public function listStatus($account_id, $envelope_ids_request = null, \DocuSign\eSign\Api\EnvelopesApi\ListStatusOptions $options = null)
+    public function listStatus($account_id, $envelope_ids_request = null, \DocuSign\Api\EnvelopesApi\ListStatusOptions $options = null)
     {
         list($response) = $this->listStatusWithHttpInfo($account_id, $envelope_ids_request, $options);
         return $response;
@@ -11169,13 +11169,13 @@ class EnvelopesApi
      * Gets the envelope status for the specified envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeIdsRequest $envelope_ids_request  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListStatusOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeIdsRequest $envelope_ids_request  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListStatusOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopesInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopesInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listStatusWithHttpInfo($account_id, $envelope_ids_request = null, \DocuSign\eSign\Api\EnvelopesApi\ListStatusOptions $options = null): array
+    public function listStatusWithHttpInfo($account_id, $envelope_ids_request = null, \DocuSign\Api\EnvelopesApi\ListStatusOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11260,19 +11260,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopesInformation',
+                '\DocuSign\Model\EnvelopesInformation',
                 '/v2.1/accounts/{accountId}/envelopes/status'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopesInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopesInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopesInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopesInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11287,12 +11287,12 @@ class EnvelopesApi
      * Gets status changes for one or more envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListStatusChangesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListStatusChangesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopesInformation
+     * @return \DocuSign\Model\EnvelopesInformation
      */
-    public function listStatusChanges($account_id, \DocuSign\eSign\Api\EnvelopesApi\ListStatusChangesOptions $options = null)
+    public function listStatusChanges($account_id, \DocuSign\Api\EnvelopesApi\ListStatusChangesOptions $options = null)
     {
         list($response) = $this->listStatusChangesWithHttpInfo($account_id, $options);
         return $response;
@@ -11304,12 +11304,12 @@ class EnvelopesApi
      * Gets status changes for one or more envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListStatusChangesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListStatusChangesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopesInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopesInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listStatusChangesWithHttpInfo($account_id, \DocuSign\eSign\Api\EnvelopesApi\ListStatusChangesOptions $options = null): array
+    public function listStatusChangesWithHttpInfo($account_id, \DocuSign\Api\EnvelopesApi\ListStatusChangesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11443,19 +11443,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopesInformation',
+                '\DocuSign\Model\EnvelopesInformation',
                 '/v2.1/accounts/{accountId}/envelopes'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopesInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopesInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopesInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopesInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11472,12 +11472,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
-    public function listTabs($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\ListTabsOptions $options = null)
+    public function listTabs($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\ListTabsOptions $options = null)
     {
         list($response) = $this->listTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, $options);
         return $response;
@@ -11491,12 +11491,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\eSign\Api\EnvelopesApi\ListTabsOptions $options = null): array
+    public function listTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, \DocuSign\Api\EnvelopesApi\ListTabsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11562,19 +11562,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11590,12 +11590,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateInformation
+     * @return \DocuSign\Model\TemplateInformation
      */
-    public function listTemplates($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesOptions $options = null)
+    public function listTemplates($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListTemplatesOptions $options = null)
     {
         list($response) = $this->listTemplatesWithHttpInfo($account_id, $envelope_id, $options);
         return $response;
@@ -11608,12 +11608,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listTemplatesWithHttpInfo($account_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesOptions $options = null): array
+    public function listTemplatesWithHttpInfo($account_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListTemplatesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11668,19 +11668,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateInformation',
+                '\DocuSign\Model\TemplateInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11697,12 +11697,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateInformation
+     * @return \DocuSign\Model\TemplateInformation
      */
-    public function listTemplatesForDocument($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions $options = null)
+    public function listTemplatesForDocument($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions $options = null)
     {
         list($response) = $this->listTemplatesForDocumentWithHttpInfo($account_id, $document_id, $envelope_id, $options);
         return $response;
@@ -11716,12 +11716,12 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listTemplatesForDocumentWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\eSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions $options = null): array
+    public function listTemplatesForDocumentWithHttpInfo($account_id, $document_id, $envelope_id, \DocuSign\Api\EnvelopesApi\ListTemplatesForDocumentOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -11784,19 +11784,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateInformation',
+                '\DocuSign\Model\TemplateInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11813,10 +11813,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $attachment_id
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Attachment $attachment  (optional)
+     * @param \DocuSign\Model\Attachment $attachment  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeAttachmentsResult
+     * @return \DocuSign\Model\EnvelopeAttachmentsResult
      */
     public function putAttachment($account_id, $attachment_id, $envelope_id, $attachment = null)
     {
@@ -11832,10 +11832,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $attachment_id
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Attachment $attachment  (optional)
+     * @param \DocuSign\Model\Attachment $attachment  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function putAttachmentWithHttpInfo($account_id, $attachment_id, $envelope_id, $attachment = null): array
     {
@@ -11898,19 +11898,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeAttachmentsResult',
+                '\DocuSign\Model\EnvelopeAttachmentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/attachments/{attachmentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -11926,10 +11926,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
+     * @param \DocuSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeAttachmentsResult
+     * @return \DocuSign\Model\EnvelopeAttachmentsResult
      */
     public function putAttachments($account_id, $envelope_id, $envelope_attachments_request = null)
     {
@@ -11944,10 +11944,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
+     * @param \DocuSign\Model\EnvelopeAttachmentsRequest $envelope_attachments_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeAttachmentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function putAttachmentsWithHttpInfo($account_id, $envelope_id, $envelope_attachments_request = null): array
     {
@@ -12002,19 +12002,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeAttachmentsResult',
+                '\DocuSign\Model\EnvelopeAttachmentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/attachments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeAttachmentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeAttachmentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12032,7 +12032,7 @@ class EnvelopesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $page_number The page number being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -12052,7 +12052,7 @@ class EnvelopesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $page_number The page number being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -12134,7 +12134,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12150,13 +12150,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Envelope $envelope  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Envelope $envelope  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeUpdateSummary
+     * @return \DocuSign\Model\EnvelopeUpdateSummary
      */
-    public function update($account_id, $envelope_id, $envelope = null, \DocuSign\eSign\Api\EnvelopesApi\UpdateOptions $options = null)
+    public function update($account_id, $envelope_id, $envelope = null, \DocuSign\Api\EnvelopesApi\UpdateOptions $options = null)
     {
         list($response) = $this->updateWithHttpInfo($account_id, $envelope_id, $envelope, $options);
         return $response;
@@ -12169,13 +12169,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Envelope $envelope  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Envelope $envelope  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeUpdateSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeUpdateSummary, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updateWithHttpInfo($account_id, $envelope_id, $envelope = null, \DocuSign\eSign\Api\EnvelopesApi\UpdateOptions $options = null): array
+    public function updateWithHttpInfo($account_id, $envelope_id, $envelope = null, \DocuSign\Api\EnvelopesApi\UpdateOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -12238,19 +12238,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeUpdateSummary',
+                '\DocuSign\Model\EnvelopeUpdateSummary',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeUpdateSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeUpdateSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeUpdateSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeUpdateSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12266,12 +12266,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ChunkedUploadResponse
+     * @return \DocuSign\Model\ChunkedUploadResponse
      */
-    public function updateChunkedUpload($account_id, $chunked_upload_id, \DocuSign\eSign\Api\EnvelopesApi\UpdateChunkedUploadOptions $options = null)
+    public function updateChunkedUpload($account_id, $chunked_upload_id, \DocuSign\Api\EnvelopesApi\UpdateChunkedUploadOptions $options = null)
     {
         list($response) = $this->updateChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, $options);
         return $response;
@@ -12284,12 +12284,12 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateChunkedUploadOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updateChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, \DocuSign\eSign\Api\EnvelopesApi\UpdateChunkedUploadOptions $options = null): array
+    public function updateChunkedUploadWithHttpInfo($account_id, $chunked_upload_id, \DocuSign\Api\EnvelopesApi\UpdateChunkedUploadOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -12344,19 +12344,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ChunkedUploadResponse',
+                '\DocuSign\Model\ChunkedUploadResponse',
                 '/v2.1/accounts/{accountId}/chunked_uploads/{chunkedUploadId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12373,10 +12373,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
      * @param ?string $chunked_upload_part_seq
-     * @param \DocuSign\eSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
+     * @param \DocuSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ChunkedUploadResponse
+     * @return \DocuSign\Model\ChunkedUploadResponse
      */
     public function updateChunkedUploadPart($account_id, $chunked_upload_id, $chunked_upload_part_seq, $chunked_upload_request = null)
     {
@@ -12392,10 +12392,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $chunked_upload_id
      * @param ?string $chunked_upload_part_seq
-     * @param \DocuSign\eSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
+     * @param \DocuSign\Model\ChunkedUploadRequest $chunked_upload_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ChunkedUploadResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateChunkedUploadPartWithHttpInfo($account_id, $chunked_upload_id, $chunked_upload_part_seq, $chunked_upload_request = null): array
     {
@@ -12458,19 +12458,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ChunkedUploadResponse',
+                '\DocuSign\Model\ChunkedUploadResponse',
                 '/v2.1/accounts/{accountId}/chunked_uploads/{chunkedUploadId}/{chunkedUploadPartSeq}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ChunkedUploadResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ChunkedUploadResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12486,10 +12486,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function updateCustomFields($account_id, $envelope_id, $custom_fields = null)
     {
@@ -12504,10 +12504,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields  (optional)
+     * @param \DocuSign\Model\CustomFields $custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCustomFieldsWithHttpInfo($account_id, $envelope_id, $custom_fields = null): array
     {
@@ -12562,19 +12562,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12593,7 +12593,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeDocument
+     * @return \DocuSign\Model\EnvelopeDocument
      */
     public function updateDocument($account_id, $document_id, $envelope_id)
     {
@@ -12611,7 +12611,7 @@ class EnvelopesApi
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeDocument, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeDocument, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentWithHttpInfo($account_id, $document_id, $envelope_id): array
     {
@@ -12669,19 +12669,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeDocument',
+                '\DocuSign\Model\EnvelopeDocument',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeDocument', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeDocument', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeDocument', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeDocument', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12698,10 +12698,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function updateDocumentFields($account_id, $document_id, $envelope_id, $document_fields_information = null)
     {
@@ -12717,10 +12717,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentFieldsWithHttpInfo($account_id, $document_id, $envelope_id, $document_fields_information = null): array
     {
@@ -12783,19 +12783,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12812,10 +12812,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function updateDocumentTabs($account_id, $document_id, $envelope_id, $tabs = null)
     {
@@ -12831,10 +12831,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentTabsWithHttpInfo($account_id, $document_id, $envelope_id, $tabs = null): array
     {
@@ -12897,19 +12897,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -12925,10 +12925,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeDocumentsResult
+     * @return \DocuSign\Model\EnvelopeDocumentsResult
      */
     public function updateDocuments($account_id, $envelope_id, $envelope_definition = null)
     {
@@ -12943,10 +12943,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentsWithHttpInfo($account_id, $envelope_id, $envelope_definition = null): array
     {
@@ -13001,19 +13001,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeDocumentsResult',
+                '\DocuSign\Model\EnvelopeDocumentsResult',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13029,10 +13029,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings  (optional)
+     * @param \DocuSign\Model\EmailSettings $email_settings  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function updateEmailSettings($account_id, $envelope_id, $email_settings = null)
     {
@@ -13047,10 +13047,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings  (optional)
+     * @param \DocuSign\Model\EmailSettings $email_settings  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EmailSettings, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateEmailSettingsWithHttpInfo($account_id, $envelope_id, $email_settings = null): array
     {
@@ -13105,19 +13105,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EmailSettings',
+                '\DocuSign\Model\EmailSettings',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/email_settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EmailSettings', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EmailSettings', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EmailSettings', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13133,10 +13133,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_transfer_rule_id
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRule $envelope_transfer_rule  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRule $envelope_transfer_rule  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTransferRule
+     * @return \DocuSign\Model\EnvelopeTransferRule
      */
     public function updateEnvelopeTransferRule($account_id, $envelope_transfer_rule_id, $envelope_transfer_rule = null)
     {
@@ -13151,10 +13151,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_transfer_rule_id
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRule $envelope_transfer_rule  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRule $envelope_transfer_rule  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTransferRule, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTransferRule, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateEnvelopeTransferRuleWithHttpInfo($account_id, $envelope_transfer_rule_id, $envelope_transfer_rule = null): array
     {
@@ -13209,19 +13209,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTransferRule',
+                '\DocuSign\Model\EnvelopeTransferRule',
                 '/v2.1/accounts/{accountId}/envelopes/transfer_rules/{envelopeTransferRuleId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTransferRule', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTransferRule', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTransferRule', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTransferRule', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13236,10 +13236,10 @@ class EnvelopesApi
      * Update envelope transfer rules for an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRuleInformation $envelope_transfer_rule_information  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRuleInformation $envelope_transfer_rule_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTransferRuleInformation
+     * @return \DocuSign\Model\EnvelopeTransferRuleInformation
      */
     public function updateEnvelopeTransferRules($account_id, $envelope_transfer_rule_information = null)
     {
@@ -13253,10 +13253,10 @@ class EnvelopesApi
      * Update envelope transfer rules for an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTransferRuleInformation $envelope_transfer_rule_information  (optional)
+     * @param \DocuSign\Model\EnvelopeTransferRuleInformation $envelope_transfer_rule_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTransferRuleInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateEnvelopeTransferRulesWithHttpInfo($account_id, $envelope_transfer_rule_information = null): array
     {
@@ -13303,19 +13303,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation',
+                '\DocuSign\Model\EnvelopeTransferRuleInformation',
                 '/v2.1/accounts/{accountId}/envelopes/transfer_rules'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTransferRuleInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTransferRuleInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13331,10 +13331,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Workflow $workflow  (optional)
+     * @param \DocuSign\Model\Workflow $workflow  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workflow
+     * @return \DocuSign\Model\Workflow
      */
     public function updateEnvelopeWorkflowDefinition($account_id, $envelope_id, $workflow = null)
     {
@@ -13349,10 +13349,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Workflow $workflow  (optional)
+     * @param \DocuSign\Model\Workflow $workflow  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateEnvelopeWorkflowDefinitionWithHttpInfo($account_id, $envelope_id, $workflow = null): array
     {
@@ -13407,19 +13407,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workflow',
+                '\DocuSign\Model\Workflow',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/workflow'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workflow', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workflow', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13435,10 +13435,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function updateLock($account_id, $envelope_id, $lock_request = null)
     {
@@ -13453,10 +13453,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateLockWithHttpInfo($account_id, $envelope_id, $lock_request = null): array
     {
@@ -13511,19 +13511,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13539,10 +13539,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeNotificationRequest $envelope_notification_request  (optional)
+     * @param \DocuSign\Model\EnvelopeNotificationRequest $envelope_notification_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function updateNotificationSettings($account_id, $envelope_id, $envelope_notification_request = null)
     {
@@ -13557,10 +13557,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeNotificationRequest $envelope_notification_request  (optional)
+     * @param \DocuSign\Model\EnvelopeNotificationRequest $envelope_notification_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNotificationSettingsWithHttpInfo($account_id, $envelope_id, $envelope_notification_request = null): array
     {
@@ -13615,19 +13615,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notification',
+                '\DocuSign\Model\Notification',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/notification'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notification', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notification', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13644,10 +13644,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
+     * @param \DocuSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentVisibilityList
+     * @return \DocuSign\Model\DocumentVisibilityList
      */
     public function updateRecipientDocumentVisibility($account_id, $envelope_id, $recipient_id, $document_visibility_list = null)
     {
@@ -13663,10 +13663,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
+     * @param \DocuSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateRecipientDocumentVisibilityWithHttpInfo($account_id, $envelope_id, $recipient_id, $document_visibility_list = null): array
     {
@@ -13729,19 +13729,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentVisibilityList',
+                '\DocuSign\Model\DocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13844,7 +13844,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13947,7 +13947,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -13963,13 +13963,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\RecipientsUpdateSummary
+     * @return \DocuSign\Model\RecipientsUpdateSummary
      */
-    public function updateRecipients($account_id, $envelope_id, $recipients = null, \DocuSign\eSign\Api\EnvelopesApi\UpdateRecipientsOptions $options = null)
+    public function updateRecipients($account_id, $envelope_id, $recipients = null, \DocuSign\Api\EnvelopesApi\UpdateRecipientsOptions $options = null)
     {
         list($response) = $this->updateRecipientsWithHttpInfo($account_id, $envelope_id, $recipients, $options);
         return $response;
@@ -13982,13 +13982,13 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\Recipients $recipients  (optional)
-     * @param  \DocuSign\eSign\Api\EnvelopesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\Recipients $recipients  (optional)
+     * @param  \DocuSign\Api\EnvelopesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\RecipientsUpdateSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\RecipientsUpdateSummary, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updateRecipientsWithHttpInfo($account_id, $envelope_id, $recipients = null, \DocuSign\eSign\Api\EnvelopesApi\UpdateRecipientsOptions $options = null): array
+    public function updateRecipientsWithHttpInfo($account_id, $envelope_id, $recipients = null, \DocuSign\Api\EnvelopesApi\UpdateRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -14054,19 +14054,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\RecipientsUpdateSummary',
+                '\DocuSign\Model\RecipientsUpdateSummary',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\RecipientsUpdateSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\RecipientsUpdateSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\RecipientsUpdateSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\RecipientsUpdateSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14082,10 +14082,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
+     * @param \DocuSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentVisibilityList
+     * @return \DocuSign\Model\DocumentVisibilityList
      */
     public function updateRecipientsDocumentVisibility($account_id, $envelope_id, $document_visibility_list = null)
     {
@@ -14100,10 +14100,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
-     * @param \DocuSign\eSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
+     * @param \DocuSign\Model\DocumentVisibilityList $document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateRecipientsDocumentVisibilityWithHttpInfo($account_id, $envelope_id, $document_visibility_list = null): array
     {
@@ -14158,19 +14158,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentVisibilityList',
+                '\DocuSign\Model\DocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14187,7 +14187,7 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $regen_document_id
-     * @param \DocuSign\eSign\Model\Document $document  (optional)
+     * @param \DocuSign\Model\Document $document  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
@@ -14206,7 +14206,7 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $regen_document_id
-     * @param \DocuSign\eSign\Model\Document $document  (optional)
+     * @param \DocuSign\Model\Document $document  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
@@ -14284,7 +14284,7 @@ class EnvelopesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14301,10 +14301,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function updateTabs($account_id, $envelope_id, $recipient_id, $tabs = null)
     {
@@ -14320,10 +14320,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $envelope_id The envelopeId Guid of the envelope being accessed.
      * @param ?string $recipient_id The ID of the recipient being accessed.
-     * @param \DocuSign\eSign\Model\Tabs $tabs  (optional)
+     * @param \DocuSign\Model\Tabs $tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTabsWithHttpInfo($account_id, $envelope_id, $recipient_id, $tabs = null): array
     {
@@ -14386,19 +14386,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/envelopes/{envelopeId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14491,7 +14491,7 @@ class EnvelopesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14508,10 +14508,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
+     * @param \DocuSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateDocumentVisibilityList
+     * @return \DocuSign\Model\TemplateDocumentVisibilityList
      */
     public function updateTemplateRecipientDocumentVisibility($account_id, $recipient_id, $template_id, $template_document_visibility_list = null)
     {
@@ -14527,10 +14527,10 @@ class EnvelopesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
+     * @param \DocuSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateDocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateDocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTemplateRecipientDocumentVisibilityWithHttpInfo($account_id, $recipient_id, $template_id, $template_document_visibility_list = null): array
     {
@@ -14593,19 +14593,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateDocumentVisibilityList',
+                '\DocuSign\Model\TemplateDocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateDocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateDocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateDocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateDocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14621,10 +14621,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
+     * @param \DocuSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateDocumentVisibilityList
+     * @return \DocuSign\Model\TemplateDocumentVisibilityList
      */
     public function updateTemplateRecipientsDocumentVisibility($account_id, $template_id, $template_document_visibility_list = null)
     {
@@ -14639,10 +14639,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
+     * @param \DocuSign\Model\TemplateDocumentVisibilityList $template_document_visibility_list  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateDocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateDocumentVisibilityList, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTemplateRecipientsDocumentVisibilityWithHttpInfo($account_id, $template_id, $template_document_visibility_list = null): array
     {
@@ -14697,19 +14697,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateDocumentVisibilityList',
+                '\DocuSign\Model\TemplateDocumentVisibilityList',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/document_visibility'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateDocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateDocumentVisibilityList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateDocumentVisibilityList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateDocumentVisibilityList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -14725,10 +14725,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\Workflow $workflow  (optional)
+     * @param \DocuSign\Model\Workflow $workflow  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workflow
+     * @return \DocuSign\Model\Workflow
      */
     public function updateTemplateWorkflowDefinition($account_id, $template_id, $workflow = null)
     {
@@ -14743,10 +14743,10 @@ class EnvelopesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\Workflow $workflow  (optional)
+     * @param \DocuSign\Model\Workflow $workflow  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workflow, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTemplateWorkflowDefinitionWithHttpInfo($account_id, $template_id, $workflow = null): array
     {
@@ -14801,19 +14801,19 @@ class EnvelopesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workflow',
+                '\DocuSign\Model\Workflow',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/workflow'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workflow', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workflow', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workflow', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

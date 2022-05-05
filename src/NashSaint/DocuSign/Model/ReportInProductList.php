@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ReportInProductList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class ReportInProductList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'reports' => '\DocuSign\eSign\Model\ReportInProductListItem[]'
+        'reports' => '\DocuSign\Model\ReportInProductListItem[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class ReportInProductList implements ModelInterface, ArrayAccess
     /**
      * Gets reports
      *
-     * @return \DocuSign\eSign\Model\ReportInProductListItem[]
+     * @return \DocuSign\Model\ReportInProductListItem[]
      */
     public function getReports()
     {
@@ -219,7 +219,7 @@ class ReportInProductList implements ModelInterface, ArrayAccess
     /**
      * Sets reports
      *
-     * @param \DocuSign\eSign\Model\ReportInProductListItem[] $reports
+     * @param \DocuSign\Model\ReportInProductListItem[] $reports
      *
      * @return $this
      */

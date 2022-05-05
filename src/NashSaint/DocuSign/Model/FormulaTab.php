@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FormulaTab Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,128 +60,128 @@ class FormulaTab implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'anchor_allow_white_space_in_characters' => '?string',
-        'anchor_allow_white_space_in_characters_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_allow_white_space_in_characters_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_case_sensitive' => '?string',
-        'anchor_case_sensitive_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_case_sensitive_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_horizontal_alignment' => '?string',
-        'anchor_horizontal_alignment_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_horizontal_alignment_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_ignore_if_not_present' => '?string',
-        'anchor_ignore_if_not_present_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_ignore_if_not_present_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_match_whole_word' => '?string',
-        'anchor_match_whole_word_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_match_whole_word_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_string' => '?string',
-        'anchor_string_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_string_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_tab_processor_version' => '?string',
-        'anchor_tab_processor_version_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_tab_processor_version_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_units' => '?string',
-        'anchor_units_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_units_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_x_offset' => '?string',
-        'anchor_x_offset_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_x_offset_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_y_offset' => '?string',
-        'anchor_y_offset_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_y_offset_metadata' => '\DocuSign\Model\PropertyMetadata',
         'bold' => '?string',
-        'bold_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'bold_metadata' => '\DocuSign\Model\PropertyMetadata',
         'conceal_value_on_document' => '?string',
-        'conceal_value_on_document_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'conceal_value_on_document_metadata' => '\DocuSign\Model\PropertyMetadata',
         'conditional_parent_label' => '?string',
-        'conditional_parent_label_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'conditional_parent_label_metadata' => '\DocuSign\Model\PropertyMetadata',
         'conditional_parent_value' => '?string',
-        'conditional_parent_value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'conditional_parent_value_metadata' => '\DocuSign\Model\PropertyMetadata',
         'custom_tab_id' => '?string',
-        'custom_tab_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'custom_tab_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'disable_auto_size' => '?string',
-        'disable_auto_size_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'disable_auto_size_metadata' => '\DocuSign\Model\PropertyMetadata',
         'document_id' => '?string',
-        'document_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'document_id_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'font' => '?string',
         'font_color' => '?string',
-        'font_color_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'font_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'font_color_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'font_metadata' => '\DocuSign\Model\PropertyMetadata',
         'font_size' => '?string',
-        'font_size_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'font_size_metadata' => '\DocuSign\Model\PropertyMetadata',
         'form_order' => '?string',
-        'form_order_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'form_order_metadata' => '\DocuSign\Model\PropertyMetadata',
         'form_page_label' => '?string',
-        'form_page_label_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'form_page_label_metadata' => '\DocuSign\Model\PropertyMetadata',
         'form_page_number' => '?string',
-        'form_page_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'form_page_number_metadata' => '\DocuSign\Model\PropertyMetadata',
         'formula' => '?string',
-        'formula_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'formula_metadata' => '\DocuSign\Model\PropertyMetadata',
         'height' => '?string',
-        'height_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'height_metadata' => '\DocuSign\Model\PropertyMetadata',
         'hidden' => '?string',
-        'hidden_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'hidden_metadata' => '\DocuSign\Model\PropertyMetadata',
         'is_payment_amount' => '?string',
-        'is_payment_amount_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'is_payment_amount_metadata' => '\DocuSign\Model\PropertyMetadata',
         'italic' => '?string',
-        'italic_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'locale_policy' => '\DocuSign\eSign\Model\LocalePolicyTab',
+        'italic_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'locale_policy' => '\DocuSign\Model\LocalePolicyTab',
         'locked' => '?string',
-        'locked_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'locked_metadata' => '\DocuSign\Model\PropertyMetadata',
         'max_length' => '?string',
-        'max_length_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'merge_field' => '\DocuSign\eSign\Model\MergeField',
+        'max_length_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'merge_field' => '\DocuSign\Model\MergeField',
         'merge_field_xml' => '?string',
         'name' => '?string',
-        'name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'original_value' => '?string',
-        'original_value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'original_value_metadata' => '\DocuSign\Model\PropertyMetadata',
         'page_number' => '?string',
-        'page_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'payment_details' => '\DocuSign\eSign\Model\PaymentDetails',
+        'page_number_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'payment_details' => '\DocuSign\Model\PaymentDetails',
         'recipient_id' => '?string',
         'recipient_id_guid' => '?string',
-        'recipient_id_guid_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'recipient_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'recipient_id_guid_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'recipient_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'require_all' => '?string',
-        'require_all_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'require_all_metadata' => '\DocuSign\Model\PropertyMetadata',
         'required' => '?string',
-        'required_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'required_metadata' => '\DocuSign\Model\PropertyMetadata',
         'require_initial_on_shared_change' => '?string',
-        'require_initial_on_shared_change_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'require_initial_on_shared_change_metadata' => '\DocuSign\Model\PropertyMetadata',
         'round_decimal_places' => '?string',
-        'round_decimal_places_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'round_decimal_places_metadata' => '\DocuSign\Model\PropertyMetadata',
         'sender_required' => '?string',
-        'sender_required_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'sender_required_metadata' => '\DocuSign\Model\PropertyMetadata',
         'shared' => '?string',
-        'shared_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'shared_metadata' => '\DocuSign\Model\PropertyMetadata',
         'share_to_recipients' => '?string',
-        'share_to_recipients_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'smart_contract_information' => '\DocuSign\eSign\Model\SmartContractInformation',
+        'share_to_recipients_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'smart_contract_information' => '\DocuSign\Model\SmartContractInformation',
         'source' => '?string',
         'status' => '?string',
-        'status_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'status_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_group_labels' => '?string[]',
-        'tab_group_labels_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_group_labels_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_id' => '?string',
-        'tab_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_label' => '?string',
-        'tab_label_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_label_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_order' => '?string',
-        'tab_order_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_order_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_type' => '?string',
-        'tab_type_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_type_metadata' => '\DocuSign\Model\PropertyMetadata',
         'template_locked' => '?string',
-        'template_locked_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'template_locked_metadata' => '\DocuSign\Model\PropertyMetadata',
         'template_required' => '?string',
-        'template_required_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'template_required_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tooltip' => '?string',
-        'tool_tip_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tool_tip_metadata' => '\DocuSign\Model\PropertyMetadata',
         'underline' => '?string',
-        'underline_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'underline_metadata' => '\DocuSign\Model\PropertyMetadata',
         'validation_message' => '?string',
-        'validation_message_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'validation_message_metadata' => '\DocuSign\Model\PropertyMetadata',
         'validation_pattern' => '?string',
-        'validation_pattern_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'validation_pattern_metadata' => '\DocuSign\Model\PropertyMetadata',
         'value' => '?string',
-        'value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'value_metadata' => '\DocuSign\Model\PropertyMetadata',
         'width' => '?string',
-        'width_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'width_metadata' => '\DocuSign\Model\PropertyMetadata',
         'x_position' => '?string',
-        'x_position_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'x_position_metadata' => '\DocuSign\Model\PropertyMetadata',
         'y_position' => '?string',
-        'y_position_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'y_position_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -965,7 +965,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_allow_white_space_in_characters_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorAllowWhiteSpaceInCharactersMetadata()
     {
@@ -975,7 +975,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_allow_white_space_in_characters_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_allow_white_space_in_characters_metadata anchor_allow_white_space_in_characters_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_allow_white_space_in_characters_metadata anchor_allow_white_space_in_characters_metadata
      *
      * @return $this
      */
@@ -1013,7 +1013,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_case_sensitive_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorCaseSensitiveMetadata()
     {
@@ -1023,7 +1023,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_case_sensitive_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_case_sensitive_metadata anchor_case_sensitive_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_case_sensitive_metadata anchor_case_sensitive_metadata
      *
      * @return $this
      */
@@ -1061,7 +1061,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_horizontal_alignment_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorHorizontalAlignmentMetadata()
     {
@@ -1071,7 +1071,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_horizontal_alignment_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_horizontal_alignment_metadata anchor_horizontal_alignment_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_horizontal_alignment_metadata anchor_horizontal_alignment_metadata
      *
      * @return $this
      */
@@ -1109,7 +1109,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_ignore_if_not_present_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorIgnoreIfNotPresentMetadata()
     {
@@ -1119,7 +1119,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_ignore_if_not_present_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_ignore_if_not_present_metadata anchor_ignore_if_not_present_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_ignore_if_not_present_metadata anchor_ignore_if_not_present_metadata
      *
      * @return $this
      */
@@ -1157,7 +1157,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_match_whole_word_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorMatchWholeWordMetadata()
     {
@@ -1167,7 +1167,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_match_whole_word_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_match_whole_word_metadata anchor_match_whole_word_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_match_whole_word_metadata anchor_match_whole_word_metadata
      *
      * @return $this
      */
@@ -1205,7 +1205,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_string_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorStringMetadata()
     {
@@ -1215,7 +1215,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_string_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_string_metadata anchor_string_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_string_metadata anchor_string_metadata
      *
      * @return $this
      */
@@ -1253,7 +1253,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_tab_processor_version_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorTabProcessorVersionMetadata()
     {
@@ -1263,7 +1263,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_tab_processor_version_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_tab_processor_version_metadata anchor_tab_processor_version_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_tab_processor_version_metadata anchor_tab_processor_version_metadata
      *
      * @return $this
      */
@@ -1301,7 +1301,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_units_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorUnitsMetadata()
     {
@@ -1311,7 +1311,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_units_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_units_metadata anchor_units_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_units_metadata anchor_units_metadata
      *
      * @return $this
      */
@@ -1349,7 +1349,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_x_offset_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorXOffsetMetadata()
     {
@@ -1359,7 +1359,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_x_offset_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_x_offset_metadata anchor_x_offset_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_x_offset_metadata anchor_x_offset_metadata
      *
      * @return $this
      */
@@ -1397,7 +1397,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_y_offset_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorYOffsetMetadata()
     {
@@ -1407,7 +1407,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_y_offset_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_y_offset_metadata anchor_y_offset_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_y_offset_metadata anchor_y_offset_metadata
      *
      * @return $this
      */
@@ -1445,7 +1445,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets bold_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getBoldMetadata()
     {
@@ -1455,7 +1455,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets bold_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $bold_metadata bold_metadata
+     * @param \DocuSign\Model\PropertyMetadata $bold_metadata bold_metadata
      *
      * @return $this
      */
@@ -1493,7 +1493,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets conceal_value_on_document_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConcealValueOnDocumentMetadata()
     {
@@ -1503,7 +1503,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets conceal_value_on_document_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $conceal_value_on_document_metadata conceal_value_on_document_metadata
+     * @param \DocuSign\Model\PropertyMetadata $conceal_value_on_document_metadata conceal_value_on_document_metadata
      *
      * @return $this
      */
@@ -1541,7 +1541,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_parent_label_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConditionalParentLabelMetadata()
     {
@@ -1551,7 +1551,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_parent_label_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $conditional_parent_label_metadata conditional_parent_label_metadata
+     * @param \DocuSign\Model\PropertyMetadata $conditional_parent_label_metadata conditional_parent_label_metadata
      *
      * @return $this
      */
@@ -1589,7 +1589,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_parent_value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConditionalParentValueMetadata()
     {
@@ -1599,7 +1599,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_parent_value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $conditional_parent_value_metadata conditional_parent_value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $conditional_parent_value_metadata conditional_parent_value_metadata
      *
      * @return $this
      */
@@ -1637,7 +1637,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets custom_tab_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getCustomTabIdMetadata()
     {
@@ -1647,7 +1647,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets custom_tab_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $custom_tab_id_metadata custom_tab_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $custom_tab_id_metadata custom_tab_id_metadata
      *
      * @return $this
      */
@@ -1685,7 +1685,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets disable_auto_size_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getDisableAutoSizeMetadata()
     {
@@ -1695,7 +1695,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets disable_auto_size_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $disable_auto_size_metadata disable_auto_size_metadata
+     * @param \DocuSign\Model\PropertyMetadata $disable_auto_size_metadata disable_auto_size_metadata
      *
      * @return $this
      */
@@ -1733,7 +1733,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets document_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getDocumentIdMetadata()
     {
@@ -1743,7 +1743,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets document_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $document_id_metadata document_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $document_id_metadata document_id_metadata
      *
      * @return $this
      */
@@ -1757,7 +1757,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -1767,7 +1767,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -1829,7 +1829,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets font_color_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontColorMetadata()
     {
@@ -1839,7 +1839,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets font_color_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_color_metadata font_color_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_color_metadata font_color_metadata
      *
      * @return $this
      */
@@ -1853,7 +1853,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets font_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontMetadata()
     {
@@ -1863,7 +1863,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets font_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_metadata font_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_metadata font_metadata
      *
      * @return $this
      */
@@ -1901,7 +1901,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets font_size_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontSizeMetadata()
     {
@@ -1911,7 +1911,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets font_size_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_size_metadata font_size_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_size_metadata font_size_metadata
      *
      * @return $this
      */
@@ -1949,7 +1949,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets form_order_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFormOrderMetadata()
     {
@@ -1959,7 +1959,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets form_order_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $form_order_metadata form_order_metadata
+     * @param \DocuSign\Model\PropertyMetadata $form_order_metadata form_order_metadata
      *
      * @return $this
      */
@@ -1997,7 +1997,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets form_page_label_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFormPageLabelMetadata()
     {
@@ -2007,7 +2007,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets form_page_label_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $form_page_label_metadata form_page_label_metadata
+     * @param \DocuSign\Model\PropertyMetadata $form_page_label_metadata form_page_label_metadata
      *
      * @return $this
      */
@@ -2045,7 +2045,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets form_page_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFormPageNumberMetadata()
     {
@@ -2055,7 +2055,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets form_page_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $form_page_number_metadata form_page_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $form_page_number_metadata form_page_number_metadata
      *
      * @return $this
      */
@@ -2093,7 +2093,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets formula_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFormulaMetadata()
     {
@@ -2103,7 +2103,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets formula_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $formula_metadata formula_metadata
+     * @param \DocuSign\Model\PropertyMetadata $formula_metadata formula_metadata
      *
      * @return $this
      */
@@ -2141,7 +2141,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets height_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getHeightMetadata()
     {
@@ -2151,7 +2151,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets height_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $height_metadata height_metadata
+     * @param \DocuSign\Model\PropertyMetadata $height_metadata height_metadata
      *
      * @return $this
      */
@@ -2189,7 +2189,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets hidden_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getHiddenMetadata()
     {
@@ -2199,7 +2199,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets hidden_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $hidden_metadata hidden_metadata
+     * @param \DocuSign\Model\PropertyMetadata $hidden_metadata hidden_metadata
      *
      * @return $this
      */
@@ -2237,7 +2237,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets is_payment_amount_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getIsPaymentAmountMetadata()
     {
@@ -2247,7 +2247,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets is_payment_amount_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $is_payment_amount_metadata is_payment_amount_metadata
+     * @param \DocuSign\Model\PropertyMetadata $is_payment_amount_metadata is_payment_amount_metadata
      *
      * @return $this
      */
@@ -2285,7 +2285,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets italic_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getItalicMetadata()
     {
@@ -2295,7 +2295,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets italic_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $italic_metadata italic_metadata
+     * @param \DocuSign\Model\PropertyMetadata $italic_metadata italic_metadata
      *
      * @return $this
      */
@@ -2309,7 +2309,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets locale_policy
      *
-     * @return \DocuSign\eSign\Model\LocalePolicyTab
+     * @return \DocuSign\Model\LocalePolicyTab
      */
     public function getLocalePolicy()
     {
@@ -2319,7 +2319,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets locale_policy
      *
-     * @param \DocuSign\eSign\Model\LocalePolicyTab $locale_policy locale_policy
+     * @param \DocuSign\Model\LocalePolicyTab $locale_policy locale_policy
      *
      * @return $this
      */
@@ -2357,7 +2357,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets locked_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getLockedMetadata()
     {
@@ -2367,7 +2367,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets locked_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $locked_metadata locked_metadata
+     * @param \DocuSign\Model\PropertyMetadata $locked_metadata locked_metadata
      *
      * @return $this
      */
@@ -2405,7 +2405,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets max_length_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getMaxLengthMetadata()
     {
@@ -2415,7 +2415,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets max_length_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $max_length_metadata max_length_metadata
+     * @param \DocuSign\Model\PropertyMetadata $max_length_metadata max_length_metadata
      *
      * @return $this
      */
@@ -2429,7 +2429,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets merge_field
      *
-     * @return \DocuSign\eSign\Model\MergeField
+     * @return \DocuSign\Model\MergeField
      */
     public function getMergeField()
     {
@@ -2439,7 +2439,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets merge_field
      *
-     * @param \DocuSign\eSign\Model\MergeField $merge_field merge_field
+     * @param \DocuSign\Model\MergeField $merge_field merge_field
      *
      * @return $this
      */
@@ -2501,7 +2501,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getNameMetadata()
     {
@@ -2511,7 +2511,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $name_metadata name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $name_metadata name_metadata
      *
      * @return $this
      */
@@ -2549,7 +2549,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets original_value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getOriginalValueMetadata()
     {
@@ -2559,7 +2559,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets original_value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $original_value_metadata original_value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $original_value_metadata original_value_metadata
      *
      * @return $this
      */
@@ -2597,7 +2597,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets page_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getPageNumberMetadata()
     {
@@ -2607,7 +2607,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets page_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $page_number_metadata page_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $page_number_metadata page_number_metadata
      *
      * @return $this
      */
@@ -2621,7 +2621,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets payment_details
      *
-     * @return \DocuSign\eSign\Model\PaymentDetails
+     * @return \DocuSign\Model\PaymentDetails
      */
     public function getPaymentDetails()
     {
@@ -2631,7 +2631,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets payment_details
      *
-     * @param \DocuSign\eSign\Model\PaymentDetails $payment_details payment_details
+     * @param \DocuSign\Model\PaymentDetails $payment_details payment_details
      *
      * @return $this
      */
@@ -2693,7 +2693,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_id_guid_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipientIdGuidMetadata()
     {
@@ -2703,7 +2703,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_id_guid_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recipient_id_guid_metadata recipient_id_guid_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recipient_id_guid_metadata recipient_id_guid_metadata
      *
      * @return $this
      */
@@ -2717,7 +2717,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipientIdMetadata()
     {
@@ -2727,7 +2727,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recipient_id_metadata recipient_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recipient_id_metadata recipient_id_metadata
      *
      * @return $this
      */
@@ -2765,7 +2765,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets require_all_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequireAllMetadata()
     {
@@ -2775,7 +2775,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets require_all_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $require_all_metadata require_all_metadata
+     * @param \DocuSign\Model\PropertyMetadata $require_all_metadata require_all_metadata
      *
      * @return $this
      */
@@ -2813,7 +2813,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets required_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequiredMetadata()
     {
@@ -2823,7 +2823,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets required_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $required_metadata required_metadata
+     * @param \DocuSign\Model\PropertyMetadata $required_metadata required_metadata
      *
      * @return $this
      */
@@ -2861,7 +2861,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets require_initial_on_shared_change_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequireInitialOnSharedChangeMetadata()
     {
@@ -2871,7 +2871,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets require_initial_on_shared_change_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $require_initial_on_shared_change_metadata require_initial_on_shared_change_metadata
+     * @param \DocuSign\Model\PropertyMetadata $require_initial_on_shared_change_metadata require_initial_on_shared_change_metadata
      *
      * @return $this
      */
@@ -2909,7 +2909,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets round_decimal_places_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRoundDecimalPlacesMetadata()
     {
@@ -2919,7 +2919,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets round_decimal_places_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $round_decimal_places_metadata round_decimal_places_metadata
+     * @param \DocuSign\Model\PropertyMetadata $round_decimal_places_metadata round_decimal_places_metadata
      *
      * @return $this
      */
@@ -2957,7 +2957,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets sender_required_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSenderRequiredMetadata()
     {
@@ -2967,7 +2967,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets sender_required_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $sender_required_metadata sender_required_metadata
+     * @param \DocuSign\Model\PropertyMetadata $sender_required_metadata sender_required_metadata
      *
      * @return $this
      */
@@ -3005,7 +3005,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets shared_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSharedMetadata()
     {
@@ -3015,7 +3015,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets shared_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $shared_metadata shared_metadata
+     * @param \DocuSign\Model\PropertyMetadata $shared_metadata shared_metadata
      *
      * @return $this
      */
@@ -3053,7 +3053,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets share_to_recipients_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getShareToRecipientsMetadata()
     {
@@ -3063,7 +3063,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets share_to_recipients_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $share_to_recipients_metadata share_to_recipients_metadata
+     * @param \DocuSign\Model\PropertyMetadata $share_to_recipients_metadata share_to_recipients_metadata
      *
      * @return $this
      */
@@ -3077,7 +3077,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets smart_contract_information
      *
-     * @return \DocuSign\eSign\Model\SmartContractInformation
+     * @return \DocuSign\Model\SmartContractInformation
      */
     public function getSmartContractInformation()
     {
@@ -3087,7 +3087,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets smart_contract_information
      *
-     * @param \DocuSign\eSign\Model\SmartContractInformation $smart_contract_information smart_contract_information
+     * @param \DocuSign\Model\SmartContractInformation $smart_contract_information smart_contract_information
      *
      * @return $this
      */
@@ -3149,7 +3149,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets status_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getStatusMetadata()
     {
@@ -3159,7 +3159,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets status_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $status_metadata status_metadata
+     * @param \DocuSign\Model\PropertyMetadata $status_metadata status_metadata
      *
      * @return $this
      */
@@ -3197,7 +3197,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tab_group_labels_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabGroupLabelsMetadata()
     {
@@ -3207,7 +3207,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tab_group_labels_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_group_labels_metadata tab_group_labels_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_group_labels_metadata tab_group_labels_metadata
      *
      * @return $this
      */
@@ -3245,7 +3245,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tab_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabIdMetadata()
     {
@@ -3255,7 +3255,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tab_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_id_metadata tab_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_id_metadata tab_id_metadata
      *
      * @return $this
      */
@@ -3293,7 +3293,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tab_label_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabLabelMetadata()
     {
@@ -3303,7 +3303,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tab_label_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_label_metadata tab_label_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_label_metadata tab_label_metadata
      *
      * @return $this
      */
@@ -3341,7 +3341,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tab_order_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabOrderMetadata()
     {
@@ -3351,7 +3351,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tab_order_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_order_metadata tab_order_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_order_metadata tab_order_metadata
      *
      * @return $this
      */
@@ -3389,7 +3389,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tab_type_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabTypeMetadata()
     {
@@ -3399,7 +3399,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tab_type_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_type_metadata tab_type_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_type_metadata tab_type_metadata
      *
      * @return $this
      */
@@ -3437,7 +3437,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets template_locked_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTemplateLockedMetadata()
     {
@@ -3447,7 +3447,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets template_locked_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $template_locked_metadata template_locked_metadata
+     * @param \DocuSign\Model\PropertyMetadata $template_locked_metadata template_locked_metadata
      *
      * @return $this
      */
@@ -3485,7 +3485,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets template_required_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTemplateRequiredMetadata()
     {
@@ -3495,7 +3495,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets template_required_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $template_required_metadata template_required_metadata
+     * @param \DocuSign\Model\PropertyMetadata $template_required_metadata template_required_metadata
      *
      * @return $this
      */
@@ -3533,7 +3533,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets tool_tip_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getToolTipMetadata()
     {
@@ -3543,7 +3543,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets tool_tip_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tool_tip_metadata tool_tip_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tool_tip_metadata tool_tip_metadata
      *
      * @return $this
      */
@@ -3581,7 +3581,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets underline_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getUnderlineMetadata()
     {
@@ -3591,7 +3591,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets underline_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $underline_metadata underline_metadata
+     * @param \DocuSign\Model\PropertyMetadata $underline_metadata underline_metadata
      *
      * @return $this
      */
@@ -3629,7 +3629,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets validation_message_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValidationMessageMetadata()
     {
@@ -3639,7 +3639,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets validation_message_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $validation_message_metadata validation_message_metadata
+     * @param \DocuSign\Model\PropertyMetadata $validation_message_metadata validation_message_metadata
      *
      * @return $this
      */
@@ -3677,7 +3677,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets validation_pattern_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValidationPatternMetadata()
     {
@@ -3687,7 +3687,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets validation_pattern_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $validation_pattern_metadata validation_pattern_metadata
+     * @param \DocuSign\Model\PropertyMetadata $validation_pattern_metadata validation_pattern_metadata
      *
      * @return $this
      */
@@ -3725,7 +3725,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValueMetadata()
     {
@@ -3735,7 +3735,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $value_metadata value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $value_metadata value_metadata
      *
      * @return $this
      */
@@ -3773,7 +3773,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets width_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getWidthMetadata()
     {
@@ -3783,7 +3783,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets width_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $width_metadata width_metadata
+     * @param \DocuSign\Model\PropertyMetadata $width_metadata width_metadata
      *
      * @return $this
      */
@@ -3821,7 +3821,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets x_position_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getXPositionMetadata()
     {
@@ -3831,7 +3831,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets x_position_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $x_position_metadata x_position_metadata
+     * @param \DocuSign\Model\PropertyMetadata $x_position_metadata x_position_metadata
      *
      * @return $this
      */
@@ -3869,7 +3869,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Gets y_position_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getYPositionMetadata()
     {
@@ -3879,7 +3879,7 @@ class FormulaTab implements ModelInterface, ArrayAccess
     /**
      * Sets y_position_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $y_position_metadata y_position_metadata
+     * @param \DocuSign\Model\PropertyMetadata $y_position_metadata y_position_metadata
      *
      * @return $this
      */

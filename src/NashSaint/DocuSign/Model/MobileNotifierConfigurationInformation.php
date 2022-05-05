@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * MobileNotifierConfigurationInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class MobileNotifierConfigurationInformation implements ModelInterface, ArrayAcc
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'mobile_notifier_configurations' => '\DocuSign\eSign\Model\MobileNotifierConfiguration[]'
+        'mobile_notifier_configurations' => '\DocuSign\Model\MobileNotifierConfiguration[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class MobileNotifierConfigurationInformation implements ModelInterface, ArrayAcc
     /**
      * Gets mobile_notifier_configurations
      *
-     * @return \DocuSign\eSign\Model\MobileNotifierConfiguration[]
+     * @return \DocuSign\Model\MobileNotifierConfiguration[]
      */
     public function getMobileNotifierConfigurations()
     {
@@ -219,7 +219,7 @@ class MobileNotifierConfigurationInformation implements ModelInterface, ArrayAcc
     /**
      * Sets mobile_notifier_configurations
      *
-     * @param \DocuSign\eSign\Model\MobileNotifierConfiguration[] $mobile_notifier_configurations
+     * @param \DocuSign\Model\MobileNotifierConfiguration[] $mobile_notifier_configurations
      *
      * @return $this
      */

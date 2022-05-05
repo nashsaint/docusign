@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopesInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'continuation_token' => '?string',
         'end_position' => '?string',
-        'envelopes' => '\DocuSign\eSign\Model\Envelope[]',
-        'envelope_transaction_statuses' => '\DocuSign\eSign\Model\EnvelopeTransactionStatus[]',
-        'folders' => '\DocuSign\eSign\Model\Folder[]',
+        'envelopes' => '\DocuSign\Model\Envelope[]',
+        'envelope_transaction_statuses' => '\DocuSign\Model\EnvelopeTransactionStatus[]',
+        'folders' => '\DocuSign\Model\Folder[]',
         'last_queried_date_time' => '?string',
         'next_uri' => '?string',
         'previous_uri' => '?string',
@@ -317,7 +317,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Gets envelopes
      *
-     * @return \DocuSign\eSign\Model\Envelope[]
+     * @return \DocuSign\Model\Envelope[]
      */
     public function getEnvelopes()
     {
@@ -327,7 +327,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Sets envelopes
      *
-     * @param \DocuSign\eSign\Model\Envelope[] $envelopes
+     * @param \DocuSign\Model\Envelope[] $envelopes
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_transaction_statuses
      *
-     * @return \DocuSign\eSign\Model\EnvelopeTransactionStatus[]
+     * @return \DocuSign\Model\EnvelopeTransactionStatus[]
      */
     public function getEnvelopeTransactionStatuses()
     {
@@ -351,7 +351,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_transaction_statuses
      *
-     * @param \DocuSign\eSign\Model\EnvelopeTransactionStatus[] $envelope_transaction_statuses
+     * @param \DocuSign\Model\EnvelopeTransactionStatus[] $envelope_transaction_statuses
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\Folder[]
+     * @return \DocuSign\Model\Folder[]
      */
     public function getFolders()
     {
@@ -375,7 +375,7 @@ class EnvelopesInformation implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\Folder[] $folders
+     * @param \DocuSign\Model\Folder[] $folders
      *
      * @return $this
      */

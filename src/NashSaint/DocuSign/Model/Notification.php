@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Notification Class Doc Comment
  *
  * @category    Class
  * @description A complex element that specifies the notification options for the envelope. It consists of:  * useAccountDefaults - When set to **true**, the account default notification settings are used for the envelope.  * reminders - A complex element that specifies reminder settings for the envelope. It consists of:      * reminderEnabled - When set to **true**, a reminder message is sent to the recipient.    * reminderDelay - An interger that sets the number of days after the recipient receives the envelope that reminder emails are sent to the recipient.     * reminderFrequency - An interger that sets the interval, in days, between reminder emails.   * expirations - A complex element that specifies the expiration settings for the envelope. It consists of:     * expireEnabled - When set to **true**, the envelope expires (is no longer available for signing) in the set number of days. If false, the account default setting is used. If the account does not have an expiration setting, the DocuSign default value of 120 days is used.     * expireAfter - An integer that sets the number of days the envelope is active.    * expireWarn - An integer that sets the number of days before envelope expiration that an expiration warning email is sent to the recipient. If set to 0 (zero), no warning email is sent.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,8 +60,8 @@ class Notification implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'expirations' => '\DocuSign\eSign\Model\Expirations',
-        'reminders' => '\DocuSign\eSign\Model\Reminders',
+        'expirations' => '\DocuSign\Model\Expirations',
+        'reminders' => '\DocuSign\Model\Reminders',
         'use_account_defaults' => '?string'
     ];
 
@@ -222,7 +222,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets expirations
      *
-     * @return \DocuSign\eSign\Model\Expirations
+     * @return \DocuSign\Model\Expirations
      */
     public function getExpirations()
     {
@@ -232,7 +232,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets expirations
      *
-     * @param \DocuSign\eSign\Model\Expirations $expirations expirations
+     * @param \DocuSign\Model\Expirations $expirations expirations
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Gets reminders
      *
-     * @return \DocuSign\eSign\Model\Reminders
+     * @return \DocuSign\Model\Reminders
      */
     public function getReminders()
     {
@@ -256,7 +256,7 @@ class Notification implements ModelInterface, ArrayAccess
     /**
      * Sets reminders
      *
-     * @param \DocuSign\eSign\Model\Reminders $reminders reminders
+     * @param \DocuSign\Model\Reminders $reminders reminders
      *
      * @return $this
      */

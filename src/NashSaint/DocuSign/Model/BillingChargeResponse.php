@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingChargeResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines a billing charge response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class BillingChargeResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_charge_items' => '\DocuSign\eSign\Model\BillingCharge[]'
+        'billing_charge_items' => '\DocuSign\Model\BillingCharge[]'
     ];
 
     /**
@@ -210,7 +210,7 @@ class BillingChargeResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_charge_items
      *
-     * @return \DocuSign\eSign\Model\BillingCharge[]
+     * @return \DocuSign\Model\BillingCharge[]
      */
     public function getBillingChargeItems()
     {
@@ -220,7 +220,7 @@ class BillingChargeResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_charge_items
      *
-     * @param \DocuSign\eSign\Model\BillingCharge[] $billing_charge_items Reserved: TBD
+     * @param \DocuSign\Model\BillingCharge[] $billing_charge_items Reserved: TBD
      *
      * @return $this
      */

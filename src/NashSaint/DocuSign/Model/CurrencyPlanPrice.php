@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CurrencyPlanPrice Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class CurrencyPlanPrice implements ModelInterface, ArrayAccess
         'currency_code' => '?string',
         'currency_symbol' => '?string',
         'per_seat_price' => '?string',
-        'supported_card_types' => '\DocuSign\eSign\Model\CreditCardTypes',
+        'supported_card_types' => '\DocuSign\Model\CreditCardTypes',
         'support_incident_fee' => '?string',
         'support_plan_fee' => '?string'
     ];
@@ -311,7 +311,7 @@ class CurrencyPlanPrice implements ModelInterface, ArrayAccess
     /**
      * Gets supported_card_types
      *
-     * @return \DocuSign\eSign\Model\CreditCardTypes
+     * @return \DocuSign\Model\CreditCardTypes
      */
     public function getSupportedCardTypes()
     {
@@ -321,7 +321,7 @@ class CurrencyPlanPrice implements ModelInterface, ArrayAccess
     /**
      * Sets supported_card_types
      *
-     * @param \DocuSign\eSign\Model\CreditCardTypes $supported_card_types supported_card_types
+     * @param \DocuSign\Model\CreditCardTypes $supported_card_types supported_card_types
      *
      * @return $this
      */

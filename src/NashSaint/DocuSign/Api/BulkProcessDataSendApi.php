@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,22 +30,22 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\BulkProcessDataSendApi;
+namespace NashSaint\DocuSign\Api\BulkProcessDataSendApi;
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkProcessDataSendApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -121,10 +121,10 @@ class BulkProcessDataSendApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $bulk_process_list_id
      * @param ?string $process_action
-     * @param \DocuSign\eSign\Model\BulkProcessRequest $bulk_process_request  (optional)
+     * @param \DocuSign\Model\BulkProcessRequest $bulk_process_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BulkProcessResponse
+     * @return \DocuSign\Model\BulkProcessResponse
      */
     public function createBulkProcessRequestToQueue($account_id, $bulk_process_list_id, $process_action, $bulk_process_request = null)
     {
@@ -140,10 +140,10 @@ class BulkProcessDataSendApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $bulk_process_list_id
      * @param ?string $process_action
-     * @param \DocuSign\eSign\Model\BulkProcessRequest $bulk_process_request  (optional)
+     * @param \DocuSign\Model\BulkProcessRequest $bulk_process_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BulkProcessResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BulkProcessResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createBulkProcessRequestToQueueWithHttpInfo($account_id, $bulk_process_list_id, $process_action, $bulk_process_request = null): array
     {
@@ -206,19 +206,19 @@ class BulkProcessDataSendApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BulkProcessResponse',
+                '\DocuSign\Model\BulkProcessResponse',
                 '/v2.1/accounts/{accountId}/bulk_process_data/actions/{processAction}/{bulkProcessListId}/send'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BulkProcessResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BulkProcessResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BulkProcessResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BulkProcessResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -237,7 +237,7 @@ class BulkProcessDataSendApi
      * @param ?string $process_action
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BulkProcessResult
+     * @return \DocuSign\Model\BulkProcessResult
      */
     public function deleteBulkProcessList($account_id, $bulk_process_list_id, $process_action)
     {
@@ -255,7 +255,7 @@ class BulkProcessDataSendApi
      * @param ?string $process_action
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BulkProcessResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BulkProcessResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteBulkProcessListWithHttpInfo($account_id, $bulk_process_list_id, $process_action): array
     {
@@ -313,19 +313,19 @@ class BulkProcessDataSendApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BulkProcessResult',
+                '\DocuSign\Model\BulkProcessResult',
                 '/v2.1/accounts/{accountId}/bulk_process_data/actions/{processAction}/{bulkProcessListId}/send'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BulkProcessResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BulkProcessResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BulkProcessResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BulkProcessResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -428,7 +428,7 @@ class BulkProcessDataSendApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -531,7 +531,7 @@ class BulkProcessDataSendApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

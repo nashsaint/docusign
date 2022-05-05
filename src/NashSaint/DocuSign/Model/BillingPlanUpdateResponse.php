@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlanUpdateResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines a billing plan update response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class BillingPlanUpdateResponse implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'account_payment_method' => '?string',
-        'billing_plan_preview' => '\DocuSign\eSign\Model\BillingPlanPreview',
+        'billing_plan_preview' => '\DocuSign\Model\BillingPlanPreview',
         'currency_code' => '?string',
         'included_seats' => '?string',
         'payment_cycle' => '?string',
@@ -276,7 +276,7 @@ class BillingPlanUpdateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_plan_preview
      *
-     * @return \DocuSign\eSign\Model\BillingPlanPreview
+     * @return \DocuSign\Model\BillingPlanPreview
      */
     public function getBillingPlanPreview()
     {
@@ -286,7 +286,7 @@ class BillingPlanUpdateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_plan_preview
      *
-     * @param \DocuSign\eSign\Model\BillingPlanPreview $billing_plan_preview billing_plan_preview
+     * @param \DocuSign\Model\BillingPlanPreview $billing_plan_preview billing_plan_preview
      *
      * @return $this
      */

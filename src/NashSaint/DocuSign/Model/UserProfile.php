@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserProfile Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class UserProfile implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\DocuSign\eSign\Model\AddressInformation',
-        'authentication_methods' => '\DocuSign\eSign\Model\AuthenticationMethod[]',
+        'address' => '\DocuSign\Model\AddressInformation',
+        'authentication_methods' => '\DocuSign\Model\AuthenticationMethod[]',
         'company_name' => '?string',
         'display_organization_info' => '?string',
         'display_personal_info' => '?string',
@@ -68,8 +68,8 @@ class UserProfile implements ModelInterface, ArrayAccess
         'display_usage_history' => '?string',
         'profile_image_uri' => '?string',
         'title' => '?string',
-        'usage_history' => '\DocuSign\eSign\Model\UsageHistory',
-        'user_details' => '\DocuSign\eSign\Model\UserInformation',
+        'usage_history' => '\DocuSign\Model\UsageHistory',
+        'user_details' => '\DocuSign\Model\UserInformation',
         'user_profile_last_modified_date' => '?string'
     ];
 
@@ -275,7 +275,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Gets address
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getAddress()
     {
@@ -285,7 +285,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Sets address
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $address address
+     * @param \DocuSign\Model\AddressInformation $address address
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Gets authentication_methods
      *
-     * @return \DocuSign\eSign\Model\AuthenticationMethod[]
+     * @return \DocuSign\Model\AuthenticationMethod[]
      */
     public function getAuthenticationMethods()
     {
@@ -309,7 +309,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Sets authentication_methods
      *
-     * @param \DocuSign\eSign\Model\AuthenticationMethod[] $authentication_methods These properties cannot be modified in the PUT.   Indicates the authentication methods used by the user.
+     * @param \DocuSign\Model\AuthenticationMethod[] $authentication_methods These properties cannot be modified in the PUT.   Indicates the authentication methods used by the user.
      *
      * @return $this
      */
@@ -491,7 +491,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Gets usage_history
      *
-     * @return \DocuSign\eSign\Model\UsageHistory
+     * @return \DocuSign\Model\UsageHistory
      */
     public function getUsageHistory()
     {
@@ -501,7 +501,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Sets usage_history
      *
-     * @param \DocuSign\eSign\Model\UsageHistory $usage_history usage_history
+     * @param \DocuSign\Model\UsageHistory $usage_history usage_history
      *
      * @return $this
      */
@@ -515,7 +515,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Gets user_details
      *
-     * @return \DocuSign\eSign\Model\UserInformation
+     * @return \DocuSign\Model\UserInformation
      */
     public function getUserDetails()
     {
@@ -525,7 +525,7 @@ class UserProfile implements ModelInterface, ArrayAccess
     /**
      * Sets user_details
      *
-     * @param \DocuSign\eSign\Model\UserInformation $user_details user_details
+     * @param \DocuSign\Model\UserInformation $user_details user_details
      *
      * @return $this
      */

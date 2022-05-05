@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PlanInformation Class Doc Comment
  *
  * @category    Class
  * @description An object used to identify the features and attributes of the account being created.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,12 +60,12 @@ class PlanInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'add_ons' => '\DocuSign\eSign\Model\AddOn[]',
+        'add_ons' => '\DocuSign\Model\AddOn[]',
         'currency_code' => '?string',
         'free_trial_days_override' => '?string',
-        'plan_feature_sets' => '\DocuSign\eSign\Model\FeatureSet[]',
+        'plan_feature_sets' => '\DocuSign\Model\FeatureSet[]',
         'plan_id' => '?string',
-        'recipient_domains' => '\DocuSign\eSign\Model\RecipientDomain[]'
+        'recipient_domains' => '\DocuSign\Model\RecipientDomain[]'
     ];
 
     /**
@@ -240,7 +240,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets add_ons
      *
-     * @return \DocuSign\eSign\Model\AddOn[]
+     * @return \DocuSign\Model\AddOn[]
      */
     public function getAddOns()
     {
@@ -250,7 +250,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets add_ons
      *
-     * @param \DocuSign\eSign\Model\AddOn[] $add_ons Reserved:
+     * @param \DocuSign\Model\AddOn[] $add_ons Reserved:
      *
      * @return $this
      */
@@ -312,7 +312,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets plan_feature_sets
      *
-     * @return \DocuSign\eSign\Model\FeatureSet[]
+     * @return \DocuSign\Model\FeatureSet[]
      */
     public function getPlanFeatureSets()
     {
@@ -322,7 +322,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets plan_feature_sets
      *
-     * @param \DocuSign\eSign\Model\FeatureSet[] $plan_feature_sets A complex type that sets the feature sets for the account.
+     * @param \DocuSign\Model\FeatureSet[] $plan_feature_sets A complex type that sets the feature sets for the account.
      *
      * @return $this
      */
@@ -360,7 +360,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_domains
      *
-     * @return \DocuSign\eSign\Model\RecipientDomain[]
+     * @return \DocuSign\Model\RecipientDomain[]
      */
     public function getRecipientDomains()
     {
@@ -370,7 +370,7 @@ class PlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_domains
      *
-     * @param \DocuSign\eSign\Model\RecipientDomain[] $recipient_domains
+     * @param \DocuSign\Model\RecipientDomain[] $recipient_domains
      *
      * @return $this
      */

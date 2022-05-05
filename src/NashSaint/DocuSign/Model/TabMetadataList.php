@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TabMetadataList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class TabMetadataList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'tabs' => '\DocuSign\eSign\Model\TabMetadata[]'
+        'tabs' => '\DocuSign\Model\TabMetadata[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class TabMetadataList implements ModelInterface, ArrayAccess
     /**
      * Gets tabs
      *
-     * @return \DocuSign\eSign\Model\TabMetadata[]
+     * @return \DocuSign\Model\TabMetadata[]
      */
     public function getTabs()
     {
@@ -219,7 +219,7 @@ class TabMetadataList implements ModelInterface, ArrayAccess
     /**
      * Sets tabs
      *
-     * @param \DocuSign\eSign\Model\TabMetadata[] $tabs
+     * @param \DocuSign\Model\TabMetadata[] $tabs
      *
      * @return $this
      */

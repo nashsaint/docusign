@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PrefillFormData Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class PrefillFormData implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'form_data' => '\DocuSign\eSign\Model\FormDataItem[]',
+        'form_data' => '\DocuSign\Model\FormDataItem[]',
         'sender_email' => '?string',
         'sender_name' => '?string',
         'sender_user_id' => '?string'
@@ -227,7 +227,7 @@ class PrefillFormData implements ModelInterface, ArrayAccess
     /**
      * Gets form_data
      *
-     * @return \DocuSign\eSign\Model\FormDataItem[]
+     * @return \DocuSign\Model\FormDataItem[]
      */
     public function getFormData()
     {
@@ -237,7 +237,7 @@ class PrefillFormData implements ModelInterface, ArrayAccess
     /**
      * Sets form_data
      *
-     * @param \DocuSign\eSign\Model\FormDataItem[] $form_data
+     * @param \DocuSign\Model\FormDataItem[] $form_data
      *
      * @return $this
      */

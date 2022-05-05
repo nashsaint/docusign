@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * LoginAccount Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,8 +64,8 @@ class LoginAccount implements ModelInterface, ArrayAccess
         'base_url' => '?string',
         'email' => '?string',
         'is_default' => '?string',
-        'login_account_settings' => '\DocuSign\eSign\Model\NameValue[]',
-        'login_user_settings' => '\DocuSign\eSign\Model\NameValue[]',
+        'login_account_settings' => '\DocuSign\Model\NameValue[]',
+        'login_user_settings' => '\DocuSign\Model\NameValue[]',
         'name' => '?string',
         'site_description' => '?string',
         'user_id' => '?string',
@@ -389,7 +389,7 @@ class LoginAccount implements ModelInterface, ArrayAccess
     /**
      * Gets login_account_settings
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getLoginAccountSettings()
     {
@@ -399,7 +399,7 @@ class LoginAccount implements ModelInterface, ArrayAccess
     /**
      * Sets login_account_settings
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $login_account_settings A list of settings on the acccount that indicate what features are available.
+     * @param \DocuSign\Model\NameValue[] $login_account_settings A list of settings on the acccount that indicate what features are available.
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class LoginAccount implements ModelInterface, ArrayAccess
     /**
      * Gets login_user_settings
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getLoginUserSettings()
     {
@@ -423,7 +423,7 @@ class LoginAccount implements ModelInterface, ArrayAccess
     /**
      * Sets login_user_settings
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $login_user_settings A list of user-level settings that indicate what user-specific features are available.
+     * @param \DocuSign\Model\NameValue[] $login_user_settings A list of user-level settings that indicate what user-specific features are available.
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CloudStorageProviders Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class CloudStorageProviders implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'storage_providers' => '\DocuSign\eSign\Model\CloudStorageProvider[]'
+        'storage_providers' => '\DocuSign\Model\CloudStorageProvider[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class CloudStorageProviders implements ModelInterface, ArrayAccess
     /**
      * Gets storage_providers
      *
-     * @return \DocuSign\eSign\Model\CloudStorageProvider[]
+     * @return \DocuSign\Model\CloudStorageProvider[]
      */
     public function getStorageProviders()
     {
@@ -219,7 +219,7 @@ class CloudStorageProviders implements ModelInterface, ArrayAccess
     /**
      * Sets storage_providers
      *
-     * @param \DocuSign\eSign\Model\CloudStorageProvider[] $storage_providers An Array containing the storage providers associated with the user.
+     * @param \DocuSign\Model\CloudStorageProvider[] $storage_providers An Array containing the storage providers associated with the user.
      *
      * @return $this
      */

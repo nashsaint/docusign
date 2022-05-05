@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PageImages Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class PageImages implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'end_position' => '?string',
         'next_uri' => '?string',
-        'pages' => '\DocuSign\eSign\Model\Page[]',
+        'pages' => '\DocuSign\Model\Page[]',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
         'start_position' => '?string',
@@ -293,7 +293,7 @@ class PageImages implements ModelInterface, ArrayAccess
     /**
      * Gets pages
      *
-     * @return \DocuSign\eSign\Model\Page[]
+     * @return \DocuSign\Model\Page[]
      */
     public function getPages()
     {
@@ -303,7 +303,7 @@ class PageImages implements ModelInterface, ArrayAccess
     /**
      * Sets pages
      *
-     * @param \DocuSign\eSign\Model\Page[] $pages
+     * @param \DocuSign\Model\Page[] $pages
      *
      * @return $this
      */

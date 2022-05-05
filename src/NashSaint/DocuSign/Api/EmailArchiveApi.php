@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\EmailArchiveApi;
+namespace NashSaint\DocuSign\Api\EmailArchiveApi;
 
 
 /**
  * GetBCCEmailArchiveHistoryListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -105,7 +105,7 @@ class GetBCCEmailArchiveHistoryListOptions
  * GetBCCEmailArchiveListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -170,18 +170,18 @@ class GetBCCEmailArchiveListOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EmailArchiveApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -255,10 +255,10 @@ class EmailArchiveApi
      * Creates a blind carbon copy email archive entry
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BccEmailArchive $bcc_email_archive  (optional)
+     * @param \DocuSign\Model\BccEmailArchive $bcc_email_archive  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BccEmailArchive
+     * @return \DocuSign\Model\BccEmailArchive
      */
     public function createBCCEmailArchive($account_id, $bcc_email_archive = null)
     {
@@ -272,10 +272,10 @@ class EmailArchiveApi
      * Creates a blind carbon copy email archive entry
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BccEmailArchive $bcc_email_archive  (optional)
+     * @param \DocuSign\Model\BccEmailArchive $bcc_email_archive  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BccEmailArchive, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BccEmailArchive, HTTP status code, HTTP response headers (array of strings)
      */
     public function createBCCEmailArchiveWithHttpInfo($account_id, $bcc_email_archive = null): array
     {
@@ -322,19 +322,19 @@ class EmailArchiveApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BccEmailArchive',
+                '\DocuSign\Model\BccEmailArchive',
                 '/v2.1/accounts/{accountId}/settings/bcc_email_archives'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BccEmailArchive', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BccEmailArchive', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BccEmailArchive', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BccEmailArchive', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -427,7 +427,7 @@ class EmailArchiveApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -443,12 +443,12 @@ class EmailArchiveApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $bcc_email_archive_id
-     * @param  \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BccEmailArchiveHistoryList
+     * @return \DocuSign\Model\BccEmailArchiveHistoryList
      */
-    public function getBCCEmailArchiveHistoryList($account_id, $bcc_email_archive_id, \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions $options = null)
+    public function getBCCEmailArchiveHistoryList($account_id, $bcc_email_archive_id, \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions $options = null)
     {
         list($response) = $this->getBCCEmailArchiveHistoryListWithHttpInfo($account_id, $bcc_email_archive_id, $options);
         return $response;
@@ -461,12 +461,12 @@ class EmailArchiveApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $bcc_email_archive_id
-     * @param  \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BccEmailArchiveHistoryList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BccEmailArchiveHistoryList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getBCCEmailArchiveHistoryListWithHttpInfo($account_id, $bcc_email_archive_id, \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions $options = null): array
+    public function getBCCEmailArchiveHistoryListWithHttpInfo($account_id, $bcc_email_archive_id, \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveHistoryListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -524,19 +524,19 @@ class EmailArchiveApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BccEmailArchiveHistoryList',
+                '\DocuSign\Model\BccEmailArchiveHistoryList',
                 '/v2.1/accounts/{accountId}/settings/bcc_email_archives/{bccEmailArchiveId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BccEmailArchiveHistoryList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BccEmailArchiveHistoryList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BccEmailArchiveHistoryList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BccEmailArchiveHistoryList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -551,12 +551,12 @@ class EmailArchiveApi
      * Get the blind carbon copy email archive entries owned by the specified account
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BccEmailArchiveList
+     * @return \DocuSign\Model\BccEmailArchiveList
      */
-    public function getBCCEmailArchiveList($account_id, \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions $options = null)
+    public function getBCCEmailArchiveList($account_id, \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions $options = null)
     {
         list($response) = $this->getBCCEmailArchiveListWithHttpInfo($account_id, $options);
         return $response;
@@ -568,12 +568,12 @@ class EmailArchiveApi
      * Get the blind carbon copy email archive entries owned by the specified account
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BccEmailArchiveList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BccEmailArchiveList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getBCCEmailArchiveListWithHttpInfo($account_id, \DocuSign\eSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions $options = null): array
+    public function getBCCEmailArchiveListWithHttpInfo($account_id, \DocuSign\Api\EmailArchiveApi\GetBCCEmailArchiveListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -623,19 +623,19 @@ class EmailArchiveApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BccEmailArchiveList',
+                '\DocuSign\Model\BccEmailArchiveList',
                 '/v2.1/accounts/{accountId}/settings/bcc_email_archives'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BccEmailArchiveList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BccEmailArchiveList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BccEmailArchiveList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BccEmailArchiveList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ChunkedUploadResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class ChunkedUploadResponse implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'checksum' => '?string',
         'chunked_upload_id' => '?string',
-        'chunked_upload_parts' => '\DocuSign\eSign\Model\ChunkedUploadPart[]',
+        'chunked_upload_parts' => '\DocuSign\Model\ChunkedUploadPart[]',
         'chunked_upload_uri' => '?string',
         'committed' => '?string',
         'expiration_date_time' => '?string',
@@ -305,7 +305,7 @@ class ChunkedUploadResponse implements ModelInterface, ArrayAccess
     /**
      * Gets chunked_upload_parts
      *
-     * @return \DocuSign\eSign\Model\ChunkedUploadPart[]
+     * @return \DocuSign\Model\ChunkedUploadPart[]
      */
     public function getChunkedUploadParts()
     {
@@ -315,7 +315,7 @@ class ChunkedUploadResponse implements ModelInterface, ArrayAccess
     /**
      * Sets chunked_upload_parts
      *
-     * @param \DocuSign\eSign\Model\ChunkedUploadPart[] $chunked_upload_parts
+     * @param \DocuSign\Model\ChunkedUploadPart[] $chunked_upload_parts
      *
      * @return $this
      */

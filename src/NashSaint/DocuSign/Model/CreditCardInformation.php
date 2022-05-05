@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CreditCardInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class CreditCardInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address' => '\DocuSign\eSign\Model\AddressInformation',
+        'address' => '\DocuSign\Model\AddressInformation',
         'card_last_digits' => '?string',
         'card_number' => '?string',
         'card_type' => '?string',
@@ -257,7 +257,7 @@ class CreditCardInformation implements ModelInterface, ArrayAccess
     /**
      * Gets address
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getAddress()
     {
@@ -267,7 +267,7 @@ class CreditCardInformation implements ModelInterface, ArrayAccess
     /**
      * Sets address
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $address address
+     * @param \DocuSign\Model\AddressInformation $address address
      *
      * @return $this
      */

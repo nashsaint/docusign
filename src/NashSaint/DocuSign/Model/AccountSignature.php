@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountSignature Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,9 +62,9 @@ class AccountSignature implements ModelInterface, ArrayAccess
         'adopted_date_time' => '?string',
         'created_date_time' => '?string',
         'custom_field' => '?string',
-        'date_stamp_properties' => '\DocuSign\eSign\Model\DateStampProperties',
+        'date_stamp_properties' => '\DocuSign\Model\DateStampProperties',
         'disallow_user_resize_stamp' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'external_id' => '?string',
         'image_base64' => '?string',
         'image_type' => '?string',
@@ -78,14 +78,14 @@ class AccountSignature implements ModelInterface, ArrayAccess
         'phonetic_name' => '?string',
         'signature150_image_id' => '?string',
         'signature_font' => '?string',
-        'signature_groups' => '\DocuSign\eSign\Model\SignatureGroup[]',
+        'signature_groups' => '\DocuSign\Model\SignatureGroup[]',
         'signature_id' => '?string',
         'signature_image_uri' => '?string',
         'signature_initials' => '?string',
         'signature_name' => '?string',
         'signature_rights' => '?string',
         'signature_type' => '?string',
-        'signature_users' => '\DocuSign\eSign\Model\SignatureUser[]',
+        'signature_users' => '\DocuSign\Model\SignatureUser[]',
         'stamp_format' => '?string',
         'stamp_image_uri' => '?string',
         'stamp_size_mm' => '?string',
@@ -467,7 +467,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Gets date_stamp_properties
      *
-     * @return \DocuSign\eSign\Model\DateStampProperties
+     * @return \DocuSign\Model\DateStampProperties
      */
     public function getDateStampProperties()
     {
@@ -477,7 +477,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Sets date_stamp_properties
      *
-     * @param \DocuSign\eSign\Model\DateStampProperties $date_stamp_properties date_stamp_properties
+     * @param \DocuSign\Model\DateStampProperties $date_stamp_properties date_stamp_properties
      *
      * @return $this
      */
@@ -515,7 +515,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -525,7 +525,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -851,7 +851,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Gets signature_groups
      *
-     * @return \DocuSign\eSign\Model\SignatureGroup[]
+     * @return \DocuSign\Model\SignatureGroup[]
      */
     public function getSignatureGroups()
     {
@@ -861,7 +861,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Sets signature_groups
      *
-     * @param \DocuSign\eSign\Model\SignatureGroup[] $signature_groups
+     * @param \DocuSign\Model\SignatureGroup[] $signature_groups
      *
      * @return $this
      */
@@ -1019,7 +1019,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Gets signature_users
      *
-     * @return \DocuSign\eSign\Model\SignatureUser[]
+     * @return \DocuSign\Model\SignatureUser[]
      */
     public function getSignatureUsers()
     {
@@ -1029,7 +1029,7 @@ class AccountSignature implements ModelInterface, ArrayAccess
     /**
      * Sets signature_users
      *
-     * @param \DocuSign\eSign\Model\SignatureUser[] $signature_users
+     * @param \DocuSign\Model\SignatureUser[] $signature_users
      *
      * @return $this
      */

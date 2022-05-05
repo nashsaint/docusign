@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FolderSharedItem Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,17 +59,17 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'folder_id' => '?string',
         'name' => '?string',
-        'owner' => '\DocuSign\eSign\Model\UserInfo',
+        'owner' => '\DocuSign\Model\UserInfo',
         'parent_folder_id' => '?string',
         'parent_folder_uri' => '?string',
         'shared' => '?string',
-        'shared_groups' => '\DocuSign\eSign\Model\MemberGroupSharedItem[]',
-        'shared_users' => '\DocuSign\eSign\Model\UserSharedItem[]',
+        'shared_groups' => '\DocuSign\Model\MemberGroupSharedItem[]',
+        'shared_users' => '\DocuSign\Model\UserSharedItem[]',
         'uri' => '?string',
-        'user' => '\DocuSign\eSign\Model\UserInfo'
+        'user' => '\DocuSign\Model\UserInfo'
     ];
 
     /**
@@ -269,7 +269,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -279,7 +279,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Gets owner
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getOwner()
     {
@@ -351,7 +351,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Sets owner
      *
-     * @param \DocuSign\eSign\Model\UserInfo $owner owner
+     * @param \DocuSign\Model\UserInfo $owner owner
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Gets shared_groups
      *
-     * @return \DocuSign\eSign\Model\MemberGroupSharedItem[]
+     * @return \DocuSign\Model\MemberGroupSharedItem[]
      */
     public function getSharedGroups()
     {
@@ -447,7 +447,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Sets shared_groups
      *
-     * @param \DocuSign\eSign\Model\MemberGroupSharedItem[] $shared_groups
+     * @param \DocuSign\Model\MemberGroupSharedItem[] $shared_groups
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Gets shared_users
      *
-     * @return \DocuSign\eSign\Model\UserSharedItem[]
+     * @return \DocuSign\Model\UserSharedItem[]
      */
     public function getSharedUsers()
     {
@@ -471,7 +471,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Sets shared_users
      *
-     * @param \DocuSign\eSign\Model\UserSharedItem[] $shared_users
+     * @param \DocuSign\Model\UserSharedItem[] $shared_users
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getUser()
     {
@@ -519,7 +519,7 @@ class FolderSharedItem implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \DocuSign\eSign\Model\UserInfo $user user
+     * @param \DocuSign\Model\UserInfo $user user
      *
      * @return $this
      */

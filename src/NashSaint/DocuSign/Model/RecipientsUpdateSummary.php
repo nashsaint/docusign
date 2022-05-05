@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientsUpdateSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class RecipientsUpdateSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'recipient_update_results' => '\DocuSign\eSign\Model\RecipientUpdateResponse[]'
+        'recipient_update_results' => '\DocuSign\Model\RecipientUpdateResponse[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class RecipientsUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_update_results
      *
-     * @return \DocuSign\eSign\Model\RecipientUpdateResponse[]
+     * @return \DocuSign\Model\RecipientUpdateResponse[]
      */
     public function getRecipientUpdateResults()
     {
@@ -219,7 +219,7 @@ class RecipientsUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_update_results
      *
-     * @param \DocuSign\eSign\Model\RecipientUpdateResponse[] $recipient_update_results
+     * @param \DocuSign\Model\RecipientUpdateResponse[] $recipient_update_results
      *
      * @return $this
      */

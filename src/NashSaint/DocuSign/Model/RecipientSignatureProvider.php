@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientSignatureProvider Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,8 +62,8 @@ class RecipientSignatureProvider implements ModelInterface, ArrayAccess
         'seal_documents_with_tabs_only' => '?string',
         'seal_name' => '?string',
         'signature_provider_name' => '?string',
-        'signature_provider_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'signature_provider_options' => '\DocuSign\eSign\Model\RecipientSignatureProviderOptions'
+        'signature_provider_name_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'signature_provider_options' => '\DocuSign\Model\RecipientSignatureProviderOptions'
     ];
 
     /**
@@ -305,7 +305,7 @@ class RecipientSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSignatureProviderNameMetadata()
     {
@@ -315,7 +315,7 @@ class RecipientSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $signature_provider_name_metadata signature_provider_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $signature_provider_name_metadata signature_provider_name_metadata
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class RecipientSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider_options
      *
-     * @return \DocuSign\eSign\Model\RecipientSignatureProviderOptions
+     * @return \DocuSign\Model\RecipientSignatureProviderOptions
      */
     public function getSignatureProviderOptions()
     {
@@ -339,7 +339,7 @@ class RecipientSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider_options
      *
-     * @param \DocuSign\eSign\Model\RecipientSignatureProviderOptions $signature_provider_options signature_provider_options
+     * @param \DocuSign\Model\RecipientSignatureProviderOptions $signature_provider_options signature_provider_options
      *
      * @return $this
      */

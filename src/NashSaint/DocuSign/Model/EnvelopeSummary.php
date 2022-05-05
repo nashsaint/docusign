@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,9 +59,9 @@ class EnvelopeSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_envelope_status' => '\DocuSign\eSign\Model\BulkEnvelopeStatus',
+        'bulk_envelope_status' => '\DocuSign\Model\BulkEnvelopeStatus',
         'envelope_id' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'recipient_signing_uri' => '?string',
         'recipient_signing_uri_error' => '?string',
         'status' => '?string',
@@ -251,7 +251,7 @@ class EnvelopeSummary implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_envelope_status
      *
-     * @return \DocuSign\eSign\Model\BulkEnvelopeStatus
+     * @return \DocuSign\Model\BulkEnvelopeStatus
      */
     public function getBulkEnvelopeStatus()
     {
@@ -261,7 +261,7 @@ class EnvelopeSummary implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_envelope_status
      *
-     * @param \DocuSign\eSign\Model\BulkEnvelopeStatus $bulk_envelope_status bulk_envelope_status
+     * @param \DocuSign\Model\BulkEnvelopeStatus $bulk_envelope_status bulk_envelope_status
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class EnvelopeSummary implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -309,7 +309,7 @@ class EnvelopeSummary implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */

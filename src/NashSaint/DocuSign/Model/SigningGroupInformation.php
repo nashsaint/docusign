@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * SigningGroupInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class SigningGroupInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'groups' => '\DocuSign\eSign\Model\SigningGroup[]'
+        'groups' => '\DocuSign\Model\SigningGroup[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class SigningGroupInformation implements ModelInterface, ArrayAccess
     /**
      * Gets groups
      *
-     * @return \DocuSign\eSign\Model\SigningGroup[]
+     * @return \DocuSign\Model\SigningGroup[]
      */
     public function getGroups()
     {
@@ -219,7 +219,7 @@ class SigningGroupInformation implements ModelInterface, ArrayAccess
     /**
      * Sets groups
      *
-     * @param \DocuSign\eSign\Model\SigningGroup[] $groups A collection group objects containing information about the groups returned.
+     * @param \DocuSign\Model\SigningGroup[] $groups A collection group objects containing information about the groups returned.
      *
      * @return $this
      */

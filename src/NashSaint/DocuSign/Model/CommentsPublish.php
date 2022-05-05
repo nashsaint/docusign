@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CommentsPublish Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class CommentsPublish implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'comments_to_publish' => '\DocuSign\eSign\Model\CommentPublish[]'
+        'comments_to_publish' => '\DocuSign\Model\CommentPublish[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class CommentsPublish implements ModelInterface, ArrayAccess
     /**
      * Gets comments_to_publish
      *
-     * @return \DocuSign\eSign\Model\CommentPublish[]
+     * @return \DocuSign\Model\CommentPublish[]
      */
     public function getCommentsToPublish()
     {
@@ -219,7 +219,7 @@ class CommentsPublish implements ModelInterface, ArrayAccess
     /**
      * Sets comments_to_publish
      *
-     * @param \DocuSign\eSign\Model\CommentPublish[] $comments_to_publish
+     * @param \DocuSign\Model\CommentPublish[] $comments_to_publish
      *
      * @return $this
      */

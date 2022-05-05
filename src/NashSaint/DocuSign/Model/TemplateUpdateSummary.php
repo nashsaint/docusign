@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplateUpdateSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,15 +59,15 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_envelope_status' => '\DocuSign\eSign\Model\BulkEnvelopeStatus',
+        'bulk_envelope_status' => '\DocuSign\Model\BulkEnvelopeStatus',
         'envelope_id' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'list_custom_field_update_results' => '\DocuSign\eSign\Model\ListCustomField[]',
-        'lock_information' => '\DocuSign\eSign\Model\LockInformation',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'list_custom_field_update_results' => '\DocuSign\Model\ListCustomField[]',
+        'lock_information' => '\DocuSign\Model\LockInformation',
         'purge_state' => '?string',
-        'recipient_update_results' => '\DocuSign\eSign\Model\RecipientUpdateResponse[]',
-        'tab_update_results' => '\DocuSign\eSign\Model\Tabs',
-        'text_custom_field_update_results' => '\DocuSign\eSign\Model\TextCustomField[]'
+        'recipient_update_results' => '\DocuSign\Model\RecipientUpdateResponse[]',
+        'tab_update_results' => '\DocuSign\Model\Tabs',
+        'text_custom_field_update_results' => '\DocuSign\Model\TextCustomField[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_envelope_status
      *
-     * @return \DocuSign\eSign\Model\BulkEnvelopeStatus
+     * @return \DocuSign\Model\BulkEnvelopeStatus
      */
     public function getBulkEnvelopeStatus()
     {
@@ -267,7 +267,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_envelope_status
      *
-     * @param \DocuSign\eSign\Model\BulkEnvelopeStatus $bulk_envelope_status bulk_envelope_status
+     * @param \DocuSign\Model\BulkEnvelopeStatus $bulk_envelope_status bulk_envelope_status
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -315,7 +315,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets list_custom_field_update_results
      *
-     * @return \DocuSign\eSign\Model\ListCustomField[]
+     * @return \DocuSign\Model\ListCustomField[]
      */
     public function getListCustomFieldUpdateResults()
     {
@@ -339,7 +339,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets list_custom_field_update_results
      *
-     * @param \DocuSign\eSign\Model\ListCustomField[] $list_custom_field_update_results
+     * @param \DocuSign\Model\ListCustomField[] $list_custom_field_update_results
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets lock_information
      *
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function getLockInformation()
     {
@@ -363,7 +363,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets lock_information
      *
-     * @param \DocuSign\eSign\Model\LockInformation $lock_information lock_information
+     * @param \DocuSign\Model\LockInformation $lock_information lock_information
      *
      * @return $this
      */
@@ -401,7 +401,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_update_results
      *
-     * @return \DocuSign\eSign\Model\RecipientUpdateResponse[]
+     * @return \DocuSign\Model\RecipientUpdateResponse[]
      */
     public function getRecipientUpdateResults()
     {
@@ -411,7 +411,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_update_results
      *
-     * @param \DocuSign\eSign\Model\RecipientUpdateResponse[] $recipient_update_results
+     * @param \DocuSign\Model\RecipientUpdateResponse[] $recipient_update_results
      *
      * @return $this
      */
@@ -425,7 +425,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets tab_update_results
      *
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function getTabUpdateResults()
     {
@@ -435,7 +435,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets tab_update_results
      *
-     * @param \DocuSign\eSign\Model\Tabs $tab_update_results tab_update_results
+     * @param \DocuSign\Model\Tabs $tab_update_results tab_update_results
      *
      * @return $this
      */
@@ -449,7 +449,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets text_custom_field_update_results
      *
-     * @return \DocuSign\eSign\Model\TextCustomField[]
+     * @return \DocuSign\Model\TextCustomField[]
      */
     public function getTextCustomFieldUpdateResults()
     {
@@ -459,7 +459,7 @@ class TemplateUpdateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets text_custom_field_update_results
      *
-     * @param \DocuSign\eSign\Model\TextCustomField[] $text_custom_field_update_results
+     * @param \DocuSign\Model\TextCustomField[] $text_custom_field_update_results
      *
      * @return $this
      */

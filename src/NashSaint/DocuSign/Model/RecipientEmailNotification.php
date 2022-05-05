@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientEmailNotification Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,11 +60,11 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'email_body' => '?string',
-        'email_body_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'email_body_metadata' => '\DocuSign\Model\PropertyMetadata',
         'email_subject' => '?string',
-        'email_subject_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'email_subject_metadata' => '\DocuSign\Model\PropertyMetadata',
         'supported_language' => '?string',
-        'supported_language_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'supported_language_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -263,7 +263,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Gets email_body_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getEmailBodyMetadata()
     {
@@ -273,7 +273,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Sets email_body_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $email_body_metadata email_body_metadata
+     * @param \DocuSign\Model\PropertyMetadata $email_body_metadata email_body_metadata
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Gets email_subject_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getEmailSubjectMetadata()
     {
@@ -321,7 +321,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Sets email_subject_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $email_subject_metadata email_subject_metadata
+     * @param \DocuSign\Model\PropertyMetadata $email_subject_metadata email_subject_metadata
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Gets supported_language_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSupportedLanguageMetadata()
     {
@@ -369,7 +369,7 @@ class RecipientEmailNotification implements ModelInterface, ArrayAccess
     /**
      * Sets supported_language_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $supported_language_metadata supported_language_metadata
+     * @param \DocuSign\Model\PropertyMetadata $supported_language_metadata supported_language_metadata
      *
      * @return $this
      */

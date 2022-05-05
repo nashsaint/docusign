@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TimeStampField Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class TimeStampField implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_security_store' => '\DocuSign\eSign\Model\DocumentSecurityStore',
+        'document_security_store' => '\DocuSign\Model\DocumentSecurityStore',
         'max_time_stamp_signature_length' => '?string',
         'time_stamp_field_name' => '?string'
     ];
@@ -219,7 +219,7 @@ class TimeStampField implements ModelInterface, ArrayAccess
     /**
      * Gets document_security_store
      *
-     * @return \DocuSign\eSign\Model\DocumentSecurityStore
+     * @return \DocuSign\Model\DocumentSecurityStore
      */
     public function getDocumentSecurityStore()
     {
@@ -229,7 +229,7 @@ class TimeStampField implements ModelInterface, ArrayAccess
     /**
      * Sets document_security_store
      *
-     * @param \DocuSign\eSign\Model\DocumentSecurityStore $document_security_store document_security_store
+     * @param \DocuSign\Model\DocumentSecurityStore $document_security_store document_security_store
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentHtmlDefinition Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class DocumentHtmlDefinition implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'display_anchor_prefix' => '?string',
-        'display_anchors' => '\DocuSign\eSign\Model\DocumentHtmlDisplayAnchor[]',
+        'display_anchors' => '\DocuSign\Model\DocumentHtmlDisplayAnchor[]',
         'display_order' => '?string',
         'display_page_number' => '?string',
         'document_guid' => '?string',
@@ -293,7 +293,7 @@ class DocumentHtmlDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets display_anchors
      *
-     * @return \DocuSign\eSign\Model\DocumentHtmlDisplayAnchor[]
+     * @return \DocuSign\Model\DocumentHtmlDisplayAnchor[]
      */
     public function getDisplayAnchors()
     {
@@ -303,7 +303,7 @@ class DocumentHtmlDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets display_anchors
      *
-     * @param \DocuSign\eSign\Model\DocumentHtmlDisplayAnchor[] $display_anchors
+     * @param \DocuSign\Model\DocumentHtmlDisplayAnchor[] $display_anchors
      *
      * @return $this
      */

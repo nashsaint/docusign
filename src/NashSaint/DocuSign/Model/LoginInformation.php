@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * LoginInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class LoginInformation implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'api_password' => '?string',
-        'login_accounts' => '\DocuSign\eSign\Model\LoginAccount[]'
+        'login_accounts' => '\DocuSign\Model\LoginAccount[]'
     ];
 
     /**
@@ -239,7 +239,7 @@ class LoginInformation implements ModelInterface, ArrayAccess
     /**
      * Gets login_accounts
      *
-     * @return \DocuSign\eSign\Model\LoginAccount[]
+     * @return \DocuSign\Model\LoginAccount[]
      */
     public function getLoginAccounts()
     {
@@ -249,7 +249,7 @@ class LoginInformation implements ModelInterface, ArrayAccess
     /**
      * Sets login_accounts
      *
-     * @param \DocuSign\eSign\Model\LoginAccount[] $login_accounts The list of accounts that authenticating user is a member of.
+     * @param \DocuSign\Model\LoginAccount[] $login_accounts The list of accounts that authenticating user is a member of.
      *
      * @return $this
      */

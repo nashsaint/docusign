@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
 
@@ -35,7 +35,7 @@ use \ArrayAccess;
  * CustomFieldV2 Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -55,7 +55,7 @@ class CustomFieldV2 implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'configuration_type' => 'string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'field_id' => 'string',
         'name' => 'string',
         'required' => 'string',
@@ -198,7 +198,7 @@ class CustomFieldV2 implements ArrayAccess
 
     /**
      * Gets error_details
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -207,7 +207,7 @@ class CustomFieldV2 implements ArrayAccess
 
     /**
      * Sets error_details
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details
      * @return $this
      */
     public function setErrorDetails($error_details)
@@ -373,10 +373,10 @@ class CustomFieldV2 implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

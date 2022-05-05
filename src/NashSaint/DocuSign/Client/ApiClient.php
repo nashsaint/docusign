@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,11 +26,11 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Client;
+namespace NashSaint\DocuSign\Client;
 
-use NashSaint\DocuSign\eSign\Client\Auth\OAuth;
-use \DocuSign\eSign\Configuration;
-use \DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\Auth\OAuth;
+use \DocuSign\Configuration;
+use \DocuSign\ObjectSerializer;
 use SebastianBergmann\RecursionContext\InvalidArgumentException;
 use Firebase\JWT\JWT;
 
@@ -39,7 +39,7 @@ use Firebase\JWT\JWT;
  * ApiClient Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -70,7 +70,7 @@ class ApiClient
 
     /**
      * oAuth
-     *\DocuSign\eSign\Client\ApiException
+     *\DocuSign\Client\ApiException
      * @var OAuth
      */
     protected $oAuth;
@@ -499,7 +499,7 @@ class ApiClient
         list($response, $statusCode, $httpHeader) = $this->callApi($resourcePath, self::$POST, $queryParams, $postData, $headers, null, null, true);
         if(isset($response->access_token))
             $this->config->addDefaultHeader("Authorization", "{$response->token_type} {$response->access_token}");
-        return [$this->getSerializer()->deserialize($response, '\DocuSign\eSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
+        return [$this->getSerializer()->deserialize($response, '\DocuSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
     }
 
     /**
@@ -538,7 +538,7 @@ class ApiClient
         list($response, $statusCode, $httpHeader) = $this->callApi($resourcePath, self::$POST, $queryParams, $postData, $headers, null, null, true);
         if (isset($response->access_token))
             $this->config->addDefaultHeader("Authorization", "{$response->token_type} {$response->access_token}");
-        return [$this->getSerializer()->deserialize($response, '\DocuSign\eSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
+        return [$this->getSerializer()->deserialize($response, '\DocuSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
     }
 
     /**
@@ -599,7 +599,7 @@ class ApiClient
         if(isset($response->access_token))
             $this->config->addDefaultHeader("Authorization", "{$response->token_type} {$response->access_token}");
 
-        return [$this->getSerializer()->deserialize($response, '\DocuSign\eSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
+        return [$this->getSerializer()->deserialize($response, '\DocuSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
     }
 
     /**
@@ -650,7 +650,7 @@ class ApiClient
         ];
         list($response, $statusCode, $httpHeader) = $this->callApi($resourcePath, self::$POST, $queryParams, $postData, $headers, null, null, true);
 
-        return [$this->getSerializer()->deserialize($response, '\DocuSign\eSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
+        return [$this->getSerializer()->deserialize($response, '\DocuSign\Client\Auth\OAuthToken', $httpHeader), $statusCode, $httpHeader];
     }
 
     /**
@@ -687,7 +687,7 @@ class ApiClient
         return [
             $this->getSerializer()->deserialize(
                 $response,
-                '\DocuSign\eSign\Client\Auth\UserInfo',
+                '\DocuSign\Client\Auth\UserInfo',
                 $httpHeader
             ),
             $statusCode,

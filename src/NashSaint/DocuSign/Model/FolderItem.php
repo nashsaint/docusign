@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
 
@@ -35,7 +35,7 @@ use \ArrayAccess;
  * FolderItem Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -56,7 +56,7 @@ class FolderItem implements ArrayAccess
     protected static $swaggerTypes = [
         'completed_date_time' => 'string',
         'created_date_time' => 'string',
-        'custom_fields' => '\DocuSign\eSign\Model\CustomFieldV2[]',
+        'custom_fields' => '\DocuSign\Model\CustomFieldV2[]',
         'description' => 'string',
         'envelope_id' => 'string',
         'envelope_uri' => 'string',
@@ -289,7 +289,7 @@ class FolderItem implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \DocuSign\eSign\Model\CustomFieldV2[]
+     * @return \DocuSign\Model\CustomFieldV2[]
      */
     public function getCustomFields()
     {
@@ -298,7 +298,7 @@ class FolderItem implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \DocuSign\eSign\Model\CustomFieldV2[] $custom_fields An optional array of strings that allows the sender to provide custom data about the recipient. This information is returned in the envelope status but otherwise not used by DocuSign. Each customField string can be a maximum of 100 characters.
+     * @param \DocuSign\Model\CustomFieldV2[] $custom_fields An optional array of strings that allows the sender to provide custom data about the recipient. This information is returned in the envelope status but otherwise not used by DocuSign. Each customField string can be a maximum of 100 characters.
      * @return $this
      */
     public function setCustomFields($custom_fields)
@@ -737,10 +737,10 @@ class FolderItem implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

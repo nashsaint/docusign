@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientPhoneAuthentication Class Doc Comment
  *
  * @category    Class
  * @description A complex type that Contains the elements:  * recipMayProvideNumber - Boolean. When set to **true**, the recipient can use whatever phone number they choose. * senderProvidedNumbers - ArrayOfString.  A list of phone numbers the recipient can use. * recordVoicePrint - Reserved. * validateRecipProvidedNumber - Reserved.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,13 +61,13 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'recip_may_provide_number' => '?string',
-        'recip_may_provide_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'recip_may_provide_number_metadata' => '\DocuSign\Model\PropertyMetadata',
         'record_voice_print' => '?string',
-        'record_voice_print_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'record_voice_print_metadata' => '\DocuSign\Model\PropertyMetadata',
         'sender_provided_numbers' => '?string[]',
-        'sender_provided_numbers_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'sender_provided_numbers_metadata' => '\DocuSign\Model\PropertyMetadata',
         'validate_recip_provided_number' => '?string',
-        'validate_recip_provided_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'validate_recip_provided_number_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -276,7 +276,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Gets recip_may_provide_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipMayProvideNumberMetadata()
     {
@@ -286,7 +286,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Sets recip_may_provide_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recip_may_provide_number_metadata recip_may_provide_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recip_may_provide_number_metadata recip_may_provide_number_metadata
      *
      * @return $this
      */
@@ -324,7 +324,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Gets record_voice_print_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecordVoicePrintMetadata()
     {
@@ -334,7 +334,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Sets record_voice_print_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $record_voice_print_metadata record_voice_print_metadata
+     * @param \DocuSign\Model\PropertyMetadata $record_voice_print_metadata record_voice_print_metadata
      *
      * @return $this
      */
@@ -372,7 +372,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Gets sender_provided_numbers_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSenderProvidedNumbersMetadata()
     {
@@ -382,7 +382,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Sets sender_provided_numbers_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $sender_provided_numbers_metadata sender_provided_numbers_metadata
+     * @param \DocuSign\Model\PropertyMetadata $sender_provided_numbers_metadata sender_provided_numbers_metadata
      *
      * @return $this
      */
@@ -420,7 +420,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Gets validate_recip_provided_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValidateRecipProvidedNumberMetadata()
     {
@@ -430,7 +430,7 @@ class RecipientPhoneAuthentication implements ModelInterface, ArrayAccess
     /**
      * Sets validate_recip_provided_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $validate_recip_provided_number_metadata validate_recip_provided_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $validate_recip_provided_number_metadata validate_recip_provided_number_metadata
      *
      * @return $this
      */

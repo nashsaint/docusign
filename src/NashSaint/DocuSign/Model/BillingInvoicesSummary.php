@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingInvoicesSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BillingInvoicesSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_invoices' => '\DocuSign\eSign\Model\BillingInvoice[]',
+        'billing_invoices' => '\DocuSign\Model\BillingInvoice[]',
         'past_due_balance' => '?string',
         'payment_allowed' => '?string'
     ];
@@ -221,7 +221,7 @@ class BillingInvoicesSummary implements ModelInterface, ArrayAccess
     /**
      * Gets billing_invoices
      *
-     * @return \DocuSign\eSign\Model\BillingInvoice[]
+     * @return \DocuSign\Model\BillingInvoice[]
      */
     public function getBillingInvoices()
     {
@@ -231,7 +231,7 @@ class BillingInvoicesSummary implements ModelInterface, ArrayAccess
     /**
      * Sets billing_invoices
      *
-     * @param \DocuSign\eSign\Model\BillingInvoice[] $billing_invoices Reserved: TBD
+     * @param \DocuSign\Model\BillingInvoice[] $billing_invoices Reserved: TBD
      *
      * @return $this
      */

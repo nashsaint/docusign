@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkProcessResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkProcessResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'errors' => '\DocuSign\eSign\Model\BulkSendBatchError[]',
+        'errors' => '\DocuSign\Model\BulkSendBatchError[]',
         'list_id' => '?string',
         'success' => '?string'
     ];
@@ -221,7 +221,7 @@ class BulkProcessResult implements ModelInterface, ArrayAccess
     /**
      * Gets errors
      *
-     * @return \DocuSign\eSign\Model\BulkSendBatchError[]
+     * @return \DocuSign\Model\BulkSendBatchError[]
      */
     public function getErrors()
     {
@@ -231,7 +231,7 @@ class BulkProcessResult implements ModelInterface, ArrayAccess
     /**
      * Sets errors
      *
-     * @param \DocuSign\eSign\Model\BulkSendBatchError[] $errors
+     * @param \DocuSign\Model\BulkSendBatchError[] $errors
      *
      * @return $this
      */

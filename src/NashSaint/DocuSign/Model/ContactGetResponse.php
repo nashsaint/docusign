@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ContactGetResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class ContactGetResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'contacts' => '\DocuSign\eSign\Model\Contact[]',
+        'contacts' => '\DocuSign\Model\Contact[]',
         'end_position' => '?string',
         'next_uri' => '?string',
         'previous_uri' => '?string',
@@ -245,7 +245,7 @@ class ContactGetResponse implements ModelInterface, ArrayAccess
     /**
      * Gets contacts
      *
-     * @return \DocuSign\eSign\Model\Contact[]
+     * @return \DocuSign\Model\Contact[]
      */
     public function getContacts()
     {
@@ -255,7 +255,7 @@ class ContactGetResponse implements ModelInterface, ArrayAccess
     /**
      * Sets contacts
      *
-     * @param \DocuSign\eSign\Model\Contact[] $contacts
+     * @param \DocuSign\Model\Contact[] $contacts
      *
      * @return $this
      */

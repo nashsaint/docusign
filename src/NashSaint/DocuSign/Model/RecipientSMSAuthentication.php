@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientSMSAuthentication Class Doc Comment
  *
  * @category    Class
  * @description Contains the element senderProvidedNumbers which is an Array  of phone numbers the recipient can use for SMS text authentication.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class RecipientSMSAuthentication implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'sender_provided_numbers' => '?string[]',
-        'sender_provided_numbers_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'sender_provided_numbers_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -240,7 +240,7 @@ class RecipientSMSAuthentication implements ModelInterface, ArrayAccess
     /**
      * Gets sender_provided_numbers_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSenderProvidedNumbersMetadata()
     {
@@ -250,7 +250,7 @@ class RecipientSMSAuthentication implements ModelInterface, ArrayAccess
     /**
      * Sets sender_provided_numbers_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $sender_provided_numbers_metadata sender_provided_numbers_metadata
+     * @param \DocuSign\Model\PropertyMetadata $sender_provided_numbers_metadata sender_provided_numbers_metadata
      *
      * @return $this
      */

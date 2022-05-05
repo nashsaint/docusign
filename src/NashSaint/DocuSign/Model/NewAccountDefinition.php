@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NewAccountDefinition Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,19 +60,19 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'account_name' => '?string',
-        'account_settings' => '\DocuSign\eSign\Model\AccountSettingsInformation',
-        'address_information' => '\DocuSign\eSign\Model\AccountAddress',
-        'credit_card_information' => '\DocuSign\eSign\Model\CreditCardInformation',
-        'direct_debit_processor_information' => '\DocuSign\eSign\Model\DirectDebitProcessorInformation',
+        'account_settings' => '\DocuSign\Model\AccountSettingsInformation',
+        'address_information' => '\DocuSign\Model\AccountAddress',
+        'credit_card_information' => '\DocuSign\Model\CreditCardInformation',
+        'direct_debit_processor_information' => '\DocuSign\Model\DirectDebitProcessorInformation',
         'distributor_code' => '?string',
         'distributor_password' => '?string',
         'envelope_partition_id' => '?string',
-        'initial_user' => '\DocuSign\eSign\Model\UserInformation',
+        'initial_user' => '\DocuSign\Model\UserInformation',
         'payment_method' => '?string',
-        'payment_processor_information' => '\DocuSign\eSign\Model\PaymentProcessorInformation',
-        'plan_information' => '\DocuSign\eSign\Model\PlanInformation',
-        'referral_information' => '\DocuSign\eSign\Model\ReferralInformation',
-        'social_account_information' => '\DocuSign\eSign\Model\SocialAccountInformation',
+        'payment_processor_information' => '\DocuSign\Model\PaymentProcessorInformation',
+        'plan_information' => '\DocuSign\Model\PlanInformation',
+        'referral_information' => '\DocuSign\Model\ReferralInformation',
+        'social_account_information' => '\DocuSign\Model\SocialAccountInformation',
         'tax_exempt_id' => '?string'
     ];
 
@@ -317,7 +317,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets account_settings
      *
-     * @return \DocuSign\eSign\Model\AccountSettingsInformation
+     * @return \DocuSign\Model\AccountSettingsInformation
      */
     public function getAccountSettings()
     {
@@ -327,7 +327,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets account_settings
      *
-     * @param \DocuSign\eSign\Model\AccountSettingsInformation $account_settings account_settings
+     * @param \DocuSign\Model\AccountSettingsInformation $account_settings account_settings
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets address_information
      *
-     * @return \DocuSign\eSign\Model\AccountAddress
+     * @return \DocuSign\Model\AccountAddress
      */
     public function getAddressInformation()
     {
@@ -351,7 +351,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets address_information
      *
-     * @param \DocuSign\eSign\Model\AccountAddress $address_information address_information
+     * @param \DocuSign\Model\AccountAddress $address_information address_information
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets credit_card_information
      *
-     * @return \DocuSign\eSign\Model\CreditCardInformation
+     * @return \DocuSign\Model\CreditCardInformation
      */
     public function getCreditCardInformation()
     {
@@ -375,7 +375,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets credit_card_information
      *
-     * @param \DocuSign\eSign\Model\CreditCardInformation $credit_card_information credit_card_information
+     * @param \DocuSign\Model\CreditCardInformation $credit_card_information credit_card_information
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets direct_debit_processor_information
      *
-     * @return \DocuSign\eSign\Model\DirectDebitProcessorInformation
+     * @return \DocuSign\Model\DirectDebitProcessorInformation
      */
     public function getDirectDebitProcessorInformation()
     {
@@ -399,7 +399,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets direct_debit_processor_information
      *
-     * @param \DocuSign\eSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
+     * @param \DocuSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
      *
      * @return $this
      */
@@ -485,7 +485,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets initial_user
      *
-     * @return \DocuSign\eSign\Model\UserInformation
+     * @return \DocuSign\Model\UserInformation
      */
     public function getInitialUser()
     {
@@ -495,7 +495,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets initial_user
      *
-     * @param \DocuSign\eSign\Model\UserInformation $initial_user initial_user
+     * @param \DocuSign\Model\UserInformation $initial_user initial_user
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets payment_processor_information
      *
-     * @return \DocuSign\eSign\Model\PaymentProcessorInformation
+     * @return \DocuSign\Model\PaymentProcessorInformation
      */
     public function getPaymentProcessorInformation()
     {
@@ -543,7 +543,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets payment_processor_information
      *
-     * @param \DocuSign\eSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
+     * @param \DocuSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
      *
      * @return $this
      */
@@ -557,7 +557,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets plan_information
      *
-     * @return \DocuSign\eSign\Model\PlanInformation
+     * @return \DocuSign\Model\PlanInformation
      */
     public function getPlanInformation()
     {
@@ -567,7 +567,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets plan_information
      *
-     * @param \DocuSign\eSign\Model\PlanInformation $plan_information plan_information
+     * @param \DocuSign\Model\PlanInformation $plan_information plan_information
      *
      * @return $this
      */
@@ -581,7 +581,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets referral_information
      *
-     * @return \DocuSign\eSign\Model\ReferralInformation
+     * @return \DocuSign\Model\ReferralInformation
      */
     public function getReferralInformation()
     {
@@ -591,7 +591,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets referral_information
      *
-     * @param \DocuSign\eSign\Model\ReferralInformation $referral_information referral_information
+     * @param \DocuSign\Model\ReferralInformation $referral_information referral_information
      *
      * @return $this
      */
@@ -605,7 +605,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets social_account_information
      *
-     * @return \DocuSign\eSign\Model\SocialAccountInformation
+     * @return \DocuSign\Model\SocialAccountInformation
      */
     public function getSocialAccountInformation()
     {
@@ -615,7 +615,7 @@ class NewAccountDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets social_account_information
      *
-     * @param \DocuSign\eSign\Model\SocialAccountInformation $social_account_information social_account_information
+     * @param \DocuSign\Model\SocialAccountInformation $social_account_information social_account_information
      *
      * @return $this
      */

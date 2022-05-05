@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeTemplateResults Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,8 +60,8 @@ class EnvelopeTemplateResults implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'end_position' => '?string',
-        'envelope_templates' => '\DocuSign\eSign\Model\EnvelopeTemplate[]',
-        'folders' => '\DocuSign\eSign\Model\Folder[]',
+        'envelope_templates' => '\DocuSign\Model\EnvelopeTemplate[]',
+        'folders' => '\DocuSign\Model\Folder[]',
         'next_uri' => '?string',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
@@ -275,7 +275,7 @@ class EnvelopeTemplateResults implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_templates
      *
-     * @return \DocuSign\eSign\Model\EnvelopeTemplate[]
+     * @return \DocuSign\Model\EnvelopeTemplate[]
      */
     public function getEnvelopeTemplates()
     {
@@ -285,7 +285,7 @@ class EnvelopeTemplateResults implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_templates
      *
-     * @param \DocuSign\eSign\Model\EnvelopeTemplate[] $envelope_templates The list of requested templates.
+     * @param \DocuSign\Model\EnvelopeTemplate[] $envelope_templates The list of requested templates.
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class EnvelopeTemplateResults implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\Folder[]
+     * @return \DocuSign\Model\Folder[]
      */
     public function getFolders()
     {
@@ -309,7 +309,7 @@ class EnvelopeTemplateResults implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\Folder[] $folders
+     * @param \DocuSign\Model\Folder[] $folders
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PaymentDetails Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,21 +62,21 @@ class PaymentDetails implements ModelInterface, ArrayAccess
         'allowed_payment_methods' => '?string[]',
         'charge_id' => '?string',
         'currency_code' => '?string',
-        'currency_code_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'currency_code_metadata' => '\DocuSign\Model\PropertyMetadata',
         'customer_id' => '?string',
         'custom_metadata' => '?string',
         'custom_metadata_required' => '?bool',
         'gateway_account_id' => '?string',
-        'gateway_account_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'gateway_account_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'gateway_display_name' => '?string',
         'gateway_name' => '?string',
-        'line_items' => '\DocuSign\eSign\Model\PaymentLineItem[]',
+        'line_items' => '\DocuSign\Model\PaymentLineItem[]',
         'payment_option' => '?string',
         'payment_source_id' => '?string',
-        'signer_values' => '\DocuSign\eSign\Model\PaymentSignerValues',
+        'signer_values' => '\DocuSign\Model\PaymentSignerValues',
         'status' => '?string',
         'sub_gateway_name' => '?string',
-        'total' => '\DocuSign\eSign\Model\Money'
+        'total' => '\DocuSign\Model\Money'
     ];
 
     /**
@@ -383,7 +383,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getCurrencyCodeMetadata()
     {
@@ -393,7 +393,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $currency_code_metadata currency_code_metadata
+     * @param \DocuSign\Model\PropertyMetadata $currency_code_metadata currency_code_metadata
      *
      * @return $this
      */
@@ -503,7 +503,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Gets gateway_account_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getGatewayAccountIdMetadata()
     {
@@ -513,7 +513,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Sets gateway_account_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $gateway_account_id_metadata gateway_account_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $gateway_account_id_metadata gateway_account_id_metadata
      *
      * @return $this
      */
@@ -575,7 +575,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Gets line_items
      *
-     * @return \DocuSign\eSign\Model\PaymentLineItem[]
+     * @return \DocuSign\Model\PaymentLineItem[]
      */
     public function getLineItems()
     {
@@ -585,7 +585,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Sets line_items
      *
-     * @param \DocuSign\eSign\Model\PaymentLineItem[] $line_items
+     * @param \DocuSign\Model\PaymentLineItem[] $line_items
      *
      * @return $this
      */
@@ -647,7 +647,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Gets signer_values
      *
-     * @return \DocuSign\eSign\Model\PaymentSignerValues
+     * @return \DocuSign\Model\PaymentSignerValues
      */
     public function getSignerValues()
     {
@@ -657,7 +657,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Sets signer_values
      *
-     * @param \DocuSign\eSign\Model\PaymentSignerValues $signer_values signer_values
+     * @param \DocuSign\Model\PaymentSignerValues $signer_values signer_values
      *
      * @return $this
      */
@@ -719,7 +719,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Gets total
      *
-     * @return \DocuSign\eSign\Model\Money
+     * @return \DocuSign\Model\Money
      */
     public function getTotal()
     {
@@ -729,7 +729,7 @@ class PaymentDetails implements ModelInterface, ArrayAccess
     /**
      * Sets total
      *
-     * @param \DocuSign\eSign\Model\Money $total total
+     * @param \DocuSign\Model\Money $total total
      *
      * @return $this
      */

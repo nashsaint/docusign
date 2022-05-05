@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ApiRequestLogsResult Class Doc Comment
  *
  * @category    Class
  * @description Contains information about mutiple API request logs.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class ApiRequestLogsResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'api_request_logs' => '\DocuSign\eSign\Model\ApiRequestLog[]'
+        'api_request_logs' => '\DocuSign\Model\ApiRequestLog[]'
     ];
 
     /**
@@ -210,7 +210,7 @@ class ApiRequestLogsResult implements ModelInterface, ArrayAccess
     /**
      * Gets api_request_logs
      *
-     * @return \DocuSign\eSign\Model\ApiRequestLog[]
+     * @return \DocuSign\Model\ApiRequestLog[]
      */
     public function getApiRequestLogs()
     {
@@ -220,7 +220,7 @@ class ApiRequestLogsResult implements ModelInterface, ArrayAccess
     /**
      * Sets api_request_logs
      *
-     * @param \DocuSign\eSign\Model\ApiRequestLog[] $api_request_logs Reserved: TBD
+     * @param \DocuSign\Model\ApiRequestLog[] $api_request_logs Reserved: TBD
      *
      * @return $this
      */

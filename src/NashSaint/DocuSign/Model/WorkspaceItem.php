@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspaceItem Class Doc Comment
  *
  * @category    Class
  * @description A workspaceItem (file type only) representing the file. This property is only returned in response to file specific GET call.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,11 +60,11 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'caller_authorization' => '\DocuSign\eSign\Model\WorkspaceUserAuthorization',
+        'caller_authorization' => '\DocuSign\Model\WorkspaceUserAuthorization',
         'content_type' => '?string',
         'created' => '?string',
         'created_by_id' => '?string',
-        'created_by_information' => '\DocuSign\eSign\Model\WorkspaceUser',
+        'created_by_information' => '\DocuSign\Model\WorkspaceUser',
         'extension' => '?string',
         'file_size' => '?string',
         'file_uri' => '?string',
@@ -72,18 +72,18 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
         'is_public' => '?string',
         'last_modified' => '?string',
         'last_modified_by_id' => '?string',
-        'last_modified_by_information' => '\DocuSign\eSign\Model\WorkspaceUser',
+        'last_modified_by_information' => '\DocuSign\Model\WorkspaceUser',
         'name' => '?string',
         'page_count' => '?string',
         'parent_folder_id' => '?string',
         'parent_folder_uri' => '?string',
         'sha256' => '?string',
         'thumb_height' => '?string',
-        'thumbnail' => '\DocuSign\eSign\Model\Page',
+        'thumbnail' => '\DocuSign\Model\Page',
         'thumb_width' => '?string',
         'type' => '?string',
         'uri' => '?string',
-        'user_authorization' => '\DocuSign\eSign\Model\WorkspaceUserAuthorization'
+        'user_authorization' => '\DocuSign\Model\WorkspaceUserAuthorization'
     ];
 
     /**
@@ -348,7 +348,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Gets caller_authorization
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUserAuthorization
+     * @return \DocuSign\Model\WorkspaceUserAuthorization
      */
     public function getCallerAuthorization()
     {
@@ -358,7 +358,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Sets caller_authorization
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUserAuthorization $caller_authorization caller_authorization
+     * @param \DocuSign\Model\WorkspaceUserAuthorization $caller_authorization caller_authorization
      *
      * @return $this
      */
@@ -444,7 +444,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Gets created_by_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getCreatedByInformation()
     {
@@ -454,7 +454,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Sets created_by_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $created_by_information created_by_information
+     * @param \DocuSign\Model\WorkspaceUser $created_by_information created_by_information
      *
      * @return $this
      */
@@ -636,7 +636,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Gets last_modified_by_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getLastModifiedByInformation()
     {
@@ -646,7 +646,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Sets last_modified_by_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $last_modified_by_information last_modified_by_information
+     * @param \DocuSign\Model\WorkspaceUser $last_modified_by_information last_modified_by_information
      *
      * @return $this
      */
@@ -804,7 +804,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Gets thumbnail
      *
-     * @return \DocuSign\eSign\Model\Page
+     * @return \DocuSign\Model\Page
      */
     public function getThumbnail()
     {
@@ -814,7 +814,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Sets thumbnail
      *
-     * @param \DocuSign\eSign\Model\Page $thumbnail thumbnail
+     * @param \DocuSign\Model\Page $thumbnail thumbnail
      *
      * @return $this
      */
@@ -900,7 +900,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Gets user_authorization
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUserAuthorization
+     * @return \DocuSign\Model\WorkspaceUserAuthorization
      */
     public function getUserAuthorization()
     {
@@ -910,7 +910,7 @@ class WorkspaceItem implements ModelInterface, ArrayAccess
     /**
      * Sets user_authorization
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUserAuthorization $user_authorization user_authorization
+     * @param \DocuSign\Model\WorkspaceUserAuthorization $user_authorization user_authorization
      *
      * @return $this
      */

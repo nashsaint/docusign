@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConnectSalesforceObject Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,10 +64,10 @@ class ConnectSalesforceObject implements ModelInterface, ArrayAccess
         'id' => '?string',
         'insert' => '?string',
         'on_complete_only' => '?string',
-        'select_fields' => '\DocuSign\eSign\Model\ConnectSalesforceField[]',
+        'select_fields' => '\DocuSign\Model\ConnectSalesforceField[]',
         'sf_object' => '?string',
         'sf_object_name' => '?string',
-        'update_fields' => '\DocuSign\eSign\Model\ConnectSalesforceField[]'
+        'update_fields' => '\DocuSign\Model\ConnectSalesforceField[]'
     ];
 
     /**
@@ -377,7 +377,7 @@ class ConnectSalesforceObject implements ModelInterface, ArrayAccess
     /**
      * Gets select_fields
      *
-     * @return \DocuSign\eSign\Model\ConnectSalesforceField[]
+     * @return \DocuSign\Model\ConnectSalesforceField[]
      */
     public function getSelectFields()
     {
@@ -387,7 +387,7 @@ class ConnectSalesforceObject implements ModelInterface, ArrayAccess
     /**
      * Sets select_fields
      *
-     * @param \DocuSign\eSign\Model\ConnectSalesforceField[] $select_fields
+     * @param \DocuSign\Model\ConnectSalesforceField[] $select_fields
      *
      * @return $this
      */
@@ -449,7 +449,7 @@ class ConnectSalesforceObject implements ModelInterface, ArrayAccess
     /**
      * Gets update_fields
      *
-     * @return \DocuSign\eSign\Model\ConnectSalesforceField[]
+     * @return \DocuSign\Model\ConnectSalesforceField[]
      */
     public function getUpdateFields()
     {
@@ -459,7 +459,7 @@ class ConnectSalesforceObject implements ModelInterface, ArrayAccess
     /**
      * Sets update_fields
      *
-     * @param \DocuSign\eSign\Model\ConnectSalesforceField[] $update_fields
+     * @param \DocuSign\Model\ConnectSalesforceField[] $update_fields
      *
      * @return $this
      */

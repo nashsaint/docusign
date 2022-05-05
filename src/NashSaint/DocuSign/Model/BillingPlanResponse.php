@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlanResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines a billing plan response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,8 +60,8 @@ class BillingPlanResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_plan' => '\DocuSign\eSign\Model\BillingPlan',
-        'successor_plans' => '\DocuSign\eSign\Model\BillingPlan[]'
+        'billing_plan' => '\DocuSign\Model\BillingPlan',
+        'successor_plans' => '\DocuSign\Model\BillingPlan[]'
     ];
 
     /**
@@ -216,7 +216,7 @@ class BillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_plan
      *
-     * @return \DocuSign\eSign\Model\BillingPlan
+     * @return \DocuSign\Model\BillingPlan
      */
     public function getBillingPlan()
     {
@@ -226,7 +226,7 @@ class BillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_plan
      *
-     * @param \DocuSign\eSign\Model\BillingPlan $billing_plan billing_plan
+     * @param \DocuSign\Model\BillingPlan $billing_plan billing_plan
      *
      * @return $this
      */
@@ -240,7 +240,7 @@ class BillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets successor_plans
      *
-     * @return \DocuSign\eSign\Model\BillingPlan[]
+     * @return \DocuSign\Model\BillingPlan[]
      */
     public function getSuccessorPlans()
     {
@@ -250,7 +250,7 @@ class BillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets successor_plans
      *
-     * @param \DocuSign\eSign\Model\BillingPlan[] $successor_plans
+     * @param \DocuSign\Model\BillingPlan[] $successor_plans
      *
      * @return $this
      */

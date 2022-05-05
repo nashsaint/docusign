@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentHtmlDefinitionOriginals Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class DocumentHtmlDefinitionOriginals implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'html_definitions' => '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginal[]'
+        'html_definitions' => '\DocuSign\Model\DocumentHtmlDefinitionOriginal[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class DocumentHtmlDefinitionOriginals implements ModelInterface, ArrayAccess
     /**
      * Gets html_definitions
      *
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginal[]
+     * @return \DocuSign\Model\DocumentHtmlDefinitionOriginal[]
      */
     public function getHtmlDefinitions()
     {
@@ -219,7 +219,7 @@ class DocumentHtmlDefinitionOriginals implements ModelInterface, ArrayAccess
     /**
      * Sets html_definitions
      *
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginal[] $html_definitions
+     * @param \DocuSign\Model\DocumentHtmlDefinitionOriginal[] $html_definitions
      *
      * @return $this
      */

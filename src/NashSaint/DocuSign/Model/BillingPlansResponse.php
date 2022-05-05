@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlansResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines a billing plans response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class BillingPlansResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_plans' => '\DocuSign\eSign\Model\BillingPlan[]'
+        'billing_plans' => '\DocuSign\Model\BillingPlan[]'
     ];
 
     /**
@@ -210,7 +210,7 @@ class BillingPlansResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_plans
      *
-     * @return \DocuSign\eSign\Model\BillingPlan[]
+     * @return \DocuSign\Model\BillingPlan[]
      */
     public function getBillingPlans()
     {
@@ -220,7 +220,7 @@ class BillingPlansResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_plans
      *
-     * @param \DocuSign\eSign\Model\BillingPlan[] $billing_plans Reserved: TBD
+     * @param \DocuSign\Model\BillingPlan[] $billing_plans Reserved: TBD
      *
      * @return $this
      */

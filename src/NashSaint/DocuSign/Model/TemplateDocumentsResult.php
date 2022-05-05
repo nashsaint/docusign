@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplateDocumentsResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class TemplateDocumentsResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'template_documents' => '\DocuSign\eSign\Model\EnvelopeDocument[]',
+        'template_documents' => '\DocuSign\Model\EnvelopeDocument[]',
         'template_id' => '?string'
     ];
 
@@ -215,7 +215,7 @@ class TemplateDocumentsResult implements ModelInterface, ArrayAccess
     /**
      * Gets template_documents
      *
-     * @return \DocuSign\eSign\Model\EnvelopeDocument[]
+     * @return \DocuSign\Model\EnvelopeDocument[]
      */
     public function getTemplateDocuments()
     {
@@ -225,7 +225,7 @@ class TemplateDocumentsResult implements ModelInterface, ArrayAccess
     /**
      * Sets template_documents
      *
-     * @param \DocuSign\eSign\Model\EnvelopeDocument[] $template_documents
+     * @param \DocuSign\Model\EnvelopeDocument[] $template_documents
      *
      * @return $this
      */

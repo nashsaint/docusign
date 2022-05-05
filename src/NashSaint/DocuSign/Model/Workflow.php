@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Workflow Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,9 +62,9 @@ class Workflow implements ModelInterface, ArrayAccess
         'current_workflow_step_id' => '?string',
         'overwrite_update_mode' => '?string',
         'resume_date' => '?string',
-        'scheduled_sending' => '\DocuSign\eSign\Model\ScheduledSending',
+        'scheduled_sending' => '\DocuSign\Model\ScheduledSending',
         'workflow_status' => '?string',
-        'workflow_steps' => '\DocuSign\eSign\Model\WorkflowStep[]'
+        'workflow_steps' => '\DocuSign\Model\WorkflowStep[]'
     ];
 
     /**
@@ -311,7 +311,7 @@ class Workflow implements ModelInterface, ArrayAccess
     /**
      * Gets scheduled_sending
      *
-     * @return \DocuSign\eSign\Model\ScheduledSending
+     * @return \DocuSign\Model\ScheduledSending
      */
     public function getScheduledSending()
     {
@@ -321,7 +321,7 @@ class Workflow implements ModelInterface, ArrayAccess
     /**
      * Sets scheduled_sending
      *
-     * @param \DocuSign\eSign\Model\ScheduledSending $scheduled_sending scheduled_sending
+     * @param \DocuSign\Model\ScheduledSending $scheduled_sending scheduled_sending
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class Workflow implements ModelInterface, ArrayAccess
     /**
      * Gets workflow_steps
      *
-     * @return \DocuSign\eSign\Model\WorkflowStep[]
+     * @return \DocuSign\Model\WorkflowStep[]
      */
     public function getWorkflowSteps()
     {
@@ -369,7 +369,7 @@ class Workflow implements ModelInterface, ArrayAccess
     /**
      * Sets workflow_steps
      *
-     * @param \DocuSign\eSign\Model\WorkflowStep[] $workflow_steps
+     * @param \DocuSign\Model\WorkflowStep[] $workflow_steps
      *
      * @return $this
      */

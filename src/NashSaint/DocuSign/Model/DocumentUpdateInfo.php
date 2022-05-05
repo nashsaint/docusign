@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentUpdateInfo Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -59,11 +59,11 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'data' => '?string',
         'document_id' => '?string',
-        'document_security_store' => '\DocuSign\eSign\Model\DocumentSecurityStore',
+        'document_security_store' => '\DocuSign\Model\DocumentSecurityStore',
         'name' => '?string',
         'return_format' => '?string',
-        'signature_data_infos' => '\DocuSign\eSign\Model\SignatureDataInfo[]',
-        'time_stamp_field' => '\DocuSign\eSign\Model\TimeStampField'
+        'signature_data_infos' => '\DocuSign\Model\SignatureDataInfo[]',
+        'time_stamp_field' => '\DocuSign\Model\TimeStampField'
     ];
 
     /**
@@ -291,7 +291,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Gets document_security_store
      *
-     * @return \DocuSign\eSign\Model\DocumentSecurityStore
+     * @return \DocuSign\Model\DocumentSecurityStore
      */
     public function getDocumentSecurityStore()
     {
@@ -301,7 +301,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Sets document_security_store
      *
-     * @param \DocuSign\eSign\Model\DocumentSecurityStore $document_security_store document_security_store
+     * @param \DocuSign\Model\DocumentSecurityStore $document_security_store document_security_store
      *
      * @return $this
      */
@@ -363,7 +363,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Gets signature_data_infos
      *
-     * @return \DocuSign\eSign\Model\SignatureDataInfo[]
+     * @return \DocuSign\Model\SignatureDataInfo[]
      */
     public function getSignatureDataInfos()
     {
@@ -373,7 +373,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Sets signature_data_infos
      *
-     * @param \DocuSign\eSign\Model\SignatureDataInfo[] $signature_data_infos
+     * @param \DocuSign\Model\SignatureDataInfo[] $signature_data_infos
      *
      * @return $this
      */
@@ -387,7 +387,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Gets time_stamp_field
      *
-     * @return \DocuSign\eSign\Model\TimeStampField
+     * @return \DocuSign\Model\TimeStampField
      */
     public function getTimeStampField()
     {
@@ -397,7 +397,7 @@ class DocumentUpdateInfo implements ModelInterface, ArrayAccess
     /**
      * Sets time_stamp_field
      *
-     * @param \DocuSign\eSign\Model\TimeStampField $time_stamp_field time_stamp_field
+     * @param \DocuSign\Model\TimeStampField $time_stamp_field time_stamp_field
      *
      * @return $this
      */

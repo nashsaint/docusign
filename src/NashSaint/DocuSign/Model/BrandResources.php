@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BrandResources Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,10 +59,10 @@ class BrandResources implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'created_by_user_info' => '\DocuSign\eSign\Model\UserInfo',
+        'created_by_user_info' => '\DocuSign\Model\UserInfo',
         'created_date' => '?string',
         'data_not_saved_not_in_master' => '?string[]',
-        'modified_by_user_info' => '\DocuSign\eSign\Model\UserInfo',
+        'modified_by_user_info' => '\DocuSign\Model\UserInfo',
         'modified_date' => '?string',
         'modified_templates' => '?string[]',
         'resources_content_type' => '?string',
@@ -251,7 +251,7 @@ class BrandResources implements ModelInterface, ArrayAccess
     /**
      * Gets created_by_user_info
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getCreatedByUserInfo()
     {
@@ -261,7 +261,7 @@ class BrandResources implements ModelInterface, ArrayAccess
     /**
      * Sets created_by_user_info
      *
-     * @param \DocuSign\eSign\Model\UserInfo $created_by_user_info created_by_user_info
+     * @param \DocuSign\Model\UserInfo $created_by_user_info created_by_user_info
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class BrandResources implements ModelInterface, ArrayAccess
     /**
      * Gets modified_by_user_info
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getModifiedByUserInfo()
     {
@@ -333,7 +333,7 @@ class BrandResources implements ModelInterface, ArrayAccess
     /**
      * Sets modified_by_user_info
      *
-     * @param \DocuSign\eSign\Model\UserInfo $modified_by_user_info modified_by_user_info
+     * @param \DocuSign\Model\UserInfo $modified_by_user_info modified_by_user_info
      *
      * @return $this
      */

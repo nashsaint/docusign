@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TabAccountSettings Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,49 +60,49 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'allow_tab_order' => '?string',
-        'allow_tab_order_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_tab_order_metadata' => '\DocuSign\Model\SettingsMetadata',
         'approve_decline_tabs_enabled' => '?string',
-        'approve_decline_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'approve_decline_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'calculated_fields_enabled' => '?string',
-        'calculated_fields_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'calculated_fields_metadata' => '\DocuSign\Model\SettingsMetadata',
         'checkbox_tabs_enabled' => '?string',
-        'check_box_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'check_box_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'currency_tabs_enabled' => '?string',
-        'currency_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'currency_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'data_field_regex_enabled' => '?string',
-        'data_field_regex_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'data_field_regex_metadata' => '\DocuSign\Model\SettingsMetadata',
         'data_field_size_enabled' => '?string',
-        'data_field_size_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'data_field_size_metadata' => '\DocuSign\Model\SettingsMetadata',
         'draw_tabs_enabled' => '?string',
-        'draw_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'draw_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'first_last_email_tabs_enabled' => '?string',
-        'first_last_email_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'first_last_email_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'list_tabs_enabled' => '?string',
-        'list_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'list_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'note_tabs_enabled' => '?string',
-        'note_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'note_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'prefill_tabs_enabled' => '?string',
-        'prefill_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'prefill_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'radio_tabs_enabled' => '?string',
-        'radio_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'radio_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'saving_custom_tabs_enabled' => '?string',
-        'saving_custom_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'saving_custom_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sender_to_change_tab_assignments_enabled' => '?string',
-        'sender_to_change_tab_assignments_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sender_to_change_tab_assignments_metadata' => '\DocuSign\Model\SettingsMetadata',
         'shared_custom_tabs_enabled' => '?string',
-        'shared_custom_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'shared_custom_tabs_metadata' => '\DocuSign\Model\SettingsMetadata',
         'tab_data_label_enabled' => '?string',
-        'tab_data_label_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'tab_data_label_metadata' => '\DocuSign\Model\SettingsMetadata',
         'tab_location_enabled' => '?string',
-        'tab_location_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'tab_location_metadata' => '\DocuSign\Model\SettingsMetadata',
         'tab_locking_enabled' => '?string',
-        'tab_locking_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'tab_locking_metadata' => '\DocuSign\Model\SettingsMetadata',
         'tab_scale_enabled' => '?string',
-        'tab_scale_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'tab_scale_metadata' => '\DocuSign\Model\SettingsMetadata',
         'tab_text_formatting_enabled' => '?string',
-        'tab_text_formatting_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'tab_text_formatting_metadata' => '\DocuSign\Model\SettingsMetadata',
         'text_tabs_enabled' => '?string',
-        'text_tabs_metadata' => '\DocuSign\eSign\Model\SettingsMetadata'
+        'text_tabs_metadata' => '\DocuSign\Model\SettingsMetadata'
     ];
 
     /**
@@ -491,7 +491,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets allow_tab_order_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowTabOrderMetadata()
     {
@@ -501,7 +501,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets allow_tab_order_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_tab_order_metadata allow_tab_order_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_tab_order_metadata allow_tab_order_metadata
      *
      * @return $this
      */
@@ -539,7 +539,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets approve_decline_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getApproveDeclineTabsMetadata()
     {
@@ -549,7 +549,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets approve_decline_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $approve_decline_tabs_metadata approve_decline_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $approve_decline_tabs_metadata approve_decline_tabs_metadata
      *
      * @return $this
      */
@@ -587,7 +587,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets calculated_fields_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCalculatedFieldsMetadata()
     {
@@ -597,7 +597,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets calculated_fields_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $calculated_fields_metadata calculated_fields_metadata
+     * @param \DocuSign\Model\SettingsMetadata $calculated_fields_metadata calculated_fields_metadata
      *
      * @return $this
      */
@@ -635,7 +635,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets check_box_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCheckBoxTabsMetadata()
     {
@@ -645,7 +645,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets check_box_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $check_box_tabs_metadata check_box_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $check_box_tabs_metadata check_box_tabs_metadata
      *
      * @return $this
      */
@@ -683,7 +683,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets currency_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCurrencyTabsMetadata()
     {
@@ -693,7 +693,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets currency_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $currency_tabs_metadata currency_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $currency_tabs_metadata currency_tabs_metadata
      *
      * @return $this
      */
@@ -731,7 +731,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets data_field_regex_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDataFieldRegexMetadata()
     {
@@ -741,7 +741,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets data_field_regex_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $data_field_regex_metadata data_field_regex_metadata
+     * @param \DocuSign\Model\SettingsMetadata $data_field_regex_metadata data_field_regex_metadata
      *
      * @return $this
      */
@@ -779,7 +779,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets data_field_size_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDataFieldSizeMetadata()
     {
@@ -789,7 +789,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets data_field_size_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $data_field_size_metadata data_field_size_metadata
+     * @param \DocuSign\Model\SettingsMetadata $data_field_size_metadata data_field_size_metadata
      *
      * @return $this
      */
@@ -827,7 +827,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets draw_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDrawTabsMetadata()
     {
@@ -837,7 +837,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets draw_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $draw_tabs_metadata draw_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $draw_tabs_metadata draw_tabs_metadata
      *
      * @return $this
      */
@@ -875,7 +875,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets first_last_email_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getFirstLastEmailTabsMetadata()
     {
@@ -885,7 +885,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets first_last_email_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $first_last_email_tabs_metadata first_last_email_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $first_last_email_tabs_metadata first_last_email_tabs_metadata
      *
      * @return $this
      */
@@ -923,7 +923,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets list_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getListTabsMetadata()
     {
@@ -933,7 +933,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets list_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $list_tabs_metadata list_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $list_tabs_metadata list_tabs_metadata
      *
      * @return $this
      */
@@ -971,7 +971,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets note_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getNoteTabsMetadata()
     {
@@ -981,7 +981,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets note_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $note_tabs_metadata note_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $note_tabs_metadata note_tabs_metadata
      *
      * @return $this
      */
@@ -1019,7 +1019,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets prefill_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getPrefillTabsMetadata()
     {
@@ -1029,7 +1029,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets prefill_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $prefill_tabs_metadata prefill_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $prefill_tabs_metadata prefill_tabs_metadata
      *
      * @return $this
      */
@@ -1067,7 +1067,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets radio_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getRadioTabsMetadata()
     {
@@ -1077,7 +1077,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets radio_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $radio_tabs_metadata radio_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $radio_tabs_metadata radio_tabs_metadata
      *
      * @return $this
      */
@@ -1115,7 +1115,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets saving_custom_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSavingCustomTabsMetadata()
     {
@@ -1125,7 +1125,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets saving_custom_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $saving_custom_tabs_metadata saving_custom_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $saving_custom_tabs_metadata saving_custom_tabs_metadata
      *
      * @return $this
      */
@@ -1163,7 +1163,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets sender_to_change_tab_assignments_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSenderToChangeTabAssignmentsMetadata()
     {
@@ -1173,7 +1173,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets sender_to_change_tab_assignments_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sender_to_change_tab_assignments_metadata sender_to_change_tab_assignments_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sender_to_change_tab_assignments_metadata sender_to_change_tab_assignments_metadata
      *
      * @return $this
      */
@@ -1211,7 +1211,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets shared_custom_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSharedCustomTabsMetadata()
     {
@@ -1221,7 +1221,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets shared_custom_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $shared_custom_tabs_metadata shared_custom_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $shared_custom_tabs_metadata shared_custom_tabs_metadata
      *
      * @return $this
      */
@@ -1259,7 +1259,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets tab_data_label_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTabDataLabelMetadata()
     {
@@ -1269,7 +1269,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets tab_data_label_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $tab_data_label_metadata tab_data_label_metadata
+     * @param \DocuSign\Model\SettingsMetadata $tab_data_label_metadata tab_data_label_metadata
      *
      * @return $this
      */
@@ -1307,7 +1307,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets tab_location_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTabLocationMetadata()
     {
@@ -1317,7 +1317,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets tab_location_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $tab_location_metadata tab_location_metadata
+     * @param \DocuSign\Model\SettingsMetadata $tab_location_metadata tab_location_metadata
      *
      * @return $this
      */
@@ -1355,7 +1355,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets tab_locking_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTabLockingMetadata()
     {
@@ -1365,7 +1365,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets tab_locking_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $tab_locking_metadata tab_locking_metadata
+     * @param \DocuSign\Model\SettingsMetadata $tab_locking_metadata tab_locking_metadata
      *
      * @return $this
      */
@@ -1403,7 +1403,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets tab_scale_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTabScaleMetadata()
     {
@@ -1413,7 +1413,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets tab_scale_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $tab_scale_metadata tab_scale_metadata
+     * @param \DocuSign\Model\SettingsMetadata $tab_scale_metadata tab_scale_metadata
      *
      * @return $this
      */
@@ -1451,7 +1451,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets tab_text_formatting_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTabTextFormattingMetadata()
     {
@@ -1461,7 +1461,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets tab_text_formatting_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $tab_text_formatting_metadata tab_text_formatting_metadata
+     * @param \DocuSign\Model\SettingsMetadata $tab_text_formatting_metadata tab_text_formatting_metadata
      *
      * @return $this
      */
@@ -1499,7 +1499,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Gets text_tabs_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTextTabsMetadata()
     {
@@ -1509,7 +1509,7 @@ class TabAccountSettings implements ModelInterface, ArrayAccess
     /**
      * Sets text_tabs_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $text_tabs_metadata text_tabs_metadata
+     * @param \DocuSign\Model\SettingsMetadata $text_tabs_metadata text_tabs_metadata
      *
      * @return $this
      */

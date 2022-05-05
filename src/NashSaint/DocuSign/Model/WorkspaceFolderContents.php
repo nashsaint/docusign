@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspaceFolderContents Class Doc Comment
  *
  * @category    Class
  * @description Provides properties that describe the contents of a workspace folder.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'end_position' => '?string',
-        'folder' => '\DocuSign\eSign\Model\WorkspaceItem',
-        'items' => '\DocuSign\eSign\Model\WorkspaceItem[]',
-        'parent_folders' => '\DocuSign\eSign\Model\WorkspaceItem[]',
+        'folder' => '\DocuSign\Model\WorkspaceItem',
+        'items' => '\DocuSign\Model\WorkspaceItem[]',
+        'parent_folders' => '\DocuSign\Model\WorkspaceItem[]',
         'result_set_size' => '?string',
         'start_position' => '?string',
         'total_set_size' => '?string',
@@ -276,7 +276,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Gets folder
      *
-     * @return \DocuSign\eSign\Model\WorkspaceItem
+     * @return \DocuSign\Model\WorkspaceItem
      */
     public function getFolder()
     {
@@ -286,7 +286,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Sets folder
      *
-     * @param \DocuSign\eSign\Model\WorkspaceItem $folder folder
+     * @param \DocuSign\Model\WorkspaceItem $folder folder
      *
      * @return $this
      */
@@ -300,7 +300,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Gets items
      *
-     * @return \DocuSign\eSign\Model\WorkspaceItem[]
+     * @return \DocuSign\Model\WorkspaceItem[]
      */
     public function getItems()
     {
@@ -310,7 +310,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Sets items
      *
-     * @param \DocuSign\eSign\Model\WorkspaceItem[] $items
+     * @param \DocuSign\Model\WorkspaceItem[] $items
      *
      * @return $this
      */
@@ -324,7 +324,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Gets parent_folders
      *
-     * @return \DocuSign\eSign\Model\WorkspaceItem[]
+     * @return \DocuSign\Model\WorkspaceItem[]
      */
     public function getParentFolders()
     {
@@ -334,7 +334,7 @@ class WorkspaceFolderContents implements ModelInterface, ArrayAccess
     /**
      * Sets parent_folders
      *
-     * @param \DocuSign\eSign\Model\WorkspaceItem[] $parent_folders
+     * @param \DocuSign\Model\WorkspaceItem[] $parent_folders
      *
      * @return $this
      */

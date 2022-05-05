@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeDocumentsResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class EnvelopeDocumentsResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'envelope_documents' => '\DocuSign\eSign\Model\EnvelopeDocument[]',
+        'envelope_documents' => '\DocuSign\Model\EnvelopeDocument[]',
         'envelope_id' => '?string'
     ];
 
@@ -215,7 +215,7 @@ class EnvelopeDocumentsResult implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_documents
      *
-     * @return \DocuSign\eSign\Model\EnvelopeDocument[]
+     * @return \DocuSign\Model\EnvelopeDocument[]
      */
     public function getEnvelopeDocuments()
     {
@@ -225,7 +225,7 @@ class EnvelopeDocumentsResult implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_documents
      *
-     * @param \DocuSign\eSign\Model\EnvelopeDocument[] $envelope_documents
+     * @param \DocuSign\Model\EnvelopeDocument[] $envelope_documents
      *
      * @return $this
      */

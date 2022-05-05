@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConnectCustomConfiguration Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -67,7 +67,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
         'delivery_mode' => '?string',
         'enable_log' => '?string',
         'envelope_events' => '?string[]',
-        'event_data' => '\DocuSign\eSign\Model\ConnectEventData',
+        'event_data' => '\DocuSign\Model\ConnectEventData',
         'events' => '?string[]',
         'external_folder_id' => '?string',
         'external_folder_label' => '?string',
@@ -90,7 +90,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
         'salesforce_documents_as_content_files' => '?string',
         'sender_override' => '?string',
         'sender_selectable_items' => '?string[]',
-        'sf_objects' => '\DocuSign\eSign\Model\ConnectSalesforceObject[]',
+        'sf_objects' => '\DocuSign\Model\ConnectSalesforceObject[]',
         'sign_message_with_x509_certificate' => '?string',
         'soap_namespace' => '?string',
         'url_to_publish_to' => '?string',
@@ -623,7 +623,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets event_data
      *
-     * @return \DocuSign\eSign\Model\ConnectEventData
+     * @return \DocuSign\Model\ConnectEventData
      */
     public function getEventData()
     {
@@ -633,7 +633,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets event_data
      *
-     * @param \DocuSign\eSign\Model\ConnectEventData $event_data event_data
+     * @param \DocuSign\Model\ConnectEventData $event_data event_data
      *
      * @return $this
      */
@@ -1175,7 +1175,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets sf_objects
      *
-     * @return \DocuSign\eSign\Model\ConnectSalesforceObject[]
+     * @return \DocuSign\Model\ConnectSalesforceObject[]
      */
     public function getSfObjects()
     {
@@ -1185,7 +1185,7 @@ class ConnectCustomConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets sf_objects
      *
-     * @param \DocuSign\eSign\Model\ConnectSalesforceObject[] $sf_objects
+     * @param \DocuSign\Model\ConnectSalesforceObject[] $sf_objects
      *
      * @return $this
      */

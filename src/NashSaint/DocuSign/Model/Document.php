@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Document Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,14 +63,14 @@ class Document implements ModelInterface, ArrayAccess
         'assign_tabs_to_recipient_id' => '?string',
         'display' => '?string',
         'document_base64' => '?string',
-        'document_fields' => '\DocuSign\eSign\Model\NameValue[]',
+        'document_fields' => '\DocuSign\Model\NameValue[]',
         'document_id' => '?string',
         'encrypted_with_key_manager' => '?string',
         'file_extension' => '?string',
         'file_format_hint' => '?string',
-        'html_definition' => '\DocuSign\eSign\Model\DocumentHtmlDefinition',
+        'html_definition' => '\DocuSign\Model\DocumentHtmlDefinition',
         'include_in_download' => '?string',
-        'match_boxes' => '\DocuSign\eSign\Model\MatchBox[]',
+        'match_boxes' => '\DocuSign\Model\MatchBox[]',
         'name' => '?string',
         'order' => '?string',
         'pages' => '?string',
@@ -79,7 +79,7 @@ class Document implements ModelInterface, ArrayAccess
         'remote_url' => '?string',
         'signer_must_acknowledge' => '?string',
         'signer_must_acknowledge_use_account_default' => '?bool',
-        'tabs' => '\DocuSign\eSign\Model\Tabs',
+        'tabs' => '\DocuSign\Model\Tabs',
         'template_locked' => '?string',
         'template_required' => '?string',
         'transform_pdf_fields' => '?string',
@@ -449,7 +449,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Gets document_fields
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getDocumentFields()
     {
@@ -459,7 +459,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Sets document_fields
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $document_fields
+     * @param \DocuSign\Model\NameValue[] $document_fields
      *
      * @return $this
      */
@@ -569,7 +569,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Gets html_definition
      *
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinition
+     * @return \DocuSign\Model\DocumentHtmlDefinition
      */
     public function getHtmlDefinition()
     {
@@ -579,7 +579,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Sets html_definition
      *
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $html_definition html_definition
+     * @param \DocuSign\Model\DocumentHtmlDefinition $html_definition html_definition
      *
      * @return $this
      */
@@ -617,7 +617,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Gets match_boxes
      *
-     * @return \DocuSign\eSign\Model\MatchBox[]
+     * @return \DocuSign\Model\MatchBox[]
      */
     public function getMatchBoxes()
     {
@@ -627,7 +627,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Sets match_boxes
      *
-     * @param \DocuSign\eSign\Model\MatchBox[] $match_boxes Matchboxes define areas in a document for document matching when you are creating envelopes. They are only used when you upload and edit a template.   A matchbox consists of 5 elements:  * pageNumber - The document page number  on which the matchbox will appear.  * xPosition - The x position of the matchbox on a page.  * yPosition - The y position of the matchbox on a page. * width - The width of the matchbox.  * height - The height of the matchbox.
+     * @param \DocuSign\Model\MatchBox[] $match_boxes Matchboxes define areas in a document for document matching when you are creating envelopes. They are only used when you upload and edit a template.   A matchbox consists of 5 elements:  * pageNumber - The document page number  on which the matchbox will appear.  * xPosition - The x position of the matchbox on a page.  * yPosition - The y position of the matchbox on a page. * width - The width of the matchbox.  * height - The height of the matchbox.
      *
      * @return $this
      */
@@ -833,7 +833,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Gets tabs
      *
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function getTabs()
     {
@@ -843,7 +843,7 @@ class Document implements ModelInterface, ArrayAccess
     /**
      * Sets tabs
      *
-     * @param \DocuSign\eSign\Model\Tabs $tabs tabs
+     * @param \DocuSign\Model\Tabs $tabs tabs
      *
      * @return $this
      */

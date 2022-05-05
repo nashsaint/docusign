@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PowerForm Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,8 +63,8 @@ class PowerForm implements ModelInterface, ArrayAccess
         'created_date_time' => '?string',
         'email_body' => '?string',
         'email_subject' => '?string',
-        'envelopes' => '\DocuSign\eSign\Model\Envelope[]',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'envelopes' => '\DocuSign\Model\Envelope[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'instructions' => '?string',
         'is_active' => '?string',
         'last_used' => '?string',
@@ -75,7 +75,7 @@ class PowerForm implements ModelInterface, ArrayAccess
         'name' => '?string',
         'power_form_id' => '?string',
         'power_form_url' => '?string',
-        'recipients' => '\DocuSign\eSign\Model\PowerFormRecipient[]',
+        'recipients' => '\DocuSign\Model\PowerFormRecipient[]',
         'sender_name' => '?string',
         'sender_user_id' => '?string',
         'signing_mode' => '?string',
@@ -449,7 +449,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Gets envelopes
      *
-     * @return \DocuSign\eSign\Model\Envelope[]
+     * @return \DocuSign\Model\Envelope[]
      */
     public function getEnvelopes()
     {
@@ -459,7 +459,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Sets envelopes
      *
-     * @param \DocuSign\eSign\Model\Envelope[] $envelopes
+     * @param \DocuSign\Model\Envelope[] $envelopes
      *
      * @return $this
      */
@@ -473,7 +473,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -483,7 +483,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -737,7 +737,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Gets recipients
      *
-     * @return \DocuSign\eSign\Model\PowerFormRecipient[]
+     * @return \DocuSign\Model\PowerFormRecipient[]
      */
     public function getRecipients()
     {
@@ -747,7 +747,7 @@ class PowerForm implements ModelInterface, ArrayAccess
     /**
      * Sets recipients
      *
-     * @param \DocuSign\eSign\Model\PowerFormRecipient[] $recipients An array of powerform recipients.
+     * @param \DocuSign\Model\PowerFormRecipient[] $recipients An array of powerform recipients.
      *
      * @return $this
      */

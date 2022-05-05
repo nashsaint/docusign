@@ -11,7 +11,7 @@
  *
  */
 
-namespace NashSaint\DocuSign\eSign\Client\Auth;
+namespace NashSaint\DocuSign\Client\Auth;
 
 use \ArrayAccess;
 
@@ -19,7 +19,7 @@ use \ArrayAccess;
  * OauthAccess Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -33,7 +33,7 @@ class OAuthToken implements ArrayAccess
      */
     protected static $swaggerTypes = [
         'access_token' => 'string',
-        'data' => '\DocuSign\eSign\Model\NameValue[]',
+        'data' => '\DocuSign\Model\NameValue[]',
         'expires_in' => 'string',
         'refresh_token' => 'string',
         'scope' => 'string',
@@ -171,7 +171,7 @@ class OAuthToken implements ArrayAccess
 
     /**
      * Gets data
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getData()
     {
@@ -180,7 +180,7 @@ class OAuthToken implements ArrayAccess
 
     /**
      * Sets data
-     * @param \DocuSign\eSign\Model\NameValue[] $data
+     * @param \DocuSign\Model\NameValue[] $data
      * @return $this
      */
     public function setData($data)
@@ -329,10 +329,10 @@ class OAuthToken implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

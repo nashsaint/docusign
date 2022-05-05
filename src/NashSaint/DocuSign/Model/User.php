@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * User Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -59,10 +59,10 @@ class User implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'cell_phone_number' => '?string',
         'country_code' => '?string',
-        'credentials' => '\DocuSign\eSign\Model\Credential[]',
+        'credentials' => '\DocuSign\Model\Credential[]',
         'display_name' => '?string',
         'email' => '?string',
-        'external_claims' => '\DocuSign\eSign\Model\ExternalClaim[]'
+        'external_claims' => '\DocuSign\Model\ExternalClaim[]'
     ];
 
     /**
@@ -285,7 +285,7 @@ class User implements ModelInterface, ArrayAccess
     /**
      * Gets credentials
      *
-     * @return \DocuSign\eSign\Model\Credential[]
+     * @return \DocuSign\Model\Credential[]
      */
     public function getCredentials()
     {
@@ -295,7 +295,7 @@ class User implements ModelInterface, ArrayAccess
     /**
      * Sets credentials
      *
-     * @param \DocuSign\eSign\Model\Credential[] $credentials
+     * @param \DocuSign\Model\Credential[] $credentials
      *
      * @return $this
      */
@@ -357,7 +357,7 @@ class User implements ModelInterface, ArrayAccess
     /**
      * Gets external_claims
      *
-     * @return \DocuSign\eSign\Model\ExternalClaim[]
+     * @return \DocuSign\Model\ExternalClaim[]
      */
     public function getExternalClaims()
     {
@@ -367,7 +367,7 @@ class User implements ModelInterface, ArrayAccess
     /**
      * Sets external_claims
      *
-     * @param \DocuSign\eSign\Model\ExternalClaim[] $external_claims
+     * @param \DocuSign\Model\ExternalClaim[] $external_claims
      *
      * @return $this
      */

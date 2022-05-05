@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendingCopyRecipient Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,25 +64,25 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
         'custom_fields' => '?string[]',
         'delivery_method' => '?string',
         'email' => '?string',
-        'email_notification' => '\DocuSign\eSign\Model\RecipientEmailNotification',
+        'email_notification' => '\DocuSign\Model\RecipientEmailNotification',
         'embedded_recipient_start_url' => '?string',
         'fax_number' => '?string',
         'host_email' => '?string',
         'host_name' => '?string',
         'id_check_configuration_name' => '?string',
-        'id_check_information_input' => '\DocuSign\eSign\Model\IdCheckInformationInput',
+        'id_check_information_input' => '\DocuSign\Model\IdCheckInformationInput',
         'identification_method' => '?string',
         'name' => '?string',
         'note' => '?string',
-        'phone_authentication' => '\DocuSign\eSign\Model\RecipientPhoneAuthentication',
+        'phone_authentication' => '\DocuSign\Model\RecipientPhoneAuthentication',
         'recipient_id' => '?string',
-        'recipient_signature_providers' => '\DocuSign\eSign\Model\RecipientSignatureProvider[]',
+        'recipient_signature_providers' => '\DocuSign\Model\RecipientSignatureProvider[]',
         'role_name' => '?string',
         'signer_name' => '?string',
         'signing_group_id' => '?string',
-        'sms_authentication' => '\DocuSign\eSign\Model\RecipientSMSAuthentication',
-        'social_authentications' => '\DocuSign\eSign\Model\SocialAuthentication[]',
-        'tabs' => '\DocuSign\eSign\Model\BulkSendingCopyTab[]'
+        'sms_authentication' => '\DocuSign\Model\RecipientSMSAuthentication',
+        'social_authentications' => '\DocuSign\Model\SocialAuthentication[]',
+        'tabs' => '\DocuSign\Model\BulkSendingCopyTab[]'
     ];
 
     /**
@@ -467,7 +467,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets email_notification
      *
-     * @return \DocuSign\eSign\Model\RecipientEmailNotification
+     * @return \DocuSign\Model\RecipientEmailNotification
      */
     public function getEmailNotification()
     {
@@ -477,7 +477,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets email_notification
      *
-     * @param \DocuSign\eSign\Model\RecipientEmailNotification $email_notification email_notification
+     * @param \DocuSign\Model\RecipientEmailNotification $email_notification email_notification
      *
      * @return $this
      */
@@ -611,7 +611,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_information_input
      *
-     * @return \DocuSign\eSign\Model\IdCheckInformationInput
+     * @return \DocuSign\Model\IdCheckInformationInput
      */
     public function getIdCheckInformationInput()
     {
@@ -621,7 +621,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_information_input
      *
-     * @param \DocuSign\eSign\Model\IdCheckInformationInput $id_check_information_input id_check_information_input
+     * @param \DocuSign\Model\IdCheckInformationInput $id_check_information_input id_check_information_input
      *
      * @return $this
      */
@@ -707,7 +707,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets phone_authentication
      *
-     * @return \DocuSign\eSign\Model\RecipientPhoneAuthentication
+     * @return \DocuSign\Model\RecipientPhoneAuthentication
      */
     public function getPhoneAuthentication()
     {
@@ -717,7 +717,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets phone_authentication
      *
-     * @param \DocuSign\eSign\Model\RecipientPhoneAuthentication $phone_authentication phone_authentication
+     * @param \DocuSign\Model\RecipientPhoneAuthentication $phone_authentication phone_authentication
      *
      * @return $this
      */
@@ -755,7 +755,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_signature_providers
      *
-     * @return \DocuSign\eSign\Model\RecipientSignatureProvider[]
+     * @return \DocuSign\Model\RecipientSignatureProvider[]
      */
     public function getRecipientSignatureProviders()
     {
@@ -765,7 +765,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_signature_providers
      *
-     * @param \DocuSign\eSign\Model\RecipientSignatureProvider[] $recipient_signature_providers
+     * @param \DocuSign\Model\RecipientSignatureProvider[] $recipient_signature_providers
      *
      * @return $this
      */
@@ -851,7 +851,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets sms_authentication
      *
-     * @return \DocuSign\eSign\Model\RecipientSMSAuthentication
+     * @return \DocuSign\Model\RecipientSMSAuthentication
      */
     public function getSmsAuthentication()
     {
@@ -861,7 +861,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets sms_authentication
      *
-     * @param \DocuSign\eSign\Model\RecipientSMSAuthentication $sms_authentication sms_authentication
+     * @param \DocuSign\Model\RecipientSMSAuthentication $sms_authentication sms_authentication
      *
      * @return $this
      */
@@ -875,7 +875,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets social_authentications
      *
-     * @return \DocuSign\eSign\Model\SocialAuthentication[]
+     * @return \DocuSign\Model\SocialAuthentication[]
      */
     public function getSocialAuthentications()
     {
@@ -885,7 +885,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets social_authentications
      *
-     * @param \DocuSign\eSign\Model\SocialAuthentication[] $social_authentications Lists the social ID type that can be used for recipient authentication.
+     * @param \DocuSign\Model\SocialAuthentication[] $social_authentications Lists the social ID type that can be used for recipient authentication.
      *
      * @return $this
      */
@@ -899,7 +899,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets tabs
      *
-     * @return \DocuSign\eSign\Model\BulkSendingCopyTab[]
+     * @return \DocuSign\Model\BulkSendingCopyTab[]
      */
     public function getTabs()
     {
@@ -909,7 +909,7 @@ class BulkSendingCopyRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets tabs
      *
-     * @param \DocuSign\eSign\Model\BulkSendingCopyTab[] $tabs
+     * @param \DocuSign\Model\BulkSendingCopyTab[] $tabs
      *
      * @return $this
      */

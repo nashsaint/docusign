@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeDocument Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,24 +62,24 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
         'added_recipient_ids' => '?string[]',
         'attachment_tab_id' => '?string',
         'authoritative_copy' => '?string',
-        'authoritative_copy_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'available_document_types' => '\DocuSign\eSign\Model\SignatureType[]',
+        'authoritative_copy_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'available_document_types' => '\DocuSign\Model\SignatureType[]',
         'contains_pdf_form_fields' => '?string',
         'display' => '?string',
-        'display_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'display_metadata' => '\DocuSign\Model\PropertyMetadata',
         'document_base64' => '?string',
-        'document_fields' => '\DocuSign\eSign\Model\NameValue[]',
+        'document_fields' => '\DocuSign\Model\NameValue[]',
         'document_id' => '?string',
         'document_id_guid' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'include_in_download' => '?string',
-        'include_in_download_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'include_in_download_metadata' => '\DocuSign\Model\PropertyMetadata',
         'name' => '?string',
-        'name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'order' => '?string',
-        'pages' => '\DocuSign\eSign\Model\Page[]',
+        'pages' => '\DocuSign\Model\Page[]',
         'signer_must_acknowledge' => '?string',
-        'signer_must_acknowledge_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'signer_must_acknowledge_metadata' => '\DocuSign\Model\PropertyMetadata',
         'size_bytes' => '?string',
         'template_locked' => '?string',
         'template_required' => '?string',
@@ -431,7 +431,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets authoritative_copy_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAuthoritativeCopyMetadata()
     {
@@ -441,7 +441,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets authoritative_copy_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $authoritative_copy_metadata authoritative_copy_metadata
+     * @param \DocuSign\Model\PropertyMetadata $authoritative_copy_metadata authoritative_copy_metadata
      *
      * @return $this
      */
@@ -455,7 +455,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets available_document_types
      *
-     * @return \DocuSign\eSign\Model\SignatureType[]
+     * @return \DocuSign\Model\SignatureType[]
      */
     public function getAvailableDocumentTypes()
     {
@@ -465,7 +465,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets available_document_types
      *
-     * @param \DocuSign\eSign\Model\SignatureType[] $available_document_types
+     * @param \DocuSign\Model\SignatureType[] $available_document_types
      *
      * @return $this
      */
@@ -527,7 +527,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets display_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getDisplayMetadata()
     {
@@ -537,7 +537,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets display_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $display_metadata display_metadata
+     * @param \DocuSign\Model\PropertyMetadata $display_metadata display_metadata
      *
      * @return $this
      */
@@ -575,7 +575,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets document_fields
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getDocumentFields()
     {
@@ -585,7 +585,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets document_fields
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $document_fields
+     * @param \DocuSign\Model\NameValue[] $document_fields
      *
      * @return $this
      */
@@ -647,7 +647,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -657,7 +657,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -695,7 +695,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets include_in_download_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getIncludeInDownloadMetadata()
     {
@@ -705,7 +705,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets include_in_download_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $include_in_download_metadata include_in_download_metadata
+     * @param \DocuSign\Model\PropertyMetadata $include_in_download_metadata include_in_download_metadata
      *
      * @return $this
      */
@@ -743,7 +743,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getNameMetadata()
     {
@@ -753,7 +753,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $name_metadata name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $name_metadata name_metadata
      *
      * @return $this
      */
@@ -791,7 +791,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets pages
      *
-     * @return \DocuSign\eSign\Model\Page[]
+     * @return \DocuSign\Model\Page[]
      */
     public function getPages()
     {
@@ -801,7 +801,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets pages
      *
-     * @param \DocuSign\eSign\Model\Page[] $pages
+     * @param \DocuSign\Model\Page[] $pages
      *
      * @return $this
      */
@@ -839,7 +839,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Gets signer_must_acknowledge_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSignerMustAcknowledgeMetadata()
     {
@@ -849,7 +849,7 @@ class EnvelopeDocument implements ModelInterface, ArrayAccess
     /**
      * Sets signer_must_acknowledge_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $signer_must_acknowledge_metadata signer_must_acknowledge_metadata
+     * @param \DocuSign\Model\PropertyMetadata $signer_must_acknowledge_metadata signer_must_acknowledge_metadata
      *
      * @return $this
      */

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\BillingApi;
+namespace NashSaint\DocuSign\Api\BillingApi;
 
 
 /**
  * GetPlanOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -186,7 +186,7 @@ class GetPlanOptions
  * ListInvoicesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -254,7 +254,7 @@ class ListInvoicesOptions
  * ListPaymentsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -322,7 +322,7 @@ class ListPaymentsOptions
  * UpdatePlanOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -360,18 +360,18 @@ class UpdatePlanOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -447,7 +447,7 @@ class BillingApi
      * @param ?string $billing_plan_id The ID of the billing plan being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPlanResponse
+     * @return \DocuSign\Model\BillingPlanResponse
      */
     public function getBillingPlan($billing_plan_id)
     {
@@ -463,7 +463,7 @@ class BillingApi
      * @param ?string $billing_plan_id The ID of the billing plan being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPlanResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPlanResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getBillingPlanWithHttpInfo($billing_plan_id): array
     {
@@ -505,19 +505,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPlanResponse',
+                '\DocuSign\Model\BillingPlanResponse',
                 '/v2.1/billing_plans/{billingPlanId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPlanResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPlanResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPlanResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPlanResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -534,7 +534,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CreditCardInformation
+     * @return \DocuSign\Model\CreditCardInformation
      */
     public function getCreditCardInfo($account_id)
     {
@@ -550,7 +550,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CreditCardInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CreditCardInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCreditCardInfoWithHttpInfo($account_id): array
     {
@@ -592,19 +592,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CreditCardInformation',
+                '\DocuSign\Model\CreditCardInformation',
                 '/v2.1/accounts/{accountId}/billing_plan/credit_card'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CreditCardInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CreditCardInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CreditCardInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CreditCardInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -621,7 +621,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DowngradRequestBillingInfoResponse
+     * @return \DocuSign\Model\DowngradRequestBillingInfoResponse
      */
     public function getDowngradeRequestBillingInfo($account_id)
     {
@@ -637,7 +637,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DowngradRequestBillingInfoResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DowngradRequestBillingInfoResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getDowngradeRequestBillingInfoWithHttpInfo($account_id): array
     {
@@ -679,19 +679,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DowngradRequestBillingInfoResponse',
+                '\DocuSign\Model\DowngradRequestBillingInfoResponse',
                 '/v2.1/accounts/{accountId}/billing_plan/downgrade'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DowngradRequestBillingInfoResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DowngradRequestBillingInfoResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DowngradRequestBillingInfoResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DowngradRequestBillingInfoResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -709,7 +709,7 @@ class BillingApi
      * @param ?string $invoice_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingInvoice
+     * @return \DocuSign\Model\BillingInvoice
      */
     public function getInvoice($account_id, $invoice_id)
     {
@@ -726,7 +726,7 @@ class BillingApi
      * @param ?string $invoice_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingInvoice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingInvoice, HTTP status code, HTTP response headers (array of strings)
      */
     public function getInvoiceWithHttpInfo($account_id, $invoice_id): array
     {
@@ -776,19 +776,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingInvoice',
+                '\DocuSign\Model\BillingInvoice',
                 '/v2.1/accounts/{accountId}/billing_invoices/{invoiceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingInvoice', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingInvoice', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingInvoice', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingInvoice', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -806,7 +806,7 @@ class BillingApi
      * @param ?string $payment_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPaymentItem
+     * @return \DocuSign\Model\BillingPaymentItem
      */
     public function getPayment($account_id, $payment_id)
     {
@@ -823,7 +823,7 @@ class BillingApi
      * @param ?string $payment_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPaymentItem, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPaymentItem, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPaymentWithHttpInfo($account_id, $payment_id): array
     {
@@ -873,19 +873,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPaymentItem',
+                '\DocuSign\Model\BillingPaymentItem',
                 '/v2.1/accounts/{accountId}/billing_payments/{paymentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPaymentItem', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPaymentItem', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPaymentItem', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPaymentItem', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -900,12 +900,12 @@ class BillingApi
      * Get Account Billing Plan
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\GetPlanOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\GetPlanOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\AccountBillingPlanResponse
+     * @return \DocuSign\Model\AccountBillingPlanResponse
      */
-    public function getPlan($account_id, \DocuSign\eSign\Api\BillingApi\GetPlanOptions $options = null)
+    public function getPlan($account_id, \DocuSign\Api\BillingApi\GetPlanOptions $options = null)
     {
         list($response) = $this->getPlanWithHttpInfo($account_id, $options);
         return $response;
@@ -917,12 +917,12 @@ class BillingApi
      * Get Account Billing Plan
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\GetPlanOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\GetPlanOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\AccountBillingPlanResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\AccountBillingPlanResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getPlanWithHttpInfo($account_id, \DocuSign\eSign\Api\BillingApi\GetPlanOptions $options = null): array
+    public function getPlanWithHttpInfo($account_id, \DocuSign\Api\BillingApi\GetPlanOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -981,19 +981,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\AccountBillingPlanResponse',
+                '\DocuSign\Model\AccountBillingPlanResponse',
                 '/v2.1/accounts/{accountId}/billing_plan'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\AccountBillingPlanResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\AccountBillingPlanResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\AccountBillingPlanResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\AccountBillingPlanResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1009,7 +1009,7 @@ class BillingApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPlansResponse
+     * @return \DocuSign\Model\BillingPlansResponse
      */
     public function listBillingPlans()
     {
@@ -1024,7 +1024,7 @@ class BillingApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPlansResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPlansResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listBillingPlansWithHttpInfo(): array
     {
@@ -1058,19 +1058,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPlansResponse',
+                '\DocuSign\Model\BillingPlansResponse',
                 '/v2.1/billing_plans'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPlansResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPlansResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPlansResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPlansResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1085,12 +1085,12 @@ class BillingApi
      * Get a List of Billing Invoices
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\ListInvoicesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\ListInvoicesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingInvoicesResponse
+     * @return \DocuSign\Model\BillingInvoicesResponse
      */
-    public function listInvoices($account_id, \DocuSign\eSign\Api\BillingApi\ListInvoicesOptions $options = null)
+    public function listInvoices($account_id, \DocuSign\Api\BillingApi\ListInvoicesOptions $options = null)
     {
         list($response) = $this->listInvoicesWithHttpInfo($account_id, $options);
         return $response;
@@ -1102,12 +1102,12 @@ class BillingApi
      * Get a List of Billing Invoices
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\ListInvoicesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\ListInvoicesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingInvoicesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingInvoicesResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listInvoicesWithHttpInfo($account_id, \DocuSign\eSign\Api\BillingApi\ListInvoicesOptions $options = null): array
+    public function listInvoicesWithHttpInfo($account_id, \DocuSign\Api\BillingApi\ListInvoicesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1157,19 +1157,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingInvoicesResponse',
+                '\DocuSign\Model\BillingInvoicesResponse',
                 '/v2.1/accounts/{accountId}/billing_invoices'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingInvoicesResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingInvoicesResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingInvoicesResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingInvoicesResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1186,7 +1186,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingInvoicesSummary
+     * @return \DocuSign\Model\BillingInvoicesSummary
      */
     public function listInvoicesPastDue($account_id)
     {
@@ -1202,7 +1202,7 @@ class BillingApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingInvoicesSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingInvoicesSummary, HTTP status code, HTTP response headers (array of strings)
      */
     public function listInvoicesPastDueWithHttpInfo($account_id): array
     {
@@ -1244,19 +1244,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingInvoicesSummary',
+                '\DocuSign\Model\BillingInvoicesSummary',
                 '/v2.1/accounts/{accountId}/billing_invoices_past_due'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingInvoicesSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingInvoicesSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingInvoicesSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingInvoicesSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1271,12 +1271,12 @@ class BillingApi
      * Gets payment information for one or more payments.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\ListPaymentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\ListPaymentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPaymentsResponse
+     * @return \DocuSign\Model\BillingPaymentsResponse
      */
-    public function listPayments($account_id, \DocuSign\eSign\Api\BillingApi\ListPaymentsOptions $options = null)
+    public function listPayments($account_id, \DocuSign\Api\BillingApi\ListPaymentsOptions $options = null)
     {
         list($response) = $this->listPaymentsWithHttpInfo($account_id, $options);
         return $response;
@@ -1288,12 +1288,12 @@ class BillingApi
      * Gets payment information for one or more payments.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\BillingApi\ListPaymentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\BillingApi\ListPaymentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPaymentsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPaymentsResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listPaymentsWithHttpInfo($account_id, \DocuSign\eSign\Api\BillingApi\ListPaymentsOptions $options = null): array
+    public function listPaymentsWithHttpInfo($account_id, \DocuSign\Api\BillingApi\ListPaymentsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1343,19 +1343,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPaymentsResponse',
+                '\DocuSign\Model\BillingPaymentsResponse',
                 '/v2.1/accounts/{accountId}/billing_payments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPaymentsResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPaymentsResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPaymentsResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPaymentsResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1370,10 +1370,10 @@ class BillingApi
      * Posts a payment to a past due invoice.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BillingPaymentRequest $billing_payment_request  (optional)
+     * @param \DocuSign\Model\BillingPaymentRequest $billing_payment_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPaymentResponse
+     * @return \DocuSign\Model\BillingPaymentResponse
      */
     public function makePayment($account_id, $billing_payment_request = null)
     {
@@ -1387,10 +1387,10 @@ class BillingApi
      * Posts a payment to a past due invoice.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BillingPaymentRequest $billing_payment_request  (optional)
+     * @param \DocuSign\Model\BillingPaymentRequest $billing_payment_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPaymentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPaymentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function makePaymentWithHttpInfo($account_id, $billing_payment_request = null): array
     {
@@ -1437,19 +1437,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPaymentResponse',
+                '\DocuSign\Model\BillingPaymentResponse',
                 '/v2.1/accounts/{accountId}/billing_payments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPaymentResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPaymentResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPaymentResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPaymentResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1464,7 +1464,7 @@ class BillingApi
      * Reserverd: Purchase additional envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PurchasedEnvelopesInformation $purchased_envelopes_information  (optional)
+     * @param \DocuSign\Model\PurchasedEnvelopesInformation $purchased_envelopes_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -1481,7 +1481,7 @@ class BillingApi
      * Reserverd: Purchase additional envelopes.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PurchasedEnvelopesInformation $purchased_envelopes_information  (optional)
+     * @param \DocuSign\Model\PurchasedEnvelopesInformation $purchased_envelopes_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -1539,7 +1539,7 @@ class BillingApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1554,10 +1554,10 @@ class BillingApi
      * Queues downgrade billing plan request for an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\DowngradeBillingPlanInformation $downgrade_billing_plan_information  (optional)
+     * @param \DocuSign\Model\DowngradeBillingPlanInformation $downgrade_billing_plan_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DowngradePlanUpdateResponse
+     * @return \DocuSign\Model\DowngradePlanUpdateResponse
      */
     public function updateDowngradeAccountBillingPlan($account_id, $downgrade_billing_plan_information = null)
     {
@@ -1571,10 +1571,10 @@ class BillingApi
      * Queues downgrade billing plan request for an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\DowngradeBillingPlanInformation $downgrade_billing_plan_information  (optional)
+     * @param \DocuSign\Model\DowngradeBillingPlanInformation $downgrade_billing_plan_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DowngradePlanUpdateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DowngradePlanUpdateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDowngradeAccountBillingPlanWithHttpInfo($account_id, $downgrade_billing_plan_information = null): array
     {
@@ -1621,19 +1621,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DowngradePlanUpdateResponse',
+                '\DocuSign\Model\DowngradePlanUpdateResponse',
                 '/v2.1/accounts/{accountId}/billing_plan/downgrade'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DowngradePlanUpdateResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DowngradePlanUpdateResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DowngradePlanUpdateResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DowngradePlanUpdateResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1648,13 +1648,13 @@ class BillingApi
      * Updates the account billing plan.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BillingPlanInformation $billing_plan_information  (optional)
-     * @param  \DocuSign\eSign\Api\BillingApi\UpdatePlanOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\BillingPlanInformation $billing_plan_information  (optional)
+     * @param  \DocuSign\Api\BillingApi\UpdatePlanOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BillingPlanUpdateResponse
+     * @return \DocuSign\Model\BillingPlanUpdateResponse
      */
-    public function updatePlan($account_id, $billing_plan_information = null, \DocuSign\eSign\Api\BillingApi\UpdatePlanOptions $options = null)
+    public function updatePlan($account_id, $billing_plan_information = null, \DocuSign\Api\BillingApi\UpdatePlanOptions $options = null)
     {
         list($response) = $this->updatePlanWithHttpInfo($account_id, $billing_plan_information, $options);
         return $response;
@@ -1666,13 +1666,13 @@ class BillingApi
      * Updates the account billing plan.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\BillingPlanInformation $billing_plan_information  (optional)
-     * @param  \DocuSign\eSign\Api\BillingApi\UpdatePlanOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\BillingPlanInformation $billing_plan_information  (optional)
+     * @param  \DocuSign\Api\BillingApi\UpdatePlanOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BillingPlanUpdateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BillingPlanUpdateResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updatePlanWithHttpInfo($account_id, $billing_plan_information = null, \DocuSign\eSign\Api\BillingApi\UpdatePlanOptions $options = null): array
+    public function updatePlanWithHttpInfo($account_id, $billing_plan_information = null, \DocuSign\Api\BillingApi\UpdatePlanOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1724,19 +1724,19 @@ class BillingApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BillingPlanUpdateResponse',
+                '\DocuSign\Model\BillingPlanUpdateResponse',
                 '/v2.1/accounts/{accountId}/billing_plan'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BillingPlanUpdateResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BillingPlanUpdateResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BillingPlanUpdateResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BillingPlanUpdateResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

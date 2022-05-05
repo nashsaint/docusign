@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentHtmlDisplayAnchor Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class DocumentHtmlDisplayAnchor implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'case_sensitive' => '?bool',
-        'display_settings' => '\DocuSign\eSign\Model\DocumentHtmlDisplaySettings',
+        'display_settings' => '\DocuSign\Model\DocumentHtmlDisplaySettings',
         'end_anchor' => '?string',
         'remove_end_anchor' => '?bool',
         'remove_start_anchor' => '?bool',
@@ -263,7 +263,7 @@ class DocumentHtmlDisplayAnchor implements ModelInterface, ArrayAccess
     /**
      * Gets display_settings
      *
-     * @return \DocuSign\eSign\Model\DocumentHtmlDisplaySettings
+     * @return \DocuSign\Model\DocumentHtmlDisplaySettings
      */
     public function getDisplaySettings()
     {
@@ -273,7 +273,7 @@ class DocumentHtmlDisplayAnchor implements ModelInterface, ArrayAccess
     /**
      * Sets display_settings
      *
-     * @param \DocuSign\eSign\Model\DocumentHtmlDisplaySettings $display_settings display_settings
+     * @param \DocuSign\Model\DocumentHtmlDisplaySettings $display_settings display_settings
      *
      * @return $this
      */

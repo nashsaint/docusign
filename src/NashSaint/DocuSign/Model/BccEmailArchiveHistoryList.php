@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BccEmailArchiveHistoryList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BccEmailArchiveHistoryList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bcc_email_archive_history' => '\DocuSign\eSign\Model\BccEmailArchiveHistory[]',
+        'bcc_email_archive_history' => '\DocuSign\Model\BccEmailArchiveHistory[]',
         'end_position' => '?string',
         'next_uri' => '?string',
         'previous_uri' => '?string',
@@ -245,7 +245,7 @@ class BccEmailArchiveHistoryList implements ModelInterface, ArrayAccess
     /**
      * Gets bcc_email_archive_history
      *
-     * @return \DocuSign\eSign\Model\BccEmailArchiveHistory[]
+     * @return \DocuSign\Model\BccEmailArchiveHistory[]
      */
     public function getBccEmailArchiveHistory()
     {
@@ -255,7 +255,7 @@ class BccEmailArchiveHistoryList implements ModelInterface, ArrayAccess
     /**
      * Sets bcc_email_archive_history
      *
-     * @param \DocuSign\eSign\Model\BccEmailArchiveHistory[] $bcc_email_archive_history
+     * @param \DocuSign\Model\BccEmailArchiveHistory[] $bcc_email_archive_history
      *
      * @return $this
      */

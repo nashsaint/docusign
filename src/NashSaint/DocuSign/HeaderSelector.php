@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign;
+namespace NashSaint\DocuSign;
 
 use \Exception;
 
@@ -35,7 +35,7 @@ use \Exception;
  * ApiException Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen

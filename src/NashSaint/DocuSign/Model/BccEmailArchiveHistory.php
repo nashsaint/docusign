@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BccEmailArchiveHistory Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,7 +63,7 @@ class BccEmailArchiveHistory implements ModelInterface, ArrayAccess
         'action' => '?string',
         'email' => '?string',
         'modified' => '?string',
-        'modified_by' => '\DocuSign\eSign\Model\UserInfo',
+        'modified_by' => '\DocuSign\Model\UserInfo',
         'status' => '?string'
     ];
 
@@ -335,7 +335,7 @@ class BccEmailArchiveHistory implements ModelInterface, ArrayAccess
     /**
      * Gets modified_by
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getModifiedBy()
     {
@@ -345,7 +345,7 @@ class BccEmailArchiveHistory implements ModelInterface, ArrayAccess
     /**
      * Sets modified_by
      *
-     * @param \DocuSign\eSign\Model\UserInfo $modified_by modified_by
+     * @param \DocuSign\Model\UserInfo $modified_by modified_by
      *
      * @return $this
      */

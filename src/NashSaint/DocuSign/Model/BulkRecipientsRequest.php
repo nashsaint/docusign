@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkRecipientsRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkRecipientsRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_recipients' => '\DocuSign\eSign\Model\BulkRecipient[]'
+        'bulk_recipients' => '\DocuSign\Model\BulkRecipient[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class BulkRecipientsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_recipients
      *
-     * @return \DocuSign\eSign\Model\BulkRecipient[]
+     * @return \DocuSign\Model\BulkRecipient[]
      */
     public function getBulkRecipients()
     {
@@ -219,7 +219,7 @@ class BulkRecipientsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_recipients
      *
-     * @param \DocuSign\eSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the request.
+     * @param \DocuSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the request.
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotificationDefaults Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class NotificationDefaults implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'api_email_notifications' => '\DocuSign\eSign\Model\NotificationDefaultSettings',
-        'email_notifications' => '\DocuSign\eSign\Model\NotificationDefaultSettings'
+        'api_email_notifications' => '\DocuSign\Model\NotificationDefaultSettings',
+        'email_notifications' => '\DocuSign\Model\NotificationDefaultSettings'
     ];
 
     /**
@@ -215,7 +215,7 @@ class NotificationDefaults implements ModelInterface, ArrayAccess
     /**
      * Gets api_email_notifications
      *
-     * @return \DocuSign\eSign\Model\NotificationDefaultSettings
+     * @return \DocuSign\Model\NotificationDefaultSettings
      */
     public function getApiEmailNotifications()
     {
@@ -225,7 +225,7 @@ class NotificationDefaults implements ModelInterface, ArrayAccess
     /**
      * Sets api_email_notifications
      *
-     * @param \DocuSign\eSign\Model\NotificationDefaultSettings $api_email_notifications api_email_notifications
+     * @param \DocuSign\Model\NotificationDefaultSettings $api_email_notifications api_email_notifications
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class NotificationDefaults implements ModelInterface, ArrayAccess
     /**
      * Gets email_notifications
      *
-     * @return \DocuSign\eSign\Model\NotificationDefaultSettings
+     * @return \DocuSign\Model\NotificationDefaultSettings
      */
     public function getEmailNotifications()
     {
@@ -249,7 +249,7 @@ class NotificationDefaults implements ModelInterface, ArrayAccess
     /**
      * Sets email_notifications
      *
-     * @param \DocuSign\eSign\Model\NotificationDefaultSettings $email_notifications email_notifications
+     * @param \DocuSign\Model\NotificationDefaultSettings $email_notifications email_notifications
      *
      * @return $this
      */

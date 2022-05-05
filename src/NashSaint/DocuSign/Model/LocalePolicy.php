@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * LocalePolicy Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,24 +60,24 @@ class LocalePolicy implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'address_format' => '?string',
-        'address_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'address_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'allow_region' => '?string',
         'calendar_type' => '?string',
-        'calendar_type_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'calendar_type_metadata' => '\DocuSign\Model\SettingsMetadata',
         'culture_name' => '?string',
-        'culture_name_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'culture_name_metadata' => '\DocuSign\Model\SettingsMetadata',
         'currency_code' => '?string',
-        'currency_code_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'currency_code_metadata' => '\DocuSign\Model\SettingsMetadata',
         'currency_negative_format' => '?string',
-        'currency_negative_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'currency_negative_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'currency_positive_format' => '?string',
-        'currency_positive_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'currency_positive_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'custom_date_format' => '?string',
         'custom_sign_date_format' => '?string',
         'custom_sign_time_format' => '?string',
         'custom_time_format' => '?string',
         'date_format' => '?string',
-        'date_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'date_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'effective_address_format' => '?string',
         'effective_calendar_type' => '?string',
         'effective_currency_code' => '?string',
@@ -91,17 +91,17 @@ class LocalePolicy implements ModelInterface, ArrayAccess
         'effective_time_format' => '?string',
         'effective_time_zone' => '?string',
         'initial_format' => '?string',
-        'initial_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'initial_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'name_format' => '?string',
-        'name_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'name_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_date_format' => '?string',
-        'sign_date_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_date_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'sign_time_format' => '?string',
-        'sign_time_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'sign_time_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'time_format' => '?string',
-        'time_format_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'time_format_metadata' => '\DocuSign\Model\SettingsMetadata',
         'time_zone' => '?string',
-        'time_zone_metadata' => '\DocuSign\eSign\Model\SettingsMetadata'
+        'time_zone_metadata' => '\DocuSign\Model\SettingsMetadata'
     ];
 
     /**
@@ -485,7 +485,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets address_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAddressFormatMetadata()
     {
@@ -495,7 +495,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets address_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $address_format_metadata address_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $address_format_metadata address_format_metadata
      *
      * @return $this
      */
@@ -557,7 +557,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets calendar_type_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCalendarTypeMetadata()
     {
@@ -567,7 +567,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets calendar_type_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $calendar_type_metadata calendar_type_metadata
+     * @param \DocuSign\Model\SettingsMetadata $calendar_type_metadata calendar_type_metadata
      *
      * @return $this
      */
@@ -605,7 +605,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets culture_name_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCultureNameMetadata()
     {
@@ -615,7 +615,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets culture_name_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $culture_name_metadata culture_name_metadata
+     * @param \DocuSign\Model\SettingsMetadata $culture_name_metadata culture_name_metadata
      *
      * @return $this
      */
@@ -653,7 +653,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCurrencyCodeMetadata()
     {
@@ -663,7 +663,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $currency_code_metadata currency_code_metadata
+     * @param \DocuSign\Model\SettingsMetadata $currency_code_metadata currency_code_metadata
      *
      * @return $this
      */
@@ -701,7 +701,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets currency_negative_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCurrencyNegativeFormatMetadata()
     {
@@ -711,7 +711,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets currency_negative_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $currency_negative_format_metadata currency_negative_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $currency_negative_format_metadata currency_negative_format_metadata
      *
      * @return $this
      */
@@ -749,7 +749,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets currency_positive_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getCurrencyPositiveFormatMetadata()
     {
@@ -759,7 +759,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets currency_positive_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $currency_positive_format_metadata currency_positive_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $currency_positive_format_metadata currency_positive_format_metadata
      *
      * @return $this
      */
@@ -893,7 +893,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets date_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDateFormatMetadata()
     {
@@ -903,7 +903,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets date_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $date_format_metadata date_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $date_format_metadata date_format_metadata
      *
      * @return $this
      */
@@ -1229,7 +1229,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets initial_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getInitialFormatMetadata()
     {
@@ -1239,7 +1239,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets initial_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $initial_format_metadata initial_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $initial_format_metadata initial_format_metadata
      *
      * @return $this
      */
@@ -1277,7 +1277,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets name_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getNameFormatMetadata()
     {
@@ -1287,7 +1287,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets name_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $name_format_metadata name_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $name_format_metadata name_format_metadata
      *
      * @return $this
      */
@@ -1325,7 +1325,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets sign_date_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignDateFormatMetadata()
     {
@@ -1335,7 +1335,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets sign_date_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_date_format_metadata sign_date_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_date_format_metadata sign_date_format_metadata
      *
      * @return $this
      */
@@ -1373,7 +1373,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets sign_time_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSignTimeFormatMetadata()
     {
@@ -1383,7 +1383,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets sign_time_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $sign_time_format_metadata sign_time_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $sign_time_format_metadata sign_time_format_metadata
      *
      * @return $this
      */
@@ -1421,7 +1421,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets time_format_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTimeFormatMetadata()
     {
@@ -1431,7 +1431,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets time_format_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $time_format_metadata time_format_metadata
+     * @param \DocuSign\Model\SettingsMetadata $time_format_metadata time_format_metadata
      *
      * @return $this
      */
@@ -1469,7 +1469,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Gets time_zone_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getTimeZoneMetadata()
     {
@@ -1479,7 +1479,7 @@ class LocalePolicy implements ModelInterface, ArrayAccess
     /**
      * Sets time_zone_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $time_zone_metadata time_zone_metadata
+     * @param \DocuSign\Model\SettingsMetadata $time_zone_metadata time_zone_metadata
      *
      * @return $this
      */

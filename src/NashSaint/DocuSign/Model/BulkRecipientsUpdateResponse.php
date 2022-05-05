@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkRecipientsUpdateResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkRecipientsUpdateResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'signer' => '\DocuSign\eSign\Model\Signer'
+        'signer' => '\DocuSign\Model\Signer'
     ];
 
     /**
@@ -209,7 +209,7 @@ class BulkRecipientsUpdateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets signer
      *
-     * @return \DocuSign\eSign\Model\Signer
+     * @return \DocuSign\Model\Signer
      */
     public function getSigner()
     {
@@ -219,7 +219,7 @@ class BulkRecipientsUpdateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets signer
      *
-     * @param \DocuSign\eSign\Model\Signer $signer signer
+     * @param \DocuSign\Model\Signer $signer signer
      *
      * @return $this
      */

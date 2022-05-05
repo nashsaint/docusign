@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Brand Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,17 +63,17 @@ class Brand implements ModelInterface, ArrayAccess
         'brand_id' => '?string',
         'brand_languages' => '?string[]',
         'brand_name' => '?string',
-        'colors' => '\DocuSign\eSign\Model\NameValue[]',
+        'colors' => '\DocuSign\Model\NameValue[]',
         'default_brand_language' => '?string',
-        'email_content' => '\DocuSign\eSign\Model\BrandEmailContent[]',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'email_content' => '\DocuSign\Model\BrandEmailContent[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'is_overriding_company_name' => '?bool',
         'is_sending_default' => '?bool',
         'is_signing_default' => '?bool',
-        'landing_pages' => '\DocuSign\eSign\Model\NameValue[]',
-        'links' => '\DocuSign\eSign\Model\BrandLink[]',
-        'logos' => '\DocuSign\eSign\Model\BrandLogos',
-        'resources' => '\DocuSign\eSign\Model\BrandResourceUrls'
+        'landing_pages' => '\DocuSign\Model\NameValue[]',
+        'links' => '\DocuSign\Model\BrandLink[]',
+        'logos' => '\DocuSign\Model\BrandLogos',
+        'resources' => '\DocuSign\Model\BrandResourceUrls'
     ];
 
     /**
@@ -389,7 +389,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets colors
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getColors()
     {
@@ -399,7 +399,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets colors
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $colors
+     * @param \DocuSign\Model\NameValue[] $colors
      *
      * @return $this
      */
@@ -437,7 +437,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets email_content
      *
-     * @return \DocuSign\eSign\Model\BrandEmailContent[]
+     * @return \DocuSign\Model\BrandEmailContent[]
      */
     public function getEmailContent()
     {
@@ -447,7 +447,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets email_content
      *
-     * @param \DocuSign\eSign\Model\BrandEmailContent[] $email_content
+     * @param \DocuSign\Model\BrandEmailContent[] $email_content
      *
      * @return $this
      */
@@ -461,7 +461,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -471,7 +471,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -557,7 +557,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets landing_pages
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getLandingPages()
     {
@@ -567,7 +567,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets landing_pages
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $landing_pages
+     * @param \DocuSign\Model\NameValue[] $landing_pages
      *
      * @return $this
      */
@@ -581,7 +581,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets links
      *
-     * @return \DocuSign\eSign\Model\BrandLink[]
+     * @return \DocuSign\Model\BrandLink[]
      */
     public function getLinks()
     {
@@ -591,7 +591,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets links
      *
-     * @param \DocuSign\eSign\Model\BrandLink[] $links
+     * @param \DocuSign\Model\BrandLink[] $links
      *
      * @return $this
      */
@@ -605,7 +605,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets logos
      *
-     * @return \DocuSign\eSign\Model\BrandLogos
+     * @return \DocuSign\Model\BrandLogos
      */
     public function getLogos()
     {
@@ -615,7 +615,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets logos
      *
-     * @param \DocuSign\eSign\Model\BrandLogos $logos logos
+     * @param \DocuSign\Model\BrandLogos $logos logos
      *
      * @return $this
      */
@@ -629,7 +629,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets resources
      *
-     * @return \DocuSign\eSign\Model\BrandResourceUrls
+     * @return \DocuSign\Model\BrandResourceUrls
      */
     public function getResources()
     {
@@ -639,7 +639,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets resources
      *
-     * @param \DocuSign\eSign\Model\BrandResourceUrls $resources resources
+     * @param \DocuSign\Model\BrandResourceUrls $resources resources
      *
      * @return $this
      */

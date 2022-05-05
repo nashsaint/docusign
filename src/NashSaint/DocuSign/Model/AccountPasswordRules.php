@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountPasswordRules Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,24 +61,24 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'expire_password' => '?string',
         'expire_password_days' => '?string',
-        'expire_password_days_metadata' => '\DocuSign\eSign\Model\AccountPasswordExpirePasswordDays',
+        'expire_password_days_metadata' => '\DocuSign\Model\AccountPasswordExpirePasswordDays',
         'lockout_duration_minutes' => '?string',
-        'lockout_duration_minutes_metadata' => '\DocuSign\eSign\Model\AccountPasswordLockoutDurationMinutes',
+        'lockout_duration_minutes_metadata' => '\DocuSign\Model\AccountPasswordLockoutDurationMinutes',
         'lockout_duration_type' => '?string',
-        'lockout_duration_type_metadata' => '\DocuSign\eSign\Model\AccountPasswordLockoutDurationType',
+        'lockout_duration_type_metadata' => '\DocuSign\Model\AccountPasswordLockoutDurationType',
         'minimum_password_age_days' => '?string',
-        'minimum_password_age_days_metadata' => '\DocuSign\eSign\Model\AccountPasswordMinimumPasswordAgeDays',
+        'minimum_password_age_days_metadata' => '\DocuSign\Model\AccountPasswordMinimumPasswordAgeDays',
         'minimum_password_length' => '?string',
-        'minimum_password_length_metadata' => '\DocuSign\eSign\Model\AccountMinimumPasswordLength',
+        'minimum_password_length_metadata' => '\DocuSign\Model\AccountMinimumPasswordLength',
         'password_include_digit' => '?string',
         'password_include_digit_or_special_character' => '?string',
         'password_include_lower_case' => '?string',
         'password_include_special_character' => '?string',
         'password_include_upper_case' => '?string',
         'password_strength_type' => '?string',
-        'password_strength_type_metadata' => '\DocuSign\eSign\Model\AccountPasswordStrengthType',
+        'password_strength_type_metadata' => '\DocuSign\Model\AccountPasswordStrengthType',
         'questions_required' => '?string',
-        'questions_required_metadata' => '\DocuSign\eSign\Model\AccountPasswordQuestionsRequired'
+        'questions_required_metadata' => '\DocuSign\Model\AccountPasswordQuestionsRequired'
     ];
 
     /**
@@ -371,7 +371,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets expire_password_days_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordExpirePasswordDays
+     * @return \DocuSign\Model\AccountPasswordExpirePasswordDays
      */
     public function getExpirePasswordDaysMetadata()
     {
@@ -381,7 +381,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets expire_password_days_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordExpirePasswordDays $expire_password_days_metadata expire_password_days_metadata
+     * @param \DocuSign\Model\AccountPasswordExpirePasswordDays $expire_password_days_metadata expire_password_days_metadata
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets lockout_duration_minutes_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordLockoutDurationMinutes
+     * @return \DocuSign\Model\AccountPasswordLockoutDurationMinutes
      */
     public function getLockoutDurationMinutesMetadata()
     {
@@ -429,7 +429,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets lockout_duration_minutes_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordLockoutDurationMinutes $lockout_duration_minutes_metadata lockout_duration_minutes_metadata
+     * @param \DocuSign\Model\AccountPasswordLockoutDurationMinutes $lockout_duration_minutes_metadata lockout_duration_minutes_metadata
      *
      * @return $this
      */
@@ -467,7 +467,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets lockout_duration_type_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordLockoutDurationType
+     * @return \DocuSign\Model\AccountPasswordLockoutDurationType
      */
     public function getLockoutDurationTypeMetadata()
     {
@@ -477,7 +477,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets lockout_duration_type_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordLockoutDurationType $lockout_duration_type_metadata lockout_duration_type_metadata
+     * @param \DocuSign\Model\AccountPasswordLockoutDurationType $lockout_duration_type_metadata lockout_duration_type_metadata
      *
      * @return $this
      */
@@ -515,7 +515,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets minimum_password_age_days_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordMinimumPasswordAgeDays
+     * @return \DocuSign\Model\AccountPasswordMinimumPasswordAgeDays
      */
     public function getMinimumPasswordAgeDaysMetadata()
     {
@@ -525,7 +525,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets minimum_password_age_days_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordMinimumPasswordAgeDays $minimum_password_age_days_metadata minimum_password_age_days_metadata
+     * @param \DocuSign\Model\AccountPasswordMinimumPasswordAgeDays $minimum_password_age_days_metadata minimum_password_age_days_metadata
      *
      * @return $this
      */
@@ -563,7 +563,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets minimum_password_length_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountMinimumPasswordLength
+     * @return \DocuSign\Model\AccountMinimumPasswordLength
      */
     public function getMinimumPasswordLengthMetadata()
     {
@@ -573,7 +573,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets minimum_password_length_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountMinimumPasswordLength $minimum_password_length_metadata minimum_password_length_metadata
+     * @param \DocuSign\Model\AccountMinimumPasswordLength $minimum_password_length_metadata minimum_password_length_metadata
      *
      * @return $this
      */
@@ -731,7 +731,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets password_strength_type_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordStrengthType
+     * @return \DocuSign\Model\AccountPasswordStrengthType
      */
     public function getPasswordStrengthTypeMetadata()
     {
@@ -741,7 +741,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets password_strength_type_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordStrengthType $password_strength_type_metadata password_strength_type_metadata
+     * @param \DocuSign\Model\AccountPasswordStrengthType $password_strength_type_metadata password_strength_type_metadata
      *
      * @return $this
      */
@@ -779,7 +779,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Gets questions_required_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordQuestionsRequired
+     * @return \DocuSign\Model\AccountPasswordQuestionsRequired
      */
     public function getQuestionsRequiredMetadata()
     {
@@ -789,7 +789,7 @@ class AccountPasswordRules implements ModelInterface, ArrayAccess
     /**
      * Sets questions_required_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordQuestionsRequired $questions_required_metadata questions_required_metadata
+     * @param \DocuSign\Model\AccountPasswordQuestionsRequired $questions_required_metadata questions_required_metadata
      *
      * @return $this
      */

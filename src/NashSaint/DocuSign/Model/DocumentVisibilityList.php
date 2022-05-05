@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DocumentVisibilityList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class DocumentVisibilityList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'document_visibility' => '\DocuSign\eSign\Model\DocumentVisibility[]'
+        'document_visibility' => '\DocuSign\Model\DocumentVisibility[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class DocumentVisibilityList implements ModelInterface, ArrayAccess
     /**
      * Gets document_visibility
      *
-     * @return \DocuSign\eSign\Model\DocumentVisibility[]
+     * @return \DocuSign\Model\DocumentVisibility[]
      */
     public function getDocumentVisibility()
     {
@@ -219,7 +219,7 @@ class DocumentVisibilityList implements ModelInterface, ArrayAccess
     /**
      * Sets document_visibility
      *
-     * @param \DocuSign\eSign\Model\DocumentVisibility[] $document_visibility
+     * @param \DocuSign\Model\DocumentVisibility[] $document_visibility
      *
      * @return $this
      */

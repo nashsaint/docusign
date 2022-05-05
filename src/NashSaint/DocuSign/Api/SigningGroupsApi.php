@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\SigningGroupsApi;
+namespace NashSaint\DocuSign\Api\SigningGroupsApi;
 
 
 /**
  * ListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -102,18 +102,18 @@ class ListOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * SigningGroupsApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -187,12 +187,12 @@ class SigningGroupsApi
      * Gets a list of the Signing Groups in an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\SigningGroupsApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\SigningGroupsApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupInformation
+     * @return \DocuSign\Model\SigningGroupInformation
      */
-    public function callList($account_id, \DocuSign\eSign\Api\SigningGroupsApi\ListOptions $options = null)
+    public function callList($account_id, \DocuSign\Api\SigningGroupsApi\ListOptions $options = null)
     {
         list($response) = $this->callListWithHttpInfo($account_id, $options);
         return $response;
@@ -204,12 +204,12 @@ class SigningGroupsApi
      * Gets a list of the Signing Groups in an account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\SigningGroupsApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\SigningGroupsApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function callListWithHttpInfo($account_id, \DocuSign\eSign\Api\SigningGroupsApi\ListOptions $options = null): array
+    public function callListWithHttpInfo($account_id, \DocuSign\Api\SigningGroupsApi\ListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -259,19 +259,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupInformation',
+                '\DocuSign\Model\SigningGroupInformation',
                 '/v2.1/accounts/{accountId}/signing_groups'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -286,10 +286,10 @@ class SigningGroupsApi
      * Creates a signing group.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupInformation
+     * @return \DocuSign\Model\SigningGroupInformation
      */
     public function createList($account_id, $signing_group_information = null)
     {
@@ -303,10 +303,10 @@ class SigningGroupsApi
      * Creates a signing group.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createListWithHttpInfo($account_id, $signing_group_information = null): array
     {
@@ -353,19 +353,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupInformation',
+                '\DocuSign\Model\SigningGroupInformation',
                 '/v2.1/accounts/{accountId}/signing_groups'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -380,10 +380,10 @@ class SigningGroupsApi
      * Deletes one or more signing groups.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupInformation
+     * @return \DocuSign\Model\SigningGroupInformation
      */
     public function deleteList($account_id, $signing_group_information = null)
     {
@@ -397,10 +397,10 @@ class SigningGroupsApi
      * Deletes one or more signing groups.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteListWithHttpInfo($account_id, $signing_group_information = null): array
     {
@@ -447,19 +447,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupInformation',
+                '\DocuSign\Model\SigningGroupInformation',
                 '/v2.1/accounts/{accountId}/signing_groups'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -475,10 +475,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroupUsers $signing_group_users  (optional)
+     * @param \DocuSign\Model\SigningGroupUsers $signing_group_users  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupUsers
+     * @return \DocuSign\Model\SigningGroupUsers
      */
     public function deleteUsers($account_id, $signing_group_id, $signing_group_users = null)
     {
@@ -493,10 +493,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroupUsers $signing_group_users  (optional)
+     * @param \DocuSign\Model\SigningGroupUsers $signing_group_users  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteUsersWithHttpInfo($account_id, $signing_group_id, $signing_group_users = null): array
     {
@@ -551,19 +551,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupUsers',
+                '\DocuSign\Model\SigningGroupUsers',
                 '/v2.1/accounts/{accountId}/signing_groups/{signingGroupId}/users'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupUsers', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupUsers', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -581,7 +581,7 @@ class SigningGroupsApi
      * @param ?string $signing_group_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroup
+     * @return \DocuSign\Model\SigningGroup
      */
     public function get($account_id, $signing_group_id)
     {
@@ -598,7 +598,7 @@ class SigningGroupsApi
      * @param ?string $signing_group_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroup, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroup, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWithHttpInfo($account_id, $signing_group_id): array
     {
@@ -648,19 +648,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroup',
+                '\DocuSign\Model\SigningGroup',
                 '/v2.1/accounts/{accountId}/signing_groups/{signingGroupId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroup', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroup', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroup', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroup', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -678,7 +678,7 @@ class SigningGroupsApi
      * @param ?string $signing_group_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupUsers
+     * @return \DocuSign\Model\SigningGroupUsers
      */
     public function listUsers($account_id, $signing_group_id)
     {
@@ -695,7 +695,7 @@ class SigningGroupsApi
      * @param ?string $signing_group_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
      */
     public function listUsersWithHttpInfo($account_id, $signing_group_id): array
     {
@@ -745,19 +745,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupUsers',
+                '\DocuSign\Model\SigningGroupUsers',
                 '/v2.1/accounts/{accountId}/signing_groups/{signingGroupId}/users'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupUsers', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupUsers', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -773,10 +773,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroup $signing_group  (optional)
+     * @param \DocuSign\Model\SigningGroup $signing_group  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroup
+     * @return \DocuSign\Model\SigningGroup
      */
     public function update($account_id, $signing_group_id, $signing_group = null)
     {
@@ -791,10 +791,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroup $signing_group  (optional)
+     * @param \DocuSign\Model\SigningGroup $signing_group  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroup, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroup, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWithHttpInfo($account_id, $signing_group_id, $signing_group = null): array
     {
@@ -849,19 +849,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroup',
+                '\DocuSign\Model\SigningGroup',
                 '/v2.1/accounts/{accountId}/signing_groups/{signingGroupId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroup', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroup', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroup', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroup', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -876,10 +876,10 @@ class SigningGroupsApi
      * Updates signing group names.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupInformation
+     * @return \DocuSign\Model\SigningGroupInformation
      */
     public function updateList($account_id, $signing_group_information = null)
     {
@@ -893,10 +893,10 @@ class SigningGroupsApi
      * Updates signing group names.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\SigningGroupInformation $signing_group_information  (optional)
+     * @param \DocuSign\Model\SigningGroupInformation $signing_group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateListWithHttpInfo($account_id, $signing_group_information = null): array
     {
@@ -943,19 +943,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupInformation',
+                '\DocuSign\Model\SigningGroupInformation',
                 '/v2.1/accounts/{accountId}/signing_groups'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -971,10 +971,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroupUsers $signing_group_users  (optional)
+     * @param \DocuSign\Model\SigningGroupUsers $signing_group_users  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SigningGroupUsers
+     * @return \DocuSign\Model\SigningGroupUsers
      */
     public function updateUsers($account_id, $signing_group_id, $signing_group_users = null)
     {
@@ -989,10 +989,10 @@ class SigningGroupsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $signing_group_id
-     * @param \DocuSign\eSign\Model\SigningGroupUsers $signing_group_users  (optional)
+     * @param \DocuSign\Model\SigningGroupUsers $signing_group_users  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SigningGroupUsers, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateUsersWithHttpInfo($account_id, $signing_group_id, $signing_group_users = null): array
     {
@@ -1047,19 +1047,19 @@ class SigningGroupsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SigningGroupUsers',
+                '\DocuSign\Model\SigningGroupUsers',
                 '/v2.1/accounts/{accountId}/signing_groups/{signingGroupId}/users'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SigningGroupUsers', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SigningGroupUsers', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SigningGroupUsers', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

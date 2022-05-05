@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
 
@@ -36,7 +36,7 @@ use \ArrayAccess;
  *
  * @category    Class
  * @description A complex element containing the following information:  templateId: Unique identifier of the template. If this is not provided, DocuSign will generate a value.   name: Name of the template. Maximum length: 100 characters.  shared: When set to **true**, the template is shared with the Everyone group in the account. If false, the template is only shared with the Administrator group.  password: Password, if the template is locked.  description: Description of the template. Maximum Length: 500 characters.  pageCount: Number of document pages in the template.  folderName: The name of the folder the template is located in.  folderId: The ID for the folder.  owner: The userName, email, userId, userType, and userStatus for the template owner.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -61,10 +61,10 @@ class EnvelopeTemplateDefinition implements ArrayAccess
         'folder_name' => 'string',
         'folder_uri' => 'string',
         'last_modified' => 'string',
-        'last_modified_by' => '\DocuSign\eSign\Model\UserInfo',
+        'last_modified_by' => '\DocuSign\Model\UserInfo',
         'name' => 'string',
         'new_password' => 'string',
-        'owner' => '\DocuSign\eSign\Model\UserInfo',
+        'owner' => '\DocuSign\Model\UserInfo',
         'page_count' => 'int',
         'parent_folder_uri' => 'string',
         'password' => 'string',
@@ -349,7 +349,7 @@ class EnvelopeTemplateDefinition implements ArrayAccess
 
     /**
      * Gets last_modified_by
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getLastModifiedBy()
     {
@@ -358,7 +358,7 @@ class EnvelopeTemplateDefinition implements ArrayAccess
 
     /**
      * Sets last_modified_by
-     * @param \DocuSign\eSign\Model\UserInfo $last_modified_by
+     * @param \DocuSign\Model\UserInfo $last_modified_by
      * @return $this
      */
     public function setLastModifiedBy($last_modified_by)
@@ -412,7 +412,7 @@ class EnvelopeTemplateDefinition implements ArrayAccess
 
     /**
      * Gets owner
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getOwner()
     {
@@ -421,7 +421,7 @@ class EnvelopeTemplateDefinition implements ArrayAccess
 
     /**
      * Sets owner
-     * @param \DocuSign\eSign\Model\UserInfo $owner
+     * @param \DocuSign\Model\UserInfo $owner
      * @return $this
      */
     public function setOwner($owner)
@@ -608,10 +608,10 @@ class EnvelopeTemplateDefinition implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConditionalRecipientRuleCondition Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class ConditionalRecipientRuleCondition implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'filters' => '\DocuSign\eSign\Model\ConditionalRecipientRuleFilter[]',
+        'filters' => '\DocuSign\Model\ConditionalRecipientRuleFilter[]',
         'order' => '?string',
         'recipient_label' => '?string'
     ];
@@ -221,7 +221,7 @@ class ConditionalRecipientRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Gets filters
      *
-     * @return \DocuSign\eSign\Model\ConditionalRecipientRuleFilter[]
+     * @return \DocuSign\Model\ConditionalRecipientRuleFilter[]
      */
     public function getFilters()
     {
@@ -231,7 +231,7 @@ class ConditionalRecipientRuleCondition implements ModelInterface, ArrayAccess
     /**
      * Sets filters
      *
-     * @param \DocuSign\eSign\Model\ConditionalRecipientRuleFilter[] $filters
+     * @param \DocuSign\Model\ConditionalRecipientRuleFilter[] $filters
      *
      * @return $this
      */

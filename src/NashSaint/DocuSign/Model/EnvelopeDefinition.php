@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeDefinition Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -68,7 +68,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
         'allow_view_history' => '?string',
         'any_signer' => '?string',
         'asynchronous' => '?string',
-        'attachments' => '\DocuSign\eSign\Model\Attachment[]',
+        'attachments' => '\DocuSign\Model\Attachment[]',
         'attachments_uri' => '?string',
         'authoritative_copy' => '?string',
         'authoritative_copy_default' => '?string',
@@ -77,39 +77,39 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
         'brand_lock' => '?string',
         'certificate_uri' => '?string',
         'completed_date_time' => '?string',
-        'composite_templates' => '\DocuSign\eSign\Model\CompositeTemplate[]',
+        'composite_templates' => '\DocuSign\Model\CompositeTemplate[]',
         'copy_recipient_data' => '?string',
         'created_date_time' => '?string',
-        'custom_fields' => '\DocuSign\eSign\Model\CustomFields',
+        'custom_fields' => '\DocuSign\Model\CustomFields',
         'custom_fields_uri' => '?string',
         'declined_date_time' => '?string',
         'deleted_date_time' => '?string',
         'delivered_date_time' => '?string',
         'disable_responsive_document' => '?string',
         'document_base64' => '?string',
-        'documents' => '\DocuSign\eSign\Model\Document[]',
+        'documents' => '\DocuSign\Model\Document[]',
         'documents_combined_uri' => '?string',
         'documents_uri' => '?string',
         'email_blurb' => '?string',
-        'email_settings' => '\DocuSign\eSign\Model\EmailSettings',
+        'email_settings' => '\DocuSign\Model\EmailSettings',
         'email_subject' => '?string',
         'enable_wet_sign' => '?string',
         'enforce_signer_visibility' => '?string',
-        'envelope_attachments' => '\DocuSign\eSign\Model\Attachment[]',
-        'envelope_custom_metadata' => '\DocuSign\eSign\Model\EnvelopeCustomMetadata',
-        'envelope_documents' => '\DocuSign\eSign\Model\EnvelopeDocument[]',
+        'envelope_attachments' => '\DocuSign\Model\Attachment[]',
+        'envelope_custom_metadata' => '\DocuSign\Model\EnvelopeCustomMetadata',
+        'envelope_documents' => '\DocuSign\Model\EnvelopeDocument[]',
         'envelope_id' => '?string',
         'envelope_id_stamping' => '?string',
         'envelope_location' => '?string',
-        'envelope_metadata' => '\DocuSign\eSign\Model\EnvelopeMetadata',
+        'envelope_metadata' => '\DocuSign\Model\EnvelopeMetadata',
         'envelope_uri' => '?string',
-        'event_notification' => '\DocuSign\eSign\Model\EventNotification',
-        'event_notifications' => '\DocuSign\eSign\Model\EventNotification[]',
+        'event_notification' => '\DocuSign\Model\EventNotification',
+        'event_notifications' => '\DocuSign\Model\EventNotification[]',
         'expire_after' => '?string',
         'expire_date_time' => '?string',
         'expire_enabled' => '?string',
         'external_envelope_id' => '?string',
-        'folders' => '\DocuSign\eSign\Model\Folder[]',
+        'folders' => '\DocuSign\Model\Folder[]',
         'has_comments' => '?string',
         'has_form_data_changed' => '?string',
         'has_wav_file' => '?string',
@@ -120,20 +120,20 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
         'is_signature_provider_envelope' => '?string',
         'last_modified_date_time' => '?string',
         'location' => '?string',
-        'lock_information' => '\DocuSign\eSign\Model\LockInformation',
+        'lock_information' => '\DocuSign\Model\LockInformation',
         'message_lock' => '?string',
-        'notification' => '\DocuSign\eSign\Model\Notification',
+        'notification' => '\DocuSign\Model\Notification',
         'notification_uri' => '?string',
         'password' => '?string',
-        'power_form' => '\DocuSign\eSign\Model\PowerForm',
+        'power_form' => '\DocuSign\Model\PowerForm',
         'purge_completed_date' => '?string',
         'purge_request_date' => '?string',
         'purge_state' => '?string',
-        'recipients' => '\DocuSign\eSign\Model\Recipients',
+        'recipients' => '\DocuSign\Model\Recipients',
         'recipients_lock' => '?string',
         'recipients_uri' => '?string',
-        'recipient_view_request' => '\DocuSign\eSign\Model\RecipientViewRequest',
-        'sender' => '\DocuSign\eSign\Model\UserInfo',
+        'recipient_view_request' => '\DocuSign\Model\RecipientViewRequest',
+        'sender' => '\DocuSign\Model\UserInfo',
         'sent_date_time' => '?string',
         'signer_can_sign_on_mobile' => '?string',
         'signing_location' => '?string',
@@ -141,13 +141,13 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
         'status_changed_date_time' => '?string',
         'status_date_time' => '?string',
         'template_id' => '?string',
-        'template_roles' => '\DocuSign\eSign\Model\TemplateRole[]',
+        'template_roles' => '\DocuSign\Model\TemplateRole[]',
         'templates_uri' => '?string',
         'transaction_id' => '?string',
         'use_disclosure' => '?string',
         'voided_date_time' => '?string',
         'voided_reason' => '?string',
-        'workflow' => '\DocuSign\eSign\Model\Workflow'
+        'workflow' => '\DocuSign\Model\Workflow'
     ];
 
     /**
@@ -953,7 +953,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets attachments
      *
-     * @return \DocuSign\eSign\Model\Attachment[]
+     * @return \DocuSign\Model\Attachment[]
      */
     public function getAttachments()
     {
@@ -963,7 +963,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets attachments
      *
-     * @param \DocuSign\eSign\Model\Attachment[] $attachments
+     * @param \DocuSign\Model\Attachment[] $attachments
      *
      * @return $this
      */
@@ -1169,7 +1169,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets composite_templates
      *
-     * @return \DocuSign\eSign\Model\CompositeTemplate[]
+     * @return \DocuSign\Model\CompositeTemplate[]
      */
     public function getCompositeTemplates()
     {
@@ -1179,7 +1179,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets composite_templates
      *
-     * @param \DocuSign\eSign\Model\CompositeTemplate[] $composite_templates A complex type that can be added to create envelopes from a combination of DocuSign templates and PDF forms. The basic envelope remains the same, while the Composite Template adds new document and template overlays into the envelope. There can be any number of Composite Template structures in the envelope.
+     * @param \DocuSign\Model\CompositeTemplate[] $composite_templates A complex type that can be added to create envelopes from a combination of DocuSign templates and PDF forms. The basic envelope remains the same, while the Composite Template adds new document and template overlays into the envelope. There can be any number of Composite Template structures in the envelope.
      *
      * @return $this
      */
@@ -1241,7 +1241,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets custom_fields
      *
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function getCustomFields()
     {
@@ -1251,7 +1251,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets custom_fields
      *
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields custom_fields
+     * @param \DocuSign\Model\CustomFields $custom_fields custom_fields
      *
      * @return $this
      */
@@ -1409,7 +1409,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \DocuSign\eSign\Model\Document[]
+     * @return \DocuSign\Model\Document[]
      */
     public function getDocuments()
     {
@@ -1419,7 +1419,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \DocuSign\eSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
+     * @param \DocuSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
      *
      * @return $this
      */
@@ -1505,7 +1505,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets email_settings
      *
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function getEmailSettings()
     {
@@ -1515,7 +1515,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets email_settings
      *
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings email_settings
+     * @param \DocuSign\Model\EmailSettings $email_settings email_settings
      *
      * @return $this
      */
@@ -1601,7 +1601,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_attachments
      *
-     * @return \DocuSign\eSign\Model\Attachment[]
+     * @return \DocuSign\Model\Attachment[]
      */
     public function getEnvelopeAttachments()
     {
@@ -1611,7 +1611,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_attachments
      *
-     * @param \DocuSign\eSign\Model\Attachment[] $envelope_attachments
+     * @param \DocuSign\Model\Attachment[] $envelope_attachments
      *
      * @return $this
      */
@@ -1625,7 +1625,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_custom_metadata
      *
-     * @return \DocuSign\eSign\Model\EnvelopeCustomMetadata
+     * @return \DocuSign\Model\EnvelopeCustomMetadata
      */
     public function getEnvelopeCustomMetadata()
     {
@@ -1635,7 +1635,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_custom_metadata
      *
-     * @param \DocuSign\eSign\Model\EnvelopeCustomMetadata $envelope_custom_metadata envelope_custom_metadata
+     * @param \DocuSign\Model\EnvelopeCustomMetadata $envelope_custom_metadata envelope_custom_metadata
      *
      * @return $this
      */
@@ -1649,7 +1649,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_documents
      *
-     * @return \DocuSign\eSign\Model\EnvelopeDocument[]
+     * @return \DocuSign\Model\EnvelopeDocument[]
      */
     public function getEnvelopeDocuments()
     {
@@ -1659,7 +1659,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_documents
      *
-     * @param \DocuSign\eSign\Model\EnvelopeDocument[] $envelope_documents
+     * @param \DocuSign\Model\EnvelopeDocument[] $envelope_documents
      *
      * @return $this
      */
@@ -1745,7 +1745,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_metadata
      *
-     * @return \DocuSign\eSign\Model\EnvelopeMetadata
+     * @return \DocuSign\Model\EnvelopeMetadata
      */
     public function getEnvelopeMetadata()
     {
@@ -1755,7 +1755,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_metadata
      *
-     * @param \DocuSign\eSign\Model\EnvelopeMetadata $envelope_metadata envelope_metadata
+     * @param \DocuSign\Model\EnvelopeMetadata $envelope_metadata envelope_metadata
      *
      * @return $this
      */
@@ -1793,7 +1793,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets event_notification
      *
-     * @return \DocuSign\eSign\Model\EventNotification
+     * @return \DocuSign\Model\EventNotification
      */
     public function getEventNotification()
     {
@@ -1803,7 +1803,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets event_notification
      *
-     * @param \DocuSign\eSign\Model\EventNotification $event_notification event_notification
+     * @param \DocuSign\Model\EventNotification $event_notification event_notification
      *
      * @return $this
      */
@@ -1817,7 +1817,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets event_notifications
      *
-     * @return \DocuSign\eSign\Model\EventNotification[]
+     * @return \DocuSign\Model\EventNotification[]
      */
     public function getEventNotifications()
     {
@@ -1827,7 +1827,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets event_notifications
      *
-     * @param \DocuSign\eSign\Model\EventNotification[] $event_notifications
+     * @param \DocuSign\Model\EventNotification[] $event_notifications
      *
      * @return $this
      */
@@ -1937,7 +1937,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\Folder[]
+     * @return \DocuSign\Model\Folder[]
      */
     public function getFolders()
     {
@@ -1947,7 +1947,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\Folder[] $folders
+     * @param \DocuSign\Model\Folder[] $folders
      *
      * @return $this
      */
@@ -2201,7 +2201,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets lock_information
      *
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function getLockInformation()
     {
@@ -2211,7 +2211,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets lock_information
      *
-     * @param \DocuSign\eSign\Model\LockInformation $lock_information lock_information
+     * @param \DocuSign\Model\LockInformation $lock_information lock_information
      *
      * @return $this
      */
@@ -2249,7 +2249,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets notification
      *
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function getNotification()
     {
@@ -2259,7 +2259,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets notification
      *
-     * @param \DocuSign\eSign\Model\Notification $notification notification
+     * @param \DocuSign\Model\Notification $notification notification
      *
      * @return $this
      */
@@ -2321,7 +2321,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets power_form
      *
-     * @return \DocuSign\eSign\Model\PowerForm
+     * @return \DocuSign\Model\PowerForm
      */
     public function getPowerForm()
     {
@@ -2331,7 +2331,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets power_form
      *
-     * @param \DocuSign\eSign\Model\PowerForm $power_form power_form
+     * @param \DocuSign\Model\PowerForm $power_form power_form
      *
      * @return $this
      */
@@ -2417,7 +2417,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets recipients
      *
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function getRecipients()
     {
@@ -2427,7 +2427,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets recipients
      *
-     * @param \DocuSign\eSign\Model\Recipients $recipients recipients
+     * @param \DocuSign\Model\Recipients $recipients recipients
      *
      * @return $this
      */
@@ -2489,7 +2489,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_view_request
      *
-     * @return \DocuSign\eSign\Model\RecipientViewRequest
+     * @return \DocuSign\Model\RecipientViewRequest
      */
     public function getRecipientViewRequest()
     {
@@ -2499,7 +2499,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_view_request
      *
-     * @param \DocuSign\eSign\Model\RecipientViewRequest $recipient_view_request recipient_view_request
+     * @param \DocuSign\Model\RecipientViewRequest $recipient_view_request recipient_view_request
      *
      * @return $this
      */
@@ -2513,7 +2513,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets sender
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getSender()
     {
@@ -2523,7 +2523,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets sender
      *
-     * @param \DocuSign\eSign\Model\UserInfo $sender sender
+     * @param \DocuSign\Model\UserInfo $sender sender
      *
      * @return $this
      */
@@ -2705,7 +2705,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets template_roles
      *
-     * @return \DocuSign\eSign\Model\TemplateRole[]
+     * @return \DocuSign\Model\TemplateRole[]
      */
     public function getTemplateRoles()
     {
@@ -2715,7 +2715,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets template_roles
      *
-     * @param \DocuSign\eSign\Model\TemplateRole[] $template_roles Specifies the template recipients. Each roleName in the template must have a recipient assigned to it. This is made up elements:  * email - The recipient's email address. * name - The recipient's name. * roleName - The template roleName associated with the recipient. * clientUserId - Optional, this sets if the signer is This specifies if the recipient is embedded or remote. If the clientUserId is not null then the recipient is embedded. Note that if a ClientUserId is used and the account settings SignerMustHaveAccount or SignerMustLoginToSign are true, an error is generated on sending. * defaultRecipient - Optional, When set to **true**, this recipient is the default recipient and any tabs generated by the transformPdfFields option are mapped to this recipient. * routingOrder - This specifies the routing order of the recipient in the envelope. * accessCode - This optional element specifies the access code a recipient has to enter to validate the identity. This can be a maximum of 50 characters. * inPersonSignerName - Optional, if the template role is an in person signer, this is the full legal name of the signer. This can be a maximum of 100 characters. * emailNotification - This is an optional complex element that has a role specific emailSubject, emailBody, and language. It follows the same format as the emailNotification node for Recipients. * tabs - This allows the tab values to be specified for matching to tabs in the template.
+     * @param \DocuSign\Model\TemplateRole[] $template_roles Specifies the template recipients. Each roleName in the template must have a recipient assigned to it. This is made up elements:  * email - The recipient's email address. * name - The recipient's name. * roleName - The template roleName associated with the recipient. * clientUserId - Optional, this sets if the signer is This specifies if the recipient is embedded or remote. If the clientUserId is not null then the recipient is embedded. Note that if a ClientUserId is used and the account settings SignerMustHaveAccount or SignerMustLoginToSign are true, an error is generated on sending. * defaultRecipient - Optional, When set to **true**, this recipient is the default recipient and any tabs generated by the transformPdfFields option are mapped to this recipient. * routingOrder - This specifies the routing order of the recipient in the envelope. * accessCode - This optional element specifies the access code a recipient has to enter to validate the identity. This can be a maximum of 50 characters. * inPersonSignerName - Optional, if the template role is an in person signer, this is the full legal name of the signer. This can be a maximum of 100 characters. * emailNotification - This is an optional complex element that has a role specific emailSubject, emailBody, and language. It follows the same format as the emailNotification node for Recipients. * tabs - This allows the tab values to be specified for matching to tabs in the template.
      *
      * @return $this
      */
@@ -2849,7 +2849,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets workflow
      *
-     * @return \DocuSign\eSign\Model\Workflow
+     * @return \DocuSign\Model\Workflow
      */
     public function getWorkflow()
     {
@@ -2859,7 +2859,7 @@ class EnvelopeDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets workflow
      *
-     * @param \DocuSign\eSign\Model\Workflow $workflow workflow
+     * @param \DocuSign\Model\Workflow $workflow workflow
      *
      * @return $this
      */

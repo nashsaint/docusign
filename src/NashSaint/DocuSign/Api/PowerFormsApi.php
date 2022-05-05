@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\PowerFormsApi;
+namespace NashSaint\DocuSign\Api\PowerFormsApi;
 
 
 /**
  * GetPowerFormDataOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -132,7 +132,7 @@ class GetPowerFormDataOptions
  * ListPowerFormSendersOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -173,7 +173,7 @@ class ListPowerFormSendersOptions
  * ListPowerFormsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -292,18 +292,18 @@ class ListPowerFormsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PowerFormsApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -377,10 +377,10 @@ class PowerFormsApi
      * Creates a new PowerForm.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PowerForm $power_form  (optional)
+     * @param \DocuSign\Model\PowerForm $power_form  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerForm
+     * @return \DocuSign\Model\PowerForm
      */
     public function createPowerForm($account_id, $power_form = null)
     {
@@ -394,10 +394,10 @@ class PowerFormsApi
      * Creates a new PowerForm.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PowerForm $power_form  (optional)
+     * @param \DocuSign\Model\PowerForm $power_form  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
      */
     public function createPowerFormWithHttpInfo($account_id, $power_form = null): array
     {
@@ -444,19 +444,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerForm',
+                '\DocuSign\Model\PowerForm',
                 '/v2.1/accounts/{accountId}/powerforms'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerForm', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerForm', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -549,7 +549,7 @@ class PowerFormsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -564,10 +564,10 @@ class PowerFormsApi
      * Deletes one or more PowerForms
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PowerFormsRequest $power_forms_request  (optional)
+     * @param \DocuSign\Model\PowerFormsRequest $power_forms_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerFormsResponse
+     * @return \DocuSign\Model\PowerFormsResponse
      */
     public function deletePowerForms($account_id, $power_forms_request = null)
     {
@@ -581,10 +581,10 @@ class PowerFormsApi
      * Deletes one or more PowerForms
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\PowerFormsRequest $power_forms_request  (optional)
+     * @param \DocuSign\Model\PowerFormsRequest $power_forms_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerFormsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerFormsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function deletePowerFormsWithHttpInfo($account_id, $power_forms_request = null): array
     {
@@ -631,19 +631,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerFormsResponse',
+                '\DocuSign\Model\PowerFormsResponse',
                 '/v2.1/accounts/{accountId}/powerforms'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerFormsResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerFormsResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerFormsResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerFormsResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -661,7 +661,7 @@ class PowerFormsApi
      * @param ?string $power_form_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerForm
+     * @return \DocuSign\Model\PowerForm
      */
     public function getPowerForm($account_id, $power_form_id)
     {
@@ -678,7 +678,7 @@ class PowerFormsApi
      * @param ?string $power_form_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPowerFormWithHttpInfo($account_id, $power_form_id): array
     {
@@ -728,19 +728,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerForm',
+                '\DocuSign\Model\PowerForm',
                 '/v2.1/accounts/{accountId}/powerforms/{powerFormId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerForm', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerForm', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -756,12 +756,12 @@ class PowerFormsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $power_form_id
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\GetPowerFormDataOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\GetPowerFormDataOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerFormsFormDataResponse
+     * @return \DocuSign\Model\PowerFormsFormDataResponse
      */
-    public function getPowerFormData($account_id, $power_form_id, \DocuSign\eSign\Api\PowerFormsApi\GetPowerFormDataOptions $options = null)
+    public function getPowerFormData($account_id, $power_form_id, \DocuSign\Api\PowerFormsApi\GetPowerFormDataOptions $options = null)
     {
         list($response) = $this->getPowerFormDataWithHttpInfo($account_id, $power_form_id, $options);
         return $response;
@@ -774,12 +774,12 @@ class PowerFormsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $power_form_id
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\GetPowerFormDataOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\GetPowerFormDataOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerFormsFormDataResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerFormsFormDataResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getPowerFormDataWithHttpInfo($account_id, $power_form_id, \DocuSign\eSign\Api\PowerFormsApi\GetPowerFormDataOptions $options = null): array
+    public function getPowerFormDataWithHttpInfo($account_id, $power_form_id, \DocuSign\Api\PowerFormsApi\GetPowerFormDataOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -840,19 +840,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerFormsFormDataResponse',
+                '\DocuSign\Model\PowerFormsFormDataResponse',
                 '/v2.1/accounts/{accountId}/powerforms/{powerFormId}/form_data'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerFormsFormDataResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerFormsFormDataResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerFormsFormDataResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerFormsFormDataResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -867,12 +867,12 @@ class PowerFormsApi
      * Returns the list of PowerForms available to the user.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormSendersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\ListPowerFormSendersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerFormSendersResponse
+     * @return \DocuSign\Model\PowerFormSendersResponse
      */
-    public function listPowerFormSenders($account_id, \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormSendersOptions $options = null)
+    public function listPowerFormSenders($account_id, \DocuSign\Api\PowerFormsApi\ListPowerFormSendersOptions $options = null)
     {
         list($response) = $this->listPowerFormSendersWithHttpInfo($account_id, $options);
         return $response;
@@ -884,12 +884,12 @@ class PowerFormsApi
      * Returns the list of PowerForms available to the user.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormSendersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\ListPowerFormSendersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerFormSendersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerFormSendersResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listPowerFormSendersWithHttpInfo($account_id, \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormSendersOptions $options = null): array
+    public function listPowerFormSendersWithHttpInfo($account_id, \DocuSign\Api\PowerFormsApi\ListPowerFormSendersOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -936,19 +936,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerFormSendersResponse',
+                '\DocuSign\Model\PowerFormSendersResponse',
                 '/v2.1/accounts/{accountId}/powerforms/senders'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerFormSendersResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerFormSendersResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerFormSendersResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerFormSendersResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -963,12 +963,12 @@ class PowerFormsApi
      * Returns the list of PowerForms available to the user.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\ListPowerFormsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerFormsResponse
+     * @return \DocuSign\Model\PowerFormsResponse
      */
-    public function listPowerForms($account_id, \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormsOptions $options = null)
+    public function listPowerForms($account_id, \DocuSign\Api\PowerFormsApi\ListPowerFormsOptions $options = null)
     {
         list($response) = $this->listPowerFormsWithHttpInfo($account_id, $options);
         return $response;
@@ -980,12 +980,12 @@ class PowerFormsApi
      * Returns the list of PowerForms available to the user.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\PowerFormsApi\ListPowerFormsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerFormsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerFormsResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listPowerFormsWithHttpInfo($account_id, \DocuSign\eSign\Api\PowerFormsApi\ListPowerFormsOptions $options = null): array
+    public function listPowerFormsWithHttpInfo($account_id, \DocuSign\Api\PowerFormsApi\ListPowerFormsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1041,19 +1041,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerFormsResponse',
+                '\DocuSign\Model\PowerFormsResponse',
                 '/v2.1/accounts/{accountId}/powerforms'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerFormsResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerFormsResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerFormsResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerFormsResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1069,10 +1069,10 @@ class PowerFormsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $power_form_id
-     * @param \DocuSign\eSign\Model\PowerForm $power_form  (optional)
+     * @param \DocuSign\Model\PowerForm $power_form  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PowerForm
+     * @return \DocuSign\Model\PowerForm
      */
     public function updatePowerForm($account_id, $power_form_id, $power_form = null)
     {
@@ -1087,10 +1087,10 @@ class PowerFormsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $power_form_id
-     * @param \DocuSign\eSign\Model\PowerForm $power_form  (optional)
+     * @param \DocuSign\Model\PowerForm $power_form  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PowerForm, HTTP status code, HTTP response headers (array of strings)
      */
     public function updatePowerFormWithHttpInfo($account_id, $power_form_id, $power_form = null): array
     {
@@ -1145,19 +1145,19 @@ class PowerFormsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PowerForm',
+                '\DocuSign\Model\PowerForm',
                 '/v2.1/accounts/{accountId}/powerforms/{powerFormId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PowerForm', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PowerForm', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PowerForm', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

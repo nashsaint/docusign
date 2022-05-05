@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkRecipientsSummaryResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,10 +59,10 @@ class BulkRecipientsSummaryResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_recipients' => '\DocuSign\eSign\Model\BulkRecipient[]',
+        'bulk_recipients' => '\DocuSign\Model\BulkRecipient[]',
         'bulk_recipients_count' => '?string',
         'bulk_recipients_uri' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails[]'
+        'error_details' => '\DocuSign\Model\ErrorDetails[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class BulkRecipientsSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_recipients
      *
-     * @return \DocuSign\eSign\Model\BulkRecipient[]
+     * @return \DocuSign\Model\BulkRecipient[]
      */
     public function getBulkRecipients()
     {
@@ -237,7 +237,7 @@ class BulkRecipientsSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_recipients
      *
-     * @param \DocuSign\eSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the response.
+     * @param \DocuSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the response.
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class BulkRecipientsSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails[]
+     * @return \DocuSign\Model\ErrorDetails[]
      */
     public function getErrorDetails()
     {
@@ -309,7 +309,7 @@ class BulkRecipientsSummaryResponse implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails[] $error_details Array or errors.
+     * @param \DocuSign\Model\ErrorDetails[] $error_details Array or errors.
      *
      * @return $this
      */

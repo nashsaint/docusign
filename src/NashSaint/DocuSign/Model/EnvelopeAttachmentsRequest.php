@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeAttachmentsRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class EnvelopeAttachmentsRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'attachments' => '\DocuSign\eSign\Model\Attachment[]'
+        'attachments' => '\DocuSign\Model\Attachment[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class EnvelopeAttachmentsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets attachments
      *
-     * @return \DocuSign\eSign\Model\Attachment[]
+     * @return \DocuSign\Model\Attachment[]
      */
     public function getAttachments()
     {
@@ -219,7 +219,7 @@ class EnvelopeAttachmentsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets attachments
      *
-     * @param \DocuSign\eSign\Model\Attachment[] $attachments
+     * @param \DocuSign\Model\Attachment[] $attachments
      *
      * @return $this
      */

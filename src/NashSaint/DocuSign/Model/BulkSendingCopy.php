@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendingCopy Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,10 +59,10 @@ class BulkSendingCopy implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'custom_fields' => '\DocuSign\eSign\Model\BulkSendingCopyCustomField[]',
+        'custom_fields' => '\DocuSign\Model\BulkSendingCopyCustomField[]',
         'email_blurb' => '?string',
         'email_subject' => '?string',
-        'recipients' => '\DocuSign\eSign\Model\BulkSendingCopyRecipient[]'
+        'recipients' => '\DocuSign\Model\BulkSendingCopyRecipient[]'
     ];
 
     /**
@@ -227,7 +227,7 @@ class BulkSendingCopy implements ModelInterface, ArrayAccess
     /**
      * Gets custom_fields
      *
-     * @return \DocuSign\eSign\Model\BulkSendingCopyCustomField[]
+     * @return \DocuSign\Model\BulkSendingCopyCustomField[]
      */
     public function getCustomFields()
     {
@@ -237,7 +237,7 @@ class BulkSendingCopy implements ModelInterface, ArrayAccess
     /**
      * Sets custom_fields
      *
-     * @param \DocuSign\eSign\Model\BulkSendingCopyCustomField[] $custom_fields An optional array of strings that allows the sender to provide custom data about the recipient. This information is returned in the envelope status but otherwise not used by DocuSign. Each customField string can be a maximum of 100 characters.
+     * @param \DocuSign\Model\BulkSendingCopyCustomField[] $custom_fields An optional array of strings that allows the sender to provide custom data about the recipient. This information is returned in the envelope status but otherwise not used by DocuSign. Each customField string can be a maximum of 100 characters.
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class BulkSendingCopy implements ModelInterface, ArrayAccess
     /**
      * Gets recipients
      *
-     * @return \DocuSign\eSign\Model\BulkSendingCopyRecipient[]
+     * @return \DocuSign\Model\BulkSendingCopyRecipient[]
      */
     public function getRecipients()
     {
@@ -309,7 +309,7 @@ class BulkSendingCopy implements ModelInterface, ArrayAccess
     /**
      * Sets recipients
      *
-     * @param \DocuSign\eSign\Model\BulkSendingCopyRecipient[] $recipients An array of powerform recipients.
+     * @param \DocuSign\Model\BulkSendingCopyRecipient[] $recipients An array of powerform recipients.
      *
      * @return $this
      */

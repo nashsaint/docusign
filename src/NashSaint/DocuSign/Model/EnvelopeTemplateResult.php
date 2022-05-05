@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
 
@@ -35,7 +35,7 @@ use \ArrayAccess;
  * EnvelopeTemplateResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -68,18 +68,18 @@ class EnvelopeTemplateResult implements ArrayAccess
         'completed_date_time' => 'string',
         'created' => 'string',
         'created_date_time' => 'string',
-        'custom_fields' => '\DocuSign\eSign\Model\CustomFields',
+        'custom_fields' => '\DocuSign\Model\CustomFields',
         'custom_fields_uri' => 'string',
         'declined_date_time' => 'string',
         'deleted_date_time' => 'string',
         'delivered_date_time' => 'string',
         'description' => 'string',
         'disable_responsive_document' => 'string',
-        'documents' => '\DocuSign\eSign\Model\Document[]',
+        'documents' => '\DocuSign\Model\Document[]',
         'documents_combined_uri' => 'string',
         'documents_uri' => 'string',
         'email_blurb' => 'string',
-        'email_settings' => '\DocuSign\eSign\Model\EmailSettings',
+        'email_settings' => '\DocuSign\Model\EmailSettings',
         'email_subject' => 'string',
         'enable_wet_sign' => 'string',
         'enforce_signer_visibility' => 'string',
@@ -94,17 +94,17 @@ class EnvelopeTemplateResult implements ArrayAccess
         'is_signature_provider_envelope' => 'string',
         'last_modified' => 'string',
         'last_modified_date_time' => 'string',
-        'lock_information' => '\DocuSign\eSign\Model\LockInformation',
+        'lock_information' => '\DocuSign\Model\LockInformation',
         'message_lock' => 'string',
         'name' => 'string',
-        'notification' => '\DocuSign\eSign\Model\Notification',
+        'notification' => '\DocuSign\Model\Notification',
         'notification_uri' => 'string',
-        'owner' => '\DocuSign\eSign\Model\UserInfo',
+        'owner' => '\DocuSign\Model\UserInfo',
         'page_count' => 'int',
         'parent_folder_uri' => 'string',
         'password' => 'string',
         'purge_state' => 'string',
-        'recipients' => '\DocuSign\eSign\Model\Recipients',
+        'recipients' => '\DocuSign\Model\Recipients',
         'recipients_lock' => 'string',
         'recipients_uri' => 'string',
         'sent_date_time' => 'string',
@@ -766,7 +766,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function getCustomFields()
     {
@@ -775,7 +775,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields
+     * @param \DocuSign\Model\CustomFields $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)
@@ -913,7 +913,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets documents
-     * @return \DocuSign\eSign\Model\Document[]
+     * @return \DocuSign\Model\Document[]
      */
     public function getDocuments()
     {
@@ -922,7 +922,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets documents
-     * @param \DocuSign\eSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
+     * @param \DocuSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
      * @return $this
      */
     public function setDocuments($documents)
@@ -997,7 +997,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets email_settings
-     * @return \DocuSign\eSign\Model\EmailSettings
+     * @return \DocuSign\Model\EmailSettings
      */
     public function getEmailSettings()
     {
@@ -1006,7 +1006,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets email_settings
-     * @param \DocuSign\eSign\Model\EmailSettings $email_settings
+     * @param \DocuSign\Model\EmailSettings $email_settings
      * @return $this
      */
     public function setEmailSettings($email_settings)
@@ -1312,7 +1312,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets lock_information
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function getLockInformation()
     {
@@ -1321,7 +1321,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets lock_information
-     * @param \DocuSign\eSign\Model\LockInformation $lock_information
+     * @param \DocuSign\Model\LockInformation $lock_information
      * @return $this
      */
     public function setLockInformation($lock_information)
@@ -1375,7 +1375,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets notification
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function getNotification()
     {
@@ -1384,7 +1384,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets notification
-     * @param \DocuSign\eSign\Model\Notification $notification
+     * @param \DocuSign\Model\Notification $notification
      * @return $this
      */
     public function setNotification($notification)
@@ -1417,7 +1417,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets owner
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getOwner()
     {
@@ -1426,7 +1426,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets owner
-     * @param \DocuSign\eSign\Model\UserInfo $owner
+     * @param \DocuSign\Model\UserInfo $owner
      * @return $this
      */
     public function setOwner($owner)
@@ -1522,7 +1522,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Gets recipients
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function getRecipients()
     {
@@ -1531,7 +1531,7 @@ class EnvelopeTemplateResult implements ArrayAccess
 
     /**
      * Sets recipients
-     * @param \DocuSign\eSign\Model\Recipients $recipients
+     * @param \DocuSign\Model\Recipients $recipients
      * @return $this
      */
     public function setRecipients($recipients)
@@ -1907,10 +1907,10 @@ class EnvelopeTemplateResult implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

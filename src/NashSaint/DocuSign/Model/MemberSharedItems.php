@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * MemberSharedItems Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,11 +59,11 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'envelopes' => '\DocuSign\eSign\Model\SharedItem[]',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'folders' => '\DocuSign\eSign\Model\FolderSharedItem[]',
-        'templates' => '\DocuSign\eSign\Model\TemplateSharedItem[]',
-        'user' => '\DocuSign\eSign\Model\UserInfo'
+        'envelopes' => '\DocuSign\Model\SharedItem[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'folders' => '\DocuSign\Model\FolderSharedItem[]',
+        'templates' => '\DocuSign\Model\TemplateSharedItem[]',
+        'user' => '\DocuSign\Model\UserInfo'
     ];
 
     /**
@@ -233,7 +233,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Gets envelopes
      *
-     * @return \DocuSign\eSign\Model\SharedItem[]
+     * @return \DocuSign\Model\SharedItem[]
      */
     public function getEnvelopes()
     {
@@ -243,7 +243,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Sets envelopes
      *
-     * @param \DocuSign\eSign\Model\SharedItem[] $envelopes
+     * @param \DocuSign\Model\SharedItem[] $envelopes
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -267,7 +267,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\FolderSharedItem[]
+     * @return \DocuSign\Model\FolderSharedItem[]
      */
     public function getFolders()
     {
@@ -291,7 +291,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\FolderSharedItem[] $folders
+     * @param \DocuSign\Model\FolderSharedItem[] $folders
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Gets templates
      *
-     * @return \DocuSign\eSign\Model\TemplateSharedItem[]
+     * @return \DocuSign\Model\TemplateSharedItem[]
      */
     public function getTemplates()
     {
@@ -315,7 +315,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Sets templates
      *
-     * @param \DocuSign\eSign\Model\TemplateSharedItem[] $templates
+     * @param \DocuSign\Model\TemplateSharedItem[] $templates
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getUser()
     {
@@ -339,7 +339,7 @@ class MemberSharedItems implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \DocuSign\eSign\Model\UserInfo $user user
+     * @param \DocuSign\Model\UserInfo $user user
      *
      * @return $this
      */

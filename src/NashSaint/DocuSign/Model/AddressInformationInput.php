@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AddressInformationInput Class Doc Comment
  *
  * @category    Class
  * @description Contains address input information.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class AddressInformationInput implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'address_information' => '\DocuSign\eSign\Model\AddressInformation',
+        'address_information' => '\DocuSign\Model\AddressInformation',
         'display_level_code' => '?string',
         'receive_in_response' => '?string'
     ];
@@ -222,7 +222,7 @@ class AddressInformationInput implements ModelInterface, ArrayAccess
     /**
      * Gets address_information
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getAddressInformation()
     {
@@ -232,7 +232,7 @@ class AddressInformationInput implements ModelInterface, ArrayAccess
     /**
      * Sets address_information
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $address_information address_information
+     * @param \DocuSign\Model\AddressInformation $address_information address_information
      *
      * @return $this
      */

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\CustomTabsApi;
+namespace NashSaint\DocuSign\Api\CustomTabsApi;
 
 
 /**
  * ListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -75,18 +75,18 @@ class ListOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CustomTabsApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -160,12 +160,12 @@ class CustomTabsApi
      * Gets a list of all account tabs.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\CustomTabsApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CustomTabsApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TabMetadataList
+     * @return \DocuSign\Model\TabMetadataList
      */
-    public function callList($account_id, \DocuSign\eSign\Api\CustomTabsApi\ListOptions $options = null)
+    public function callList($account_id, \DocuSign\Api\CustomTabsApi\ListOptions $options = null)
     {
         list($response) = $this->callListWithHttpInfo($account_id, $options);
         return $response;
@@ -177,12 +177,12 @@ class CustomTabsApi
      * Gets a list of all account tabs.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\CustomTabsApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CustomTabsApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TabMetadataList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TabMetadataList, HTTP status code, HTTP response headers (array of strings)
      */
-    public function callListWithHttpInfo($account_id, \DocuSign\eSign\Api\CustomTabsApi\ListOptions $options = null): array
+    public function callListWithHttpInfo($account_id, \DocuSign\Api\CustomTabsApi\ListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -229,19 +229,19 @@ class CustomTabsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TabMetadataList',
+                '\DocuSign\Model\TabMetadataList',
                 '/v2.1/accounts/{accountId}/tab_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TabMetadataList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TabMetadataList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TabMetadataList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TabMetadataList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -256,10 +256,10 @@ class CustomTabsApi
      * Creates a custom tab.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\TabMetadata $tab_metadata  (optional)
+     * @param \DocuSign\Model\TabMetadata $tab_metadata  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TabMetadata
+     * @return \DocuSign\Model\TabMetadata
      */
     public function create($account_id, $tab_metadata = null)
     {
@@ -273,10 +273,10 @@ class CustomTabsApi
      * Creates a custom tab.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\TabMetadata $tab_metadata  (optional)
+     * @param \DocuSign\Model\TabMetadata $tab_metadata  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
      */
     public function createWithHttpInfo($account_id, $tab_metadata = null): array
     {
@@ -323,19 +323,19 @@ class CustomTabsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TabMetadata',
+                '\DocuSign\Model\TabMetadata',
                 '/v2.1/accounts/{accountId}/tab_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TabMetadata', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TabMetadata', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -428,7 +428,7 @@ class CustomTabsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -446,7 +446,7 @@ class CustomTabsApi
      * @param ?string $custom_tab_id
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TabMetadata
+     * @return \DocuSign\Model\TabMetadata
      */
     public function get($account_id, $custom_tab_id)
     {
@@ -463,7 +463,7 @@ class CustomTabsApi
      * @param ?string $custom_tab_id
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWithHttpInfo($account_id, $custom_tab_id): array
     {
@@ -513,19 +513,19 @@ class CustomTabsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TabMetadata',
+                '\DocuSign\Model\TabMetadata',
                 '/v2.1/accounts/{accountId}/tab_definitions/{customTabId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TabMetadata', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TabMetadata', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -541,10 +541,10 @@ class CustomTabsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $custom_tab_id
-     * @param \DocuSign\eSign\Model\TabMetadata $tab_metadata  (optional)
+     * @param \DocuSign\Model\TabMetadata $tab_metadata  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TabMetadata
+     * @return \DocuSign\Model\TabMetadata
      */
     public function update($account_id, $custom_tab_id, $tab_metadata = null)
     {
@@ -559,10 +559,10 @@ class CustomTabsApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $custom_tab_id
-     * @param \DocuSign\eSign\Model\TabMetadata $tab_metadata  (optional)
+     * @param \DocuSign\Model\TabMetadata $tab_metadata  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TabMetadata, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWithHttpInfo($account_id, $custom_tab_id, $tab_metadata = null): array
     {
@@ -617,19 +617,19 @@ class CustomTabsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TabMetadata',
+                '\DocuSign\Model\TabMetadata',
                 '/v2.1/accounts/{accountId}/tab_definitions/{customTabId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TabMetadata', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TabMetadata', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TabMetadata', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

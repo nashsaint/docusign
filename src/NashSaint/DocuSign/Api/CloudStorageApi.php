@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\CloudStorageApi;
+namespace NashSaint\DocuSign\Api\CloudStorageApi;
 
 
 /**
  * ListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -240,7 +240,7 @@ class ListOptions
  * GetProviderOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -281,7 +281,7 @@ class GetProviderOptions
  * ListFoldersOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -457,7 +457,7 @@ class ListFoldersOptions
  * ListProvidersOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -495,18 +495,18 @@ class ListProvidersOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CloudStorageApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -583,12 +583,12 @@ class CloudStorageApi
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ExternalFolder
+     * @return \DocuSign\Model\ExternalFolder
      */
-    public function callList($account_id, $folder_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListOptions $options = null)
+    public function callList($account_id, $folder_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\ListOptions $options = null)
     {
         list($response) = $this->callListWithHttpInfo($account_id, $folder_id, $service_id, $user_id, $options);
         return $response;
@@ -603,12 +603,12 @@ class CloudStorageApi
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ExternalFolder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ExternalFolder, HTTP status code, HTTP response headers (array of strings)
      */
-    public function callListWithHttpInfo($account_id, $folder_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListOptions $options = null): array
+    public function callListWithHttpInfo($account_id, $folder_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\ListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -697,19 +697,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ExternalFolder',
+                '\DocuSign\Model\ExternalFolder',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage/{serviceId}/folders/{folderId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ExternalFolder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ExternalFolder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ExternalFolder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ExternalFolder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -725,10 +725,10 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
+     * @param \DocuSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CloudStorageProviders
+     * @return \DocuSign\Model\CloudStorageProviders
      */
     public function createProvider($account_id, $user_id, $cloud_storage_providers = null)
     {
@@ -743,10 +743,10 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
+     * @param \DocuSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
      */
     public function createProviderWithHttpInfo($account_id, $user_id, $cloud_storage_providers = null): array
     {
@@ -801,19 +801,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CloudStorageProviders',
+                '\DocuSign\Model\CloudStorageProviders',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CloudStorageProviders', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CloudStorageProviders', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -832,7 +832,7 @@ class CloudStorageApi
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CloudStorageProviders
+     * @return \DocuSign\Model\CloudStorageProviders
      */
     public function deleteProvider($account_id, $service_id, $user_id)
     {
@@ -850,7 +850,7 @@ class CloudStorageApi
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteProviderWithHttpInfo($account_id, $service_id, $user_id): array
     {
@@ -908,19 +908,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CloudStorageProviders',
+                '\DocuSign\Model\CloudStorageProviders',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage/{serviceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CloudStorageProviders', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CloudStorageProviders', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -936,10 +936,10 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
+     * @param \DocuSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CloudStorageProviders
+     * @return \DocuSign\Model\CloudStorageProviders
      */
     public function deleteProviders($account_id, $user_id, $cloud_storage_providers = null)
     {
@@ -954,10 +954,10 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
+     * @param \DocuSign\Model\CloudStorageProviders $cloud_storage_providers  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteProvidersWithHttpInfo($account_id, $user_id, $cloud_storage_providers = null): array
     {
@@ -1012,19 +1012,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CloudStorageProviders',
+                '\DocuSign\Model\CloudStorageProviders',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CloudStorageProviders', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CloudStorageProviders', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1041,12 +1041,12 @@ class CloudStorageApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\GetProviderOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\GetProviderOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CloudStorageProviders
+     * @return \DocuSign\Model\CloudStorageProviders
      */
-    public function getProvider($account_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\GetProviderOptions $options = null)
+    public function getProvider($account_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\GetProviderOptions $options = null)
     {
         list($response) = $this->getProviderWithHttpInfo($account_id, $service_id, $user_id, $options);
         return $response;
@@ -1060,12 +1060,12 @@ class CloudStorageApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\GetProviderOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\GetProviderOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getProviderWithHttpInfo($account_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\GetProviderOptions $options = null): array
+    public function getProviderWithHttpInfo($account_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\GetProviderOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1128,19 +1128,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CloudStorageProviders',
+                '\DocuSign\Model\CloudStorageProviders',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage/{serviceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CloudStorageProviders', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CloudStorageProviders', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1157,12 +1157,12 @@ class CloudStorageApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListFoldersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListFoldersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ExternalFolder
+     * @return \DocuSign\Model\ExternalFolder
      */
-    public function listFolders($account_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListFoldersOptions $options = null)
+    public function listFolders($account_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\ListFoldersOptions $options = null)
     {
         list($response) = $this->listFoldersWithHttpInfo($account_id, $service_id, $user_id, $options);
         return $response;
@@ -1176,12 +1176,12 @@ class CloudStorageApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $service_id The ID of the service to access.   Valid values are the service name (\&quot;Box\&quot;) or the numerical serviceId (\&quot;4136\&quot;).
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListFoldersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListFoldersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ExternalFolder, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ExternalFolder, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listFoldersWithHttpInfo($account_id, $service_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListFoldersOptions $options = null): array
+    public function listFoldersWithHttpInfo($account_id, $service_id, $user_id, \DocuSign\Api\CloudStorageApi\ListFoldersOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1259,19 +1259,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ExternalFolder',
+                '\DocuSign\Model\ExternalFolder',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage/{serviceId}/folders'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ExternalFolder', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ExternalFolder', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ExternalFolder', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ExternalFolder', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1287,12 +1287,12 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListProvidersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListProvidersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CloudStorageProviders
+     * @return \DocuSign\Model\CloudStorageProviders
      */
-    public function listProviders($account_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListProvidersOptions $options = null)
+    public function listProviders($account_id, $user_id, \DocuSign\Api\CloudStorageApi\ListProvidersOptions $options = null)
     {
         list($response) = $this->listProvidersWithHttpInfo($account_id, $user_id, $options);
         return $response;
@@ -1305,12 +1305,12 @@ class CloudStorageApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param  \DocuSign\eSign\Api\CloudStorageApi\ListProvidersOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\CloudStorageApi\ListProvidersOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CloudStorageProviders, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listProvidersWithHttpInfo($account_id, $user_id, \DocuSign\eSign\Api\CloudStorageApi\ListProvidersOptions $options = null): array
+    public function listProvidersWithHttpInfo($account_id, $user_id, \DocuSign\Api\CloudStorageApi\ListProvidersOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1365,19 +1365,19 @@ class CloudStorageApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CloudStorageProviders',
+                '\DocuSign\Model\CloudStorageProviders',
                 '/v2.1/accounts/{accountId}/users/{userId}/cloud_storage'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CloudStorageProviders', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CloudStorageProviders', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CloudStorageProviders', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

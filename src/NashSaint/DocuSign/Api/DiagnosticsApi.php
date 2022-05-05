@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\DiagnosticsApi;
+namespace NashSaint\DocuSign\Api\DiagnosticsApi;
 
 
 /**
  * ListRequestLogsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -75,18 +75,18 @@ class ListRequestLogsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DiagnosticsApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -218,7 +218,7 @@ class DiagnosticsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -305,7 +305,7 @@ class DiagnosticsApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -321,7 +321,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DiagnosticsSettingsInformation
+     * @return \DocuSign\Model\DiagnosticsSettingsInformation
      */
     public function getRequestLogSettings()
     {
@@ -336,7 +336,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DiagnosticsSettingsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DiagnosticsSettingsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRequestLogSettingsWithHttpInfo(): array
     {
@@ -370,19 +370,19 @@ class DiagnosticsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DiagnosticsSettingsInformation',
+                '\DocuSign\Model\DiagnosticsSettingsInformation',
                 '/v2.1/diagnostics/settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DiagnosticsSettingsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DiagnosticsSettingsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DiagnosticsSettingsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DiagnosticsSettingsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -398,7 +398,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ResourceInformation
+     * @return \DocuSign\Model\ResourceInformation
      */
     public function getResources()
     {
@@ -413,7 +413,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ResourceInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ResourceInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getResourcesWithHttpInfo(): array
     {
@@ -447,19 +447,19 @@ class DiagnosticsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ResourceInformation',
+                '\DocuSign\Model\ResourceInformation',
                 '/v2.1'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ResourceInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ResourceInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ResourceInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ResourceInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -475,7 +475,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ServiceInformation
+     * @return \DocuSign\Model\ServiceInformation
      */
     public function getService()
     {
@@ -490,7 +490,7 @@ class DiagnosticsApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ServiceInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ServiceInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getServiceWithHttpInfo(): array
     {
@@ -524,19 +524,19 @@ class DiagnosticsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ServiceInformation',
+                '\DocuSign\Model\ServiceInformation',
                 '/service_information'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ServiceInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ServiceInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ServiceInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ServiceInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -550,12 +550,12 @@ class DiagnosticsApi
      *
      * Gets the API request logging log files.
      *
-     * @param  \DocuSign\eSign\Api\DiagnosticsApi\ListRequestLogsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\DiagnosticsApi\ListRequestLogsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ApiRequestLogsResult
+     * @return \DocuSign\Model\ApiRequestLogsResult
      */
-    public function listRequestLogs(\DocuSign\eSign\Api\DiagnosticsApi\ListRequestLogsOptions $options = null)
+    public function listRequestLogs(\DocuSign\Api\DiagnosticsApi\ListRequestLogsOptions $options = null)
     {
         list($response) = $this->listRequestLogsWithHttpInfo($options);
         return $response;
@@ -566,12 +566,12 @@ class DiagnosticsApi
      *
      * Gets the API request logging log files.
      *
-     * @param  \DocuSign\eSign\Api\DiagnosticsApi\ListRequestLogsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\DiagnosticsApi\ListRequestLogsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ApiRequestLogsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ApiRequestLogsResult, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listRequestLogsWithHttpInfo(\DocuSign\eSign\Api\DiagnosticsApi\ListRequestLogsOptions $options = null): array
+    public function listRequestLogsWithHttpInfo(\DocuSign\Api\DiagnosticsApi\ListRequestLogsOptions $options = null): array
     {
         // parse inputs
         $resourcePath = "/v2.1/diagnostics/request_logs";
@@ -610,19 +610,19 @@ class DiagnosticsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ApiRequestLogsResult',
+                '\DocuSign\Model\ApiRequestLogsResult',
                 '/v2.1/diagnostics/request_logs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ApiRequestLogsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ApiRequestLogsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ApiRequestLogsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ApiRequestLogsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -636,10 +636,10 @@ class DiagnosticsApi
      *
      * Enables or disables API request logging for troubleshooting.
      *
-     * @param \DocuSign\eSign\Model\DiagnosticsSettingsInformation $diagnostics_settings_information  (optional)
+     * @param \DocuSign\Model\DiagnosticsSettingsInformation $diagnostics_settings_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DiagnosticsSettingsInformation
+     * @return \DocuSign\Model\DiagnosticsSettingsInformation
      */
     public function updateRequestLogSettings($diagnostics_settings_information = null)
     {
@@ -652,10 +652,10 @@ class DiagnosticsApi
      *
      * Enables or disables API request logging for troubleshooting.
      *
-     * @param \DocuSign\eSign\Model\DiagnosticsSettingsInformation $diagnostics_settings_information  (optional)
+     * @param \DocuSign\Model\DiagnosticsSettingsInformation $diagnostics_settings_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DiagnosticsSettingsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DiagnosticsSettingsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateRequestLogSettingsWithHttpInfo($diagnostics_settings_information = null): array
     {
@@ -694,19 +694,19 @@ class DiagnosticsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DiagnosticsSettingsInformation',
+                '\DocuSign\Model\DiagnosticsSettingsInformation',
                 '/v2.1/diagnostics/settings'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DiagnosticsSettingsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DiagnosticsSettingsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DiagnosticsSettingsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DiagnosticsSettingsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

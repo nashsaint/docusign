@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Radio Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,58 +60,58 @@ class Radio implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'anchor_allow_white_space_in_characters' => '?string',
-        'anchor_allow_white_space_in_characters_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_allow_white_space_in_characters_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_case_sensitive' => '?string',
-        'anchor_case_sensitive_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_case_sensitive_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_horizontal_alignment' => '?string',
-        'anchor_horizontal_alignment_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_horizontal_alignment_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_ignore_if_not_present' => '?string',
-        'anchor_ignore_if_not_present_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_ignore_if_not_present_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_match_whole_word' => '?string',
-        'anchor_match_whole_word_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_match_whole_word_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_string' => '?string',
-        'anchor_string_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_string_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_tab_processor_version' => '?string',
-        'anchor_tab_processor_version_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_tab_processor_version_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_units' => '?string',
-        'anchor_units_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_units_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_x_offset' => '?string',
-        'anchor_x_offset_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_x_offset_metadata' => '\DocuSign\Model\PropertyMetadata',
         'anchor_y_offset' => '?string',
-        'anchor_y_offset_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'anchor_y_offset_metadata' => '\DocuSign\Model\PropertyMetadata',
         'bold' => '?string',
-        'bold_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'bold_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'font' => '?string',
         'font_color' => '?string',
-        'font_color_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'font_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'font_color_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'font_metadata' => '\DocuSign\Model\PropertyMetadata',
         'font_size' => '?string',
-        'font_size_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'font_size_metadata' => '\DocuSign\Model\PropertyMetadata',
         'italic' => '?string',
-        'italic_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'italic_metadata' => '\DocuSign\Model\PropertyMetadata',
         'locked' => '?string',
-        'locked_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'locked_metadata' => '\DocuSign\Model\PropertyMetadata',
         'page_number' => '?string',
-        'page_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'page_number_metadata' => '\DocuSign\Model\PropertyMetadata',
         'required' => '?string',
-        'required_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'required_metadata' => '\DocuSign\Model\PropertyMetadata',
         'selected' => '?string',
-        'selected_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'selected_metadata' => '\DocuSign\Model\PropertyMetadata',
         'status' => '?string',
-        'status_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'status_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_id' => '?string',
-        'tab_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_order' => '?string',
-        'tab_order_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_order_metadata' => '\DocuSign\Model\PropertyMetadata',
         'underline' => '?string',
-        'underline_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'underline_metadata' => '\DocuSign\Model\PropertyMetadata',
         'value' => '?string',
-        'value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'value_metadata' => '\DocuSign\Model\PropertyMetadata',
         'x_position' => '?string',
-        'x_position_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'x_position_metadata' => '\DocuSign\Model\PropertyMetadata',
         'y_position' => '?string',
-        'y_position_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'y_position_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -545,7 +545,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_allow_white_space_in_characters_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorAllowWhiteSpaceInCharactersMetadata()
     {
@@ -555,7 +555,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_allow_white_space_in_characters_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_allow_white_space_in_characters_metadata anchor_allow_white_space_in_characters_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_allow_white_space_in_characters_metadata anchor_allow_white_space_in_characters_metadata
      *
      * @return $this
      */
@@ -593,7 +593,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_case_sensitive_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorCaseSensitiveMetadata()
     {
@@ -603,7 +603,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_case_sensitive_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_case_sensitive_metadata anchor_case_sensitive_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_case_sensitive_metadata anchor_case_sensitive_metadata
      *
      * @return $this
      */
@@ -641,7 +641,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_horizontal_alignment_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorHorizontalAlignmentMetadata()
     {
@@ -651,7 +651,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_horizontal_alignment_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_horizontal_alignment_metadata anchor_horizontal_alignment_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_horizontal_alignment_metadata anchor_horizontal_alignment_metadata
      *
      * @return $this
      */
@@ -689,7 +689,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_ignore_if_not_present_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorIgnoreIfNotPresentMetadata()
     {
@@ -699,7 +699,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_ignore_if_not_present_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_ignore_if_not_present_metadata anchor_ignore_if_not_present_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_ignore_if_not_present_metadata anchor_ignore_if_not_present_metadata
      *
      * @return $this
      */
@@ -737,7 +737,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_match_whole_word_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorMatchWholeWordMetadata()
     {
@@ -747,7 +747,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_match_whole_word_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_match_whole_word_metadata anchor_match_whole_word_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_match_whole_word_metadata anchor_match_whole_word_metadata
      *
      * @return $this
      */
@@ -785,7 +785,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_string_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorStringMetadata()
     {
@@ -795,7 +795,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_string_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_string_metadata anchor_string_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_string_metadata anchor_string_metadata
      *
      * @return $this
      */
@@ -833,7 +833,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_tab_processor_version_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorTabProcessorVersionMetadata()
     {
@@ -843,7 +843,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_tab_processor_version_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_tab_processor_version_metadata anchor_tab_processor_version_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_tab_processor_version_metadata anchor_tab_processor_version_metadata
      *
      * @return $this
      */
@@ -881,7 +881,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_units_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorUnitsMetadata()
     {
@@ -891,7 +891,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_units_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_units_metadata anchor_units_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_units_metadata anchor_units_metadata
      *
      * @return $this
      */
@@ -929,7 +929,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_x_offset_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorXOffsetMetadata()
     {
@@ -939,7 +939,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_x_offset_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_x_offset_metadata anchor_x_offset_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_x_offset_metadata anchor_x_offset_metadata
      *
      * @return $this
      */
@@ -977,7 +977,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets anchor_y_offset_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAnchorYOffsetMetadata()
     {
@@ -987,7 +987,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets anchor_y_offset_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $anchor_y_offset_metadata anchor_y_offset_metadata
+     * @param \DocuSign\Model\PropertyMetadata $anchor_y_offset_metadata anchor_y_offset_metadata
      *
      * @return $this
      */
@@ -1025,7 +1025,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets bold_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getBoldMetadata()
     {
@@ -1035,7 +1035,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets bold_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $bold_metadata bold_metadata
+     * @param \DocuSign\Model\PropertyMetadata $bold_metadata bold_metadata
      *
      * @return $this
      */
@@ -1049,7 +1049,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -1059,7 +1059,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -1121,7 +1121,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets font_color_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontColorMetadata()
     {
@@ -1131,7 +1131,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets font_color_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_color_metadata font_color_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_color_metadata font_color_metadata
      *
      * @return $this
      */
@@ -1145,7 +1145,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets font_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontMetadata()
     {
@@ -1155,7 +1155,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets font_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_metadata font_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_metadata font_metadata
      *
      * @return $this
      */
@@ -1193,7 +1193,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets font_size_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFontSizeMetadata()
     {
@@ -1203,7 +1203,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets font_size_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $font_size_metadata font_size_metadata
+     * @param \DocuSign\Model\PropertyMetadata $font_size_metadata font_size_metadata
      *
      * @return $this
      */
@@ -1241,7 +1241,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets italic_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getItalicMetadata()
     {
@@ -1251,7 +1251,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets italic_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $italic_metadata italic_metadata
+     * @param \DocuSign\Model\PropertyMetadata $italic_metadata italic_metadata
      *
      * @return $this
      */
@@ -1289,7 +1289,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets locked_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getLockedMetadata()
     {
@@ -1299,7 +1299,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets locked_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $locked_metadata locked_metadata
+     * @param \DocuSign\Model\PropertyMetadata $locked_metadata locked_metadata
      *
      * @return $this
      */
@@ -1337,7 +1337,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets page_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getPageNumberMetadata()
     {
@@ -1347,7 +1347,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets page_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $page_number_metadata page_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $page_number_metadata page_number_metadata
      *
      * @return $this
      */
@@ -1385,7 +1385,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets required_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequiredMetadata()
     {
@@ -1395,7 +1395,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets required_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $required_metadata required_metadata
+     * @param \DocuSign\Model\PropertyMetadata $required_metadata required_metadata
      *
      * @return $this
      */
@@ -1433,7 +1433,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets selected_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSelectedMetadata()
     {
@@ -1443,7 +1443,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets selected_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $selected_metadata selected_metadata
+     * @param \DocuSign\Model\PropertyMetadata $selected_metadata selected_metadata
      *
      * @return $this
      */
@@ -1481,7 +1481,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets status_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getStatusMetadata()
     {
@@ -1491,7 +1491,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets status_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $status_metadata status_metadata
+     * @param \DocuSign\Model\PropertyMetadata $status_metadata status_metadata
      *
      * @return $this
      */
@@ -1529,7 +1529,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets tab_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabIdMetadata()
     {
@@ -1539,7 +1539,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets tab_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_id_metadata tab_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_id_metadata tab_id_metadata
      *
      * @return $this
      */
@@ -1577,7 +1577,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets tab_order_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabOrderMetadata()
     {
@@ -1587,7 +1587,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets tab_order_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_order_metadata tab_order_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_order_metadata tab_order_metadata
      *
      * @return $this
      */
@@ -1625,7 +1625,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets underline_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getUnderlineMetadata()
     {
@@ -1635,7 +1635,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets underline_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $underline_metadata underline_metadata
+     * @param \DocuSign\Model\PropertyMetadata $underline_metadata underline_metadata
      *
      * @return $this
      */
@@ -1673,7 +1673,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValueMetadata()
     {
@@ -1683,7 +1683,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $value_metadata value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $value_metadata value_metadata
      *
      * @return $this
      */
@@ -1721,7 +1721,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets x_position_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getXPositionMetadata()
     {
@@ -1731,7 +1731,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets x_position_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $x_position_metadata x_position_metadata
+     * @param \DocuSign\Model\PropertyMetadata $x_position_metadata x_position_metadata
      *
      * @return $this
      */
@@ -1769,7 +1769,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Gets y_position_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getYPositionMetadata()
     {
@@ -1779,7 +1779,7 @@ class Radio implements ModelInterface, ArrayAccess
     /**
      * Sets y_position_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $y_position_metadata y_position_metadata
+     * @param \DocuSign\Model\PropertyMetadata $y_position_metadata y_position_metadata
      *
      * @return $this
      */

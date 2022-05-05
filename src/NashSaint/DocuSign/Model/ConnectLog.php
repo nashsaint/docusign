@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConnectLog Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class ConnectLog implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'account_id' => '?string',
         'config_url' => '?string',
-        'connect_debug_log' => '\DocuSign\eSign\Model\ConnectDebugLog[]',
+        'connect_debug_log' => '\DocuSign\Model\ConnectDebugLog[]',
         'connect_id' => '?string',
         'created' => '?string',
         'email' => '?string',
@@ -359,7 +359,7 @@ class ConnectLog implements ModelInterface, ArrayAccess
     /**
      * Gets connect_debug_log
      *
-     * @return \DocuSign\eSign\Model\ConnectDebugLog[]
+     * @return \DocuSign\Model\ConnectDebugLog[]
      */
     public function getConnectDebugLog()
     {
@@ -369,7 +369,7 @@ class ConnectLog implements ModelInterface, ArrayAccess
     /**
      * Sets connect_debug_log
      *
-     * @param \DocuSign\eSign\Model\ConnectDebugLog[] $connect_debug_log A complex element containing information about the Connect configuration, error details, date/time, description and payload.  This is only included in the response if the query additional_info=true is used.
+     * @param \DocuSign\Model\ConnectDebugLog[] $connect_debug_log A complex element containing information about the Connect configuration, error details, date/time, description and payload.  This is only included in the response if the query additional_info=true is used.
      *
      * @return $this
      */

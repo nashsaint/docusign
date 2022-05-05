@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EventNotification Class Doc Comment
  *
  * @category    Class
  * @description This optional complex element allows a message to be sent a specified URL when the envelope or recipient changes status. It is similar to DocuSign Connect. For example, if an envelope changes from \&quot;Sent\&quot; to \&quot;Delivered\&quot;, a message containing the updated envelope status and optionally the documents is sent to the URL. When an eventNotification is attached to an envelope using the API, it only applies to the envelope (treating the envelope as the sender). This is different from envelopes created through the console user interface, where the user is treated as the sender.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,8 +61,8 @@ class EventNotification implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'delivery_mode' => '?string',
-        'envelope_events' => '\DocuSign\eSign\Model\EnvelopeEvent[]',
-        'event_data' => '\DocuSign\eSign\Model\ConnectEventData',
+        'envelope_events' => '\DocuSign\Model\EnvelopeEvent[]',
+        'event_data' => '\DocuSign\Model\ConnectEventData',
         'events' => '?string[]',
         'include_certificate_of_completion' => '?string',
         'include_certificate_with_soap' => '?string',
@@ -73,7 +73,7 @@ class EventNotification implements ModelInterface, ArrayAccess
         'include_sender_account_as_custom_field' => '?string',
         'include_time_zone' => '?string',
         'logging_enabled' => '?string',
-        'recipient_events' => '\DocuSign\eSign\Model\RecipientEvent[]',
+        'recipient_events' => '\DocuSign\Model\RecipientEvent[]',
         'require_acknowledgment' => '?string',
         'sign_message_with_x509_cert' => '?string',
         'soap_name_space' => '?string',
@@ -342,7 +342,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_events
      *
-     * @return \DocuSign\eSign\Model\EnvelopeEvent[]
+     * @return \DocuSign\Model\EnvelopeEvent[]
      */
     public function getEnvelopeEvents()
     {
@@ -352,7 +352,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_events
      *
-     * @param \DocuSign\eSign\Model\EnvelopeEvent[] $envelope_events A list of envelope-level event statuses that will trigger Connect to send updates to the endpoint specified in the `url` property.   To receive notifications, you must include either an `envelopeEvents` node or a `recipientEvents` node. You do not need to specify both.
+     * @param \DocuSign\Model\EnvelopeEvent[] $envelope_events A list of envelope-level event statuses that will trigger Connect to send updates to the endpoint specified in the `url` property.   To receive notifications, you must include either an `envelopeEvents` node or a `recipientEvents` node. You do not need to specify both.
      *
      * @return $this
      */
@@ -366,7 +366,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Gets event_data
      *
-     * @return \DocuSign\eSign\Model\ConnectEventData
+     * @return \DocuSign\Model\ConnectEventData
      */
     public function getEventData()
     {
@@ -376,7 +376,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Sets event_data
      *
-     * @param \DocuSign\eSign\Model\ConnectEventData $event_data event_data
+     * @param \DocuSign\Model\ConnectEventData $event_data event_data
      *
      * @return $this
      */
@@ -630,7 +630,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_events
      *
-     * @return \DocuSign\eSign\Model\RecipientEvent[]
+     * @return \DocuSign\Model\RecipientEvent[]
      */
     public function getRecipientEvents()
     {
@@ -640,7 +640,7 @@ class EventNotification implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_events
      *
-     * @param \DocuSign\eSign\Model\RecipientEvent[] $recipient_events A list of recipient event statuses that will trigger Connect to send updates to   the endpoint specified in the url property.  To receive notifications, you must include either an `envelopeEvents` node or a `recipientEvents` node. You do not need to specify both.
+     * @param \DocuSign\Model\RecipientEvent[] $recipient_events A list of recipient event statuses that will trigger Connect to send updates to   the endpoint specified in the url property.  To receive notifications, you must include either an `envelopeEvents` node or a `recipientEvents` node. You do not need to specify both.
      *
      * @return $this
      */

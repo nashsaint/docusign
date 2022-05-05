@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Group Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,12 +60,12 @@ class Group implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'ds_group_id' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'group_id' => '?string',
         'group_name' => '?string',
         'group_type' => '?string',
         'permission_profile_id' => '?string',
-        'users' => '\DocuSign\eSign\Model\UserInfo[]',
+        'users' => '\DocuSign\Model\UserInfo[]',
         'users_count' => '?string'
     ];
 
@@ -275,7 +275,7 @@ class Group implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -285,7 +285,7 @@ class Group implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -395,7 +395,7 @@ class Group implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \DocuSign\eSign\Model\UserInfo[]
+     * @return \DocuSign\Model\UserInfo[]
      */
     public function getUsers()
     {
@@ -405,7 +405,7 @@ class Group implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \DocuSign\eSign\Model\UserInfo[] $users
+     * @param \DocuSign\Model\UserInfo[] $users
      *
      * @return $this
      */

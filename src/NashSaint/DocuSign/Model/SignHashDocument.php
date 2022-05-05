@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * SignHashDocument Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class SignHashDocument implements ModelInterface, ArrayAccess
         'format' => '?string',
         'name' => '?string',
         'remaining_signatures' => 'int',
-        'revisions' => '\DocuSign\eSign\Model\Revision[]',
-        'signature_properties' => '\DocuSign\eSign\Model\SignatureProperties',
+        'revisions' => '\DocuSign\Model\Revision[]',
+        'signature_properties' => '\DocuSign\Model\SignatureProperties',
         'signature_type' => '?string'
     ];
 
@@ -369,7 +369,7 @@ class SignHashDocument implements ModelInterface, ArrayAccess
     /**
      * Gets revisions
      *
-     * @return \DocuSign\eSign\Model\Revision[]
+     * @return \DocuSign\Model\Revision[]
      */
     public function getRevisions()
     {
@@ -379,7 +379,7 @@ class SignHashDocument implements ModelInterface, ArrayAccess
     /**
      * Sets revisions
      *
-     * @param \DocuSign\eSign\Model\Revision[] $revisions
+     * @param \DocuSign\Model\Revision[] $revisions
      *
      * @return $this
      */
@@ -393,7 +393,7 @@ class SignHashDocument implements ModelInterface, ArrayAccess
     /**
      * Gets signature_properties
      *
-     * @return \DocuSign\eSign\Model\SignatureProperties
+     * @return \DocuSign\Model\SignatureProperties
      */
     public function getSignatureProperties()
     {
@@ -403,7 +403,7 @@ class SignHashDocument implements ModelInterface, ArrayAccess
     /**
      * Sets signature_properties
      *
-     * @param \DocuSign\eSign\Model\SignatureProperties $signature_properties signature_properties
+     * @param \DocuSign\Model\SignatureProperties $signature_properties signature_properties
      *
      * @return $this
      */

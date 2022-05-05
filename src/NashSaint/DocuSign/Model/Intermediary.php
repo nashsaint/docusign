@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Intermediary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,9 +60,9 @@ class Intermediary implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'access_code' => '?string',
-        'access_code_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'access_code_metadata' => '\DocuSign\Model\PropertyMetadata',
         'add_access_code_to_email' => '?string',
-        'additional_notifications' => '\DocuSign\eSign\Model\RecipientAdditionalNotification[]',
+        'additional_notifications' => '\DocuSign\Model\RecipientAdditionalNotification[]',
         'allow_system_override_for_locked_recipient' => '?string',
         'auto_responded_reason' => '?string',
         'client_user_id' => '?string',
@@ -72,58 +72,58 @@ class Intermediary implements ModelInterface, ArrayAccess
         'declined_reason' => '?string',
         'delivered_date_time' => '?string',
         'delivery_method' => '?string',
-        'delivery_method_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'delivery_method_metadata' => '\DocuSign\Model\PropertyMetadata',
         'designator_id' => '?string',
         'designator_id_guid' => '?string',
-        'document_visibility' => '\DocuSign\eSign\Model\DocumentVisibility[]',
+        'document_visibility' => '\DocuSign\Model\DocumentVisibility[]',
         'email' => '?string',
-        'email_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'email_notification' => '\DocuSign\eSign\Model\RecipientEmailNotification',
+        'email_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'email_notification' => '\DocuSign\Model\RecipientEmailNotification',
         'email_recipient_post_signing_url' => '?string',
         'embedded_recipient_start_url' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'excluded_documents' => '?string[]',
         'fax_number' => '?string',
-        'fax_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'fax_number_metadata' => '\DocuSign\Model\PropertyMetadata',
         'first_name' => '?string',
-        'first_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'first_name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'full_name' => '?string',
-        'full_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'full_name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'id_check_configuration_name' => '?string',
-        'id_check_configuration_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'id_check_information_input' => '\DocuSign\eSign\Model\IdCheckInformationInput',
-        'identity_verification' => '\DocuSign\eSign\Model\RecipientIdentityVerification',
+        'id_check_configuration_name_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'id_check_information_input' => '\DocuSign\Model\IdCheckInformationInput',
+        'identity_verification' => '\DocuSign\Model\RecipientIdentityVerification',
         'inherit_email_notification_configuration' => '?string',
         'last_name' => '?string',
-        'last_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'last_name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'locked_recipient_phone_auth_editable' => '?string',
         'locked_recipient_sms_editable' => '?string',
         'name' => '?string',
-        'name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'note' => '?string',
-        'note_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'phone_authentication' => '\DocuSign\eSign\Model\RecipientPhoneAuthentication',
-        'phone_number' => '\DocuSign\eSign\Model\RecipientPhoneNumber',
-        'recipient_attachments' => '\DocuSign\eSign\Model\RecipientAttachment[]',
-        'recipient_authentication_status' => '\DocuSign\eSign\Model\AuthenticationStatus',
-        'recipient_feature_metadata' => '\DocuSign\eSign\Model\FeatureAvailableMetadata[]',
+        'note_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'phone_authentication' => '\DocuSign\Model\RecipientPhoneAuthentication',
+        'phone_number' => '\DocuSign\Model\RecipientPhoneNumber',
+        'recipient_attachments' => '\DocuSign\Model\RecipientAttachment[]',
+        'recipient_authentication_status' => '\DocuSign\Model\AuthenticationStatus',
+        'recipient_feature_metadata' => '\DocuSign\Model\FeatureAvailableMetadata[]',
         'recipient_id' => '?string',
         'recipient_id_guid' => '?string',
         'recipient_type' => '?string',
-        'recipient_type_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'recipient_type_metadata' => '\DocuSign\Model\PropertyMetadata',
         'require_id_lookup' => '?string',
-        'require_id_lookup_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'require_id_lookup_metadata' => '\DocuSign\Model\PropertyMetadata',
         'role_name' => '?string',
         'routing_order' => '?string',
-        'routing_order_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'routing_order_metadata' => '\DocuSign\Model\PropertyMetadata',
         'sent_date_time' => '?string',
         'signed_date_time' => '?string',
         'signing_group_id' => '?string',
-        'signing_group_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'signing_group_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'signing_group_name' => '?string',
-        'signing_group_users' => '\DocuSign\eSign\Model\UserInfo[]',
-        'sms_authentication' => '\DocuSign\eSign\Model\RecipientSMSAuthentication',
-        'social_authentications' => '\DocuSign\eSign\Model\SocialAuthentication[]',
+        'signing_group_users' => '\DocuSign\Model\UserInfo[]',
+        'sms_authentication' => '\DocuSign\Model\RecipientSMSAuthentication',
+        'social_authentications' => '\DocuSign\Model\SocialAuthentication[]',
         'status' => '?string',
         'status_code' => '?string',
         'suppress_emails' => '?string',
@@ -659,7 +659,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets access_code_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAccessCodeMetadata()
     {
@@ -669,7 +669,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets access_code_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $access_code_metadata access_code_metadata
+     * @param \DocuSign\Model\PropertyMetadata $access_code_metadata access_code_metadata
      *
      * @return $this
      */
@@ -707,7 +707,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets additional_notifications
      *
-     * @return \DocuSign\eSign\Model\RecipientAdditionalNotification[]
+     * @return \DocuSign\Model\RecipientAdditionalNotification[]
      */
     public function getAdditionalNotifications()
     {
@@ -717,7 +717,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets additional_notifications
      *
-     * @param \DocuSign\eSign\Model\RecipientAdditionalNotification[] $additional_notifications
+     * @param \DocuSign\Model\RecipientAdditionalNotification[] $additional_notifications
      *
      * @return $this
      */
@@ -947,7 +947,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_method_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getDeliveryMethodMetadata()
     {
@@ -957,7 +957,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_method_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $delivery_method_metadata delivery_method_metadata
+     * @param \DocuSign\Model\PropertyMetadata $delivery_method_metadata delivery_method_metadata
      *
      * @return $this
      */
@@ -1019,7 +1019,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets document_visibility
      *
-     * @return \DocuSign\eSign\Model\DocumentVisibility[]
+     * @return \DocuSign\Model\DocumentVisibility[]
      */
     public function getDocumentVisibility()
     {
@@ -1029,7 +1029,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets document_visibility
      *
-     * @param \DocuSign\eSign\Model\DocumentVisibility[] $document_visibility
+     * @param \DocuSign\Model\DocumentVisibility[] $document_visibility
      *
      * @return $this
      */
@@ -1067,7 +1067,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets email_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getEmailMetadata()
     {
@@ -1077,7 +1077,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets email_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $email_metadata email_metadata
+     * @param \DocuSign\Model\PropertyMetadata $email_metadata email_metadata
      *
      * @return $this
      */
@@ -1091,7 +1091,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets email_notification
      *
-     * @return \DocuSign\eSign\Model\RecipientEmailNotification
+     * @return \DocuSign\Model\RecipientEmailNotification
      */
     public function getEmailNotification()
     {
@@ -1101,7 +1101,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets email_notification
      *
-     * @param \DocuSign\eSign\Model\RecipientEmailNotification $email_notification email_notification
+     * @param \DocuSign\Model\RecipientEmailNotification $email_notification email_notification
      *
      * @return $this
      */
@@ -1163,7 +1163,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -1173,7 +1173,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -1235,7 +1235,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets fax_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFaxNumberMetadata()
     {
@@ -1245,7 +1245,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets fax_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $fax_number_metadata fax_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $fax_number_metadata fax_number_metadata
      *
      * @return $this
      */
@@ -1283,7 +1283,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets first_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFirstNameMetadata()
     {
@@ -1293,7 +1293,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets first_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $first_name_metadata first_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $first_name_metadata first_name_metadata
      *
      * @return $this
      */
@@ -1331,7 +1331,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets full_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getFullNameMetadata()
     {
@@ -1341,7 +1341,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets full_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $full_name_metadata full_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $full_name_metadata full_name_metadata
      *
      * @return $this
      */
@@ -1379,7 +1379,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_configuration_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getIdCheckConfigurationNameMetadata()
     {
@@ -1389,7 +1389,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_configuration_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $id_check_configuration_name_metadata id_check_configuration_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $id_check_configuration_name_metadata id_check_configuration_name_metadata
      *
      * @return $this
      */
@@ -1403,7 +1403,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets id_check_information_input
      *
-     * @return \DocuSign\eSign\Model\IdCheckInformationInput
+     * @return \DocuSign\Model\IdCheckInformationInput
      */
     public function getIdCheckInformationInput()
     {
@@ -1413,7 +1413,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets id_check_information_input
      *
-     * @param \DocuSign\eSign\Model\IdCheckInformationInput $id_check_information_input id_check_information_input
+     * @param \DocuSign\Model\IdCheckInformationInput $id_check_information_input id_check_information_input
      *
      * @return $this
      */
@@ -1427,7 +1427,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets identity_verification
      *
-     * @return \DocuSign\eSign\Model\RecipientIdentityVerification
+     * @return \DocuSign\Model\RecipientIdentityVerification
      */
     public function getIdentityVerification()
     {
@@ -1437,7 +1437,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets identity_verification
      *
-     * @param \DocuSign\eSign\Model\RecipientIdentityVerification $identity_verification identity_verification
+     * @param \DocuSign\Model\RecipientIdentityVerification $identity_verification identity_verification
      *
      * @return $this
      */
@@ -1499,7 +1499,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets last_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getLastNameMetadata()
     {
@@ -1509,7 +1509,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets last_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $last_name_metadata last_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $last_name_metadata last_name_metadata
      *
      * @return $this
      */
@@ -1595,7 +1595,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getNameMetadata()
     {
@@ -1605,7 +1605,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $name_metadata name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $name_metadata name_metadata
      *
      * @return $this
      */
@@ -1643,7 +1643,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets note_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getNoteMetadata()
     {
@@ -1653,7 +1653,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets note_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $note_metadata note_metadata
+     * @param \DocuSign\Model\PropertyMetadata $note_metadata note_metadata
      *
      * @return $this
      */
@@ -1667,7 +1667,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets phone_authentication
      *
-     * @return \DocuSign\eSign\Model\RecipientPhoneAuthentication
+     * @return \DocuSign\Model\RecipientPhoneAuthentication
      */
     public function getPhoneAuthentication()
     {
@@ -1677,7 +1677,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets phone_authentication
      *
-     * @param \DocuSign\eSign\Model\RecipientPhoneAuthentication $phone_authentication phone_authentication
+     * @param \DocuSign\Model\RecipientPhoneAuthentication $phone_authentication phone_authentication
      *
      * @return $this
      */
@@ -1691,7 +1691,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets phone_number
      *
-     * @return \DocuSign\eSign\Model\RecipientPhoneNumber
+     * @return \DocuSign\Model\RecipientPhoneNumber
      */
     public function getPhoneNumber()
     {
@@ -1701,7 +1701,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets phone_number
      *
-     * @param \DocuSign\eSign\Model\RecipientPhoneNumber $phone_number phone_number
+     * @param \DocuSign\Model\RecipientPhoneNumber $phone_number phone_number
      *
      * @return $this
      */
@@ -1715,7 +1715,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_attachments
      *
-     * @return \DocuSign\eSign\Model\RecipientAttachment[]
+     * @return \DocuSign\Model\RecipientAttachment[]
      */
     public function getRecipientAttachments()
     {
@@ -1725,7 +1725,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_attachments
      *
-     * @param \DocuSign\eSign\Model\RecipientAttachment[] $recipient_attachments Reserved:
+     * @param \DocuSign\Model\RecipientAttachment[] $recipient_attachments Reserved:
      *
      * @return $this
      */
@@ -1739,7 +1739,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_authentication_status
      *
-     * @return \DocuSign\eSign\Model\AuthenticationStatus
+     * @return \DocuSign\Model\AuthenticationStatus
      */
     public function getRecipientAuthenticationStatus()
     {
@@ -1749,7 +1749,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_authentication_status
      *
-     * @param \DocuSign\eSign\Model\AuthenticationStatus $recipient_authentication_status recipient_authentication_status
+     * @param \DocuSign\Model\AuthenticationStatus $recipient_authentication_status recipient_authentication_status
      *
      * @return $this
      */
@@ -1763,7 +1763,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_feature_metadata
      *
-     * @return \DocuSign\eSign\Model\FeatureAvailableMetadata[]
+     * @return \DocuSign\Model\FeatureAvailableMetadata[]
      */
     public function getRecipientFeatureMetadata()
     {
@@ -1773,7 +1773,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_feature_metadata
      *
-     * @param \DocuSign\eSign\Model\FeatureAvailableMetadata[] $recipient_feature_metadata
+     * @param \DocuSign\Model\FeatureAvailableMetadata[] $recipient_feature_metadata
      *
      * @return $this
      */
@@ -1859,7 +1859,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_type_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipientTypeMetadata()
     {
@@ -1869,7 +1869,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_type_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recipient_type_metadata recipient_type_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recipient_type_metadata recipient_type_metadata
      *
      * @return $this
      */
@@ -1907,7 +1907,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets require_id_lookup_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequireIdLookupMetadata()
     {
@@ -1917,7 +1917,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets require_id_lookup_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $require_id_lookup_metadata require_id_lookup_metadata
+     * @param \DocuSign\Model\PropertyMetadata $require_id_lookup_metadata require_id_lookup_metadata
      *
      * @return $this
      */
@@ -1979,7 +1979,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets routing_order_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRoutingOrderMetadata()
     {
@@ -1989,7 +1989,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets routing_order_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $routing_order_metadata routing_order_metadata
+     * @param \DocuSign\Model\PropertyMetadata $routing_order_metadata routing_order_metadata
      *
      * @return $this
      */
@@ -2075,7 +2075,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets signing_group_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSigningGroupIdMetadata()
     {
@@ -2085,7 +2085,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets signing_group_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $signing_group_id_metadata signing_group_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $signing_group_id_metadata signing_group_id_metadata
      *
      * @return $this
      */
@@ -2123,7 +2123,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets signing_group_users
      *
-     * @return \DocuSign\eSign\Model\UserInfo[]
+     * @return \DocuSign\Model\UserInfo[]
      */
     public function getSigningGroupUsers()
     {
@@ -2133,7 +2133,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets signing_group_users
      *
-     * @param \DocuSign\eSign\Model\UserInfo[] $signing_group_users A complex type that contains information about users in the signing group.
+     * @param \DocuSign\Model\UserInfo[] $signing_group_users A complex type that contains information about users in the signing group.
      *
      * @return $this
      */
@@ -2147,7 +2147,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets sms_authentication
      *
-     * @return \DocuSign\eSign\Model\RecipientSMSAuthentication
+     * @return \DocuSign\Model\RecipientSMSAuthentication
      */
     public function getSmsAuthentication()
     {
@@ -2157,7 +2157,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets sms_authentication
      *
-     * @param \DocuSign\eSign\Model\RecipientSMSAuthentication $sms_authentication sms_authentication
+     * @param \DocuSign\Model\RecipientSMSAuthentication $sms_authentication sms_authentication
      *
      * @return $this
      */
@@ -2171,7 +2171,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Gets social_authentications
      *
-     * @return \DocuSign\eSign\Model\SocialAuthentication[]
+     * @return \DocuSign\Model\SocialAuthentication[]
      */
     public function getSocialAuthentications()
     {
@@ -2181,7 +2181,7 @@ class Intermediary implements ModelInterface, ArrayAccess
     /**
      * Sets social_authentications
      *
-     * @param \DocuSign\eSign\Model\SocialAuthentication[] $social_authentications Lists the social ID type that can be used for recipient authentication.
+     * @param \DocuSign\Model\SocialAuthentication[] $social_authentications Lists the social ID type that can be used for recipient authentication.
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendingList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkSendingList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_copies' => '\DocuSign\eSign\Model\BulkSendingCopy[]',
+        'bulk_copies' => '\DocuSign\Model\BulkSendingCopy[]',
         'list_id' => '?string',
         'name' => '?string'
     ];
@@ -221,7 +221,7 @@ class BulkSendingList implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_copies
      *
-     * @return \DocuSign\eSign\Model\BulkSendingCopy[]
+     * @return \DocuSign\Model\BulkSendingCopy[]
      */
     public function getBulkCopies()
     {
@@ -231,7 +231,7 @@ class BulkSendingList implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_copies
      *
-     * @param \DocuSign\eSign\Model\BulkSendingCopy[] $bulk_copies
+     * @param \DocuSign\Model\BulkSendingCopy[] $bulk_copies
      *
      * @return $this
      */

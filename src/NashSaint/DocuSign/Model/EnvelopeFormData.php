@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeFormData Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'email_subject' => '?string',
         'envelope_id' => '?string',
-        'form_data' => '\DocuSign\eSign\Model\FormDataItem[]',
-        'prefill_form_data' => '\DocuSign\eSign\Model\PrefillFormData',
-        'recipient_form_data' => '\DocuSign\eSign\Model\RecipientFormData[]',
+        'form_data' => '\DocuSign\Model\FormDataItem[]',
+        'prefill_form_data' => '\DocuSign\Model\PrefillFormData',
+        'recipient_form_data' => '\DocuSign\Model\RecipientFormData[]',
         'sent_date_time' => '?string',
         'status' => '?string'
     ];
@@ -293,7 +293,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Gets form_data
      *
-     * @return \DocuSign\eSign\Model\FormDataItem[]
+     * @return \DocuSign\Model\FormDataItem[]
      */
     public function getFormData()
     {
@@ -303,7 +303,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Sets form_data
      *
-     * @param \DocuSign\eSign\Model\FormDataItem[] $form_data
+     * @param \DocuSign\Model\FormDataItem[] $form_data
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Gets prefill_form_data
      *
-     * @return \DocuSign\eSign\Model\PrefillFormData
+     * @return \DocuSign\Model\PrefillFormData
      */
     public function getPrefillFormData()
     {
@@ -327,7 +327,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Sets prefill_form_data
      *
-     * @param \DocuSign\eSign\Model\PrefillFormData $prefill_form_data prefill_form_data
+     * @param \DocuSign\Model\PrefillFormData $prefill_form_data prefill_form_data
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_form_data
      *
-     * @return \DocuSign\eSign\Model\RecipientFormData[]
+     * @return \DocuSign\Model\RecipientFormData[]
      */
     public function getRecipientFormData()
     {
@@ -351,7 +351,7 @@ class EnvelopeFormData implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_form_data
      *
-     * @param \DocuSign\eSign\Model\RecipientFormData[] $recipient_form_data
+     * @param \DocuSign\Model\RecipientFormData[] $recipient_form_data
      *
      * @return $this
      */

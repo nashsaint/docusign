@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientViewRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class RecipientViewRequest implements ModelInterface, ArrayAccess
         'assertion_id' => '?string',
         'authentication_instant' => '?string',
         'authentication_method' => '?string',
-        'client_ur_ls' => '\DocuSign\eSign\Model\RecipientTokenClientURLs',
+        'client_ur_ls' => '\DocuSign\Model\RecipientTokenClientURLs',
         'client_user_id' => '?string',
         'email' => '?string',
         'frame_ancestors' => '?string[]',
@@ -377,7 +377,7 @@ class RecipientViewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets client_ur_ls
      *
-     * @return \DocuSign\eSign\Model\RecipientTokenClientURLs
+     * @return \DocuSign\Model\RecipientTokenClientURLs
      */
     public function getClientUrLs()
     {
@@ -387,7 +387,7 @@ class RecipientViewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets client_ur_ls
      *
-     * @param \DocuSign\eSign\Model\RecipientTokenClientURLs $client_ur_ls client_ur_ls
+     * @param \DocuSign\Model\RecipientTokenClientURLs $client_ur_ls client_ur_ls
      *
      * @return $this
      */

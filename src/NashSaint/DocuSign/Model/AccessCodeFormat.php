@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccessCodeFormat Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,15 +60,15 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'format_required' => '?string',
-        'format_required_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'format_required_metadata' => '\DocuSign\Model\SettingsMetadata',
         'letter_required' => '?string',
-        'letter_required_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'letter_required_metadata' => '\DocuSign\Model\SettingsMetadata',
         'minimum_length' => '?string',
-        'minimum_length_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'minimum_length_metadata' => '\DocuSign\Model\SettingsMetadata',
         'number_required' => '?string',
-        'number_required_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'number_required_metadata' => '\DocuSign\Model\SettingsMetadata',
         'special_character_required' => '?string',
-        'special_character_required_metadata' => '\DocuSign\eSign\Model\SettingsMetadata'
+        'special_character_required_metadata' => '\DocuSign\Model\SettingsMetadata'
     ];
 
     /**
@@ -287,7 +287,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Gets format_required_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getFormatRequiredMetadata()
     {
@@ -297,7 +297,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Sets format_required_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $format_required_metadata format_required_metadata
+     * @param \DocuSign\Model\SettingsMetadata $format_required_metadata format_required_metadata
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Gets letter_required_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getLetterRequiredMetadata()
     {
@@ -345,7 +345,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Sets letter_required_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $letter_required_metadata letter_required_metadata
+     * @param \DocuSign\Model\SettingsMetadata $letter_required_metadata letter_required_metadata
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Gets minimum_length_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getMinimumLengthMetadata()
     {
@@ -393,7 +393,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Sets minimum_length_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $minimum_length_metadata minimum_length_metadata
+     * @param \DocuSign\Model\SettingsMetadata $minimum_length_metadata minimum_length_metadata
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Gets number_required_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getNumberRequiredMetadata()
     {
@@ -441,7 +441,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Sets number_required_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $number_required_metadata number_required_metadata
+     * @param \DocuSign\Model\SettingsMetadata $number_required_metadata number_required_metadata
      *
      * @return $this
      */
@@ -479,7 +479,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Gets special_character_required_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSpecialCharacterRequiredMetadata()
     {
@@ -489,7 +489,7 @@ class AccessCodeFormat implements ModelInterface, ArrayAccess
     /**
      * Sets special_character_required_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $special_character_required_metadata special_character_required_metadata
+     * @param \DocuSign\Model\SettingsMetadata $special_character_required_metadata special_character_required_metadata
      *
      * @return $this
      */

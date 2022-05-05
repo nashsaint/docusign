@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -21,7 +21,7 @@
  *
  */
 
-namespace NashSaint\DocuSign\eSign\Client\Auth;
+namespace NashSaint\DocuSign\Client\Auth;
 
 use \ArrayAccess;
 
@@ -29,7 +29,7 @@ use \ArrayAccess;
  * UserInfo Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -51,8 +51,8 @@ class UserInfo implements ArrayAccess
     protected static $swaggerTypes = [
         'sub' => 'string',
         'email' => 'string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'accounts' => '\DocuSign\eSign\Client\Auth\Account[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'accounts' => '\DocuSign\Client\Auth\Account[]',
         'name' => 'string',
         'given_name' => 'string',
         'family_name' => 'string',
@@ -215,7 +215,7 @@ class UserInfo implements ArrayAccess
 
     /**
      * Gets error_details
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -224,7 +224,7 @@ class UserInfo implements ArrayAccess
 
     /**
      * Sets error_details
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details
      * @return $this
      */
     public function setErrorDetails($error_details)
@@ -236,7 +236,7 @@ class UserInfo implements ArrayAccess
 
     /**
      * Gets accounts
-     * @return \DocuSign\eSign\Client\Accounts
+     * @return \DocuSign\Client\Accounts
      */
     public function getAccounts()
     {
@@ -245,7 +245,7 @@ class UserInfo implements ArrayAccess
 
     /**
      * Sets accounts
-     * @param \DocuSign\eSign\Client\Accounts $accounts
+     * @param \DocuSign\Client\Accounts $accounts
      * @return $this
      */
     public function setAccounts($accounts)
@@ -395,10 +395,10 @@ class UserInfo implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

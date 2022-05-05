@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BrandResourcesList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BrandResourcesList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'resources_content_types' => '\DocuSign\eSign\Model\BrandResources[]'
+        'resources_content_types' => '\DocuSign\Model\BrandResources[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class BrandResourcesList implements ModelInterface, ArrayAccess
     /**
      * Gets resources_content_types
      *
-     * @return \DocuSign\eSign\Model\BrandResources[]
+     * @return \DocuSign\Model\BrandResources[]
      */
     public function getResourcesContentTypes()
     {
@@ -219,7 +219,7 @@ class BrandResourcesList implements ModelInterface, ArrayAccess
     /**
      * Sets resources_content_types
      *
-     * @param \DocuSign\eSign\Model\BrandResources[] $resources_content_types
+     * @param \DocuSign\Model\BrandResources[] $resources_content_types
      *
      * @return $this
      */

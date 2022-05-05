@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountPasswordStrengthType Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class AccountPasswordStrengthType implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'options' => '\DocuSign\eSign\Model\AccountPasswordStrengthTypeOption[]'
+        'options' => '\DocuSign\Model\AccountPasswordStrengthTypeOption[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class AccountPasswordStrengthType implements ModelInterface, ArrayAccess
     /**
      * Gets options
      *
-     * @return \DocuSign\eSign\Model\AccountPasswordStrengthTypeOption[]
+     * @return \DocuSign\Model\AccountPasswordStrengthTypeOption[]
      */
     public function getOptions()
     {
@@ -219,7 +219,7 @@ class AccountPasswordStrengthType implements ModelInterface, ArrayAccess
     /**
      * Sets options
      *
-     * @param \DocuSign\eSign\Model\AccountPasswordStrengthTypeOption[] $options
+     * @param \DocuSign\Model\AccountPasswordStrengthTypeOption[] $options
      *
      * @return $this
      */

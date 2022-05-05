@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientSignatureProviderOptions Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,13 +60,13 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'cpf_number' => '?string',
-        'cpf_number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'cpf_number_metadata' => '\DocuSign\Model\PropertyMetadata',
         'one_time_password' => '?string',
-        'one_time_password_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'one_time_password_metadata' => '\DocuSign\Model\PropertyMetadata',
         'signer_role' => '?string',
-        'signer_role_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'signer_role_metadata' => '\DocuSign\Model\PropertyMetadata',
         'sms' => '?string',
-        'sms_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'sms_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -275,7 +275,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Gets cpf_number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getCpfNumberMetadata()
     {
@@ -285,7 +285,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Sets cpf_number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $cpf_number_metadata cpf_number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $cpf_number_metadata cpf_number_metadata
      *
      * @return $this
      */
@@ -323,7 +323,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Gets one_time_password_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getOneTimePasswordMetadata()
     {
@@ -333,7 +333,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Sets one_time_password_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $one_time_password_metadata one_time_password_metadata
+     * @param \DocuSign\Model\PropertyMetadata $one_time_password_metadata one_time_password_metadata
      *
      * @return $this
      */
@@ -371,7 +371,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Gets signer_role_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSignerRoleMetadata()
     {
@@ -381,7 +381,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Sets signer_role_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $signer_role_metadata signer_role_metadata
+     * @param \DocuSign\Model\PropertyMetadata $signer_role_metadata signer_role_metadata
      *
      * @return $this
      */
@@ -419,7 +419,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Gets sms_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSmsMetadata()
     {
@@ -429,7 +429,7 @@ class RecipientSignatureProviderOptions implements ModelInterface, ArrayAccess
     /**
      * Sets sms_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $sms_metadata sms_metadata
+     * @param \DocuSign\Model\PropertyMetadata $sms_metadata sms_metadata
      *
      * @return $this
      */

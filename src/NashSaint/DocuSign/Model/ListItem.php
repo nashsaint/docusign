@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ListItem Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,11 +60,11 @@ class ListItem implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'selected' => '?string',
-        'selected_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'selected_metadata' => '\DocuSign\Model\PropertyMetadata',
         'text' => '?string',
-        'text_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'text_metadata' => '\DocuSign\Model\PropertyMetadata',
         'value' => '?string',
-        'value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'value_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -263,7 +263,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Gets selected_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSelectedMetadata()
     {
@@ -273,7 +273,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Sets selected_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $selected_metadata selected_metadata
+     * @param \DocuSign\Model\PropertyMetadata $selected_metadata selected_metadata
      *
      * @return $this
      */
@@ -311,7 +311,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Gets text_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTextMetadata()
     {
@@ -321,7 +321,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Sets text_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $text_metadata text_metadata
+     * @param \DocuSign\Model\PropertyMetadata $text_metadata text_metadata
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Gets value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValueMetadata()
     {
@@ -369,7 +369,7 @@ class ListItem implements ModelInterface, ArrayAccess
     /**
      * Sets value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $value_metadata value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $value_metadata value_metadata
      *
      * @return $this
      */

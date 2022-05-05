@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserSocialIdResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class UserSocialIdResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'social_account_information' => '\DocuSign\eSign\Model\SocialAccountInformation[]',
+        'social_account_information' => '\DocuSign\Model\SocialAccountInformation[]',
         'user_id' => '?string'
     ];
 
@@ -215,7 +215,7 @@ class UserSocialIdResult implements ModelInterface, ArrayAccess
     /**
      * Gets social_account_information
      *
-     * @return \DocuSign\eSign\Model\SocialAccountInformation[]
+     * @return \DocuSign\Model\SocialAccountInformation[]
      */
     public function getSocialAccountInformation()
     {
@@ -225,7 +225,7 @@ class UserSocialIdResult implements ModelInterface, ArrayAccess
     /**
      * Sets social_account_information
      *
-     * @param \DocuSign\eSign\Model\SocialAccountInformation[] $social_account_information Contains properties that map a DocuSign user to a social account (Facebook, Yahoo, etc.)
+     * @param \DocuSign\Model\SocialAccountInformation[] $social_account_information Contains properties that map a DocuSign user to a social account (Facebook, Yahoo, etc.)
      *
      * @return $this
      */

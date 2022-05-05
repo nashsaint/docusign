@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendBatchStatus Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,9 +64,9 @@ class BulkSendBatchStatus implements ModelInterface, ArrayAccess
         'batch_id' => '?string',
         'batch_name' => '?string',
         'batch_size' => '?string',
-        'bulk_errors' => '\DocuSign\eSign\Model\BulkSendErrorStatus[]',
+        'bulk_errors' => '\DocuSign\Model\BulkSendErrorStatus[]',
         'envelope_id_or_template_id' => '?string',
-        'envelopes_info' => '\DocuSign\eSign\Model\BulkSendEnvelopesInfo',
+        'envelopes_info' => '\DocuSign\Model\BulkSendEnvelopesInfo',
         'envelopes_uri' => '?string',
         'failed' => '?string',
         'mailing_list_id' => '?string',
@@ -425,7 +425,7 @@ class BulkSendBatchStatus implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_errors
      *
-     * @return \DocuSign\eSign\Model\BulkSendErrorStatus[]
+     * @return \DocuSign\Model\BulkSendErrorStatus[]
      */
     public function getBulkErrors()
     {
@@ -435,7 +435,7 @@ class BulkSendBatchStatus implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_errors
      *
-     * @param \DocuSign\eSign\Model\BulkSendErrorStatus[] $bulk_errors
+     * @param \DocuSign\Model\BulkSendErrorStatus[] $bulk_errors
      *
      * @return $this
      */
@@ -473,7 +473,7 @@ class BulkSendBatchStatus implements ModelInterface, ArrayAccess
     /**
      * Gets envelopes_info
      *
-     * @return \DocuSign\eSign\Model\BulkSendEnvelopesInfo
+     * @return \DocuSign\Model\BulkSendEnvelopesInfo
      */
     public function getEnvelopesInfo()
     {
@@ -483,7 +483,7 @@ class BulkSendBatchStatus implements ModelInterface, ArrayAccess
     /**
      * Sets envelopes_info
      *
-     * @param \DocuSign\eSign\Model\BulkSendEnvelopesInfo $envelopes_info envelopes_info
+     * @param \DocuSign\Model\BulkSendEnvelopesInfo $envelopes_info envelopes_info
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientPhoneNumber Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,9 +60,9 @@ class RecipientPhoneNumber implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'country_code' => '?string',
-        'country_code_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'country_code_metadata' => '\DocuSign\Model\PropertyMetadata',
         'number' => '?string',
-        'number_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'number_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -251,7 +251,7 @@ class RecipientPhoneNumber implements ModelInterface, ArrayAccess
     /**
      * Gets country_code_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getCountryCodeMetadata()
     {
@@ -261,7 +261,7 @@ class RecipientPhoneNumber implements ModelInterface, ArrayAccess
     /**
      * Sets country_code_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $country_code_metadata country_code_metadata
+     * @param \DocuSign\Model\PropertyMetadata $country_code_metadata country_code_metadata
      *
      * @return $this
      */
@@ -299,7 +299,7 @@ class RecipientPhoneNumber implements ModelInterface, ArrayAccess
     /**
      * Gets number_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getNumberMetadata()
     {
@@ -309,7 +309,7 @@ class RecipientPhoneNumber implements ModelInterface, ArrayAccess
     /**
      * Sets number_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $number_metadata number_metadata
+     * @param \DocuSign\Model\PropertyMetadata $number_metadata number_metadata
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkRecipientsResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkRecipientsResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_recipients' => '\DocuSign\eSign\Model\BulkRecipient[]',
+        'bulk_recipients' => '\DocuSign\Model\BulkRecipient[]',
         'end_position' => '?string',
         'next_uri' => '?string',
         'previous_uri' => '?string',
@@ -245,7 +245,7 @@ class BulkRecipientsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_recipients
      *
-     * @return \DocuSign\eSign\Model\BulkRecipient[]
+     * @return \DocuSign\Model\BulkRecipient[]
      */
     public function getBulkRecipients()
     {
@@ -255,7 +255,7 @@ class BulkRecipientsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_recipients
      *
-     * @param \DocuSign\eSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the response.
+     * @param \DocuSign\Model\BulkRecipient[] $bulk_recipients A complex type containing information about the bulk recipients in the response.
      *
      * @return $this
      */

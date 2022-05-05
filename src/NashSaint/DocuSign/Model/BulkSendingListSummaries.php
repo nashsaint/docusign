@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendingListSummaries Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class BulkSendingListSummaries implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'bulk_list_summaries' => '\DocuSign\eSign\Model\BulkSendingListSummary[]'
+        'bulk_list_summaries' => '\DocuSign\Model\BulkSendingListSummary[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class BulkSendingListSummaries implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_list_summaries
      *
-     * @return \DocuSign\eSign\Model\BulkSendingListSummary[]
+     * @return \DocuSign\Model\BulkSendingListSummary[]
      */
     public function getBulkListSummaries()
     {
@@ -219,7 +219,7 @@ class BulkSendingListSummaries implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_list_summaries
      *
-     * @param \DocuSign\eSign\Model\BulkSendingListSummary[] $bulk_list_summaries
+     * @param \DocuSign\Model\BulkSendingListSummary[] $bulk_list_summaries
      *
      * @return $this
      */

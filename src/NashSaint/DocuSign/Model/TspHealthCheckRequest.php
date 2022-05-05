@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TspHealthCheckRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -61,7 +61,7 @@ class TspHealthCheckRequest implements ModelInterface, ArrayAccess
         'description' => '?string',
         'error' => '?string',
         'status' => '?string',
-        'status_description' => '\DocuSign\eSign\Model\TspHealthCheckStatusDescription[]'
+        'status_description' => '\DocuSign\Model\TspHealthCheckStatusDescription[]'
     ];
 
     /**
@@ -327,7 +327,7 @@ class TspHealthCheckRequest implements ModelInterface, ArrayAccess
     /**
      * Gets status_description
      *
-     * @return \DocuSign\eSign\Model\TspHealthCheckStatusDescription[]
+     * @return \DocuSign\Model\TspHealthCheckStatusDescription[]
      */
     public function getStatusDescription()
     {
@@ -337,7 +337,7 @@ class TspHealthCheckRequest implements ModelInterface, ArrayAccess
     /**
      * Sets status_description
      *
-     * @param \DocuSign\eSign\Model\TspHealthCheckStatusDescription[] $status_description
+     * @param \DocuSign\Model\TspHealthCheckStatusDescription[] $status_description
      *
      * @return $this
      */

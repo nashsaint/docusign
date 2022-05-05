@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CaptiveRecipientInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class CaptiveRecipientInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'captive_recipients' => '\DocuSign\eSign\Model\CaptiveRecipient[]'
+        'captive_recipients' => '\DocuSign\Model\CaptiveRecipient[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class CaptiveRecipientInformation implements ModelInterface, ArrayAccess
     /**
      * Gets captive_recipients
      *
-     * @return \DocuSign\eSign\Model\CaptiveRecipient[]
+     * @return \DocuSign\Model\CaptiveRecipient[]
      */
     public function getCaptiveRecipients()
     {
@@ -219,7 +219,7 @@ class CaptiveRecipientInformation implements ModelInterface, ArrayAccess
     /**
      * Sets captive_recipients
      *
-     * @param \DocuSign\eSign\Model\CaptiveRecipient[] $captive_recipients A complex type containing information about one or more captive recipients.
+     * @param \DocuSign\Model\CaptiveRecipient[] $captive_recipients A complex type containing information about one or more captive recipients.
      *
      * @return $this
      */

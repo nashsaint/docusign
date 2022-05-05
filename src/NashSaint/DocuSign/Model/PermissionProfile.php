@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PermissionProfile Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,9 +63,9 @@ class PermissionProfile implements ModelInterface, ArrayAccess
         'modified_date_time' => '?string',
         'permission_profile_id' => '?string',
         'permission_profile_name' => '?string',
-        'settings' => '\DocuSign\eSign\Model\AccountRoleSettings',
+        'settings' => '\DocuSign\Model\AccountRoleSettings',
         'user_count' => '?string',
-        'users' => '\DocuSign\eSign\Model\UserInformation[]'
+        'users' => '\DocuSign\Model\UserInformation[]'
     ];
 
     /**
@@ -341,7 +341,7 @@ class PermissionProfile implements ModelInterface, ArrayAccess
     /**
      * Gets settings
      *
-     * @return \DocuSign\eSign\Model\AccountRoleSettings
+     * @return \DocuSign\Model\AccountRoleSettings
      */
     public function getSettings()
     {
@@ -351,7 +351,7 @@ class PermissionProfile implements ModelInterface, ArrayAccess
     /**
      * Sets settings
      *
-     * @param \DocuSign\eSign\Model\AccountRoleSettings $settings settings
+     * @param \DocuSign\Model\AccountRoleSettings $settings settings
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class PermissionProfile implements ModelInterface, ArrayAccess
     /**
      * Gets users
      *
-     * @return \DocuSign\eSign\Model\UserInformation[]
+     * @return \DocuSign\Model\UserInformation[]
      */
     public function getUsers()
     {
@@ -399,7 +399,7 @@ class PermissionProfile implements ModelInterface, ArrayAccess
     /**
      * Sets users
      *
-     * @param \DocuSign\eSign\Model\UserInformation[] $users
+     * @param \DocuSign\Model\UserInformation[] $users
      *
      * @return $this
      */

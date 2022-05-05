@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountBillingPlan Class Doc Comment
  *
  * @category    Class
  * @description Contains information about an account billing plan.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,13 +60,13 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'add_ons' => '\DocuSign\eSign\Model\AddOn[]',
+        'add_ons' => '\DocuSign\Model\AddOn[]',
         'app_store_receipt_expiration_date' => '?string',
         'app_store_receipt_purchase_date' => '?string',
         'can_cancel_renewal' => '?string',
         'can_upgrade' => '?string',
         'currency_code' => '?string',
-        'downgrade_plan_information' => '\DocuSign\eSign\Model\DowngradePlanUpdateResponse',
+        'downgrade_plan_information' => '\DocuSign\Model\DowngradePlanUpdateResponse',
         'enable_support' => '?string',
         'included_seats' => '?string',
         'incremental_seats' => '?string',
@@ -77,14 +77,14 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
         'payment_method' => '?string',
         'per_seat_price' => '?string',
         'plan_classification' => '?string',
-        'plan_feature_sets' => '\DocuSign\eSign\Model\FeatureSet[]',
+        'plan_feature_sets' => '\DocuSign\Model\FeatureSet[]',
         'plan_id' => '?string',
         'plan_name' => '?string',
         'plan_start_date' => '?string',
         'product_id' => '?string',
         'renewal_date' => '?string',
         'renewal_status' => '?string',
-        'seat_discounts' => '\DocuSign\eSign\Model\SeatDiscount[]',
+        'seat_discounts' => '\DocuSign\Model\SeatDiscount[]',
         'subscription_start_date' => '?string',
         'support_incident_fee' => '?string',
         'support_plan_fee' => '?string',
@@ -378,7 +378,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets add_ons
      *
-     * @return \DocuSign\eSign\Model\AddOn[]
+     * @return \DocuSign\Model\AddOn[]
      */
     public function getAddOns()
     {
@@ -388,7 +388,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets add_ons
      *
-     * @param \DocuSign\eSign\Model\AddOn[] $add_ons Reserved:
+     * @param \DocuSign\Model\AddOn[] $add_ons Reserved:
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets downgrade_plan_information
      *
-     * @return \DocuSign\eSign\Model\DowngradePlanUpdateResponse
+     * @return \DocuSign\Model\DowngradePlanUpdateResponse
      */
     public function getDowngradePlanInformation()
     {
@@ -532,7 +532,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets downgrade_plan_information
      *
-     * @param \DocuSign\eSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
+     * @param \DocuSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
      *
      * @return $this
      */
@@ -786,7 +786,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets plan_feature_sets
      *
-     * @return \DocuSign\eSign\Model\FeatureSet[]
+     * @return \DocuSign\Model\FeatureSet[]
      */
     public function getPlanFeatureSets()
     {
@@ -796,7 +796,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets plan_feature_sets
      *
-     * @param \DocuSign\eSign\Model\FeatureSet[] $plan_feature_sets A complex type that sets the feature sets for the account. It contains the following information (all string content):  * currencyFeatureSetPrices - Contains the currencyCode and currencySymbol for the alternate currency values for envelopeFee, fixedFee, seatFee that are configured for this plan feature set. * envelopeFee - An incremental envelope cost for plans with envelope overages (when isEnabled=true). * featureSetId - A unique ID for the feature set. * fixedFee - A one-time fee associated with the plan (when isEnabled=true). * isActive - Specifies whether the feature set is actively set as part of the plan. * isEnabled - Specifies whether the feature set is actively enabled as part of the plan. * name - The name of the feature set. * seatFee - An incremental seat cost for seat-based plans (when isEnabled=true).
+     * @param \DocuSign\Model\FeatureSet[] $plan_feature_sets A complex type that sets the feature sets for the account. It contains the following information (all string content):  * currencyFeatureSetPrices - Contains the currencyCode and currencySymbol for the alternate currency values for envelopeFee, fixedFee, seatFee that are configured for this plan feature set. * envelopeFee - An incremental envelope cost for plans with envelope overages (when isEnabled=true). * featureSetId - A unique ID for the feature set. * fixedFee - A one-time fee associated with the plan (when isEnabled=true). * isActive - Specifies whether the feature set is actively set as part of the plan. * isEnabled - Specifies whether the feature set is actively enabled as part of the plan. * name - The name of the feature set. * seatFee - An incremental seat cost for seat-based plans (when isEnabled=true).
      *
      * @return $this
      */
@@ -954,7 +954,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets seat_discounts
      *
-     * @return \DocuSign\eSign\Model\SeatDiscount[]
+     * @return \DocuSign\Model\SeatDiscount[]
      */
     public function getSeatDiscounts()
     {
@@ -964,7 +964,7 @@ class AccountBillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets seat_discounts
      *
-     * @param \DocuSign\eSign\Model\SeatDiscount[] $seat_discounts A complex type that contains any seat discount information.  Values are: BeginSeatCount, EndSeatCount, and SeatDiscountPercent.
+     * @param \DocuSign\Model\SeatDiscount[] $seat_discounts A complex type that contains any seat discount information.  Values are: BeginSeatCount, EndSeatCount, and SeatDiscountPercent.
      *
      * @return $this
      */

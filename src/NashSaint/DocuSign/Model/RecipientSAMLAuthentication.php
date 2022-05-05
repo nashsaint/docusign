@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
 
@@ -36,7 +36,7 @@ use \ArrayAccess;
  *
  * @category    Class
  * @description Contains the name/value pair information for the SAML assertion attributes:  * name - The name of the SAML assertion attribute. * value - The value associated with the named SAML assertion attribute.   Your account must be set up to use SSO to use this.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -55,7 +55,7 @@ class RecipientSAMLAuthentication implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'saml_assertion_attributes' => '\DocuSign\eSign\Model\SamlAssertionAttribute[]'
+        'saml_assertion_attributes' => '\DocuSign\Model\SamlAssertionAttribute[]'
     ];
 
     public static function swaggerTypes()
@@ -148,7 +148,7 @@ class RecipientSAMLAuthentication implements ArrayAccess
 
     /**
      * Gets saml_assertion_attributes
-     * @return \DocuSign\eSign\Model\SamlAssertionAttribute[]
+     * @return \DocuSign\Model\SamlAssertionAttribute[]
      */
     public function getSamlAssertionAttributes()
     {
@@ -157,7 +157,7 @@ class RecipientSAMLAuthentication implements ArrayAccess
 
     /**
      * Sets saml_assertion_attributes
-     * @param \DocuSign\eSign\Model\SamlAssertionAttribute[] $saml_assertion_attributes
+     * @param \DocuSign\Model\SamlAssertionAttribute[] $saml_assertion_attributes
      * @return $this
      */
     public function setSamlAssertionAttributes($saml_assertion_attributes)
@@ -218,10 +218,10 @@ class RecipientSAMLAuthentication implements ArrayAccess
     public function __toString()
     {
         if (defined('JSON_PRETTY_PRINT')) { // use JSON pretty print
-            return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
+            return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this), JSON_PRETTY_PRINT);
         }
 
-        return json_encode(\DocuSign\eSign\ObjectSerializer::sanitizeForSerialization($this));
+        return json_encode(\DocuSign\ObjectSerializer::sanitizeForSerialization($this));
     }
 }
 

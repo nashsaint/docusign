@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * IdCheckConfiguration Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class IdCheckConfiguration implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'auth_steps' => '\DocuSign\eSign\Model\IdCheckSecurityStep[]',
+        'auth_steps' => '\DocuSign\Model\IdCheckSecurityStep[]',
         'is_default' => '?string',
         'name' => '?string'
     ];
@@ -221,7 +221,7 @@ class IdCheckConfiguration implements ModelInterface, ArrayAccess
     /**
      * Gets auth_steps
      *
-     * @return \DocuSign\eSign\Model\IdCheckSecurityStep[]
+     * @return \DocuSign\Model\IdCheckSecurityStep[]
      */
     public function getAuthSteps()
     {
@@ -231,7 +231,7 @@ class IdCheckConfiguration implements ModelInterface, ArrayAccess
     /**
      * Sets auth_steps
      *
-     * @param \DocuSign\eSign\Model\IdCheckSecurityStep[] $auth_steps
+     * @param \DocuSign\Model\IdCheckSecurityStep[] $auth_steps
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlanPreview Class Doc Comment
  *
  * @category    Class
  * @description Contains information about a preview billing plan.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class BillingPlanPreview implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'currency_code' => '?string',
-        'invoice' => '\DocuSign\eSign\Model\BillingInvoice',
+        'invoice' => '\DocuSign\Model\BillingInvoice',
         'is_prorated' => '?string',
         'subtotal_amount' => '?string',
         'tax_amount' => '?string',
@@ -264,7 +264,7 @@ class BillingPlanPreview implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \DocuSign\eSign\Model\BillingInvoice
+     * @return \DocuSign\Model\BillingInvoice
      */
     public function getInvoice()
     {
@@ -274,7 +274,7 @@ class BillingPlanPreview implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \DocuSign\eSign\Model\BillingInvoice $invoice invoice
+     * @param \DocuSign\Model\BillingInvoice $invoice invoice
      *
      * @return $this
      */

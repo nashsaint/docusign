@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserPasswordInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class UserPasswordInformation implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'current_password' => '?string',
         'email' => '?string',
-        'forgotten_password_info' => '\DocuSign\eSign\Model\ForgottenPasswordInformation',
+        'forgotten_password_info' => '\DocuSign\Model\ForgottenPasswordInformation',
         'new_password' => '?string'
     ];
 
@@ -275,7 +275,7 @@ class UserPasswordInformation implements ModelInterface, ArrayAccess
     /**
      * Gets forgotten_password_info
      *
-     * @return \DocuSign\eSign\Model\ForgottenPasswordInformation
+     * @return \DocuSign\Model\ForgottenPasswordInformation
      */
     public function getForgottenPasswordInfo()
     {
@@ -285,7 +285,7 @@ class UserPasswordInformation implements ModelInterface, ArrayAccess
     /**
      * Sets forgotten_password_info
      *
-     * @param \DocuSign\eSign\Model\ForgottenPasswordInformation $forgotten_password_info forgotten_password_info
+     * @param \DocuSign\Model\ForgottenPasswordInformation $forgotten_password_info forgotten_password_info
      *
      * @return $this
      */

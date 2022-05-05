@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AuthenticationStatus Class Doc Comment
  *
  * @category    Class
  * @description Contains information about the authentication status.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,25 +60,25 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'access_code_result' => '\DocuSign\eSign\Model\EventResult',
-        'age_verify_result' => '\DocuSign\eSign\Model\EventResult',
-        'any_social_id_result' => '\DocuSign\eSign\Model\EventResult',
-        'facebook_result' => '\DocuSign\eSign\Model\EventResult',
-        'google_result' => '\DocuSign\eSign\Model\EventResult',
-        'identity_verification_result' => '\DocuSign\eSign\Model\EventResult',
-        'id_lookup_result' => '\DocuSign\eSign\Model\EventResult',
-        'id_questions_result' => '\DocuSign\eSign\Model\EventResult',
-        'linkedin_result' => '\DocuSign\eSign\Model\EventResult',
-        'live_id_result' => '\DocuSign\eSign\Model\EventResult',
-        'ofac_result' => '\DocuSign\eSign\Model\EventResult',
-        'open_id_result' => '\DocuSign\eSign\Model\EventResult',
-        'phone_auth_result' => '\DocuSign\eSign\Model\EventResult',
-        'salesforce_result' => '\DocuSign\eSign\Model\EventResult',
-        'signature_provider_result' => '\DocuSign\eSign\Model\EventResult',
-        'sms_auth_result' => '\DocuSign\eSign\Model\EventResult',
-        's_tan_pin_result' => '\DocuSign\eSign\Model\EventResult',
-        'twitter_result' => '\DocuSign\eSign\Model\EventResult',
-        'yahoo_result' => '\DocuSign\eSign\Model\EventResult'
+        'access_code_result' => '\DocuSign\Model\EventResult',
+        'age_verify_result' => '\DocuSign\Model\EventResult',
+        'any_social_id_result' => '\DocuSign\Model\EventResult',
+        'facebook_result' => '\DocuSign\Model\EventResult',
+        'google_result' => '\DocuSign\Model\EventResult',
+        'identity_verification_result' => '\DocuSign\Model\EventResult',
+        'id_lookup_result' => '\DocuSign\Model\EventResult',
+        'id_questions_result' => '\DocuSign\Model\EventResult',
+        'linkedin_result' => '\DocuSign\Model\EventResult',
+        'live_id_result' => '\DocuSign\Model\EventResult',
+        'ofac_result' => '\DocuSign\Model\EventResult',
+        'open_id_result' => '\DocuSign\Model\EventResult',
+        'phone_auth_result' => '\DocuSign\Model\EventResult',
+        'salesforce_result' => '\DocuSign\Model\EventResult',
+        'signature_provider_result' => '\DocuSign\Model\EventResult',
+        'sms_auth_result' => '\DocuSign\Model\EventResult',
+        's_tan_pin_result' => '\DocuSign\Model\EventResult',
+        'twitter_result' => '\DocuSign\Model\EventResult',
+        'yahoo_result' => '\DocuSign\Model\EventResult'
     ];
 
     /**
@@ -318,7 +318,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets access_code_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getAccessCodeResult()
     {
@@ -328,7 +328,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets access_code_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $access_code_result access_code_result
+     * @param \DocuSign\Model\EventResult $access_code_result access_code_result
      *
      * @return $this
      */
@@ -342,7 +342,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets age_verify_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getAgeVerifyResult()
     {
@@ -352,7 +352,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets age_verify_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $age_verify_result age_verify_result
+     * @param \DocuSign\Model\EventResult $age_verify_result age_verify_result
      *
      * @return $this
      */
@@ -366,7 +366,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets any_social_id_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getAnySocialIdResult()
     {
@@ -376,7 +376,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets any_social_id_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $any_social_id_result any_social_id_result
+     * @param \DocuSign\Model\EventResult $any_social_id_result any_social_id_result
      *
      * @return $this
      */
@@ -390,7 +390,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets facebook_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getFacebookResult()
     {
@@ -400,7 +400,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets facebook_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $facebook_result facebook_result
+     * @param \DocuSign\Model\EventResult $facebook_result facebook_result
      *
      * @return $this
      */
@@ -414,7 +414,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets google_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getGoogleResult()
     {
@@ -424,7 +424,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets google_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $google_result google_result
+     * @param \DocuSign\Model\EventResult $google_result google_result
      *
      * @return $this
      */
@@ -438,7 +438,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets identity_verification_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getIdentityVerificationResult()
     {
@@ -448,7 +448,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets identity_verification_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $identity_verification_result identity_verification_result
+     * @param \DocuSign\Model\EventResult $identity_verification_result identity_verification_result
      *
      * @return $this
      */
@@ -462,7 +462,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets id_lookup_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getIdLookupResult()
     {
@@ -472,7 +472,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets id_lookup_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $id_lookup_result id_lookup_result
+     * @param \DocuSign\Model\EventResult $id_lookup_result id_lookup_result
      *
      * @return $this
      */
@@ -486,7 +486,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets id_questions_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getIdQuestionsResult()
     {
@@ -496,7 +496,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets id_questions_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $id_questions_result id_questions_result
+     * @param \DocuSign\Model\EventResult $id_questions_result id_questions_result
      *
      * @return $this
      */
@@ -510,7 +510,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets linkedin_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getLinkedinResult()
     {
@@ -520,7 +520,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets linkedin_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $linkedin_result linkedin_result
+     * @param \DocuSign\Model\EventResult $linkedin_result linkedin_result
      *
      * @return $this
      */
@@ -534,7 +534,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets live_id_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getLiveIdResult()
     {
@@ -544,7 +544,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets live_id_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $live_id_result live_id_result
+     * @param \DocuSign\Model\EventResult $live_id_result live_id_result
      *
      * @return $this
      */
@@ -558,7 +558,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets ofac_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getOfacResult()
     {
@@ -568,7 +568,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets ofac_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $ofac_result ofac_result
+     * @param \DocuSign\Model\EventResult $ofac_result ofac_result
      *
      * @return $this
      */
@@ -582,7 +582,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets open_id_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getOpenIdResult()
     {
@@ -592,7 +592,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets open_id_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $open_id_result open_id_result
+     * @param \DocuSign\Model\EventResult $open_id_result open_id_result
      *
      * @return $this
      */
@@ -606,7 +606,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets phone_auth_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getPhoneAuthResult()
     {
@@ -616,7 +616,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets phone_auth_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $phone_auth_result phone_auth_result
+     * @param \DocuSign\Model\EventResult $phone_auth_result phone_auth_result
      *
      * @return $this
      */
@@ -630,7 +630,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets salesforce_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getSalesforceResult()
     {
@@ -640,7 +640,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets salesforce_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $salesforce_result salesforce_result
+     * @param \DocuSign\Model\EventResult $salesforce_result salesforce_result
      *
      * @return $this
      */
@@ -654,7 +654,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getSignatureProviderResult()
     {
@@ -664,7 +664,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $signature_provider_result signature_provider_result
+     * @param \DocuSign\Model\EventResult $signature_provider_result signature_provider_result
      *
      * @return $this
      */
@@ -678,7 +678,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets sms_auth_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getSmsAuthResult()
     {
@@ -688,7 +688,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets sms_auth_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $sms_auth_result sms_auth_result
+     * @param \DocuSign\Model\EventResult $sms_auth_result sms_auth_result
      *
      * @return $this
      */
@@ -702,7 +702,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets s_tan_pin_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getSTanPinResult()
     {
@@ -712,7 +712,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets s_tan_pin_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $s_tan_pin_result s_tan_pin_result
+     * @param \DocuSign\Model\EventResult $s_tan_pin_result s_tan_pin_result
      *
      * @return $this
      */
@@ -726,7 +726,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets twitter_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getTwitterResult()
     {
@@ -736,7 +736,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets twitter_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $twitter_result twitter_result
+     * @param \DocuSign\Model\EventResult $twitter_result twitter_result
      *
      * @return $this
      */
@@ -750,7 +750,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Gets yahoo_result
      *
-     * @return \DocuSign\eSign\Model\EventResult
+     * @return \DocuSign\Model\EventResult
      */
     public function getYahooResult()
     {
@@ -760,7 +760,7 @@ class AuthenticationStatus implements ModelInterface, ArrayAccess
     /**
      * Sets yahoo_result
      *
-     * @param \DocuSign\eSign\Model\EventResult $yahoo_result yahoo_result
+     * @param \DocuSign\Model\EventResult $yahoo_result yahoo_result
      *
      * @return $this
      */

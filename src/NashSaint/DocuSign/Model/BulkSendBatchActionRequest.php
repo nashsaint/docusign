@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkSendBatchActionRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class BulkSendBatchActionRequest implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'action' => '?string',
-        'notification' => '\DocuSign\eSign\Model\Notification',
+        'notification' => '\DocuSign\Model\Notification',
         'void_reason' => '?string'
     ];
 
@@ -245,7 +245,7 @@ class BulkSendBatchActionRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notification
      *
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function getNotification()
     {
@@ -255,7 +255,7 @@ class BulkSendBatchActionRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notification
      *
-     * @param \DocuSign\eSign\Model\Notification $notification notification
+     * @param \DocuSign\Model\Notification $notification notification
      *
      * @return $this
      */

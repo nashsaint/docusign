@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPaymentsResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines a billing payments response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class BillingPaymentsResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_payments' => '\DocuSign\eSign\Model\BillingPaymentItem[]',
+        'billing_payments' => '\DocuSign\Model\BillingPaymentItem[]',
         'next_uri' => '?string',
         'previous_uri' => '?string'
     ];
@@ -222,7 +222,7 @@ class BillingPaymentsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_payments
      *
-     * @return \DocuSign\eSign\Model\BillingPaymentItem[]
+     * @return \DocuSign\Model\BillingPaymentItem[]
      */
     public function getBillingPayments()
     {
@@ -232,7 +232,7 @@ class BillingPaymentsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_payments
      *
-     * @param \DocuSign\eSign\Model\BillingPaymentItem[] $billing_payments Reserved: TBD
+     * @param \DocuSign\Model\BillingPaymentItem[] $billing_payments Reserved: TBD
      *
      * @return $this
      */

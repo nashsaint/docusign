@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspaceUserAuthorization Class Doc Comment
  *
  * @category    Class
  * @description Provides properties that describe user authorization to a workspace.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -66,11 +66,11 @@ class WorkspaceUserAuthorization implements ModelInterface, ArrayAccess
         'can_view' => '?string',
         'created' => '?string',
         'created_by_id' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'modified' => '?string',
         'modified_by_id' => '?string',
         'workspace_user_id' => '?string',
-        'workspace_user_information' => '\DocuSign\eSign\Model\WorkspaceUser'
+        'workspace_user_information' => '\DocuSign\Model\WorkspaceUser'
     ];
 
     /**
@@ -414,7 +414,7 @@ class WorkspaceUserAuthorization implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -424,7 +424,7 @@ class WorkspaceUserAuthorization implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -510,7 +510,7 @@ class WorkspaceUserAuthorization implements ModelInterface, ArrayAccess
     /**
      * Gets workspace_user_information
      *
-     * @return \DocuSign\eSign\Model\WorkspaceUser
+     * @return \DocuSign\Model\WorkspaceUser
      */
     public function getWorkspaceUserInformation()
     {
@@ -520,7 +520,7 @@ class WorkspaceUserAuthorization implements ModelInterface, ArrayAccess
     /**
      * Sets workspace_user_information
      *
-     * @param \DocuSign\eSign\Model\WorkspaceUser $workspace_user_information workspace_user_information
+     * @param \DocuSign\Model\WorkspaceUser $workspace_user_information workspace_user_information
      *
      * @return $this
      */

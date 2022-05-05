@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DowngradRequestBillingInfoResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class DowngradRequestBillingInfoResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'downgrade_plan_information' => '\DocuSign\eSign\Model\DowngradePlanUpdateResponse',
+        'downgrade_plan_information' => '\DocuSign\Model\DowngradePlanUpdateResponse',
         'payment_method' => '?string'
     ];
 
@@ -215,7 +215,7 @@ class DowngradRequestBillingInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets downgrade_plan_information
      *
-     * @return \DocuSign\eSign\Model\DowngradePlanUpdateResponse
+     * @return \DocuSign\Model\DowngradePlanUpdateResponse
      */
     public function getDowngradePlanInformation()
     {
@@ -225,7 +225,7 @@ class DowngradRequestBillingInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets downgrade_plan_information
      *
-     * @param \DocuSign\eSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
+     * @param \DocuSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
      *
      * @return $this
      */

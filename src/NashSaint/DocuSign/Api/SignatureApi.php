@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -29,22 +29,22 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\SignatureApi;
+namespace NashSaint\DocuSign\Api\SignatureApi;
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * SignatureApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -115,11 +115,11 @@ class SignatureApi
      *
      * Complete Sign Hash
      *
-     * @param \DocuSign\eSign\Model\CompleteSignRequest $complete_sign_request  (optional)
+     * @param \DocuSign\Model\CompleteSignRequest $complete_sign_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CompleteSignHashResponse
+     * @return \DocuSign\Model\CompleteSignHashResponse
      */
-    public function completeSignHash($complete_sign_request = null): \DocuSign\eSign\Model\CompleteSignHashResponse
+    public function completeSignHash($complete_sign_request = null): \DocuSign\Model\CompleteSignHashResponse
     {
         list($response) = $this->completeSignHashWithHttpInfo($complete_sign_request);
         return $response;
@@ -130,9 +130,9 @@ class SignatureApi
      *
      * Complete Sign Hash
      *
-     * @param \DocuSign\eSign\Model\CompleteSignRequest $complete_sign_request  (optional)
+     * @param \DocuSign\Model\CompleteSignRequest $complete_sign_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CompleteSignHashResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CompleteSignHashResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function completeSignHashWithHttpInfo($complete_sign_request = null): array
     {
@@ -171,19 +171,19 @@ class SignatureApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CompleteSignHashResponse',
+                '\DocuSign\Model\CompleteSignHashResponse',
                 '/v2.1/signature/completesignhash'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CompleteSignHashResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CompleteSignHashResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CompleteSignHashResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CompleteSignHashResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -198,9 +198,9 @@ class SignatureApi
      * Get User Info To Sign Document
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\UserInfoResponse
+     * @return \DocuSign\Model\UserInfoResponse
      */
-    public function getUserInfo(): \DocuSign\eSign\Model\UserInfoResponse
+    public function getUserInfo(): \DocuSign\Model\UserInfoResponse
     {
         list($response) = $this->getUserInfoWithHttpInfo();
         return $response;
@@ -212,7 +212,7 @@ class SignatureApi
      * Get User Info To Sign Document
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\UserInfoResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\UserInfoResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUserInfoWithHttpInfo(): array
     {
@@ -246,19 +246,19 @@ class SignatureApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\UserInfoResponse',
+                '\DocuSign\Model\UserInfoResponse',
                 '/v2.1/signature/userInfo'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\UserInfoResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\UserInfoResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\UserInfoResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\UserInfoResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -272,7 +272,7 @@ class SignatureApi
      *
      * Report status from the TSP to DocuSign
      *
-     * @param \DocuSign\eSign\Model\TspHealthCheckRequest $tsp_health_check_request  (optional)
+     * @param \DocuSign\Model\TspHealthCheckRequest $tsp_health_check_request  (optional)
      * @throws ApiException on non-2xx response
      * @return mixed
      */
@@ -287,7 +287,7 @@ class SignatureApi
      *
      * Report status from the TSP to DocuSign
      *
-     * @param \DocuSign\eSign\Model\TspHealthCheckRequest $tsp_health_check_request  (optional)
+     * @param \DocuSign\Model\TspHealthCheckRequest $tsp_health_check_request  (optional)
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -336,7 +336,7 @@ class SignatureApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -350,11 +350,11 @@ class SignatureApi
      *
      * Get Signature Session Info To Sign Document Hash
      *
-     * @param \DocuSign\eSign\Model\SignSessionInfoRequest $sign_session_info_request  (optional)
+     * @param \DocuSign\Model\SignSessionInfoRequest $sign_session_info_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\SignHashSessionInfoResponse
+     * @return \DocuSign\Model\SignHashSessionInfoResponse
      */
-    public function signHashSessionInfo($sign_session_info_request = null): \DocuSign\eSign\Model\SignHashSessionInfoResponse
+    public function signHashSessionInfo($sign_session_info_request = null): \DocuSign\Model\SignHashSessionInfoResponse
     {
         list($response) = $this->signHashSessionInfoWithHttpInfo($sign_session_info_request);
         return $response;
@@ -365,9 +365,9 @@ class SignatureApi
      *
      * Get Signature Session Info To Sign Document Hash
      *
-     * @param \DocuSign\eSign\Model\SignSessionInfoRequest $sign_session_info_request  (optional)
+     * @param \DocuSign\Model\SignSessionInfoRequest $sign_session_info_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\SignHashSessionInfoResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\SignHashSessionInfoResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function signHashSessionInfoWithHttpInfo($sign_session_info_request = null): array
     {
@@ -406,19 +406,19 @@ class SignatureApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\SignHashSessionInfoResponse',
+                '\DocuSign\Model\SignHashSessionInfoResponse',
                 '/v2.1/signature/signhashsessioninfo'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\SignHashSessionInfoResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\SignHashSessionInfoResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\SignHashSessionInfoResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\SignHashSessionInfoResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -432,11 +432,11 @@ class SignatureApi
      *
      * Report an error from the tsp to docusign
      *
-     * @param \DocuSign\eSign\Model\UpdateTransactionRequest $update_transaction_request  (optional)
+     * @param \DocuSign\Model\UpdateTransactionRequest $update_transaction_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\UpdateTransactionResponse
+     * @return \DocuSign\Model\UpdateTransactionResponse
      */
-    public function updateTransaction($update_transaction_request = null): \DocuSign\eSign\Model\UpdateTransactionResponse
+    public function updateTransaction($update_transaction_request = null): \DocuSign\Model\UpdateTransactionResponse
     {
         list($response) = $this->updateTransactionWithHttpInfo($update_transaction_request);
         return $response;
@@ -447,9 +447,9 @@ class SignatureApi
      *
      * Report an error from the tsp to docusign
      *
-     * @param \DocuSign\eSign\Model\UpdateTransactionRequest $update_transaction_request  (optional)
+     * @param \DocuSign\Model\UpdateTransactionRequest $update_transaction_request  (optional)
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\UpdateTransactionResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\UpdateTransactionResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTransactionWithHttpInfo($update_transaction_request = null): array
     {
@@ -488,19 +488,19 @@ class SignatureApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\UpdateTransactionResponse',
+                '\DocuSign\Model\UpdateTransactionResponse',
                 '/v2.1/signature/updatetransaction'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\UpdateTransactionResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\UpdateTransactionResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\UpdateTransactionResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\UpdateTransactionResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

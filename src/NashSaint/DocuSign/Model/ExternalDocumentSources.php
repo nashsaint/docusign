@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ExternalDocumentSources Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,15 +60,15 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'boxnet_enabled' => '?string',
-        'boxnet_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'boxnet_metadata' => '\DocuSign\Model\SettingsMetadata',
         'dropbox_enabled' => '?string',
-        'dropbox_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'dropbox_metadata' => '\DocuSign\Model\SettingsMetadata',
         'google_drive_enabled' => '?string',
-        'google_drive_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'google_drive_metadata' => '\DocuSign\Model\SettingsMetadata',
         'one_drive_enabled' => '?string',
-        'one_drive_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'one_drive_metadata' => '\DocuSign\Model\SettingsMetadata',
         'salesforce_enabled' => '?string',
-        'salesforce_metadata' => '\DocuSign\eSign\Model\SettingsMetadata'
+        'salesforce_metadata' => '\DocuSign\Model\SettingsMetadata'
     ];
 
     /**
@@ -287,7 +287,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Gets boxnet_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getBoxnetMetadata()
     {
@@ -297,7 +297,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Sets boxnet_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $boxnet_metadata boxnet_metadata
+     * @param \DocuSign\Model\SettingsMetadata $boxnet_metadata boxnet_metadata
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Gets dropbox_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getDropboxMetadata()
     {
@@ -345,7 +345,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Sets dropbox_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $dropbox_metadata dropbox_metadata
+     * @param \DocuSign\Model\SettingsMetadata $dropbox_metadata dropbox_metadata
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Gets google_drive_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getGoogleDriveMetadata()
     {
@@ -393,7 +393,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Sets google_drive_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $google_drive_metadata google_drive_metadata
+     * @param \DocuSign\Model\SettingsMetadata $google_drive_metadata google_drive_metadata
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Gets one_drive_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getOneDriveMetadata()
     {
@@ -441,7 +441,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Sets one_drive_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $one_drive_metadata one_drive_metadata
+     * @param \DocuSign\Model\SettingsMetadata $one_drive_metadata one_drive_metadata
      *
      * @return $this
      */
@@ -479,7 +479,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Gets salesforce_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getSalesforceMetadata()
     {
@@ -489,7 +489,7 @@ class ExternalDocumentSources implements ModelInterface, ArrayAccess
     /**
      * Sets salesforce_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $salesforce_metadata salesforce_metadata
+     * @param \DocuSign\Model\SettingsMetadata $salesforce_metadata salesforce_metadata
      *
      * @return $this
      */

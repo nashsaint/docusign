@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountIdentityVerificationResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class AccountIdentityVerificationResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'identity_verification' => '\DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[]'
+        'identity_verification' => '\DocuSign\Model\AccountIdentityVerificationWorkflow[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class AccountIdentityVerificationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets identity_verification
      *
-     * @return \DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[]
+     * @return \DocuSign\Model\AccountIdentityVerificationWorkflow[]
      */
     public function getIdentityVerification()
     {
@@ -219,7 +219,7 @@ class AccountIdentityVerificationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets identity_verification
      *
-     * @param \DocuSign\eSign\Model\AccountIdentityVerificationWorkflow[] $identity_verification
+     * @param \DocuSign\Model\AccountIdentityVerificationWorkflow[] $identity_verification
      *
      * @return $this
      */

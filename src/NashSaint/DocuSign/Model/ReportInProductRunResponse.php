@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ReportInProductRunResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,7 +63,7 @@ class ReportInProductRunResponse implements ModelInterface, ArrayAccess
         'exceeded_max_results' => '?string',
         'last_warehouse_refresh_date_time' => '?string',
         'result_set_size' => '?string',
-        'rows' => '\DocuSign\eSign\Model\ReportInProductRunResponseRow[]',
+        'rows' => '\DocuSign\Model\ReportInProductRunResponseRow[]',
         'start_position' => '?string',
         'total_set_size' => '?string'
     ];
@@ -341,7 +341,7 @@ class ReportInProductRunResponse implements ModelInterface, ArrayAccess
     /**
      * Gets rows
      *
-     * @return \DocuSign\eSign\Model\ReportInProductRunResponseRow[]
+     * @return \DocuSign\Model\ReportInProductRunResponseRow[]
      */
     public function getRows()
     {
@@ -351,7 +351,7 @@ class ReportInProductRunResponse implements ModelInterface, ArrayAccess
     /**
      * Sets rows
      *
-     * @param \DocuSign\eSign\Model\ReportInProductRunResponseRow[] $rows
+     * @param \DocuSign\Model\ReportInProductRunResponseRow[] $rows
      *
      * @return $this
      */

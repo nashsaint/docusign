@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkflowStep Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class WorkflowStep implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'action' => '?string',
         'completed_date' => '?string',
-        'delayed_routing' => '\DocuSign\eSign\Model\DelayedRouting',
+        'delayed_routing' => '\DocuSign\Model\DelayedRouting',
         'item_id' => '?string',
-        'recipient_routing' => '\DocuSign\eSign\Model\RecipientRouting',
+        'recipient_routing' => '\DocuSign\Model\RecipientRouting',
         'status' => '?string',
         'triggered_date' => '?string',
         'trigger_on_item' => '?string',
@@ -305,7 +305,7 @@ class WorkflowStep implements ModelInterface, ArrayAccess
     /**
      * Gets delayed_routing
      *
-     * @return \DocuSign\eSign\Model\DelayedRouting
+     * @return \DocuSign\Model\DelayedRouting
      */
     public function getDelayedRouting()
     {
@@ -315,7 +315,7 @@ class WorkflowStep implements ModelInterface, ArrayAccess
     /**
      * Sets delayed_routing
      *
-     * @param \DocuSign\eSign\Model\DelayedRouting $delayed_routing delayed_routing
+     * @param \DocuSign\Model\DelayedRouting $delayed_routing delayed_routing
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class WorkflowStep implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_routing
      *
-     * @return \DocuSign\eSign\Model\RecipientRouting
+     * @return \DocuSign\Model\RecipientRouting
      */
     public function getRecipientRouting()
     {
@@ -363,7 +363,7 @@ class WorkflowStep implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_routing
      *
-     * @param \DocuSign\eSign\Model\RecipientRouting $recipient_routing recipient_routing
+     * @param \DocuSign\Model\RecipientRouting $recipient_routing recipient_routing
      *
      * @return $this
      */

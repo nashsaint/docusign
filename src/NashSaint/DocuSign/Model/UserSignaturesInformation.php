@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserSignaturesInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class UserSignaturesInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'user_signatures' => '\DocuSign\eSign\Model\UserSignature[]'
+        'user_signatures' => '\DocuSign\Model\UserSignature[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class UserSignaturesInformation implements ModelInterface, ArrayAccess
     /**
      * Gets user_signatures
      *
-     * @return \DocuSign\eSign\Model\UserSignature[]
+     * @return \DocuSign\Model\UserSignature[]
      */
     public function getUserSignatures()
     {
@@ -219,7 +219,7 @@ class UserSignaturesInformation implements ModelInterface, ArrayAccess
     /**
      * Sets user_signatures
      *
-     * @param \DocuSign\eSign\Model\UserSignature[] $user_signatures
+     * @param \DocuSign\Model\UserSignature[] $user_signatures
      *
      * @return $this
      */

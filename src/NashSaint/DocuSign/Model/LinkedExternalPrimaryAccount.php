@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * LinkedExternalPrimaryAccount Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,7 +64,7 @@ class LinkedExternalPrimaryAccount implements ModelInterface, ArrayAccess
         'email' => '?string',
         'link_id' => '?string',
         'pdf_field_handling_option' => '?string',
-        'recipient_auth_requirements' => '\DocuSign\eSign\Model\ExternalPrimaryAccountRecipientAuthRequirements',
+        'recipient_auth_requirements' => '\DocuSign\Model\ExternalPrimaryAccountRecipientAuthRequirements',
         'status' => '?string',
         'user_id' => '?string'
     ];
@@ -371,7 +371,7 @@ class LinkedExternalPrimaryAccount implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_auth_requirements
      *
-     * @return \DocuSign\eSign\Model\ExternalPrimaryAccountRecipientAuthRequirements
+     * @return \DocuSign\Model\ExternalPrimaryAccountRecipientAuthRequirements
      */
     public function getRecipientAuthRequirements()
     {
@@ -381,7 +381,7 @@ class LinkedExternalPrimaryAccount implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_auth_requirements
      *
-     * @param \DocuSign\eSign\Model\ExternalPrimaryAccountRecipientAuthRequirements $recipient_auth_requirements recipient_auth_requirements
+     * @param \DocuSign\Model\ExternalPrimaryAccountRecipientAuthRequirements $recipient_auth_requirements recipient_auth_requirements
      *
      * @return $this
      */

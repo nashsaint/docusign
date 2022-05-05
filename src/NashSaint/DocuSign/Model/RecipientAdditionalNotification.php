@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientAdditionalNotification Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,9 +59,9 @@ class RecipientAdditionalNotification implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'phone_number' => '\DocuSign\eSign\Model\RecipientPhoneNumber',
+        'phone_number' => '\DocuSign\Model\RecipientPhoneNumber',
         'secondary_delivery_method' => '?string',
-        'secondary_delivery_method_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'secondary_delivery_method_metadata' => '\DocuSign\Model\PropertyMetadata',
         'secondary_delivery_status' => '?string'
     ];
 
@@ -227,7 +227,7 @@ class RecipientAdditionalNotification implements ModelInterface, ArrayAccess
     /**
      * Gets phone_number
      *
-     * @return \DocuSign\eSign\Model\RecipientPhoneNumber
+     * @return \DocuSign\Model\RecipientPhoneNumber
      */
     public function getPhoneNumber()
     {
@@ -237,7 +237,7 @@ class RecipientAdditionalNotification implements ModelInterface, ArrayAccess
     /**
      * Sets phone_number
      *
-     * @param \DocuSign\eSign\Model\RecipientPhoneNumber $phone_number phone_number
+     * @param \DocuSign\Model\RecipientPhoneNumber $phone_number phone_number
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class RecipientAdditionalNotification implements ModelInterface, ArrayAccess
     /**
      * Gets secondary_delivery_method_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSecondaryDeliveryMethodMetadata()
     {
@@ -285,7 +285,7 @@ class RecipientAdditionalNotification implements ModelInterface, ArrayAccess
     /**
      * Sets secondary_delivery_method_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $secondary_delivery_method_metadata secondary_delivery_method_metadata
+     * @param \DocuSign\Model\PropertyMetadata $secondary_delivery_method_metadata secondary_delivery_method_metadata
      *
      * @return $this
      */

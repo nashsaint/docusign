@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TabMetadata Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -86,11 +86,11 @@ class TabMetadata implements ModelInterface, ArrayAccess
         'last_modified' => '?string',
         'last_modified_by_display_name' => '?string',
         'last_modified_by_user_id' => '?string',
-        'locale_policy' => '\DocuSign\eSign\Model\LocalePolicyTab',
+        'locale_policy' => '\DocuSign\Model\LocalePolicyTab',
         'locked' => '?string',
         'maximum_length' => '?string',
         'max_numerical_value' => '?string',
-        'merge_field' => '\DocuSign\eSign\Model\MergeField',
+        'merge_field' => '\DocuSign\Model\MergeField',
         'min_numerical_value' => '?string',
         'name' => '?string',
         'numerical_value' => '?string',
@@ -104,7 +104,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
         'selected' => '?string',
         'shared' => '?string',
         'stamp_type' => '?string',
-        'stamp_type_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'stamp_type_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_label' => '?string',
         'type' => '?string',
         'underline' => '?string',
@@ -1163,7 +1163,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Gets locale_policy
      *
-     * @return \DocuSign\eSign\Model\LocalePolicyTab
+     * @return \DocuSign\Model\LocalePolicyTab
      */
     public function getLocalePolicy()
     {
@@ -1173,7 +1173,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Sets locale_policy
      *
-     * @param \DocuSign\eSign\Model\LocalePolicyTab $locale_policy locale_policy
+     * @param \DocuSign\Model\LocalePolicyTab $locale_policy locale_policy
      *
      * @return $this
      */
@@ -1259,7 +1259,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Gets merge_field
      *
-     * @return \DocuSign\eSign\Model\MergeField
+     * @return \DocuSign\Model\MergeField
      */
     public function getMergeField()
     {
@@ -1269,7 +1269,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Sets merge_field
      *
-     * @param \DocuSign\eSign\Model\MergeField $merge_field merge_field
+     * @param \DocuSign\Model\MergeField $merge_field merge_field
      *
      * @return $this
      */
@@ -1595,7 +1595,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Gets stamp_type_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getStampTypeMetadata()
     {
@@ -1605,7 +1605,7 @@ class TabMetadata implements ModelInterface, ArrayAccess
     /**
      * Sets stamp_type_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $stamp_type_metadata stamp_type_metadata
+     * @param \DocuSign\Model\PropertyMetadata $stamp_type_metadata stamp_type_metadata
      *
      * @return $this
      */

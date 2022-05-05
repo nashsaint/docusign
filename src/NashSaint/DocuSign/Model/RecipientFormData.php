@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientFormData Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class RecipientFormData implements ModelInterface, ArrayAccess
         'declined_time' => '?string',
         'delivered_time' => '?string',
         'email' => '?string',
-        'form_data' => '\DocuSign\eSign\Model\FormDataItem[]',
+        'form_data' => '\DocuSign\Model\FormDataItem[]',
         'name' => '?string',
         'recipient_id' => '?string',
         'sent_time' => '?string',
@@ -323,7 +323,7 @@ class RecipientFormData implements ModelInterface, ArrayAccess
     /**
      * Gets form_data
      *
-     * @return \DocuSign\eSign\Model\FormDataItem[]
+     * @return \DocuSign\Model\FormDataItem[]
      */
     public function getFormData()
     {
@@ -333,7 +333,7 @@ class RecipientFormData implements ModelInterface, ArrayAccess
     /**
      * Sets form_data
      *
-     * @param \DocuSign\eSign\Model\FormDataItem[] $form_data
+     * @param \DocuSign\Model\FormDataItem[] $form_data
      *
      * @return $this
      */

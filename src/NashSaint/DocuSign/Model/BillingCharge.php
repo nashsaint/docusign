@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingCharge Class Doc Comment
  *
  * @category    Class
  * @description Contains information about a billing charge.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -65,12 +65,12 @@ class BillingCharge implements ModelInterface, ArrayAccess
         'charge_name' => '?string',
         'charge_type' => '?string',
         'charge_unit_of_measure' => '?string',
-        'discounts' => '\DocuSign\eSign\Model\BillingDiscount[]',
+        'discounts' => '\DocuSign\Model\BillingDiscount[]',
         'first_effective_date' => '?string',
         'included_quantity' => '?string',
         'incremental_quantity' => '?string',
         'last_effective_date' => '?string',
-        'prices' => '\DocuSign\eSign\Model\BillingPrice[]',
+        'prices' => '\DocuSign\Model\BillingPrice[]',
         'unit_price' => '?string',
         'used_quantity' => '?string'
     ];
@@ -402,7 +402,7 @@ class BillingCharge implements ModelInterface, ArrayAccess
     /**
      * Gets discounts
      *
-     * @return \DocuSign\eSign\Model\BillingDiscount[]
+     * @return \DocuSign\Model\BillingDiscount[]
      */
     public function getDiscounts()
     {
@@ -412,7 +412,7 @@ class BillingCharge implements ModelInterface, ArrayAccess
     /**
      * Sets discounts
      *
-     * @param \DocuSign\eSign\Model\BillingDiscount[] $discounts
+     * @param \DocuSign\Model\BillingDiscount[] $discounts
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class BillingCharge implements ModelInterface, ArrayAccess
     /**
      * Gets prices
      *
-     * @return \DocuSign\eSign\Model\BillingPrice[]
+     * @return \DocuSign\Model\BillingPrice[]
      */
     public function getPrices()
     {
@@ -532,7 +532,7 @@ class BillingCharge implements ModelInterface, ArrayAccess
     /**
      * Sets prices
      *
-     * @param \DocuSign\eSign\Model\BillingPrice[] $prices
+     * @param \DocuSign\Model\BillingPrice[] $prices
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingInvoice Class Doc Comment
  *
  * @category    Class
  * @description Contains information about a billing invoice.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,7 +64,7 @@ class BillingInvoice implements ModelInterface, ArrayAccess
         'balance' => '?string',
         'due_date' => '?string',
         'invoice_id' => '?string',
-        'invoice_items' => '\DocuSign\eSign\Model\BillingInvoiceItem[]',
+        'invoice_items' => '\DocuSign\Model\BillingInvoiceItem[]',
         'invoice_number' => '?string',
         'invoice_uri' => '?string',
         'non_taxable_amount' => '?string',
@@ -360,7 +360,7 @@ class BillingInvoice implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_items
      *
-     * @return \DocuSign\eSign\Model\BillingInvoiceItem[]
+     * @return \DocuSign\Model\BillingInvoiceItem[]
      */
     public function getInvoiceItems()
     {
@@ -370,7 +370,7 @@ class BillingInvoice implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_items
      *
-     * @param \DocuSign\eSign\Model\BillingInvoiceItem[] $invoice_items Reserved: TBD
+     * @param \DocuSign\Model\BillingInvoiceItem[] $invoice_items Reserved: TBD
      *
      * @return $this
      */

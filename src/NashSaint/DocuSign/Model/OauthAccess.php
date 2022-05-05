@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * OauthAccess Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class OauthAccess implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'access_token' => '?string',
-        'data' => '\DocuSign\eSign\Model\NameValue[]',
+        'data' => '\DocuSign\Model\NameValue[]',
         'expires_in' => '?string',
         'refresh_token' => '?string',
         'scope' => '?string',
@@ -263,7 +263,7 @@ class OauthAccess implements ModelInterface, ArrayAccess
     /**
      * Gets data
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getData()
     {
@@ -273,7 +273,7 @@ class OauthAccess implements ModelInterface, ArrayAccess
     /**
      * Sets data
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $data
+     * @param \DocuSign\Model\NameValue[] $data
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CompositeTemplate Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,10 +60,10 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'composite_template_id' => '?string',
-        'document' => '\DocuSign\eSign\Model\Document',
-        'inline_templates' => '\DocuSign\eSign\Model\InlineTemplate[]',
+        'document' => '\DocuSign\Model\Document',
+        'inline_templates' => '\DocuSign\Model\InlineTemplate[]',
         'pdf_meta_data_template_sequence' => '?string',
-        'server_templates' => '\DocuSign\eSign\Model\ServerTemplate[]'
+        'server_templates' => '\DocuSign\Model\ServerTemplate[]'
     ];
 
     /**
@@ -257,7 +257,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets document
      *
-     * @return \DocuSign\eSign\Model\Document
+     * @return \DocuSign\Model\Document
      */
     public function getDocument()
     {
@@ -267,7 +267,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets document
      *
-     * @param \DocuSign\eSign\Model\Document $document document
+     * @param \DocuSign\Model\Document $document document
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets inline_templates
      *
-     * @return \DocuSign\eSign\Model\InlineTemplate[]
+     * @return \DocuSign\Model\InlineTemplate[]
      */
     public function getInlineTemplates()
     {
@@ -291,7 +291,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets inline_templates
      *
-     * @param \DocuSign\eSign\Model\InlineTemplate[] $inline_templates Zero or more inline templates and their position in the overlay. If supplied, they are overlaid into the envelope in the order of their Sequence value.
+     * @param \DocuSign\Model\InlineTemplate[] $inline_templates Zero or more inline templates and their position in the overlay. If supplied, they are overlaid into the envelope in the order of their Sequence value.
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets server_templates
      *
-     * @return \DocuSign\eSign\Model\ServerTemplate[]
+     * @return \DocuSign\Model\ServerTemplate[]
      */
     public function getServerTemplates()
     {
@@ -339,7 +339,7 @@ class CompositeTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets server_templates
      *
-     * @param \DocuSign\eSign\Model\ServerTemplate[] $server_templates 0 or more server-side templates and their position in the overlay. If supplied, they are overlaid into the envelope in the order of their Sequence value
+     * @param \DocuSign\Model\ServerTemplate[] $server_templates 0 or more server-side templates and their position in the overlay. If supplied, they are overlaid into the envelope in the order of their Sequence value
      *
      * @return $this
      */

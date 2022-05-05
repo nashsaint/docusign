@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeCustomMetadata Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class EnvelopeCustomMetadata implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'envelope_custom_metadata_details' => '\DocuSign\eSign\Model\NameValue[]'
+        'envelope_custom_metadata_details' => '\DocuSign\Model\NameValue[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class EnvelopeCustomMetadata implements ModelInterface, ArrayAccess
     /**
      * Gets envelope_custom_metadata_details
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getEnvelopeCustomMetadataDetails()
     {
@@ -219,7 +219,7 @@ class EnvelopeCustomMetadata implements ModelInterface, ArrayAccess
     /**
      * Sets envelope_custom_metadata_details
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $envelope_custom_metadata_details
+     * @param \DocuSign\Model\NameValue[] $envelope_custom_metadata_details
      *
      * @return $this
      */

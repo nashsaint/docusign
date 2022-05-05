@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PowerFormsResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class PowerFormsResponse implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'end_position' => '?int',
         'next_uri' => '?string',
-        'power_forms' => '\DocuSign\eSign\Model\PowerForm[]',
+        'power_forms' => '\DocuSign\Model\PowerForm[]',
         'previous_uri' => '?string',
         'result_set_size' => '?int',
         'start_position' => '?int',
@@ -293,7 +293,7 @@ class PowerFormsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets power_forms
      *
-     * @return \DocuSign\eSign\Model\PowerForm[]
+     * @return \DocuSign\Model\PowerForm[]
      */
     public function getPowerForms()
     {
@@ -303,7 +303,7 @@ class PowerFormsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets power_forms
      *
-     * @param \DocuSign\eSign\Model\PowerForm[] $power_forms
+     * @param \DocuSign\Model\PowerForm[] $power_forms
      *
      * @return $this
      */

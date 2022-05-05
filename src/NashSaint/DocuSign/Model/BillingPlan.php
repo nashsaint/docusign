@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlan Class Doc Comment
  *
  * @category    Class
  * @description Contains information about a billing plan.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,8 +60,8 @@ class BillingPlan implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'app_store_products' => '\DocuSign\eSign\Model\AppStoreProduct[]',
-        'currency_plan_prices' => '\DocuSign\eSign\Model\CurrencyPlanPrice[]',
+        'app_store_products' => '\DocuSign\Model\AppStoreProduct[]',
+        'currency_plan_prices' => '\DocuSign\Model\CurrencyPlanPrice[]',
         'enable_support' => '?string',
         'included_seats' => '?string',
         'other_discount_percent' => '?string',
@@ -69,10 +69,10 @@ class BillingPlan implements ModelInterface, ArrayAccess
         'payment_method' => '?string',
         'per_seat_price' => '?string',
         'plan_classification' => '?string',
-        'plan_feature_sets' => '\DocuSign\eSign\Model\FeatureSet[]',
+        'plan_feature_sets' => '\DocuSign\Model\FeatureSet[]',
         'plan_id' => '?string',
         'plan_name' => '?string',
-        'seat_discounts' => '\DocuSign\eSign\Model\SeatDiscount[]',
+        'seat_discounts' => '\DocuSign\Model\SeatDiscount[]',
         'support_incident_fee' => '?string',
         'support_plan_fee' => '?string'
     ];
@@ -294,7 +294,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets app_store_products
      *
-     * @return \DocuSign\eSign\Model\AppStoreProduct[]
+     * @return \DocuSign\Model\AppStoreProduct[]
      */
     public function getAppStoreProducts()
     {
@@ -304,7 +304,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets app_store_products
      *
-     * @param \DocuSign\eSign\Model\AppStoreProduct[] $app_store_products Reserved: TBD
+     * @param \DocuSign\Model\AppStoreProduct[] $app_store_products Reserved: TBD
      *
      * @return $this
      */
@@ -318,7 +318,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets currency_plan_prices
      *
-     * @return \DocuSign\eSign\Model\CurrencyPlanPrice[]
+     * @return \DocuSign\Model\CurrencyPlanPrice[]
      */
     public function getCurrencyPlanPrices()
     {
@@ -328,7 +328,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets currency_plan_prices
      *
-     * @param \DocuSign\eSign\Model\CurrencyPlanPrice[] $currency_plan_prices Contains the currencyCode and currencySymbol for the alternate currency values for envelopeFee, fixedFee, and seatFee that are configured for this plan feature set.
+     * @param \DocuSign\Model\CurrencyPlanPrice[] $currency_plan_prices Contains the currencyCode and currencySymbol for the alternate currency values for envelopeFee, fixedFee, and seatFee that are configured for this plan feature set.
      *
      * @return $this
      */
@@ -510,7 +510,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets plan_feature_sets
      *
-     * @return \DocuSign\eSign\Model\FeatureSet[]
+     * @return \DocuSign\Model\FeatureSet[]
      */
     public function getPlanFeatureSets()
     {
@@ -520,7 +520,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets plan_feature_sets
      *
-     * @param \DocuSign\eSign\Model\FeatureSet[] $plan_feature_sets
+     * @param \DocuSign\Model\FeatureSet[] $plan_feature_sets
      *
      * @return $this
      */
@@ -582,7 +582,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Gets seat_discounts
      *
-     * @return \DocuSign\eSign\Model\SeatDiscount[]
+     * @return \DocuSign\Model\SeatDiscount[]
      */
     public function getSeatDiscounts()
     {
@@ -592,7 +592,7 @@ class BillingPlan implements ModelInterface, ArrayAccess
     /**
      * Sets seat_discounts
      *
-     * @param \DocuSign\eSign\Model\SeatDiscount[] $seat_discounts
+     * @param \DocuSign\Model\SeatDiscount[] $seat_discounts
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConditionalRecipientRule Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,9 +59,9 @@ class ConditionalRecipientRule implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'conditions' => '\DocuSign\eSign\Model\ConditionalRecipientRuleCondition[]',
+        'conditions' => '\DocuSign\Model\ConditionalRecipientRuleCondition[]',
         'order' => '?string',
-        'recipient_group' => '\DocuSign\eSign\Model\RecipientGroup',
+        'recipient_group' => '\DocuSign\Model\RecipientGroup',
         'recipient_id' => '?string'
     ];
 
@@ -227,7 +227,7 @@ class ConditionalRecipientRule implements ModelInterface, ArrayAccess
     /**
      * Gets conditions
      *
-     * @return \DocuSign\eSign\Model\ConditionalRecipientRuleCondition[]
+     * @return \DocuSign\Model\ConditionalRecipientRuleCondition[]
      */
     public function getConditions()
     {
@@ -237,7 +237,7 @@ class ConditionalRecipientRule implements ModelInterface, ArrayAccess
     /**
      * Sets conditions
      *
-     * @param \DocuSign\eSign\Model\ConditionalRecipientRuleCondition[] $conditions
+     * @param \DocuSign\Model\ConditionalRecipientRuleCondition[] $conditions
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class ConditionalRecipientRule implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_group
      *
-     * @return \DocuSign\eSign\Model\RecipientGroup
+     * @return \DocuSign\Model\RecipientGroup
      */
     public function getRecipientGroup()
     {
@@ -285,7 +285,7 @@ class ConditionalRecipientRule implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_group
      *
-     * @param \DocuSign\eSign\Model\RecipientGroup $recipient_group recipient_group
+     * @param \DocuSign\Model\RecipientGroup $recipient_group recipient_group
      *
      * @return $this
      */

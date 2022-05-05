@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RecipientIdentityVerification Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,9 +59,9 @@ class RecipientIdentityVerification implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'input_options' => '\DocuSign\eSign\Model\RecipientIdentityInputOption[]',
+        'input_options' => '\DocuSign\Model\RecipientIdentityInputOption[]',
         'workflow_id' => '?string',
-        'workflow_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'workflow_id_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -221,7 +221,7 @@ class RecipientIdentityVerification implements ModelInterface, ArrayAccess
     /**
      * Gets input_options
      *
-     * @return \DocuSign\eSign\Model\RecipientIdentityInputOption[]
+     * @return \DocuSign\Model\RecipientIdentityInputOption[]
      */
     public function getInputOptions()
     {
@@ -231,7 +231,7 @@ class RecipientIdentityVerification implements ModelInterface, ArrayAccess
     /**
      * Sets input_options
      *
-     * @param \DocuSign\eSign\Model\RecipientIdentityInputOption[] $input_options
+     * @param \DocuSign\Model\RecipientIdentityInputOption[] $input_options
      *
      * @return $this
      */
@@ -269,7 +269,7 @@ class RecipientIdentityVerification implements ModelInterface, ArrayAccess
     /**
      * Gets workflow_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getWorkflowIdMetadata()
     {
@@ -279,7 +279,7 @@ class RecipientIdentityVerification implements ModelInterface, ArrayAccess
     /**
      * Sets workflow_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $workflow_id_metadata workflow_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $workflow_id_metadata workflow_id_metadata
      *
      * @return $this
      */

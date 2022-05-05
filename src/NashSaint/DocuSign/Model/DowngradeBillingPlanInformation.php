@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * DowngradeBillingPlanInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class DowngradeBillingPlanInformation implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'downgrade_event_type' => '?string',
-        'plan_information' => '\DocuSign\eSign\Model\PlanInformation',
+        'plan_information' => '\DocuSign\Model\PlanInformation',
         'promo_code' => '?string',
         'sale_discount' => '?string',
         'sale_discount_periods' => '?string',
@@ -263,7 +263,7 @@ class DowngradeBillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets plan_information
      *
-     * @return \DocuSign\eSign\Model\PlanInformation
+     * @return \DocuSign\Model\PlanInformation
      */
     public function getPlanInformation()
     {
@@ -273,7 +273,7 @@ class DowngradeBillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets plan_information
      *
-     * @param \DocuSign\eSign\Model\PlanInformation $plan_information plan_information
+     * @param \DocuSign\Model\PlanInformation $plan_information plan_information
      *
      * @return $this
      */

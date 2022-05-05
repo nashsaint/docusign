@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeAuditEventResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class EnvelopeAuditEventResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'audit_events' => '\DocuSign\eSign\Model\EnvelopeAuditEvent[]'
+        'audit_events' => '\DocuSign\Model\EnvelopeAuditEvent[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class EnvelopeAuditEventResponse implements ModelInterface, ArrayAccess
     /**
      * Gets audit_events
      *
-     * @return \DocuSign\eSign\Model\EnvelopeAuditEvent[]
+     * @return \DocuSign\Model\EnvelopeAuditEvent[]
      */
     public function getAuditEvents()
     {
@@ -219,7 +219,7 @@ class EnvelopeAuditEventResponse implements ModelInterface, ArrayAccess
     /**
      * Sets audit_events
      *
-     * @param \DocuSign\eSign\Model\EnvelopeAuditEvent[] $audit_events Reserved: TBD
+     * @param \DocuSign\Model\EnvelopeAuditEvent[] $audit_events Reserved: TBD
      *
      * @return $this
      */

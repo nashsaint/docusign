@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ExternalFolder Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,9 +60,9 @@ class ExternalFolder implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'end_position' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ExternalDocServiceErrorDetails',
+        'error_details' => '\DocuSign\Model\ExternalDocServiceErrorDetails',
         'id' => '?string',
-        'items' => '\DocuSign\eSign\Model\ExternalFile[]',
+        'items' => '\DocuSign\Model\ExternalFile[]',
         'name' => '?string',
         'next_uri' => '?string',
         'previous_uri' => '?string',
@@ -287,7 +287,7 @@ class ExternalFolder implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ExternalDocServiceErrorDetails
+     * @return \DocuSign\Model\ExternalDocServiceErrorDetails
      */
     public function getErrorDetails()
     {
@@ -297,7 +297,7 @@ class ExternalFolder implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ExternalDocServiceErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ExternalDocServiceErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class ExternalFolder implements ModelInterface, ArrayAccess
     /**
      * Gets items
      *
-     * @return \DocuSign\eSign\Model\ExternalFile[]
+     * @return \DocuSign\Model\ExternalFile[]
      */
     public function getItems()
     {
@@ -345,7 +345,7 @@ class ExternalFolder implements ModelInterface, ArrayAccess
     /**
      * Sets items
      *
-     * @param \DocuSign\eSign\Model\ExternalFile[] $items
+     * @param \DocuSign\Model\ExternalFile[] $items
      *
      * @return $this
      */

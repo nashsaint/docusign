@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * SmartSectionDisplaySettings Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class SmartSectionDisplaySettings implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'cell_style' => '?string',
-        'collapsible_settings' => '\DocuSign\eSign\Model\SmartSectionCollapsibleDisplaySettings',
+        'collapsible_settings' => '\DocuSign\Model\SmartSectionCollapsibleDisplaySettings',
         'display' => '?string',
         'display_label' => '?string',
         'display_order' => '?int',
@@ -299,7 +299,7 @@ class SmartSectionDisplaySettings implements ModelInterface, ArrayAccess
     /**
      * Gets collapsible_settings
      *
-     * @return \DocuSign\eSign\Model\SmartSectionCollapsibleDisplaySettings
+     * @return \DocuSign\Model\SmartSectionCollapsibleDisplaySettings
      */
     public function getCollapsibleSettings()
     {
@@ -309,7 +309,7 @@ class SmartSectionDisplaySettings implements ModelInterface, ArrayAccess
     /**
      * Sets collapsible_settings
      *
-     * @param \DocuSign\eSign\Model\SmartSectionCollapsibleDisplaySettings $collapsible_settings collapsible_settings
+     * @param \DocuSign\Model\SmartSectionCollapsibleDisplaySettings $collapsible_settings collapsible_settings
      *
      * @return $this
      */

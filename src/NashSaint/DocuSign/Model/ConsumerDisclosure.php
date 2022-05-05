@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ConsumerDisclosure Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'account_esign_id' => '?string',
         'allow_cd_withdraw' => '?string',
-        'allow_cd_withdraw_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'allow_cd_withdraw_metadata' => '\DocuSign\Model\SettingsMetadata',
         'change_email' => '?string',
         'change_email_other' => '?string',
         'company_name' => '?string',
@@ -78,7 +78,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
         'pdf_id' => '?string',
         'use_brand' => '?string',
         'use_consumer_disclosure_within_account' => '?string',
-        'use_consumer_disclosure_within_account_metadata' => '\DocuSign\eSign\Model\SettingsMetadata',
+        'use_consumer_disclosure_within_account_metadata' => '\DocuSign\Model\SettingsMetadata',
         'withdraw_address_line1' => '?string',
         'withdraw_address_line2' => '?string',
         'withdraw_by_email' => '?string',
@@ -443,7 +443,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
     /**
      * Gets allow_cd_withdraw_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getAllowCdWithdrawMetadata()
     {
@@ -453,7 +453,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
     /**
      * Sets allow_cd_withdraw_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $allow_cd_withdraw_metadata allow_cd_withdraw_metadata
+     * @param \DocuSign\Model\SettingsMetadata $allow_cd_withdraw_metadata allow_cd_withdraw_metadata
      *
      * @return $this
      */
@@ -851,7 +851,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
     /**
      * Gets use_consumer_disclosure_within_account_metadata
      *
-     * @return \DocuSign\eSign\Model\SettingsMetadata
+     * @return \DocuSign\Model\SettingsMetadata
      */
     public function getUseConsumerDisclosureWithinAccountMetadata()
     {
@@ -861,7 +861,7 @@ class ConsumerDisclosure implements ModelInterface, ArrayAccess
     /**
      * Sets use_consumer_disclosure_within_account_metadata
      *
-     * @param \DocuSign\eSign\Model\SettingsMetadata $use_consumer_disclosure_within_account_metadata use_consumer_disclosure_within_account_metadata
+     * @param \DocuSign\Model\SettingsMetadata $use_consumer_disclosure_within_account_metadata use_consumer_disclosure_within_account_metadata
      *
      * @return $this
      */

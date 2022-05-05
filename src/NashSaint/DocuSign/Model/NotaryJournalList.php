@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryJournalList Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class NotaryJournalList implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'end_position' => '?string',
         'next_uri' => '?string',
-        'notary_journals' => '\DocuSign\eSign\Model\NotaryJournal[]',
+        'notary_journals' => '\DocuSign\Model\NotaryJournal[]',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
         'start_position' => '?string',
@@ -293,7 +293,7 @@ class NotaryJournalList implements ModelInterface, ArrayAccess
     /**
      * Gets notary_journals
      *
-     * @return \DocuSign\eSign\Model\NotaryJournal[]
+     * @return \DocuSign\Model\NotaryJournal[]
      */
     public function getNotaryJournals()
     {
@@ -303,7 +303,7 @@ class NotaryJournalList implements ModelInterface, ArrayAccess
     /**
      * Sets notary_journals
      *
-     * @param \DocuSign\eSign\Model\NotaryJournal[] $notary_journals
+     * @param \DocuSign\Model\NotaryJournal[] $notary_journals
      *
      * @return $this
      */

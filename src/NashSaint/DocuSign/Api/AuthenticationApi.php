@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\AuthenticationApi;
+namespace NashSaint\DocuSign\Api\AuthenticationApi;
 
 
 /**
  * LoginOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -156,18 +156,18 @@ class LoginOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AuthenticationApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -242,7 +242,7 @@ class AuthenticationApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\SocialAccountInformation $social_account_information  (optional)
+     * @param \DocuSign\Model\SocialAccountInformation $social_account_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -260,7 +260,7 @@ class AuthenticationApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\SocialAccountInformation $social_account_information  (optional)
+     * @param \DocuSign\Model\SocialAccountInformation $social_account_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -326,7 +326,7 @@ class AuthenticationApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -342,7 +342,7 @@ class AuthenticationApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\OauthAccess
+     * @return \DocuSign\Model\OauthAccess
      */
     public function getOAuthToken()
     {
@@ -357,7 +357,7 @@ class AuthenticationApi
      *
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\OauthAccess, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\OauthAccess, HTTP status code, HTTP response headers (array of strings)
      */
     public function getOAuthTokenWithHttpInfo(): array
     {
@@ -391,19 +391,19 @@ class AuthenticationApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\OauthAccess',
+                '\DocuSign\Model\OauthAccess',
                 '/v2.1/oauth2/token'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\OauthAccess', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\OauthAccess', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\OauthAccess', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\OauthAccess', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -421,7 +421,7 @@ class AuthenticationApi
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\UserSocialIdResult
+     * @return \DocuSign\Model\UserSocialIdResult
      */
     public function listSocialLogins($account_id, $user_id)
     {
@@ -438,7 +438,7 @@ class AuthenticationApi
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\UserSocialIdResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\UserSocialIdResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function listSocialLoginsWithHttpInfo($account_id, $user_id): array
     {
@@ -488,19 +488,19 @@ class AuthenticationApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\UserSocialIdResult',
+                '\DocuSign\Model\UserSocialIdResult',
                 '/v2.1/accounts/{accountId}/users/{userId}/social'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\UserSocialIdResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\UserSocialIdResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\UserSocialIdResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\UserSocialIdResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -514,12 +514,12 @@ class AuthenticationApi
      *
      * Gets login information for a specified user.
      *
-     * @param  \DocuSign\eSign\Api\AuthenticationApi\LoginOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\AuthenticationApi\LoginOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LoginInformation
+     * @return \DocuSign\Model\LoginInformation
      */
-    public function login(\DocuSign\eSign\Api\AuthenticationApi\LoginOptions $options = null)
+    public function login(\DocuSign\Api\AuthenticationApi\LoginOptions $options = null)
     {
         list($response) = $this->loginWithHttpInfo($options);
         return $response;
@@ -530,12 +530,12 @@ class AuthenticationApi
      *
      * Gets login information for a specified user.
      *
-     * @param  \DocuSign\eSign\Api\AuthenticationApi\LoginOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\AuthenticationApi\LoginOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LoginInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LoginInformation, HTTP status code, HTTP response headers (array of strings)
      */
-    public function loginWithHttpInfo(\DocuSign\eSign\Api\AuthenticationApi\LoginOptions $options = null): array
+    public function loginWithHttpInfo(\DocuSign\Api\AuthenticationApi\LoginOptions $options = null): array
     {
         // parse inputs
         $resourcePath = "/v2.1/login_information";
@@ -583,19 +583,19 @@ class AuthenticationApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LoginInformation',
+                '\DocuSign\Model\LoginInformation',
                 '/v2.1/login_information'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LoginInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LoginInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LoginInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LoginInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -668,7 +668,7 @@ class AuthenticationApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -683,7 +683,7 @@ class AuthenticationApi
      * Updates the password for a specified user.
      *
      * @param ?string $login_part Currently, only the value **password** is supported.
-     * @param \DocuSign\eSign\Model\UserPasswordInformation $user_password_information  (optional)
+     * @param \DocuSign\Model\UserPasswordInformation $user_password_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -700,7 +700,7 @@ class AuthenticationApi
      * Updates the password for a specified user.
      *
      * @param ?string $login_part Currently, only the value **password** is supported.
-     * @param \DocuSign\eSign\Model\UserPasswordInformation $user_password_information  (optional)
+     * @param \DocuSign\Model\UserPasswordInformation $user_password_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -758,7 +758,7 @@ class AuthenticationApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -774,7 +774,7 @@ class AuthenticationApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\SocialAccountInformation $social_account_information  (optional)
+     * @param \DocuSign\Model\SocialAccountInformation $social_account_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -792,7 +792,7 @@ class AuthenticationApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $user_id The user ID of the user being accessed. Generally this is the user ID of the authenticated user, but if the authenticated user is an Admin on the account, this may be another user the Admin user is accessing.
-     * @param \DocuSign\eSign\Model\SocialAccountInformation $social_account_information  (optional)
+     * @param \DocuSign\Model\SocialAccountInformation $social_account_information  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -858,7 +858,7 @@ class AuthenticationApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

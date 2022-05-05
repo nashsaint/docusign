@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ScheduledSendingApiModel Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class ScheduledSendingApiModel implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'resume_date' => '?string',
-        'rules' => '\DocuSign\eSign\Model\EnvelopeDelayRuleApiModel[]',
+        'rules' => '\DocuSign\Model\EnvelopeDelayRuleApiModel[]',
         'status' => '?string'
     ];
 
@@ -245,7 +245,7 @@ class ScheduledSendingApiModel implements ModelInterface, ArrayAccess
     /**
      * Gets rules
      *
-     * @return \DocuSign\eSign\Model\EnvelopeDelayRuleApiModel[]
+     * @return \DocuSign\Model\EnvelopeDelayRuleApiModel[]
      */
     public function getRules()
     {
@@ -255,7 +255,7 @@ class ScheduledSendingApiModel implements ModelInterface, ArrayAccess
     /**
      * Sets rules
      *
-     * @param \DocuSign\eSign\Model\EnvelopeDelayRuleApiModel[] $rules A list of envelope delay rules specified by the user indicating how and when the envelope should be scheduled for sending in the future. Currently only 1 rule may be specified.
+     * @param \DocuSign\Model\EnvelopeDelayRuleApiModel[] $rules A list of envelope delay rules specified by the user indicating how and when the envelope should be scheduled for sending in the future. Currently only 1 rule may be specified.
      *
      * @return $this
      */

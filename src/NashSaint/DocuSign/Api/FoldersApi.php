@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\FoldersApi;
+namespace NashSaint\DocuSign\Api\FoldersApi;
 
 
 /**
  * ListOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -186,7 +186,7 @@ class ListOptions
  * ListItemsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -416,7 +416,7 @@ class ListItemsOptions
  * SearchOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -643,18 +643,18 @@ class SearchOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FoldersApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -728,12 +728,12 @@ class FoldersApi
      * Gets a list of the folders for the account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\FoldersApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\FoldersResponse
+     * @return \DocuSign\Model\FoldersResponse
      */
-    public function callList($account_id, \DocuSign\eSign\Api\FoldersApi\ListOptions $options = null)
+    public function callList($account_id, \DocuSign\Api\FoldersApi\ListOptions $options = null)
     {
         list($response) = $this->callListWithHttpInfo($account_id, $options);
         return $response;
@@ -745,12 +745,12 @@ class FoldersApi
      * Gets a list of the folders for the account.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\FoldersApi\ListOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\ListOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\FoldersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\FoldersResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function callListWithHttpInfo($account_id, \DocuSign\eSign\Api\FoldersApi\ListOptions $options = null): array
+    public function callListWithHttpInfo($account_id, \DocuSign\Api\FoldersApi\ListOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -809,19 +809,19 @@ class FoldersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\FoldersResponse',
+                '\DocuSign\Model\FoldersResponse',
                 '/v2.1/accounts/{accountId}/folders'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\FoldersResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\FoldersResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\FoldersResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\FoldersResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -837,12 +837,12 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
-     * @param  \DocuSign\eSign\Api\FoldersApi\ListItemsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\ListItemsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\FolderItemsResponse
+     * @return \DocuSign\Model\FolderItemsResponse
      */
-    public function listItems($account_id, $folder_id, \DocuSign\eSign\Api\FoldersApi\ListItemsOptions $options = null)
+    public function listItems($account_id, $folder_id, \DocuSign\Api\FoldersApi\ListItemsOptions $options = null)
     {
         list($response) = $this->listItemsWithHttpInfo($account_id, $folder_id, $options);
         return $response;
@@ -855,12 +855,12 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
-     * @param  \DocuSign\eSign\Api\FoldersApi\ListItemsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\ListItemsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\FolderItemsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\FolderItemsResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listItemsWithHttpInfo($account_id, $folder_id, \DocuSign\eSign\Api\FoldersApi\ListItemsOptions $options = null): array
+    public function listItemsWithHttpInfo($account_id, $folder_id, \DocuSign\Api\FoldersApi\ListItemsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -936,19 +936,19 @@ class FoldersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\FolderItemsResponse',
+                '\DocuSign\Model\FolderItemsResponse',
                 '/v2.1/accounts/{accountId}/folders/{folderId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\FolderItemsResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\FolderItemsResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\FolderItemsResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\FolderItemsResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -964,10 +964,10 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
-     * @param \DocuSign\eSign\Model\FoldersRequest $folders_request  (optional)
+     * @param \DocuSign\Model\FoldersRequest $folders_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\FoldersResponse
+     * @return \DocuSign\Model\FoldersResponse
      */
     public function moveEnvelopes($account_id, $folder_id, $folders_request = null)
     {
@@ -982,10 +982,10 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
-     * @param \DocuSign\eSign\Model\FoldersRequest $folders_request  (optional)
+     * @param \DocuSign\Model\FoldersRequest $folders_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\FoldersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\FoldersResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function moveEnvelopesWithHttpInfo($account_id, $folder_id, $folders_request = null): array
     {
@@ -1040,19 +1040,19 @@ class FoldersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\FoldersResponse',
+                '\DocuSign\Model\FoldersResponse',
                 '/v2.1/accounts/{accountId}/folders/{folderId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\FoldersResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\FoldersResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\FoldersResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\FoldersResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1068,12 +1068,12 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $search_folder_id Specifies the envelope group that is searched by the request. These are logical groupings, not actual folder names. Valid values are: drafts, awaiting_my_signature, completed, out_for_signature.
-     * @param  \DocuSign\eSign\Api\FoldersApi\SearchOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\SearchOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\FolderItemResponse
+     * @return \DocuSign\Model\FolderItemResponse
      */
-    public function search($account_id, $search_folder_id, \DocuSign\eSign\Api\FoldersApi\SearchOptions $options = null)
+    public function search($account_id, $search_folder_id, \DocuSign\Api\FoldersApi\SearchOptions $options = null)
     {
         list($response) = $this->searchWithHttpInfo($account_id, $search_folder_id, $options);
         return $response;
@@ -1086,12 +1086,12 @@ class FoldersApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $search_folder_id Specifies the envelope group that is searched by the request. These are logical groupings, not actual folder names. Valid values are: drafts, awaiting_my_signature, completed, out_for_signature.
-     * @param  \DocuSign\eSign\Api\FoldersApi\SearchOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\FoldersApi\SearchOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\FolderItemResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\FolderItemResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function searchWithHttpInfo($account_id, $search_folder_id, \DocuSign\eSign\Api\FoldersApi\SearchOptions $options = null): array
+    public function searchWithHttpInfo($account_id, $search_folder_id, \DocuSign\Api\FoldersApi\SearchOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1167,19 +1167,19 @@ class FoldersApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\FolderItemResponse',
+                '\DocuSign\Model\FolderItemResponse',
                 '/v2.1/accounts/{accountId}/search_folders/{searchFolderId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\FolderItemResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\FolderItemResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\FolderItemResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\FolderItemResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

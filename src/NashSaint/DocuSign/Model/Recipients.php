@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Recipients Class Doc Comment
  *
  * @category    Class
  * @description Specifies the envelope recipients.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,19 +60,19 @@ class Recipients implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'agents' => '\DocuSign\eSign\Model\Agent[]',
-        'carbon_copies' => '\DocuSign\eSign\Model\CarbonCopy[]',
-        'certified_deliveries' => '\DocuSign\eSign\Model\CertifiedDelivery[]',
+        'agents' => '\DocuSign\Model\Agent[]',
+        'carbon_copies' => '\DocuSign\Model\CarbonCopy[]',
+        'certified_deliveries' => '\DocuSign\Model\CertifiedDelivery[]',
         'current_routing_order' => '?string',
-        'editors' => '\DocuSign\eSign\Model\Editor[]',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'in_person_signers' => '\DocuSign\eSign\Model\InPersonSigner[]',
-        'intermediaries' => '\DocuSign\eSign\Model\Intermediary[]',
-        'notaries' => '\DocuSign\eSign\Model\NotaryRecipient[]',
+        'editors' => '\DocuSign\Model\Editor[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'in_person_signers' => '\DocuSign\Model\InPersonSigner[]',
+        'intermediaries' => '\DocuSign\Model\Intermediary[]',
+        'notaries' => '\DocuSign\Model\NotaryRecipient[]',
         'recipient_count' => '?string',
-        'seals' => '\DocuSign\eSign\Model\SealSign[]',
-        'signers' => '\DocuSign\eSign\Model\Signer[]',
-        'witnesses' => '\DocuSign\eSign\Model\Witness[]'
+        'seals' => '\DocuSign\Model\SealSign[]',
+        'signers' => '\DocuSign\Model\Signer[]',
+        'witnesses' => '\DocuSign\Model\Witness[]'
     ];
 
     /**
@@ -282,7 +282,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets agents
      *
-     * @return \DocuSign\eSign\Model\Agent[]
+     * @return \DocuSign\Model\Agent[]
      */
     public function getAgents()
     {
@@ -292,7 +292,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets agents
      *
-     * @param \DocuSign\eSign\Model\Agent[] $agents A complex type defining the management and access rights of a recipient assigned assigned as an agent on the document.
+     * @param \DocuSign\Model\Agent[] $agents A complex type defining the management and access rights of a recipient assigned assigned as an agent on the document.
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets carbon_copies
      *
-     * @return \DocuSign\eSign\Model\CarbonCopy[]
+     * @return \DocuSign\Model\CarbonCopy[]
      */
     public function getCarbonCopies()
     {
@@ -316,7 +316,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets carbon_copies
      *
-     * @param \DocuSign\eSign\Model\CarbonCopy[] $carbon_copies A complex type containing information about recipients who should receive a copy of the envelope, but does not need to sign it.
+     * @param \DocuSign\Model\CarbonCopy[] $carbon_copies A complex type containing information about recipients who should receive a copy of the envelope, but does not need to sign it.
      *
      * @return $this
      */
@@ -330,7 +330,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets certified_deliveries
      *
-     * @return \DocuSign\eSign\Model\CertifiedDelivery[]
+     * @return \DocuSign\Model\CertifiedDelivery[]
      */
     public function getCertifiedDeliveries()
     {
@@ -340,7 +340,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets certified_deliveries
      *
-     * @param \DocuSign\eSign\Model\CertifiedDelivery[] $certified_deliveries A complex type containing information on a recipient the must receive the completed documents for the envelope to be completed, but the recipient does not need to sign, initial, date, or add information to any of the documents.
+     * @param \DocuSign\Model\CertifiedDelivery[] $certified_deliveries A complex type containing information on a recipient the must receive the completed documents for the envelope to be completed, but the recipient does not need to sign, initial, date, or add information to any of the documents.
      *
      * @return $this
      */
@@ -378,7 +378,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets editors
      *
-     * @return \DocuSign\eSign\Model\Editor[]
+     * @return \DocuSign\Model\Editor[]
      */
     public function getEditors()
     {
@@ -388,7 +388,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets editors
      *
-     * @param \DocuSign\eSign\Model\Editor[] $editors A complex type defining the management and access rights of a recipient assigned assigned as an editor on the document.
+     * @param \DocuSign\Model\Editor[] $editors A complex type defining the management and access rights of a recipient assigned assigned as an editor on the document.
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -412,7 +412,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets in_person_signers
      *
-     * @return \DocuSign\eSign\Model\InPersonSigner[]
+     * @return \DocuSign\Model\InPersonSigner[]
      */
     public function getInPersonSigners()
     {
@@ -436,7 +436,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets in_person_signers
      *
-     * @param \DocuSign\eSign\Model\InPersonSigner[] $in_person_signers Specifies a signer that is in the same physical location as a DocuSign user who will act as a Signing Host for the transaction. The recipient added is the Signing Host and new separate Signer Name field appears after Sign in person is selected.
+     * @param \DocuSign\Model\InPersonSigner[] $in_person_signers Specifies a signer that is in the same physical location as a DocuSign user who will act as a Signing Host for the transaction. The recipient added is the Signing Host and new separate Signer Name field appears after Sign in person is selected.
      *
      * @return $this
      */
@@ -450,7 +450,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets intermediaries
      *
-     * @return \DocuSign\eSign\Model\Intermediary[]
+     * @return \DocuSign\Model\Intermediary[]
      */
     public function getIntermediaries()
     {
@@ -460,7 +460,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets intermediaries
      *
-     * @param \DocuSign\eSign\Model\Intermediary[] $intermediaries Identifies a recipient that can, but is not required to, add name and email information for recipients at the same or subsequent level in the routing order (until subsequent Agents, Editors or Intermediaries recipient types are added).
+     * @param \DocuSign\Model\Intermediary[] $intermediaries Identifies a recipient that can, but is not required to, add name and email information for recipients at the same or subsequent level in the routing order (until subsequent Agents, Editors or Intermediaries recipient types are added).
      *
      * @return $this
      */
@@ -474,7 +474,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets notaries
      *
-     * @return \DocuSign\eSign\Model\NotaryRecipient[]
+     * @return \DocuSign\Model\NotaryRecipient[]
      */
     public function getNotaries()
     {
@@ -484,7 +484,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets notaries
      *
-     * @param \DocuSign\eSign\Model\NotaryRecipient[] $notaries
+     * @param \DocuSign\Model\NotaryRecipient[] $notaries
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets seals
      *
-     * @return \DocuSign\eSign\Model\SealSign[]
+     * @return \DocuSign\Model\SealSign[]
      */
     public function getSeals()
     {
@@ -532,7 +532,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets seals
      *
-     * @param \DocuSign\eSign\Model\SealSign[] $seals
+     * @param \DocuSign\Model\SealSign[] $seals
      *
      * @return $this
      */
@@ -546,7 +546,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets signers
      *
-     * @return \DocuSign\eSign\Model\Signer[]
+     * @return \DocuSign\Model\Signer[]
      */
     public function getSigners()
     {
@@ -556,7 +556,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets signers
      *
-     * @param \DocuSign\eSign\Model\Signer[] $signers A complex type containing information about the Signer recipient.
+     * @param \DocuSign\Model\Signer[] $signers A complex type containing information about the Signer recipient.
      *
      * @return $this
      */
@@ -570,7 +570,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Gets witnesses
      *
-     * @return \DocuSign\eSign\Model\Witness[]
+     * @return \DocuSign\Model\Witness[]
      */
     public function getWitnesses()
     {
@@ -580,7 +580,7 @@ class Recipients implements ModelInterface, ArrayAccess
     /**
      * Sets witnesses
      *
-     * @param \DocuSign\eSign\Model\Witness[] $witnesses
+     * @param \DocuSign\Model\Witness[] $witnesses
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountSharedAccess Class Doc Comment
  *
  * @category    Class
  * @description Contains shared access information.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,11 +62,11 @@ class AccountSharedAccess implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'account_id' => '?string',
         'end_position' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'next_uri' => '?string',
         'previous_uri' => '?string',
         'result_set_size' => '?string',
-        'shared_access' => '\DocuSign\eSign\Model\MemberSharedItems[]',
+        'shared_access' => '\DocuSign\Model\MemberSharedItems[]',
         'start_position' => '?string',
         'total_set_size' => '?string'
     ];
@@ -306,7 +306,7 @@ class AccountSharedAccess implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -316,7 +316,7 @@ class AccountSharedAccess implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class AccountSharedAccess implements ModelInterface, ArrayAccess
     /**
      * Gets shared_access
      *
-     * @return \DocuSign\eSign\Model\MemberSharedItems[]
+     * @return \DocuSign\Model\MemberSharedItems[]
      */
     public function getSharedAccess()
     {
@@ -412,7 +412,7 @@ class AccountSharedAccess implements ModelInterface, ArrayAccess
     /**
      * Sets shared_access
      *
-     * @param \DocuSign\eSign\Model\MemberSharedItems[] $shared_access A complex type containing the shared access information to an envelope for the users specified in the request.
+     * @param \DocuSign\Model\MemberSharedItems[] $shared_access A complex type containing the shared access information to an envelope for the users specified in the request.
      *
      * @return $this
      */

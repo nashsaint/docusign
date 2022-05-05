@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ResourceInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class ResourceInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'resources' => '\DocuSign\eSign\Model\NameValue[]'
+        'resources' => '\DocuSign\Model\NameValue[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class ResourceInformation implements ModelInterface, ArrayAccess
     /**
      * Gets resources
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getResources()
     {
@@ -219,7 +219,7 @@ class ResourceInformation implements ModelInterface, ArrayAccess
     /**
      * Sets resources
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $resources
+     * @param \DocuSign\Model\NameValue[] $resources
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FolderItemV2 Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -69,7 +69,7 @@ class FolderItemV2 implements ModelInterface, ArrayAccess
         'is21_cfr_part11' => '?string',
         'last_modified_date_time' => '?string',
         'owner_name' => '?string',
-        'recipients' => '\DocuSign\eSign\Model\Recipients',
+        'recipients' => '\DocuSign\Model\Recipients',
         'recipients_uri' => '?string',
         'sender_company' => '?string',
         'sender_email' => '?string',
@@ -569,7 +569,7 @@ class FolderItemV2 implements ModelInterface, ArrayAccess
     /**
      * Gets recipients
      *
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function getRecipients()
     {
@@ -579,7 +579,7 @@ class FolderItemV2 implements ModelInterface, ArrayAccess
     /**
      * Sets recipients
      *
-     * @param \DocuSign\eSign\Model\Recipients $recipients recipients
+     * @param \DocuSign\Model\Recipients $recipients recipients
      *
      * @return $this
      */

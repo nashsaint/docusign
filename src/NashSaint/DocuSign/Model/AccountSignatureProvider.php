@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountSignatureProvider Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,8 +64,8 @@ class AccountSignatureProvider implements ModelInterface, ArrayAccess
         'signature_provider_display_name' => '?string',
         'signature_provider_id' => '?string',
         'signature_provider_name' => '?string',
-        'signature_provider_options_metadata' => '\DocuSign\eSign\Model\AccountSignatureProviderOption[]',
-        'signature_provider_required_options' => '\DocuSign\eSign\Model\SignatureProviderRequiredOption[]'
+        'signature_provider_options_metadata' => '\DocuSign\Model\AccountSignatureProviderOption[]',
+        'signature_provider_required_options' => '\DocuSign\Model\SignatureProviderRequiredOption[]'
     ];
 
     /**
@@ -365,7 +365,7 @@ class AccountSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider_options_metadata
      *
-     * @return \DocuSign\eSign\Model\AccountSignatureProviderOption[]
+     * @return \DocuSign\Model\AccountSignatureProviderOption[]
      */
     public function getSignatureProviderOptionsMetadata()
     {
@@ -375,7 +375,7 @@ class AccountSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider_options_metadata
      *
-     * @param \DocuSign\eSign\Model\AccountSignatureProviderOption[] $signature_provider_options_metadata
+     * @param \DocuSign\Model\AccountSignatureProviderOption[] $signature_provider_options_metadata
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class AccountSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Gets signature_provider_required_options
      *
-     * @return \DocuSign\eSign\Model\SignatureProviderRequiredOption[]
+     * @return \DocuSign\Model\SignatureProviderRequiredOption[]
      */
     public function getSignatureProviderRequiredOptions()
     {
@@ -399,7 +399,7 @@ class AccountSignatureProvider implements ModelInterface, ArrayAccess
     /**
      * Sets signature_provider_required_options
      *
-     * @param \DocuSign\eSign\Model\SignatureProviderRequiredOption[] $signature_provider_required_options
+     * @param \DocuSign\Model\SignatureProviderRequiredOption[] $signature_provider_required_options
      *
      * @return $this
      */

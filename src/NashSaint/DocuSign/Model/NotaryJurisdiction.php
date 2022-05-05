@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryJurisdiction Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,8 +62,8 @@ class NotaryJurisdiction implements ModelInterface, ArrayAccess
         'commission_expiration' => '?string',
         'commission_id' => '?string',
         'county' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'jurisdiction' => '\DocuSign\eSign\Model\Jurisdiction',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'jurisdiction' => '\DocuSign\Model\Jurisdiction',
         'registered_name' => '?string',
         'seal_type' => '?string'
     ];
@@ -317,7 +317,7 @@ class NotaryJurisdiction implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -327,7 +327,7 @@ class NotaryJurisdiction implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class NotaryJurisdiction implements ModelInterface, ArrayAccess
     /**
      * Gets jurisdiction
      *
-     * @return \DocuSign\eSign\Model\Jurisdiction
+     * @return \DocuSign\Model\Jurisdiction
      */
     public function getJurisdiction()
     {
@@ -351,7 +351,7 @@ class NotaryJurisdiction implements ModelInterface, ArrayAccess
     /**
      * Sets jurisdiction
      *
-     * @param \DocuSign\eSign\Model\Jurisdiction $jurisdiction jurisdiction
+     * @param \DocuSign\Model\Jurisdiction $jurisdiction jurisdiction
      *
      * @return $this
      */

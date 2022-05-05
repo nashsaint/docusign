@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CompleteSignHashResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -57,7 +57,7 @@ class CompleteSignHashResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'documents' => '\DocuSign\eSign\Model\SignHashDocument[]',
+        'documents' => '\DocuSign\Model\SignHashDocument[]',
         'redirection_url' => '?string',
         'remaining_signature_requests' => '?string'
     ];
@@ -219,7 +219,7 @@ class CompleteSignHashResponse implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \DocuSign\eSign\Model\SignHashDocument[]
+     * @return \DocuSign\Model\SignHashDocument[]
      */
     public function getDocuments()
     {
@@ -229,7 +229,7 @@ class CompleteSignHashResponse implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \DocuSign\eSign\Model\SignHashDocument[] $documents Complex element contains the details on the documents in the envelope.
+     * @param \DocuSign\Model\SignHashDocument[] $documents Complex element contains the details on the documents in the envelope.
      *
      * @return $this
      */

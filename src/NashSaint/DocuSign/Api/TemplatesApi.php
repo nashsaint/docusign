@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\TemplatesApi;
+namespace NashSaint\DocuSign\Api\TemplatesApi;
 
 
 /**
  * CreateRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -78,7 +78,7 @@ class CreateRecipientsOptions
  * GetOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -119,7 +119,7 @@ class GetOptions
  * GetDocumentOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -187,7 +187,7 @@ class GetDocumentOptions
  * GetDocumentPageImageOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -309,7 +309,7 @@ class GetDocumentPageImageOptions
  * GetDocumentTabsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -350,7 +350,7 @@ class GetDocumentTabsOptions
  * GetPagesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -553,7 +553,7 @@ class GetPagesOptions
  * ListBulkRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -621,7 +621,7 @@ class ListBulkRecipientsOptions
  * ListDocumentsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -662,7 +662,7 @@ class ListDocumentsOptions
  * ListRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -757,7 +757,7 @@ class ListRecipientsOptions
  * ListTabsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -825,7 +825,7 @@ class ListTabsOptions
  * ListTemplatesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1460,7 +1460,7 @@ class ListTemplatesOptions
  * UpdateDocumentOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1501,7 +1501,7 @@ class UpdateDocumentOptions
  * UpdateRecipientsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1539,18 +1539,18 @@ class UpdateRecipientsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplatesApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -1625,10 +1625,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function createCustomFields($account_id, $template_id, $template_custom_fields = null)
     {
@@ -1643,10 +1643,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function createCustomFieldsWithHttpInfo($account_id, $template_id, $template_custom_fields = null): array
     {
@@ -1701,19 +1701,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1730,10 +1730,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function createDocumentFields($account_id, $document_id, $template_id, $document_fields_information = null)
     {
@@ -1749,10 +1749,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createDocumentFieldsWithHttpInfo($account_id, $document_id, $template_id, $document_fields_information = null): array
     {
@@ -1815,19 +1815,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1843,10 +1843,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createEditView($account_id, $template_id, $return_url_request = null)
     {
@@ -1861,10 +1861,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\ReturnUrlRequest $return_url_request  (optional)
+     * @param \DocuSign\Model\ReturnUrlRequest $return_url_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createEditViewWithHttpInfo($account_id, $template_id, $return_url_request = null): array
     {
@@ -1919,19 +1919,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/views/edit'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1947,10 +1947,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function createLock($account_id, $template_id, $lock_request = null)
     {
@@ -1965,10 +1965,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function createLockWithHttpInfo($account_id, $template_id, $lock_request = null): array
     {
@@ -2023,19 +2023,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2051,13 +2051,13 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\CreateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\CreateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
-    public function createRecipients($account_id, $template_id, $template_recipients = null, \DocuSign\eSign\Api\TemplatesApi\CreateRecipientsOptions $options = null)
+    public function createRecipients($account_id, $template_id, $template_recipients = null, \DocuSign\Api\TemplatesApi\CreateRecipientsOptions $options = null)
     {
         list($response) = $this->createRecipientsWithHttpInfo($account_id, $template_id, $template_recipients, $options);
         return $response;
@@ -2070,13 +2070,13 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\CreateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\CreateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
-    public function createRecipientsWithHttpInfo($account_id, $template_id, $template_recipients = null, \DocuSign\eSign\Api\TemplatesApi\CreateRecipientsOptions $options = null): array
+    public function createRecipientsWithHttpInfo($account_id, $template_id, $template_recipients = null, \DocuSign\Api\TemplatesApi\CreateRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -2136,19 +2136,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2165,10 +2165,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function createTabs($account_id, $recipient_id, $template_id, $template_tabs = null)
     {
@@ -2184,10 +2184,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTabsWithHttpInfo($account_id, $recipient_id, $template_id, $template_tabs = null): array
     {
@@ -2250,19 +2250,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2277,10 +2277,10 @@ class TemplatesApi
      * Creates an envelope from a template.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTemplate $envelope_template  (optional)
+     * @param \DocuSign\Model\EnvelopeTemplate $envelope_template  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateSummary
+     * @return \DocuSign\Model\TemplateSummary
      */
     public function createTemplate($account_id, $envelope_template = null)
     {
@@ -2294,10 +2294,10 @@ class TemplatesApi
      * Creates an envelope from a template.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\EnvelopeTemplate $envelope_template  (optional)
+     * @param \DocuSign\Model\EnvelopeTemplate $envelope_template  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateSummary, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTemplateWithHttpInfo($account_id, $envelope_template = null): array
     {
@@ -2344,19 +2344,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateSummary',
+                '\DocuSign\Model\TemplateSummary',
                 '/v2.1/accounts/{accountId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2373,10 +2373,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitions
+     * @return \DocuSign\Model\DocumentHtmlDefinitions
      */
     public function createTemplateDocumentResponsiveHtmlPreview($account_id, $document_id, $template_id, $document_html_definition = null)
     {
@@ -2392,10 +2392,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTemplateDocumentResponsiveHtmlPreviewWithHttpInfo($account_id, $document_id, $template_id, $document_html_definition = null): array
     {
@@ -2458,19 +2458,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitions',
+                '\DocuSign\Model\DocumentHtmlDefinitions',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/responsive_html_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2487,10 +2487,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function createTemplateDocumentTabs($account_id, $document_id, $template_id, $template_tabs = null)
     {
@@ -2506,10 +2506,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTemplateDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, $template_tabs = null): array
     {
@@ -2572,19 +2572,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2600,10 +2600,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
+     * @param \DocuSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\ViewUrl
+     * @return \DocuSign\Model\ViewUrl
      */
     public function createTemplateRecipientPreview($account_id, $template_id, $recipient_preview_request = null)
     {
@@ -2618,10 +2618,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
+     * @param \DocuSign\Model\RecipientPreviewRequest $recipient_preview_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\ViewUrl, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTemplateRecipientPreviewWithHttpInfo($account_id, $template_id, $recipient_preview_request = null): array
     {
@@ -2676,19 +2676,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\ViewUrl',
+                '\DocuSign\Model\ViewUrl',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/views/recipient_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\ViewUrl', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ViewUrl', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ViewUrl', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2704,10 +2704,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitions
+     * @return \DocuSign\Model\DocumentHtmlDefinitions
      */
     public function createTemplateResponsiveHtmlPreview($account_id, $template_id, $document_html_definition = null)
     {
@@ -2722,10 +2722,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
+     * @param \DocuSign\Model\DocumentHtmlDefinition $document_html_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitions, HTTP status code, HTTP response headers (array of strings)
      */
     public function createTemplateResponsiveHtmlPreviewWithHttpInfo($account_id, $template_id, $document_html_definition = null): array
     {
@@ -2780,19 +2780,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitions',
+                '\DocuSign\Model\DocumentHtmlDefinitions',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/responsive_html_preview'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitions', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitions', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2811,7 +2811,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BulkRecipientsUpdateResponse
+     * @return \DocuSign\Model\BulkRecipientsUpdateResponse
      */
     public function deleteBulkRecipients($account_id, $recipient_id, $template_id)
     {
@@ -2829,7 +2829,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BulkRecipientsUpdateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BulkRecipientsUpdateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteBulkRecipientsWithHttpInfo($account_id, $recipient_id, $template_id): array
     {
@@ -2887,19 +2887,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BulkRecipientsUpdateResponse',
+                '\DocuSign\Model\BulkRecipientsUpdateResponse',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/bulk_recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BulkRecipientsUpdateResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BulkRecipientsUpdateResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BulkRecipientsUpdateResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BulkRecipientsUpdateResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -2915,10 +2915,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function deleteCustomFields($account_id, $template_id, $template_custom_fields = null)
     {
@@ -2933,10 +2933,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteCustomFieldsWithHttpInfo($account_id, $template_id, $template_custom_fields = null): array
     {
@@ -2991,19 +2991,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3020,10 +3020,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function deleteDocumentFields($account_id, $document_id, $template_id, $document_fields_information = null)
     {
@@ -3039,10 +3039,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteDocumentFieldsWithHttpInfo($account_id, $document_id, $template_id, $document_fields_information = null): array
     {
@@ -3105,19 +3105,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3135,7 +3135,7 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -3155,7 +3155,7 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -3237,7 +3237,7 @@ class TemplatesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3253,10 +3253,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateDocumentsResult
+     * @return \DocuSign\Model\TemplateDocumentsResult
      */
     public function deleteDocuments($account_id, $template_id, $envelope_definition = null)
     {
@@ -3271,10 +3271,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteDocumentsWithHttpInfo($account_id, $template_id, $envelope_definition = null): array
     {
@@ -3329,19 +3329,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateDocumentsResult',
+                '\DocuSign\Model\TemplateDocumentsResult',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3358,10 +3358,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
      * @param ?string $template_part Currently, the only defined part is **groups**.
-     * @param \DocuSign\eSign\Model\GroupInformation $group_information  (optional)
+     * @param \DocuSign\Model\GroupInformation $group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\GroupInformation
+     * @return \DocuSign\Model\GroupInformation
      */
     public function deleteGroupShare($account_id, $template_id, $template_part, $group_information = null)
     {
@@ -3377,10 +3377,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
      * @param ?string $template_part Currently, the only defined part is **groups**.
-     * @param \DocuSign\eSign\Model\GroupInformation $group_information  (optional)
+     * @param \DocuSign\Model\GroupInformation $group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\GroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\GroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteGroupShareWithHttpInfo($account_id, $template_id, $template_part, $group_information = null): array
     {
@@ -3443,19 +3443,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\GroupInformation',
+                '\DocuSign\Model\GroupInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/{templatePart}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\GroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\GroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\GroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\GroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3471,10 +3471,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function deleteLock($account_id, $template_id, $lock_request = null)
     {
@@ -3489,10 +3489,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteLockWithHttpInfo($account_id, $template_id, $lock_request = null): array
     {
@@ -3547,19 +3547,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3576,10 +3576,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function deleteRecipient($account_id, $recipient_id, $template_id, $template_recipients = null)
     {
@@ -3595,10 +3595,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteRecipientWithHttpInfo($account_id, $recipient_id, $template_id, $template_recipients = null): array
     {
@@ -3661,19 +3661,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3689,10 +3689,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function deleteRecipients($account_id, $template_id, $template_recipients = null)
     {
@@ -3707,10 +3707,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteRecipientsWithHttpInfo($account_id, $template_id, $template_recipients = null): array
     {
@@ -3765,19 +3765,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3794,10 +3794,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function deleteTabs($account_id, $recipient_id, $template_id, $template_tabs = null)
     {
@@ -3813,10 +3813,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteTabsWithHttpInfo($account_id, $recipient_id, $template_id, $template_tabs = null): array
     {
@@ -3879,19 +3879,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -3908,10 +3908,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function deleteTemplateDocumentTabs($account_id, $document_id, $template_id, $template_tabs = null)
     {
@@ -3927,10 +3927,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteTemplateDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, $template_tabs = null): array
     {
@@ -3993,19 +3993,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4021,12 +4021,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTemplate
+     * @return \DocuSign\Model\EnvelopeTemplate
      */
-    public function get($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetOptions $options = null)
+    public function get($account_id, $template_id, \DocuSign\Api\TemplatesApi\GetOptions $options = null)
     {
         list($response) = $this->getWithHttpInfo($account_id, $template_id, $options);
         return $response;
@@ -4039,12 +4039,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTemplate, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTemplate, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getWithHttpInfo($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetOptions $options = null): array
+    public function getWithHttpInfo($account_id, $template_id, \DocuSign\Api\TemplatesApi\GetOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4099,19 +4099,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTemplate',
+                '\DocuSign\Model\EnvelopeTemplate',
                 '/v2.1/accounts/{accountId}/templates/{templateId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTemplate', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTemplate', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTemplate', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTemplate', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4128,12 +4128,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getDocument($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentOptions $options = null)
+    public function getDocument($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentOptions $options = null)
     {
         list($response) = $this->getDocumentWithHttpInfo($account_id, $document_id, $template_id, $options);
         return $response;
@@ -4147,12 +4147,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentOptions $options = null): array
+    public function getDocumentWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4230,7 +4230,7 @@ class TemplatesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4248,12 +4248,12 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return \SplFileObject
      */
-    public function getDocumentPageImage($account_id, $document_id, $page_number, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentPageImageOptions $options = null)
+    public function getDocumentPageImage($account_id, $document_id, $page_number, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentPageImageOptions $options = null)
     {
         list($response) = $this->getDocumentPageImageWithHttpInfo($account_id, $document_id, $page_number, $template_id, $options);
         return $response;
@@ -4268,12 +4268,12 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentPageImageOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of \SplFileObject, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentPageImageWithHttpInfo($account_id, $document_id, $page_number, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentPageImageOptions $options = null): array
+    public function getDocumentPageImageWithHttpInfo($account_id, $document_id, $page_number, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentPageImageOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4365,7 +4365,7 @@ class TemplatesApi
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4382,12 +4382,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
-    public function getDocumentTabs($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentTabsOptions $options = null)
+    public function getDocumentTabs($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentTabsOptions $options = null)
     {
         list($response) = $this->getDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, $options);
         return $response;
@@ -4401,12 +4401,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetDocumentTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetDocumentTabsOptions $options = null): array
+    public function getDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetDocumentTabsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4469,19 +4469,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4499,7 +4499,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function getLock($account_id, $template_id)
     {
@@ -4516,7 +4516,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function getLockWithHttpInfo($account_id, $template_id): array
     {
@@ -4566,19 +4566,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4596,7 +4596,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function getNotificationSettings($account_id, $template_id)
     {
@@ -4613,7 +4613,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
      */
     public function getNotificationSettingsWithHttpInfo($account_id, $template_id): array
     {
@@ -4663,19 +4663,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notification',
+                '\DocuSign\Model\Notification',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/notification'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notification', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notification', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4695,7 +4695,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function getPageTabs($account_id, $document_id, $page_number, $template_id)
     {
@@ -4714,7 +4714,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPageTabsWithHttpInfo($account_id, $document_id, $page_number, $template_id): array
     {
@@ -4780,19 +4780,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/pages/{pageNumber}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4809,12 +4809,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PageImages
+     * @return \DocuSign\Model\PageImages
      */
-    public function getPages($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetPagesOptions $options = null)
+    public function getPages($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetPagesOptions $options = null)
     {
         list($response) = $this->getPagesWithHttpInfo($account_id, $document_id, $template_id, $options);
         return $response;
@@ -4828,12 +4828,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\GetPagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getPagesWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\GetPagesOptions $options = null): array
+    public function getPagesWithHttpInfo($account_id, $document_id, $template_id, \DocuSign\Api\TemplatesApi\GetPagesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -4914,19 +4914,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PageImages',
+                '\DocuSign\Model\PageImages',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/pages'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PageImages', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PageImages', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -4945,7 +4945,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals
+     * @return \DocuSign\Model\DocumentHtmlDefinitionOriginals
      */
     public function getTemplateDocumentHtmlDefinitions($account_id, $document_id, $template_id)
     {
@@ -4963,7 +4963,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTemplateDocumentHtmlDefinitionsWithHttpInfo($account_id, $document_id, $template_id): array
     {
@@ -5021,19 +5021,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals',
+                '\DocuSign\Model\DocumentHtmlDefinitionOriginals',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/html_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5051,7 +5051,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals
+     * @return \DocuSign\Model\DocumentHtmlDefinitionOriginals
      */
     public function getTemplateHtmlDefinitions($account_id, $template_id)
     {
@@ -5068,7 +5068,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentHtmlDefinitionOriginals, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTemplateHtmlDefinitionsWithHttpInfo($account_id, $template_id): array
     {
@@ -5118,19 +5118,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals',
+                '\DocuSign\Model\DocumentHtmlDefinitionOriginals',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/html_definitions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentHtmlDefinitionOriginals', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5147,12 +5147,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListBulkRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListBulkRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\BulkRecipientsResponse
+     * @return \DocuSign\Model\BulkRecipientsResponse
      */
-    public function listBulkRecipients($account_id, $recipient_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListBulkRecipientsOptions $options = null)
+    public function listBulkRecipients($account_id, $recipient_id, $template_id, \DocuSign\Api\TemplatesApi\ListBulkRecipientsOptions $options = null)
     {
         list($response) = $this->listBulkRecipientsWithHttpInfo($account_id, $recipient_id, $template_id, $options);
         return $response;
@@ -5166,12 +5166,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListBulkRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListBulkRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\BulkRecipientsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\BulkRecipientsResponse, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listBulkRecipientsWithHttpInfo($account_id, $recipient_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListBulkRecipientsOptions $options = null): array
+    public function listBulkRecipientsWithHttpInfo($account_id, $recipient_id, $template_id, \DocuSign\Api\TemplatesApi\ListBulkRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5237,19 +5237,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\BulkRecipientsResponse',
+                '\DocuSign\Model\BulkRecipientsResponse',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/bulk_recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\BulkRecipientsResponse', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\BulkRecipientsResponse', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\BulkRecipientsResponse', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\BulkRecipientsResponse', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5267,7 +5267,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function listCustomFields($account_id, $template_id)
     {
@@ -5284,7 +5284,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function listCustomFieldsWithHttpInfo($account_id, $template_id): array
     {
@@ -5334,19 +5334,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5365,7 +5365,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function listDocumentFields($account_id, $document_id, $template_id)
     {
@@ -5383,7 +5383,7 @@ class TemplatesApi
      * @param ?string $template_id The ID of the template being accessed.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function listDocumentFieldsWithHttpInfo($account_id, $document_id, $template_id): array
     {
@@ -5441,19 +5441,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5469,12 +5469,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateDocumentsResult
+     * @return \DocuSign\Model\TemplateDocumentsResult
      */
-    public function listDocuments($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListDocumentsOptions $options = null)
+    public function listDocuments($account_id, $template_id, \DocuSign\Api\TemplatesApi\ListDocumentsOptions $options = null)
     {
         list($response) = $this->listDocumentsWithHttpInfo($account_id, $template_id, $options);
         return $response;
@@ -5487,12 +5487,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListDocumentsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listDocumentsWithHttpInfo($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListDocumentsOptions $options = null): array
+    public function listDocumentsWithHttpInfo($account_id, $template_id, \DocuSign\Api\TemplatesApi\ListDocumentsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5547,19 +5547,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateDocumentsResult',
+                '\DocuSign\Model\TemplateDocumentsResult',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5575,12 +5575,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
-    public function listRecipients($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListRecipientsOptions $options = null)
+    public function listRecipients($account_id, $template_id, \DocuSign\Api\TemplatesApi\ListRecipientsOptions $options = null)
     {
         list($response) = $this->listRecipientsWithHttpInfo($account_id, $template_id, $options);
         return $response;
@@ -5593,12 +5593,12 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Recipients, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listRecipientsWithHttpInfo($account_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListRecipientsOptions $options = null): array
+    public function listRecipientsWithHttpInfo($account_id, $template_id, \DocuSign\Api\TemplatesApi\ListRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5659,19 +5659,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Recipients',
+                '\DocuSign\Model\Recipients',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Recipients', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Recipients', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Recipients', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5688,12 +5688,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
-    public function listTabs($account_id, $recipient_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListTabsOptions $options = null)
+    public function listTabs($account_id, $recipient_id, $template_id, \DocuSign\Api\TemplatesApi\ListTabsOptions $options = null)
     {
         list($response) = $this->listTabsWithHttpInfo($account_id, $recipient_id, $template_id, $options);
         return $response;
@@ -5707,12 +5707,12 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListTabsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listTabsWithHttpInfo($account_id, $recipient_id, $template_id, \DocuSign\eSign\Api\TemplatesApi\ListTabsOptions $options = null): array
+    public function listTabsWithHttpInfo($account_id, $recipient_id, $template_id, \DocuSign\Api\TemplatesApi\ListTabsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5778,19 +5778,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5805,12 +5805,12 @@ class TemplatesApi
      * Gets the definition of a template.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeTemplateResults
+     * @return \DocuSign\Model\EnvelopeTemplateResults
      */
-    public function listTemplates($account_id, \DocuSign\eSign\Api\TemplatesApi\ListTemplatesOptions $options = null)
+    public function listTemplates($account_id, \DocuSign\Api\TemplatesApi\ListTemplatesOptions $options = null)
     {
         list($response) = $this->listTemplatesWithHttpInfo($account_id, $options);
         return $response;
@@ -5822,12 +5822,12 @@ class TemplatesApi
      * Gets the definition of a template.
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param  \DocuSign\eSign\Api\TemplatesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\TemplatesApi\ListTemplatesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeTemplateResults, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeTemplateResults, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listTemplatesWithHttpInfo($account_id, \DocuSign\eSign\Api\TemplatesApi\ListTemplatesOptions $options = null): array
+    public function listTemplatesWithHttpInfo($account_id, \DocuSign\Api\TemplatesApi\ListTemplatesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -5940,19 +5940,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeTemplateResults',
+                '\DocuSign\Model\EnvelopeTemplateResults',
                 '/v2.1/accounts/{accountId}/templates'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeTemplateResults', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeTemplateResults', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeTemplateResults', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeTemplateResults', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -5970,7 +5970,7 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -5990,7 +5990,7 @@ class TemplatesApi
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $page_number The page number being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\PageRequest $page_request  (optional)
+     * @param \DocuSign\Model\PageRequest $page_request  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -6072,7 +6072,7 @@ class TemplatesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6088,10 +6088,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeTemplate $envelope_template  (optional)
+     * @param \DocuSign\Model\EnvelopeTemplate $envelope_template  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateUpdateSummary
+     * @return \DocuSign\Model\TemplateUpdateSummary
      */
     public function update($account_id, $template_id, $envelope_template = null)
     {
@@ -6106,10 +6106,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeTemplate $envelope_template  (optional)
+     * @param \DocuSign\Model\EnvelopeTemplate $envelope_template  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateUpdateSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateUpdateSummary, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWithHttpInfo($account_id, $template_id, $envelope_template = null): array
     {
@@ -6164,19 +6164,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateUpdateSummary',
+                '\DocuSign\Model\TemplateUpdateSummary',
                 '/v2.1/accounts/{accountId}/templates/{templateId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateUpdateSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateUpdateSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateUpdateSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateUpdateSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6192,10 +6192,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function updateCustomFields($account_id, $template_id, $template_custom_fields = null)
     {
@@ -6210,10 +6210,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateCustomFields $template_custom_fields  (optional)
+     * @param \DocuSign\Model\TemplateCustomFields $template_custom_fields  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\CustomFields, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateCustomFieldsWithHttpInfo($account_id, $template_id, $template_custom_fields = null): array
     {
@@ -6268,19 +6268,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\CustomFields',
+                '\DocuSign\Model\CustomFields',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/custom_fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\CustomFields', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\CustomFields', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\CustomFields', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6297,13 +6297,13 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\UpdateDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\UpdateDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\EnvelopeDocument
+     * @return \DocuSign\Model\EnvelopeDocument
      */
-    public function updateDocument($account_id, $document_id, $template_id, $envelope_definition = null, \DocuSign\eSign\Api\TemplatesApi\UpdateDocumentOptions $options = null)
+    public function updateDocument($account_id, $document_id, $template_id, $envelope_definition = null, \DocuSign\Api\TemplatesApi\UpdateDocumentOptions $options = null)
     {
         list($response) = $this->updateDocumentWithHttpInfo($account_id, $document_id, $template_id, $envelope_definition, $options);
         return $response;
@@ -6317,13 +6317,13 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\UpdateDocumentOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\UpdateDocumentOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\EnvelopeDocument, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\EnvelopeDocument, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updateDocumentWithHttpInfo($account_id, $document_id, $template_id, $envelope_definition = null, \DocuSign\eSign\Api\TemplatesApi\UpdateDocumentOptions $options = null): array
+    public function updateDocumentWithHttpInfo($account_id, $document_id, $template_id, $envelope_definition = null, \DocuSign\Api\TemplatesApi\UpdateDocumentOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -6391,19 +6391,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\EnvelopeDocument',
+                '\DocuSign\Model\EnvelopeDocument',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\EnvelopeDocument', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\EnvelopeDocument', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\EnvelopeDocument', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\EnvelopeDocument', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6420,10 +6420,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\DocumentFieldsInformation
+     * @return \DocuSign\Model\DocumentFieldsInformation
      */
     public function updateDocumentFields($account_id, $document_id, $template_id, $document_fields_information = null)
     {
@@ -6439,10 +6439,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
+     * @param \DocuSign\Model\DocumentFieldsInformation $document_fields_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\DocumentFieldsInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentFieldsWithHttpInfo($account_id, $document_id, $template_id, $document_fields_information = null): array
     {
@@ -6505,19 +6505,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\DocumentFieldsInformation',
+                '\DocuSign\Model\DocumentFieldsInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/fields'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\DocumentFieldsInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\DocumentFieldsInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6533,10 +6533,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\TemplateDocumentsResult
+     * @return \DocuSign\Model\TemplateDocumentsResult
      */
     public function updateDocuments($account_id, $template_id, $envelope_definition = null)
     {
@@ -6551,10 +6551,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\EnvelopeDefinition $envelope_definition  (optional)
+     * @param \DocuSign\Model\EnvelopeDefinition $envelope_definition  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\TemplateDocumentsResult, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateDocumentsWithHttpInfo($account_id, $template_id, $envelope_definition = null): array
     {
@@ -6609,19 +6609,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\TemplateDocumentsResult',
+                '\DocuSign\Model\TemplateDocumentsResult',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\TemplateDocumentsResult', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\TemplateDocumentsResult', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6638,10 +6638,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
      * @param ?string $template_part Currently, the only defined part is **groups**.
-     * @param \DocuSign\eSign\Model\GroupInformation $group_information  (optional)
+     * @param \DocuSign\Model\GroupInformation $group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\GroupInformation
+     * @return \DocuSign\Model\GroupInformation
      */
     public function updateGroupShare($account_id, $template_id, $template_part, $group_information = null)
     {
@@ -6657,10 +6657,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
      * @param ?string $template_part Currently, the only defined part is **groups**.
-     * @param \DocuSign\eSign\Model\GroupInformation $group_information  (optional)
+     * @param \DocuSign\Model\GroupInformation $group_information  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\GroupInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\GroupInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateGroupShareWithHttpInfo($account_id, $template_id, $template_part, $group_information = null): array
     {
@@ -6723,19 +6723,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\GroupInformation',
+                '\DocuSign\Model\GroupInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/{templatePart}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\GroupInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\GroupInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\GroupInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\GroupInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6751,10 +6751,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\LockInformation
+     * @return \DocuSign\Model\LockInformation
      */
     public function updateLock($account_id, $template_id, $lock_request = null)
     {
@@ -6769,10 +6769,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\LockRequest $lock_request  (optional)
+     * @param \DocuSign\Model\LockRequest $lock_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\LockInformation, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateLockWithHttpInfo($account_id, $template_id, $lock_request = null): array
     {
@@ -6827,19 +6827,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\LockInformation',
+                '\DocuSign\Model\LockInformation',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/lock'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\LockInformation', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\LockInformation', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\LockInformation', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6855,10 +6855,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateNotificationRequest $template_notification_request  (optional)
+     * @param \DocuSign\Model\TemplateNotificationRequest $template_notification_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Notification
+     * @return \DocuSign\Model\Notification
      */
     public function updateNotificationSettings($account_id, $template_id, $template_notification_request = null)
     {
@@ -6873,10 +6873,10 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateNotificationRequest $template_notification_request  (optional)
+     * @param \DocuSign\Model\TemplateNotificationRequest $template_notification_request  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Notification, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateNotificationSettingsWithHttpInfo($account_id, $template_id, $template_notification_request = null): array
     {
@@ -6931,19 +6931,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Notification',
+                '\DocuSign\Model\Notification',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/notification'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Notification', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Notification', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Notification', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -6959,13 +6959,13 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\RecipientsUpdateSummary
+     * @return \DocuSign\Model\RecipientsUpdateSummary
      */
-    public function updateRecipients($account_id, $template_id, $template_recipients = null, \DocuSign\eSign\Api\TemplatesApi\UpdateRecipientsOptions $options = null)
+    public function updateRecipients($account_id, $template_id, $template_recipients = null, \DocuSign\Api\TemplatesApi\UpdateRecipientsOptions $options = null)
     {
         list($response) = $this->updateRecipientsWithHttpInfo($account_id, $template_id, $template_recipients, $options);
         return $response;
@@ -6978,13 +6978,13 @@ class TemplatesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateRecipients $template_recipients  (optional)
-     * @param  \DocuSign\eSign\Api\TemplatesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
+     * @param \DocuSign\Model\TemplateRecipients $template_recipients  (optional)
+     * @param  \DocuSign\Api\TemplatesApi\UpdateRecipientsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\RecipientsUpdateSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\RecipientsUpdateSummary, HTTP status code, HTTP response headers (array of strings)
      */
-    public function updateRecipientsWithHttpInfo($account_id, $template_id, $template_recipients = null, \DocuSign\eSign\Api\TemplatesApi\UpdateRecipientsOptions $options = null): array
+    public function updateRecipientsWithHttpInfo($account_id, $template_id, $template_recipients = null, \DocuSign\Api\TemplatesApi\UpdateRecipientsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -7044,19 +7044,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\RecipientsUpdateSummary',
+                '\DocuSign\Model\RecipientsUpdateSummary',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\RecipientsUpdateSummary', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\RecipientsUpdateSummary', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\RecipientsUpdateSummary', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\RecipientsUpdateSummary', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7073,10 +7073,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function updateTabs($account_id, $recipient_id, $template_id, $template_tabs = null)
     {
@@ -7092,10 +7092,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $recipient_id The ID of the recipient being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTabsWithHttpInfo($account_id, $recipient_id, $template_id, $template_tabs = null): array
     {
@@ -7158,19 +7158,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/recipients/{recipientId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -7187,10 +7187,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function updateTemplateDocumentTabs($account_id, $document_id, $template_id, $template_tabs = null)
     {
@@ -7206,10 +7206,10 @@ class TemplatesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $document_id The ID of the document being accessed.
      * @param ?string $template_id The ID of the template being accessed.
-     * @param \DocuSign\eSign\Model\TemplateTabs $template_tabs  (optional)
+     * @param \DocuSign\Model\TemplateTabs $template_tabs  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Tabs, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateTemplateDocumentTabsWithHttpInfo($account_id, $document_id, $template_id, $template_tabs = null): array
     {
@@ -7272,19 +7272,19 @@ class TemplatesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Tabs',
+                '\DocuSign\Model\Tabs',
                 '/v2.1/accounts/{accountId}/templates/{templateId}/documents/{documentId}/tabs'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Tabs', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Tabs', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Tabs', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

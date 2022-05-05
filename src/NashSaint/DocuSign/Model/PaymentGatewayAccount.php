@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PaymentGatewayAccount Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'allow_custom_metadata' => '?bool',
-        'config' => '\DocuSign\eSign\Model\PaymentGatewayAccountSetting',
+        'config' => '\DocuSign\Model\PaymentGatewayAccountSetting',
         'display_name' => '?string',
         'is_enabled' => '?string',
         'is_legacy' => '?string',
@@ -68,10 +68,10 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
         'payment_gateway' => '?string',
         'payment_gateway_account_id' => '?string',
         'payment_gateway_display_name' => '?string',
-        'pay_pal_legacy_settings' => '\DocuSign\eSign\Model\PayPalLegacySettings',
+        'pay_pal_legacy_settings' => '\DocuSign\Model\PayPalLegacySettings',
         'supported_currencies' => '?string[]',
         'supported_payment_methods' => '?string[]',
-        'supported_payment_methods_with_options' => '\DocuSign\eSign\Model\PaymentMethodWithOptions[]',
+        'supported_payment_methods_with_options' => '\DocuSign\Model\PaymentMethodWithOptions[]',
         'zero_decimal_currencies' => '?string[]'
     ];
 
@@ -311,7 +311,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Gets config
      *
-     * @return \DocuSign\eSign\Model\PaymentGatewayAccountSetting
+     * @return \DocuSign\Model\PaymentGatewayAccountSetting
      */
     public function getConfig()
     {
@@ -321,7 +321,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Sets config
      *
-     * @param \DocuSign\eSign\Model\PaymentGatewayAccountSetting $config config
+     * @param \DocuSign\Model\PaymentGatewayAccountSetting $config config
      *
      * @return $this
      */
@@ -503,7 +503,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Gets pay_pal_legacy_settings
      *
-     * @return \DocuSign\eSign\Model\PayPalLegacySettings
+     * @return \DocuSign\Model\PayPalLegacySettings
      */
     public function getPayPalLegacySettings()
     {
@@ -513,7 +513,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Sets pay_pal_legacy_settings
      *
-     * @param \DocuSign\eSign\Model\PayPalLegacySettings $pay_pal_legacy_settings pay_pal_legacy_settings
+     * @param \DocuSign\Model\PayPalLegacySettings $pay_pal_legacy_settings pay_pal_legacy_settings
      *
      * @return $this
      */
@@ -575,7 +575,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Gets supported_payment_methods_with_options
      *
-     * @return \DocuSign\eSign\Model\PaymentMethodWithOptions[]
+     * @return \DocuSign\Model\PaymentMethodWithOptions[]
      */
     public function getSupportedPaymentMethodsWithOptions()
     {
@@ -585,7 +585,7 @@ class PaymentGatewayAccount implements ModelInterface, ArrayAccess
     /**
      * Sets supported_payment_methods_with_options
      *
-     * @param \DocuSign\eSign\Model\PaymentMethodWithOptions[] $supported_payment_methods_with_options
+     * @param \DocuSign\Model\PaymentMethodWithOptions[] $supported_payment_methods_with_options
      *
      * @return $this
      */

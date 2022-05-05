@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PowerFormSendersResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class PowerFormSendersResponse implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'end_position' => '?int',
         'next_uri' => '?string',
-        'power_form_senders' => '\DocuSign\eSign\Model\UserInfo[]',
+        'power_form_senders' => '\DocuSign\Model\UserInfo[]',
         'previous_uri' => '?string',
         'result_set_size' => '?int',
         'start_position' => '?int',
@@ -293,7 +293,7 @@ class PowerFormSendersResponse implements ModelInterface, ArrayAccess
     /**
      * Gets power_form_senders
      *
-     * @return \DocuSign\eSign\Model\UserInfo[]
+     * @return \DocuSign\Model\UserInfo[]
      */
     public function getPowerFormSenders()
     {
@@ -303,7 +303,7 @@ class PowerFormSendersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets power_form_senders
      *
-     * @param \DocuSign\eSign\Model\UserInfo[] $power_form_senders
+     * @param \DocuSign\Model\UserInfo[] $power_form_senders
      *
      * @return $this
      */

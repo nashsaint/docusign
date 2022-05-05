@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryJournalMetaData Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class NotaryJournalMetaData implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'comment' => '?string',
-        'credible_witnesses' => '\DocuSign\eSign\Model\NotaryJournalCredibleWitness[]',
+        'credible_witnesses' => '\DocuSign\Model\NotaryJournalCredibleWitness[]',
         'signature_image' => '?string',
         'signer_id_type' => '?string'
     ];
@@ -251,7 +251,7 @@ class NotaryJournalMetaData implements ModelInterface, ArrayAccess
     /**
      * Gets credible_witnesses
      *
-     * @return \DocuSign\eSign\Model\NotaryJournalCredibleWitness[]
+     * @return \DocuSign\Model\NotaryJournalCredibleWitness[]
      */
     public function getCredibleWitnesses()
     {
@@ -261,7 +261,7 @@ class NotaryJournalMetaData implements ModelInterface, ArrayAccess
     /**
      * Sets credible_witnesses
      *
-     * @param \DocuSign\eSign\Model\NotaryJournalCredibleWitness[] $credible_witnesses
+     * @param \DocuSign\Model\NotaryJournalCredibleWitness[] $credible_witnesses
      *
      * @return $this
      */

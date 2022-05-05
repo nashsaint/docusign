@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkRecipient Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,14 +61,14 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'access_code' => '?string',
         'email' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails[]',
         'identification' => '?string',
         'name' => '?string',
         'note' => '?string',
         'phone_number' => '?string',
-        'recipient_signature_provider_info' => '\DocuSign\eSign\Model\BulkRecipientSignatureProvider[]',
+        'recipient_signature_provider_info' => '\DocuSign\Model\BulkRecipientSignatureProvider[]',
         'row_number' => '?string',
-        'tab_labels' => '\DocuSign\eSign\Model\BulkRecipientTabLabel[]'
+        'tab_labels' => '\DocuSign\Model\BulkRecipientTabLabel[]'
     ];
 
     /**
@@ -311,7 +311,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails[]
+     * @return \DocuSign\Model\ErrorDetails[]
      */
     public function getErrorDetails()
     {
@@ -321,7 +321,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails[] $error_details Array or errors.
+     * @param \DocuSign\Model\ErrorDetails[] $error_details Array or errors.
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_signature_provider_info
      *
-     * @return \DocuSign\eSign\Model\BulkRecipientSignatureProvider[]
+     * @return \DocuSign\Model\BulkRecipientSignatureProvider[]
      */
     public function getRecipientSignatureProviderInfo()
     {
@@ -441,7 +441,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_signature_provider_info
      *
-     * @param \DocuSign\eSign\Model\BulkRecipientSignatureProvider[] $recipient_signature_provider_info
+     * @param \DocuSign\Model\BulkRecipientSignatureProvider[] $recipient_signature_provider_info
      *
      * @return $this
      */
@@ -479,7 +479,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets tab_labels
      *
-     * @return \DocuSign\eSign\Model\BulkRecipientTabLabel[]
+     * @return \DocuSign\Model\BulkRecipientTabLabel[]
      */
     public function getTabLabels()
     {
@@ -489,7 +489,7 @@ class BulkRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets tab_labels
      *
-     * @param \DocuSign\eSign\Model\BulkRecipientTabLabel[] $tab_labels Specifies values used to populate recipient tabs with information. This allows each bulk recipient signer to have different values for their associated tabs. Any number of `tabLabel` columns can be added to the bulk recipient file.  The information used in the bulk recipient file header must be the same as the `tabLabel` for the tab.  The values entered in this column are automatically inserted into the corresponding tab for the recipient in the same row.  Note that this option cannot be used for tabs that do not have data or that are automatically populated data such as Signature, Full Name, Email Address, Company, Title, and Date Signed tabs.
+     * @param \DocuSign\Model\BulkRecipientTabLabel[] $tab_labels Specifies values used to populate recipient tabs with information. This allows each bulk recipient signer to have different values for their associated tabs. Any number of `tabLabel` columns can be added to the bulk recipient file.  The information used in the bulk recipient file header must be the same as the `tabLabel` for the tab.  The values entered in this column are automatically inserted into the corresponding tab for the recipient in the same row.  Note that this option cannot be used for tabs that do not have data or that are automatically populated data such as Signature, Full Name, Email Address, Company, Title, and Date Signed tabs.
      *
      * @return $this
      */

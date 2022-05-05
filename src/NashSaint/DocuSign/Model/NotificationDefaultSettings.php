@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotificationDefaultSettings Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class NotificationDefaultSettings implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'sender_email_notifications' => '\DocuSign\eSign\Model\SenderEmailNotifications',
-        'signer_email_notifications' => '\DocuSign\eSign\Model\SignerEmailNotifications'
+        'sender_email_notifications' => '\DocuSign\Model\SenderEmailNotifications',
+        'signer_email_notifications' => '\DocuSign\Model\SignerEmailNotifications'
     ];
 
     /**
@@ -215,7 +215,7 @@ class NotificationDefaultSettings implements ModelInterface, ArrayAccess
     /**
      * Gets sender_email_notifications
      *
-     * @return \DocuSign\eSign\Model\SenderEmailNotifications
+     * @return \DocuSign\Model\SenderEmailNotifications
      */
     public function getSenderEmailNotifications()
     {
@@ -225,7 +225,7 @@ class NotificationDefaultSettings implements ModelInterface, ArrayAccess
     /**
      * Sets sender_email_notifications
      *
-     * @param \DocuSign\eSign\Model\SenderEmailNotifications $sender_email_notifications sender_email_notifications
+     * @param \DocuSign\Model\SenderEmailNotifications $sender_email_notifications sender_email_notifications
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class NotificationDefaultSettings implements ModelInterface, ArrayAccess
     /**
      * Gets signer_email_notifications
      *
-     * @return \DocuSign\eSign\Model\SignerEmailNotifications
+     * @return \DocuSign\Model\SignerEmailNotifications
      */
     public function getSignerEmailNotifications()
     {
@@ -249,7 +249,7 @@ class NotificationDefaultSettings implements ModelInterface, ArrayAccess
     /**
      * Sets signer_email_notifications
      *
-     * @param \DocuSign\eSign\Model\SignerEmailNotifications $signer_email_notifications signer_email_notifications
+     * @param \DocuSign\Model\SignerEmailNotifications $signer_email_notifications signer_email_notifications
      *
      * @return $this
      */

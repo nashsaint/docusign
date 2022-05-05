@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BillingPlanInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,18 +59,18 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'app_store_receipt' => '\DocuSign\eSign\Model\AppStoreReceipt',
-        'billing_address' => '\DocuSign\eSign\Model\AccountAddress',
-        'credit_card_information' => '\DocuSign\eSign\Model\CreditCardInformation',
-        'direct_debit_processor_information' => '\DocuSign\eSign\Model\DirectDebitProcessorInformation',
+        'app_store_receipt' => '\DocuSign\Model\AppStoreReceipt',
+        'billing_address' => '\DocuSign\Model\AccountAddress',
+        'credit_card_information' => '\DocuSign\Model\CreditCardInformation',
+        'direct_debit_processor_information' => '\DocuSign\Model\DirectDebitProcessorInformation',
         'downgrade_reason' => '?string',
         'enable_support' => '?string',
         'included_seats' => '?string',
         'incremental_seats' => '?string',
         'payment_method' => '?string',
-        'payment_processor_information' => '\DocuSign\eSign\Model\PaymentProcessorInformation',
-        'plan_information' => '\DocuSign\eSign\Model\PlanInformation',
-        'referral_information' => '\DocuSign\eSign\Model\ReferralInformation',
+        'payment_processor_information' => '\DocuSign\Model\PaymentProcessorInformation',
+        'plan_information' => '\DocuSign\Model\PlanInformation',
+        'referral_information' => '\DocuSign\Model\ReferralInformation',
         'renewal_status' => '?string',
         'sale_discount_amount' => '?string',
         'sale_discount_fixed_amount' => '?string',
@@ -317,7 +317,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets app_store_receipt
      *
-     * @return \DocuSign\eSign\Model\AppStoreReceipt
+     * @return \DocuSign\Model\AppStoreReceipt
      */
     public function getAppStoreReceipt()
     {
@@ -327,7 +327,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets app_store_receipt
      *
-     * @param \DocuSign\eSign\Model\AppStoreReceipt $app_store_receipt app_store_receipt
+     * @param \DocuSign\Model\AppStoreReceipt $app_store_receipt app_store_receipt
      *
      * @return $this
      */
@@ -341,7 +341,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets billing_address
      *
-     * @return \DocuSign\eSign\Model\AccountAddress
+     * @return \DocuSign\Model\AccountAddress
      */
     public function getBillingAddress()
     {
@@ -351,7 +351,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets billing_address
      *
-     * @param \DocuSign\eSign\Model\AccountAddress $billing_address billing_address
+     * @param \DocuSign\Model\AccountAddress $billing_address billing_address
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets credit_card_information
      *
-     * @return \DocuSign\eSign\Model\CreditCardInformation
+     * @return \DocuSign\Model\CreditCardInformation
      */
     public function getCreditCardInformation()
     {
@@ -375,7 +375,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets credit_card_information
      *
-     * @param \DocuSign\eSign\Model\CreditCardInformation $credit_card_information credit_card_information
+     * @param \DocuSign\Model\CreditCardInformation $credit_card_information credit_card_information
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets direct_debit_processor_information
      *
-     * @return \DocuSign\eSign\Model\DirectDebitProcessorInformation
+     * @return \DocuSign\Model\DirectDebitProcessorInformation
      */
     public function getDirectDebitProcessorInformation()
     {
@@ -399,7 +399,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets direct_debit_processor_information
      *
-     * @param \DocuSign\eSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
+     * @param \DocuSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets payment_processor_information
      *
-     * @return \DocuSign\eSign\Model\PaymentProcessorInformation
+     * @return \DocuSign\Model\PaymentProcessorInformation
      */
     public function getPaymentProcessorInformation()
     {
@@ -543,7 +543,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets payment_processor_information
      *
-     * @param \DocuSign\eSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
+     * @param \DocuSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
      *
      * @return $this
      */
@@ -557,7 +557,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets plan_information
      *
-     * @return \DocuSign\eSign\Model\PlanInformation
+     * @return \DocuSign\Model\PlanInformation
      */
     public function getPlanInformation()
     {
@@ -567,7 +567,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets plan_information
      *
-     * @param \DocuSign\eSign\Model\PlanInformation $plan_information plan_information
+     * @param \DocuSign\Model\PlanInformation $plan_information plan_information
      *
      * @return $this
      */
@@ -581,7 +581,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Gets referral_information
      *
-     * @return \DocuSign\eSign\Model\ReferralInformation
+     * @return \DocuSign\Model\ReferralInformation
      */
     public function getReferralInformation()
     {
@@ -591,7 +591,7 @@ class BillingPlanInformation implements ModelInterface, ArrayAccess
     /**
      * Sets referral_information
      *
-     * @param \DocuSign\eSign\Model\ReferralInformation $referral_information referral_information
+     * @param \DocuSign\Model\ReferralInformation $referral_information referral_information
      *
      * @return $this
      */

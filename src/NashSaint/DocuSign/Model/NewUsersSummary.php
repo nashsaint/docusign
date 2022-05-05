@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NewUsersSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class NewUsersSummary implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'new_users' => '\DocuSign\eSign\Model\NewUser[]'
+        'new_users' => '\DocuSign\Model\NewUser[]'
     ];
 
     /**
@@ -209,7 +209,7 @@ class NewUsersSummary implements ModelInterface, ArrayAccess
     /**
      * Gets new_users
      *
-     * @return \DocuSign\eSign\Model\NewUser[]
+     * @return \DocuSign\Model\NewUser[]
      */
     public function getNewUsers()
     {
@@ -219,7 +219,7 @@ class NewUsersSummary implements ModelInterface, ArrayAccess
     /**
      * Sets new_users
      *
-     * @param \DocuSign\eSign\Model\NewUser[] $new_users
+     * @param \DocuSign\Model\NewUser[] $new_users
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Folder Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,16 +59,16 @@ class Folder implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'filter' => '\DocuSign\eSign\Model\Filter',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'filter' => '\DocuSign\Model\Filter',
         'folder_id' => '?string',
-        'folder_items' => '\DocuSign\eSign\Model\FolderItemV2[]',
-        'folders' => '\DocuSign\eSign\Model\Folder[]',
+        'folder_items' => '\DocuSign\Model\FolderItemV2[]',
+        'folders' => '\DocuSign\Model\Folder[]',
         'has_access' => '?string',
         'has_sub_folders' => '?string',
         'item_count' => '?string',
         'name' => '?string',
-        'owner' => '\DocuSign\eSign\Model\UserInfo',
+        'owner' => '\DocuSign\Model\UserInfo',
         'parent_folder_id' => '?string',
         'parent_folder_uri' => '?string',
         'sub_folder_count' => '?string',
@@ -293,7 +293,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -303,7 +303,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -317,7 +317,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Gets filter
      *
-     * @return \DocuSign\eSign\Model\Filter
+     * @return \DocuSign\Model\Filter
      */
     public function getFilter()
     {
@@ -327,7 +327,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Sets filter
      *
-     * @param \DocuSign\eSign\Model\Filter $filter filter
+     * @param \DocuSign\Model\Filter $filter filter
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Gets folder_items
      *
-     * @return \DocuSign\eSign\Model\FolderItemV2[]
+     * @return \DocuSign\Model\FolderItemV2[]
      */
     public function getFolderItems()
     {
@@ -375,7 +375,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Sets folder_items
      *
-     * @param \DocuSign\eSign\Model\FolderItemV2[] $folder_items A list of the envelopes in the specified folder or folders.
+     * @param \DocuSign\Model\FolderItemV2[] $folder_items A list of the envelopes in the specified folder or folders.
      *
      * @return $this
      */
@@ -389,7 +389,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Gets folders
      *
-     * @return \DocuSign\eSign\Model\Folder[]
+     * @return \DocuSign\Model\Folder[]
      */
     public function getFolders()
     {
@@ -399,7 +399,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Sets folders
      *
-     * @param \DocuSign\eSign\Model\Folder[] $folders A collection of folder objects returned in a response.
+     * @param \DocuSign\Model\Folder[] $folders A collection of folder objects returned in a response.
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Gets owner
      *
-     * @return \DocuSign\eSign\Model\UserInfo
+     * @return \DocuSign\Model\UserInfo
      */
     public function getOwner()
     {
@@ -519,7 +519,7 @@ class Folder implements ModelInterface, ArrayAccess
     /**
      * Sets owner
      *
-     * @param \DocuSign\eSign\Model\UserInfo $owner owner
+     * @param \DocuSign\Model\UserInfo $owner owner
      *
      * @return $this
      */

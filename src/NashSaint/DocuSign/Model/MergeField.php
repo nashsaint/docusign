@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * MergeField Class Doc Comment
  *
  * @category    Class
  * @description Contains information for transfering values between Salesforce data fields and DocuSign Tabs.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,17 +61,17 @@ class MergeField implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'allow_sender_to_edit' => '?string',
-        'allow_sender_to_edit_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'allow_sender_to_edit_metadata' => '\DocuSign\Model\PropertyMetadata',
         'configuration_type' => '?string',
-        'configuration_type_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'configuration_type_metadata' => '\DocuSign\Model\PropertyMetadata',
         'path' => '?string',
-        'path_extended' => '\DocuSign\eSign\Model\PathExtendedElement[]',
-        'path_extended_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'path_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'path_extended' => '\DocuSign\Model\PathExtendedElement[]',
+        'path_extended_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'path_metadata' => '\DocuSign\Model\PropertyMetadata',
         'row' => '?string',
-        'row_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'row_metadata' => '\DocuSign\Model\PropertyMetadata',
         'write_back' => '?string',
-        'write_back_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'write_back_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -300,7 +300,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets allow_sender_to_edit_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getAllowSenderToEditMetadata()
     {
@@ -310,7 +310,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets allow_sender_to_edit_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $allow_sender_to_edit_metadata allow_sender_to_edit_metadata
+     * @param \DocuSign\Model\PropertyMetadata $allow_sender_to_edit_metadata allow_sender_to_edit_metadata
      *
      * @return $this
      */
@@ -348,7 +348,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets configuration_type_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConfigurationTypeMetadata()
     {
@@ -358,7 +358,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets configuration_type_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $configuration_type_metadata configuration_type_metadata
+     * @param \DocuSign\Model\PropertyMetadata $configuration_type_metadata configuration_type_metadata
      *
      * @return $this
      */
@@ -396,7 +396,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets path_extended
      *
-     * @return \DocuSign\eSign\Model\PathExtendedElement[]
+     * @return \DocuSign\Model\PathExtendedElement[]
      */
     public function getPathExtended()
     {
@@ -406,7 +406,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets path_extended
      *
-     * @param \DocuSign\eSign\Model\PathExtendedElement[] $path_extended
+     * @param \DocuSign\Model\PathExtendedElement[] $path_extended
      *
      * @return $this
      */
@@ -420,7 +420,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets path_extended_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getPathExtendedMetadata()
     {
@@ -430,7 +430,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets path_extended_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $path_extended_metadata path_extended_metadata
+     * @param \DocuSign\Model\PropertyMetadata $path_extended_metadata path_extended_metadata
      *
      * @return $this
      */
@@ -444,7 +444,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets path_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getPathMetadata()
     {
@@ -454,7 +454,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets path_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $path_metadata path_metadata
+     * @param \DocuSign\Model\PropertyMetadata $path_metadata path_metadata
      *
      * @return $this
      */
@@ -492,7 +492,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets row_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRowMetadata()
     {
@@ -502,7 +502,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets row_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $row_metadata row_metadata
+     * @param \DocuSign\Model\PropertyMetadata $row_metadata row_metadata
      *
      * @return $this
      */
@@ -540,7 +540,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Gets write_back_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getWriteBackMetadata()
     {
@@ -550,7 +550,7 @@ class MergeField implements ModelInterface, ArrayAccess
     /**
      * Sets write_back_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $write_back_metadata write_back_metadata
+     * @param \DocuSign\Model\PropertyMetadata $write_back_metadata write_back_metadata
      *
      * @return $this
      */

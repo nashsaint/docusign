@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * PowerFormFormDataRecipient Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class PowerFormFormDataRecipient implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'email' => '?string',
-        'form_data' => '\DocuSign\eSign\Model\NameValue[]',
+        'form_data' => '\DocuSign\Model\NameValue[]',
         'name' => '?string',
         'recipient_id' => '?string'
     ];
@@ -251,7 +251,7 @@ class PowerFormFormDataRecipient implements ModelInterface, ArrayAccess
     /**
      * Gets form_data
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getFormData()
     {
@@ -261,7 +261,7 @@ class PowerFormFormDataRecipient implements ModelInterface, ArrayAccess
     /**
      * Sets form_data
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $form_data
+     * @param \DocuSign\Model\NameValue[] $form_data
      *
      * @return $this
      */

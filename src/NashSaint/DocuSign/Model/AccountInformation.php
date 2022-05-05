@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountInformation Class Doc Comment
  *
  * @category    Class
  * @description Contains account Information.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'account_id_guid' => '?string',
         'account_name' => '?string',
-        'account_settings' => '\DocuSign\eSign\Model\AccountSettingsInformation',
+        'account_settings' => '\DocuSign\Model\AccountSettingsInformation',
         'allow_transaction_rooms' => '?string',
         'billing_period_days_remaining' => '?string',
         'billing_period_end_date' => '?string',
@@ -90,7 +90,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
         'plan_end_date' => '?string',
         'plan_name' => '?string',
         'plan_start_date' => '?string',
-        'recipient_domains' => '\DocuSign\eSign\Model\RecipientDomain[]',
+        'recipient_domains' => '\DocuSign\Model\RecipientDomain[]',
         'seats_allowed' => '?string',
         'seats_in_use' => '?string',
         'status21_cfr_part11' => '?string',
@@ -474,7 +474,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
     /**
      * Gets account_settings
      *
-     * @return \DocuSign\eSign\Model\AccountSettingsInformation
+     * @return \DocuSign\Model\AccountSettingsInformation
      */
     public function getAccountSettings()
     {
@@ -484,7 +484,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
     /**
      * Sets account_settings
      *
-     * @param \DocuSign\eSign\Model\AccountSettingsInformation $account_settings account_settings
+     * @param \DocuSign\Model\AccountSettingsInformation $account_settings account_settings
      *
      * @return $this
      */
@@ -1146,7 +1146,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_domains
      *
-     * @return \DocuSign\eSign\Model\RecipientDomain[]
+     * @return \DocuSign\Model\RecipientDomain[]
      */
     public function getRecipientDomains()
     {
@@ -1156,7 +1156,7 @@ class AccountInformation implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_domains
      *
-     * @param \DocuSign\eSign\Model\RecipientDomain[] $recipient_domains
+     * @param \DocuSign\Model\RecipientDomain[] $recipient_domains
      *
      * @return $this
      */

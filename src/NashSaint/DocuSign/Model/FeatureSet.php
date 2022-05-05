@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FeatureSet Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,7 +59,7 @@ class FeatureSet implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'currency_feature_set_prices' => '\DocuSign\eSign\Model\CurrencyFeatureSetPrice[]',
+        'currency_feature_set_prices' => '\DocuSign\Model\CurrencyFeatureSetPrice[]',
         'envelope_fee' => '?string',
         'feature_set_id' => '?string',
         'fixed_fee' => '?string',
@@ -257,7 +257,7 @@ class FeatureSet implements ModelInterface, ArrayAccess
     /**
      * Gets currency_feature_set_prices
      *
-     * @return \DocuSign\eSign\Model\CurrencyFeatureSetPrice[]
+     * @return \DocuSign\Model\CurrencyFeatureSetPrice[]
      */
     public function getCurrencyFeatureSetPrices()
     {
@@ -267,7 +267,7 @@ class FeatureSet implements ModelInterface, ArrayAccess
     /**
      * Sets currency_feature_set_prices
      *
-     * @param \DocuSign\eSign\Model\CurrencyFeatureSetPrice[] $currency_feature_set_prices A complex type that contains alternate currency values that are configured for this plan feature set.
+     * @param \DocuSign\Model\CurrencyFeatureSetPrice[] $currency_feature_set_prices A complex type that contains alternate currency values that are configured for this plan feature set.
      *
      * @return $this
      */

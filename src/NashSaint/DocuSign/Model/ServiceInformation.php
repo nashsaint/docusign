@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ServiceInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,7 +64,7 @@ class ServiceInformation implements ModelInterface, ArrayAccess
         'build_sha' => '?string',
         'build_version' => '?string',
         'linked_sites' => '?string[]',
-        'service_versions' => '\DocuSign\eSign\Model\ServiceVersion[]'
+        'service_versions' => '\DocuSign\Model\ServiceVersion[]'
     ];
 
     /**
@@ -359,7 +359,7 @@ class ServiceInformation implements ModelInterface, ArrayAccess
     /**
      * Gets service_versions
      *
-     * @return \DocuSign\eSign\Model\ServiceVersion[]
+     * @return \DocuSign\Model\ServiceVersion[]
      */
     public function getServiceVersions()
     {
@@ -369,7 +369,7 @@ class ServiceInformation implements ModelInterface, ArrayAccess
     /**
      * Sets service_versions
      *
-     * @param \DocuSign\eSign\Model\ServiceVersion[] $service_versions
+     * @param \DocuSign\Model\ServiceVersion[] $service_versions
      *
      * @return $this
      */

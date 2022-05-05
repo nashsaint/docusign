@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * CustomFieldsEnvelope Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class CustomFieldsEnvelope implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'list_custom_fields' => '\DocuSign\eSign\Model\ListCustomField[]',
-        'text_custom_fields' => '\DocuSign\eSign\Model\TextCustomField[]'
+        'list_custom_fields' => '\DocuSign\Model\ListCustomField[]',
+        'text_custom_fields' => '\DocuSign\Model\TextCustomField[]'
     ];
 
     /**
@@ -215,7 +215,7 @@ class CustomFieldsEnvelope implements ModelInterface, ArrayAccess
     /**
      * Gets list_custom_fields
      *
-     * @return \DocuSign\eSign\Model\ListCustomField[]
+     * @return \DocuSign\Model\ListCustomField[]
      */
     public function getListCustomFields()
     {
@@ -225,7 +225,7 @@ class CustomFieldsEnvelope implements ModelInterface, ArrayAccess
     /**
      * Sets list_custom_fields
      *
-     * @param \DocuSign\eSign\Model\ListCustomField[] $list_custom_fields An array of list custom fields.
+     * @param \DocuSign\Model\ListCustomField[] $list_custom_fields An array of list custom fields.
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class CustomFieldsEnvelope implements ModelInterface, ArrayAccess
     /**
      * Gets text_custom_fields
      *
-     * @return \DocuSign\eSign\Model\TextCustomField[]
+     * @return \DocuSign\Model\TextCustomField[]
      */
     public function getTextCustomFields()
     {
@@ -249,7 +249,7 @@ class CustomFieldsEnvelope implements ModelInterface, ArrayAccess
     /**
      * Sets text_custom_fields
      *
-     * @param \DocuSign\eSign\Model\TextCustomField[] $text_custom_fields An array of text custom fields.
+     * @param \DocuSign\Model\TextCustomField[] $text_custom_fields An array of text custom fields.
      *
      * @return $this
      */

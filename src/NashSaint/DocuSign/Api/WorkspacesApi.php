@@ -7,7 +7,7 @@ declare(strict_types=1);
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -30,14 +30,14 @@ declare(strict_types=1);
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Api\WorkspacesApi;
+namespace NashSaint\DocuSign\Api\WorkspacesApi;
 
 
 /**
  * GetWorkspaceFileOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -105,7 +105,7 @@ class GetWorkspaceFileOptions
  * ListWorkspaceFilePagesOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -254,7 +254,7 @@ class ListWorkspaceFilePagesOptions
  * ListWorkspaceFolderItemsOptions Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -454,18 +454,18 @@ class ListWorkspaceFolderItemsOptions
 
 
 
-namespace NashSaint\DocuSign\eSign\Api;
+namespace NashSaint\DocuSign\Api;
 
-use NashSaint\DocuSign\eSign\Client\ApiClient;
-use NashSaint\DocuSign\eSign\Client\ApiException;
-use NashSaint\DocuSign\eSign\Configuration;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\Client\ApiClient;
+use NashSaint\DocuSign\Client\ApiException;
+use NashSaint\DocuSign\Configuration;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspacesApi Class Doc Comment
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -539,10 +539,10 @@ class WorkspacesApi
      * Create a Workspace
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\Workspace $workspace  (optional)
+     * @param \DocuSign\Model\Workspace $workspace  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workspace
+     * @return \DocuSign\Model\Workspace
      */
     public function createWorkspace($account_id, $workspace = null)
     {
@@ -556,10 +556,10 @@ class WorkspacesApi
      * Create a Workspace
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
-     * @param \DocuSign\eSign\Model\Workspace $workspace  (optional)
+     * @param \DocuSign\Model\Workspace $workspace  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
      */
     public function createWorkspaceWithHttpInfo($account_id, $workspace = null): array
     {
@@ -606,19 +606,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workspace',
+                '\DocuSign\Model\Workspace',
                 '/v2.1/accounts/{accountId}/workspaces'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workspace', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workspace', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -637,7 +637,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\WorkspaceItem
+     * @return \DocuSign\Model\WorkspaceItem
      */
     public function createWorkspaceFile($account_id, $folder_id, $workspace_id)
     {
@@ -655,7 +655,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\WorkspaceItem, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\WorkspaceItem, HTTP status code, HTTP response headers (array of strings)
      */
     public function createWorkspaceFileWithHttpInfo($account_id, $folder_id, $workspace_id): array
     {
@@ -713,19 +713,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\WorkspaceItem',
+                '\DocuSign\Model\WorkspaceItem',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}/folders/{folderId}/files'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\WorkspaceItem', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\WorkspaceItem', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\WorkspaceItem', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\WorkspaceItem', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -743,7 +743,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workspace
+     * @return \DocuSign\Model\Workspace
      */
     public function deleteWorkspace($account_id, $workspace_id)
     {
@@ -760,7 +760,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
      */
     public function deleteWorkspaceWithHttpInfo($account_id, $workspace_id): array
     {
@@ -810,19 +810,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workspace',
+                '\DocuSign\Model\Workspace',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workspace', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workspace', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -839,7 +839,7 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param \DocuSign\eSign\Model\WorkspaceItemList $workspace_item_list  (optional)
+     * @param \DocuSign\Model\WorkspaceItemList $workspace_item_list  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
@@ -858,7 +858,7 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param \DocuSign\eSign\Model\WorkspaceItemList $workspace_item_list  (optional)
+     * @param \DocuSign\Model\WorkspaceItemList $workspace_item_list  (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
@@ -932,7 +932,7 @@ class WorkspacesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -950,7 +950,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workspace
+     * @return \DocuSign\Model\Workspace
      */
     public function getWorkspace($account_id, $workspace_id)
     {
@@ -967,7 +967,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
      */
     public function getWorkspaceWithHttpInfo($account_id, $workspace_id): array
     {
@@ -1017,19 +1017,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workspace',
+                '\DocuSign\Model\Workspace',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workspace', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workspace', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1047,12 +1047,12 @@ class WorkspacesApi
      * @param ?string $file_id Specifies the room file ID GUID.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\GetWorkspaceFileOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\GetWorkspaceFileOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return mixed
      */
-    public function getWorkspaceFile($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\GetWorkspaceFileOptions $options = null)
+    public function getWorkspaceFile($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\GetWorkspaceFileOptions $options = null)
     {
         list($response) = $this->getWorkspaceFileWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, $options);
         return $response;
@@ -1067,12 +1067,12 @@ class WorkspacesApi
      * @param ?string $file_id Specifies the room file ID GUID.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\GetWorkspaceFileOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\GetWorkspaceFileOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
-    public function getWorkspaceFileWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\GetWorkspaceFileOptions $options = null): array
+    public function getWorkspaceFileWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\GetWorkspaceFileOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1154,7 +1154,7 @@ class WorkspacesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1172,12 +1172,12 @@ class WorkspacesApi
      * @param ?string $file_id Specifies the room file ID GUID.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\PageImages
+     * @return \DocuSign\Model\PageImages
      */
-    public function listWorkspaceFilePages($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions $options = null)
+    public function listWorkspaceFilePages($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions $options = null)
     {
         list($response) = $this->listWorkspaceFilePagesWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, $options);
         return $response;
@@ -1192,12 +1192,12 @@ class WorkspacesApi
      * @param ?string $file_id Specifies the room file ID GUID.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\PageImages, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listWorkspaceFilePagesWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions $options = null): array
+    public function listWorkspaceFilePagesWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\ListWorkspaceFilePagesOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1280,19 +1280,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\PageImages',
+                '\DocuSign\Model\PageImages',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}/folders/{folderId}/files/{fileId}/pages'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\PageImages', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\PageImages', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\PageImages', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1309,12 +1309,12 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\WorkspaceFolderContents
+     * @return \DocuSign\Model\WorkspaceFolderContents
      */
-    public function listWorkspaceFolderItems($account_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions $options = null)
+    public function listWorkspaceFolderItems($account_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions $options = null)
     {
         list($response) = $this->listWorkspaceFolderItemsWithHttpInfo($account_id, $folder_id, $workspace_id, $options);
         return $response;
@@ -1328,12 +1328,12 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $folder_id The ID of the folder being accessed.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param  \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions  $options for modifying the behavior of the function. (optional)
+     * @param  \DocuSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions  $options for modifying the behavior of the function. (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\WorkspaceFolderContents, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\WorkspaceFolderContents, HTTP status code, HTTP response headers (array of strings)
      */
-    public function listWorkspaceFolderItemsWithHttpInfo($account_id, $folder_id, $workspace_id, \DocuSign\eSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions $options = null): array
+    public function listWorkspaceFolderItemsWithHttpInfo($account_id, $folder_id, $workspace_id, \DocuSign\Api\WorkspacesApi\ListWorkspaceFolderItemsOptions $options = null): array
     {
         // verify the required parameter 'account_id' is set
         if ($account_id === null) {
@@ -1414,19 +1414,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\WorkspaceFolderContents',
+                '\DocuSign\Model\WorkspaceFolderContents',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}/folders/{folderId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\WorkspaceFolderContents', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\WorkspaceFolderContents', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\WorkspaceFolderContents', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\WorkspaceFolderContents', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1443,7 +1443,7 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\WorkspaceList
+     * @return \DocuSign\Model\WorkspaceList
      */
     public function listWorkspaces($account_id)
     {
@@ -1459,7 +1459,7 @@ class WorkspacesApi
      * @param ?string $account_id The external account number (int) or account ID Guid.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\WorkspaceList, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\WorkspaceList, HTTP status code, HTTP response headers (array of strings)
      */
     public function listWorkspacesWithHttpInfo($account_id): array
     {
@@ -1501,19 +1501,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\WorkspaceList',
+                '\DocuSign\Model\WorkspaceList',
                 '/v2.1/accounts/{accountId}/workspaces'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\WorkspaceList', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\WorkspaceList', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\WorkspaceList', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\WorkspaceList', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1529,10 +1529,10 @@ class WorkspacesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param \DocuSign\eSign\Model\Workspace $workspace  (optional)
+     * @param \DocuSign\Model\Workspace $workspace  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\Workspace
+     * @return \DocuSign\Model\Workspace
      */
     public function updateWorkspace($account_id, $workspace_id, $workspace = null)
     {
@@ -1547,10 +1547,10 @@ class WorkspacesApi
      *
      * @param ?string $account_id The external account number (int) or account ID Guid.
      * @param ?string $workspace_id Specifies the workspace ID GUID.
-     * @param \DocuSign\eSign\Model\Workspace $workspace  (optional)
+     * @param \DocuSign\Model\Workspace $workspace  (optional)
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\Workspace, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWorkspaceWithHttpInfo($account_id, $workspace_id, $workspace = null): array
     {
@@ -1605,19 +1605,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\Workspace',
+                '\DocuSign\Model\Workspace',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\Workspace', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\Workspace', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\Workspace', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -1637,7 +1637,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return \DocuSign\eSign\Model\WorkspaceItem
+     * @return \DocuSign\Model\WorkspaceItem
      */
     public function updateWorkspaceFile($account_id, $file_id, $folder_id, $workspace_id)
     {
@@ -1656,7 +1656,7 @@ class WorkspacesApi
      * @param ?string $workspace_id Specifies the workspace ID GUID.
      *
      * @throws ApiException on non-2xx response
-     * @return array of \DocuSign\eSign\Model\WorkspaceItem, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \DocuSign\Model\WorkspaceItem, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateWorkspaceFileWithHttpInfo($account_id, $file_id, $folder_id, $workspace_id): array
     {
@@ -1722,19 +1722,19 @@ class WorkspacesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\DocuSign\eSign\Model\WorkspaceItem',
+                '\DocuSign\Model\WorkspaceItem',
                 '/v2.1/accounts/{accountId}/workspaces/{workspaceId}/folders/{folderId}/files/{fileId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\eSign\Model\WorkspaceItem', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\DocuSign\Model\WorkspaceItem', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\WorkspaceItem', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\WorkspaceItem', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 400:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\eSign\Model\ErrorDetails', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\DocuSign\Model\ErrorDetails', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

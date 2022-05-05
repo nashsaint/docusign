@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryJournal Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,9 +61,9 @@ class NotaryJournal implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'created_date' => '?string',
         'document_name' => '?string',
-        'jurisdiction' => '\DocuSign\eSign\Model\Jurisdiction',
+        'jurisdiction' => '\DocuSign\Model\Jurisdiction',
         'notary_journal_id' => '?string',
-        'notary_journal_meta_data' => '\DocuSign\eSign\Model\NotaryJournalMetaData',
+        'notary_journal_meta_data' => '\DocuSign\Model\NotaryJournalMetaData',
         'signer_name' => '?string'
     ];
 
@@ -287,7 +287,7 @@ class NotaryJournal implements ModelInterface, ArrayAccess
     /**
      * Gets jurisdiction
      *
-     * @return \DocuSign\eSign\Model\Jurisdiction
+     * @return \DocuSign\Model\Jurisdiction
      */
     public function getJurisdiction()
     {
@@ -297,7 +297,7 @@ class NotaryJournal implements ModelInterface, ArrayAccess
     /**
      * Sets jurisdiction
      *
-     * @param \DocuSign\eSign\Model\Jurisdiction $jurisdiction jurisdiction
+     * @param \DocuSign\Model\Jurisdiction $jurisdiction jurisdiction
      *
      * @return $this
      */
@@ -335,7 +335,7 @@ class NotaryJournal implements ModelInterface, ArrayAccess
     /**
      * Gets notary_journal_meta_data
      *
-     * @return \DocuSign\eSign\Model\NotaryJournalMetaData
+     * @return \DocuSign\Model\NotaryJournalMetaData
      */
     public function getNotaryJournalMetaData()
     {
@@ -345,7 +345,7 @@ class NotaryJournal implements ModelInterface, ArrayAccess
     /**
      * Sets notary_journal_meta_data
      *
-     * @param \DocuSign\eSign\Model\NotaryJournalMetaData $notary_journal_meta_data notary_journal_meta_data
+     * @param \DocuSign\Model\NotaryJournalMetaData $notary_journal_meta_data notary_journal_meta_data
      *
      * @return $this
      */

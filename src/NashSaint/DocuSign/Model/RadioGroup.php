@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * RadioGroup Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,38 +60,38 @@ class RadioGroup implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'conditional_parent_label' => '?string',
-        'conditional_parent_label_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'conditional_parent_label_metadata' => '\DocuSign\Model\PropertyMetadata',
         'conditional_parent_value' => '?string',
-        'conditional_parent_value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'conditional_parent_value_metadata' => '\DocuSign\Model\PropertyMetadata',
         'document_id' => '?string',
-        'document_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'document_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'group_name' => '?string',
-        'group_name_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'group_name_metadata' => '\DocuSign\Model\PropertyMetadata',
         'original_value' => '?string',
-        'original_value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'radios' => '\DocuSign\eSign\Model\Radio[]',
+        'original_value_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'radios' => '\DocuSign\Model\Radio[]',
         'recipient_id' => '?string',
         'recipient_id_guid' => '?string',
-        'recipient_id_guid_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
-        'recipient_id_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'recipient_id_guid_metadata' => '\DocuSign\Model\PropertyMetadata',
+        'recipient_id_metadata' => '\DocuSign\Model\PropertyMetadata',
         'require_all' => '?string',
-        'require_all_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'require_all_metadata' => '\DocuSign\Model\PropertyMetadata',
         'require_initial_on_shared_change' => '?string',
-        'require_initial_on_shared_change_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'require_initial_on_shared_change_metadata' => '\DocuSign\Model\PropertyMetadata',
         'shared' => '?string',
-        'shared_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'shared_metadata' => '\DocuSign\Model\PropertyMetadata',
         'share_to_recipients' => '?string',
-        'share_to_recipients_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'share_to_recipients_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tab_type' => '?string',
-        'tab_type_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tab_type_metadata' => '\DocuSign\Model\PropertyMetadata',
         'template_locked' => '?string',
-        'template_locked_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'template_locked_metadata' => '\DocuSign\Model\PropertyMetadata',
         'template_required' => '?string',
-        'template_required_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'template_required_metadata' => '\DocuSign\Model\PropertyMetadata',
         'tooltip' => '?string',
-        'tooltip_metadata' => '\DocuSign\eSign\Model\PropertyMetadata',
+        'tooltip_metadata' => '\DocuSign\Model\PropertyMetadata',
         'value' => '?string',
-        'value_metadata' => '\DocuSign\eSign\Model\PropertyMetadata'
+        'value_metadata' => '\DocuSign\Model\PropertyMetadata'
     ];
 
     /**
@@ -425,7 +425,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_parent_label_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConditionalParentLabelMetadata()
     {
@@ -435,7 +435,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_parent_label_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $conditional_parent_label_metadata conditional_parent_label_metadata
+     * @param \DocuSign\Model\PropertyMetadata $conditional_parent_label_metadata conditional_parent_label_metadata
      *
      * @return $this
      */
@@ -473,7 +473,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets conditional_parent_value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getConditionalParentValueMetadata()
     {
@@ -483,7 +483,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets conditional_parent_value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $conditional_parent_value_metadata conditional_parent_value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $conditional_parent_value_metadata conditional_parent_value_metadata
      *
      * @return $this
      */
@@ -521,7 +521,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets document_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getDocumentIdMetadata()
     {
@@ -531,7 +531,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets document_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $document_id_metadata document_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $document_id_metadata document_id_metadata
      *
      * @return $this
      */
@@ -569,7 +569,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets group_name_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getGroupNameMetadata()
     {
@@ -579,7 +579,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets group_name_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $group_name_metadata group_name_metadata
+     * @param \DocuSign\Model\PropertyMetadata $group_name_metadata group_name_metadata
      *
      * @return $this
      */
@@ -617,7 +617,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets original_value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getOriginalValueMetadata()
     {
@@ -627,7 +627,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets original_value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $original_value_metadata original_value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $original_value_metadata original_value_metadata
      *
      * @return $this
      */
@@ -641,7 +641,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets radios
      *
-     * @return \DocuSign\eSign\Model\Radio[]
+     * @return \DocuSign\Model\Radio[]
      */
     public function getRadios()
     {
@@ -651,7 +651,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets radios
      *
-     * @param \DocuSign\eSign\Model\Radio[] $radios Specifies the locations and status for radio buttons that are grouped together.
+     * @param \DocuSign\Model\Radio[] $radios Specifies the locations and status for radio buttons that are grouped together.
      *
      * @return $this
      */
@@ -713,7 +713,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_id_guid_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipientIdGuidMetadata()
     {
@@ -723,7 +723,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_id_guid_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recipient_id_guid_metadata recipient_id_guid_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recipient_id_guid_metadata recipient_id_guid_metadata
      *
      * @return $this
      */
@@ -737,7 +737,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_id_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRecipientIdMetadata()
     {
@@ -747,7 +747,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_id_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $recipient_id_metadata recipient_id_metadata
+     * @param \DocuSign\Model\PropertyMetadata $recipient_id_metadata recipient_id_metadata
      *
      * @return $this
      */
@@ -785,7 +785,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets require_all_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequireAllMetadata()
     {
@@ -795,7 +795,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets require_all_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $require_all_metadata require_all_metadata
+     * @param \DocuSign\Model\PropertyMetadata $require_all_metadata require_all_metadata
      *
      * @return $this
      */
@@ -833,7 +833,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets require_initial_on_shared_change_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getRequireInitialOnSharedChangeMetadata()
     {
@@ -843,7 +843,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets require_initial_on_shared_change_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $require_initial_on_shared_change_metadata require_initial_on_shared_change_metadata
+     * @param \DocuSign\Model\PropertyMetadata $require_initial_on_shared_change_metadata require_initial_on_shared_change_metadata
      *
      * @return $this
      */
@@ -881,7 +881,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets shared_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getSharedMetadata()
     {
@@ -891,7 +891,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets shared_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $shared_metadata shared_metadata
+     * @param \DocuSign\Model\PropertyMetadata $shared_metadata shared_metadata
      *
      * @return $this
      */
@@ -929,7 +929,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets share_to_recipients_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getShareToRecipientsMetadata()
     {
@@ -939,7 +939,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets share_to_recipients_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $share_to_recipients_metadata share_to_recipients_metadata
+     * @param \DocuSign\Model\PropertyMetadata $share_to_recipients_metadata share_to_recipients_metadata
      *
      * @return $this
      */
@@ -977,7 +977,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets tab_type_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTabTypeMetadata()
     {
@@ -987,7 +987,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets tab_type_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tab_type_metadata tab_type_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tab_type_metadata tab_type_metadata
      *
      * @return $this
      */
@@ -1025,7 +1025,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets template_locked_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTemplateLockedMetadata()
     {
@@ -1035,7 +1035,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets template_locked_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $template_locked_metadata template_locked_metadata
+     * @param \DocuSign\Model\PropertyMetadata $template_locked_metadata template_locked_metadata
      *
      * @return $this
      */
@@ -1073,7 +1073,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets template_required_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTemplateRequiredMetadata()
     {
@@ -1083,7 +1083,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets template_required_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $template_required_metadata template_required_metadata
+     * @param \DocuSign\Model\PropertyMetadata $template_required_metadata template_required_metadata
      *
      * @return $this
      */
@@ -1121,7 +1121,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets tooltip_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getTooltipMetadata()
     {
@@ -1131,7 +1131,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets tooltip_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $tooltip_metadata tooltip_metadata
+     * @param \DocuSign\Model\PropertyMetadata $tooltip_metadata tooltip_metadata
      *
      * @return $this
      */
@@ -1169,7 +1169,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Gets value_metadata
      *
-     * @return \DocuSign\eSign\Model\PropertyMetadata
+     * @return \DocuSign\Model\PropertyMetadata
      */
     public function getValueMetadata()
     {
@@ -1179,7 +1179,7 @@ class RadioGroup implements ModelInterface, ArrayAccess
     /**
      * Sets value_metadata
      *
-     * @param \DocuSign\eSign\Model\PropertyMetadata $value_metadata value_metadata
+     * @param \DocuSign\Model\PropertyMetadata $value_metadata value_metadata
      *
      * @return $this
      */

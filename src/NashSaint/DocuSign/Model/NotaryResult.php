@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NotaryResult Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class NotaryResult implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'jurisdictions' => '\DocuSign\eSign\Model\Jurisdiction[]',
-        'notary' => '\DocuSign\eSign\Model\Notary'
+        'jurisdictions' => '\DocuSign\Model\Jurisdiction[]',
+        'notary' => '\DocuSign\Model\Notary'
     ];
 
     /**
@@ -215,7 +215,7 @@ class NotaryResult implements ModelInterface, ArrayAccess
     /**
      * Gets jurisdictions
      *
-     * @return \DocuSign\eSign\Model\Jurisdiction[]
+     * @return \DocuSign\Model\Jurisdiction[]
      */
     public function getJurisdictions()
     {
@@ -225,7 +225,7 @@ class NotaryResult implements ModelInterface, ArrayAccess
     /**
      * Sets jurisdictions
      *
-     * @param \DocuSign\eSign\Model\Jurisdiction[] $jurisdictions
+     * @param \DocuSign\Model\Jurisdiction[] $jurisdictions
      *
      * @return $this
      */
@@ -239,7 +239,7 @@ class NotaryResult implements ModelInterface, ArrayAccess
     /**
      * Gets notary
      *
-     * @return \DocuSign\eSign\Model\Notary
+     * @return \DocuSign\Model\Notary
      */
     public function getNotary()
     {
@@ -249,7 +249,7 @@ class NotaryResult implements ModelInterface, ArrayAccess
     /**
      * Sets notary
      *
-     * @param \DocuSign\eSign\Model\Notary $notary notary
+     * @param \DocuSign\Model\Notary $notary notary
      *
      * @return $this
      */

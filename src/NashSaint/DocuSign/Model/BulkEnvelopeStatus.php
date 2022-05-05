@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * BulkEnvelopeStatus Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,7 +61,7 @@ class BulkEnvelopeStatus implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'batch_id' => '?string',
         'batch_size' => '?string',
-        'bulk_envelopes' => '\DocuSign\eSign\Model\BulkEnvelope[]',
+        'bulk_envelopes' => '\DocuSign\Model\BulkEnvelope[]',
         'bulk_envelopes_batch_uri' => '?string',
         'end_position' => '?string',
         'failed' => '?string',
@@ -335,7 +335,7 @@ class BulkEnvelopeStatus implements ModelInterface, ArrayAccess
     /**
      * Gets bulk_envelopes
      *
-     * @return \DocuSign\eSign\Model\BulkEnvelope[]
+     * @return \DocuSign\Model\BulkEnvelope[]
      */
     public function getBulkEnvelopes()
     {
@@ -345,7 +345,7 @@ class BulkEnvelopeStatus implements ModelInterface, ArrayAccess
     /**
      * Sets bulk_envelopes
      *
-     * @param \DocuSign\eSign\Model\BulkEnvelope[] $bulk_envelopes Reserved: TBD
+     * @param \DocuSign\Model\BulkEnvelope[] $bulk_envelopes Reserved: TBD
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * EnvelopeTransferRuleRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -63,12 +63,12 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
         'enabled' => '?string',
         'envelope_transfer_rule_id' => '?string',
         'event_type' => '?string',
-        'from_groups' => '\DocuSign\eSign\Model\Group[]',
-        'from_users' => '\DocuSign\eSign\Model\UserInformation[]',
+        'from_groups' => '\DocuSign\Model\Group[]',
+        'from_users' => '\DocuSign\Model\UserInformation[]',
         'modified_date' => '?string',
-        'modified_user' => '\DocuSign\eSign\Model\UserInformation',
-        'to_folder' => '\DocuSign\eSign\Model\Folder',
-        'to_user' => '\DocuSign\eSign\Model\UserInformation'
+        'modified_user' => '\DocuSign\Model\UserInformation',
+        'to_folder' => '\DocuSign\Model\Folder',
+        'to_user' => '\DocuSign\Model\UserInformation'
     ];
 
     /**
@@ -359,7 +359,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets from_groups
      *
-     * @return \DocuSign\eSign\Model\Group[]
+     * @return \DocuSign\Model\Group[]
      */
     public function getFromGroups()
     {
@@ -369,7 +369,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets from_groups
      *
-     * @param \DocuSign\eSign\Model\Group[] $from_groups
+     * @param \DocuSign\Model\Group[] $from_groups
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets from_users
      *
-     * @return \DocuSign\eSign\Model\UserInformation[]
+     * @return \DocuSign\Model\UserInformation[]
      */
     public function getFromUsers()
     {
@@ -393,7 +393,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets from_users
      *
-     * @param \DocuSign\eSign\Model\UserInformation[] $from_users
+     * @param \DocuSign\Model\UserInformation[] $from_users
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets modified_user
      *
-     * @return \DocuSign\eSign\Model\UserInformation
+     * @return \DocuSign\Model\UserInformation
      */
     public function getModifiedUser()
     {
@@ -441,7 +441,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets modified_user
      *
-     * @param \DocuSign\eSign\Model\UserInformation $modified_user modified_user
+     * @param \DocuSign\Model\UserInformation $modified_user modified_user
      *
      * @return $this
      */
@@ -455,7 +455,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets to_folder
      *
-     * @return \DocuSign\eSign\Model\Folder
+     * @return \DocuSign\Model\Folder
      */
     public function getToFolder()
     {
@@ -465,7 +465,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets to_folder
      *
-     * @param \DocuSign\eSign\Model\Folder $to_folder to_folder
+     * @param \DocuSign\Model\Folder $to_folder to_folder
      *
      * @return $this
      */
@@ -479,7 +479,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Gets to_user
      *
-     * @return \DocuSign\eSign\Model\UserInformation
+     * @return \DocuSign\Model\UserInformation
      */
     public function getToUser()
     {
@@ -489,7 +489,7 @@ class EnvelopeTransferRuleRequest implements ModelInterface, ArrayAccess
     /**
      * Sets to_user
      *
-     * @param \DocuSign\eSign\Model\UserInformation $to_user to_user
+     * @param \DocuSign\Model\UserInformation $to_user to_user
      *
      * @return $this
      */

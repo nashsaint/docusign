@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * FavoriteTemplatesInfo Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,8 +59,8 @@ class FavoriteTemplatesInfo implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
-        'favorite_templates' => '\DocuSign\eSign\Model\FavoriteTemplatesContentItem[]',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
+        'favorite_templates' => '\DocuSign\Model\FavoriteTemplatesContentItem[]',
         'templates_updated_count' => '?int'
     ];
 
@@ -221,7 +221,7 @@ class FavoriteTemplatesInfo implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -231,7 +231,7 @@ class FavoriteTemplatesInfo implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -245,7 +245,7 @@ class FavoriteTemplatesInfo implements ModelInterface, ArrayAccess
     /**
      * Gets favorite_templates
      *
-     * @return \DocuSign\eSign\Model\FavoriteTemplatesContentItem[]
+     * @return \DocuSign\Model\FavoriteTemplatesContentItem[]
      */
     public function getFavoriteTemplates()
     {
@@ -255,7 +255,7 @@ class FavoriteTemplatesInfo implements ModelInterface, ArrayAccess
     /**
      * Sets favorite_templates
      *
-     * @param \DocuSign\eSign\Model\FavoriteTemplatesContentItem[] $favorite_templates
+     * @param \DocuSign\Model\FavoriteTemplatesContentItem[] $favorite_templates
      *
      * @return $this
      */

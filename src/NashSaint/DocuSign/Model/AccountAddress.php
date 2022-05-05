@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountAddress Class Doc Comment
  *
  * @category    Class
  * @description Contains information about an account address.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -71,7 +71,7 @@ class AccountAddress implements ModelInterface, ArrayAccess
         'phone' => '?string',
         'postal_code' => '?string',
         'state' => '?string',
-        'supported_countries' => '\DocuSign\eSign\Model\Country[]'
+        'supported_countries' => '\DocuSign\Model\Country[]'
     ];
 
     /**
@@ -540,7 +540,7 @@ class AccountAddress implements ModelInterface, ArrayAccess
     /**
      * Gets supported_countries
      *
-     * @return \DocuSign\eSign\Model\Country[]
+     * @return \DocuSign\Model\Country[]
      */
     public function getSupportedCountries()
     {
@@ -550,7 +550,7 @@ class AccountAddress implements ModelInterface, ArrayAccess
     /**
      * Sets supported_countries
      *
-     * @param \DocuSign\eSign\Model\Country[] $supported_countries Contains an array of countries supported by the billing plan.
+     * @param \DocuSign\Model\Country[] $supported_countries Contains an array of countries supported by the billing plan.
      *
      * @return $this
      */

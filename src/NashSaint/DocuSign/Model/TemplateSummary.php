@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplateSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,10 +62,10 @@ class TemplateSummary implements ModelInterface, ArrayAccess
         'applied' => '?string',
         'document_id' => '?string',
         'document_name' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'name' => '?string',
         'template_id' => '?string',
-        'template_match' => '\DocuSign\eSign\Model\TemplateMatch',
+        'template_match' => '\DocuSign\Model\TemplateMatch',
         'uri' => '?string'
     ];
 
@@ -323,7 +323,7 @@ class TemplateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -333,7 +333,7 @@ class TemplateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -395,7 +395,7 @@ class TemplateSummary implements ModelInterface, ArrayAccess
     /**
      * Gets template_match
      *
-     * @return \DocuSign\eSign\Model\TemplateMatch
+     * @return \DocuSign\Model\TemplateMatch
      */
     public function getTemplateMatch()
     {
@@ -405,7 +405,7 @@ class TemplateSummary implements ModelInterface, ArrayAccess
     /**
      * Sets template_match
      *
-     * @param \DocuSign\eSign\Model\TemplateMatch $template_match template_match
+     * @param \DocuSign\Model\TemplateMatch $template_match template_match
      *
      * @return $this
      */

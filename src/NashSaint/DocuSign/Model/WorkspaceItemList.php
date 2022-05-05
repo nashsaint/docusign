@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * WorkspaceItemList Class Doc Comment
  *
  * @category    Class
  * @description Provides properties that describe the items contained in a workspace.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,7 +60,7 @@ class WorkspaceItemList implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'items' => '\DocuSign\eSign\Model\WorkspaceItem[]'
+        'items' => '\DocuSign\Model\WorkspaceItem[]'
     ];
 
     /**
@@ -210,7 +210,7 @@ class WorkspaceItemList implements ModelInterface, ArrayAccess
     /**
      * Gets items
      *
-     * @return \DocuSign\eSign\Model\WorkspaceItem[]
+     * @return \DocuSign\Model\WorkspaceItem[]
      */
     public function getItems()
     {
@@ -220,7 +220,7 @@ class WorkspaceItemList implements ModelInterface, ArrayAccess
     /**
      * Sets items
      *
-     * @param \DocuSign\eSign\Model\WorkspaceItem[] $items
+     * @param \DocuSign\Model\WorkspaceItem[] $items
      *
      * @return $this
      */

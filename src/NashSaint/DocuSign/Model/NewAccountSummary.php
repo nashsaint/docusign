@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * NewAccountSummary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -64,7 +64,7 @@ class NewAccountSummary implements ModelInterface, ArrayAccess
         'account_name' => '?string',
         'api_password' => '?string',
         'base_url' => '?string',
-        'billing_plan_preview' => '\DocuSign\eSign\Model\BillingPlanPreview',
+        'billing_plan_preview' => '\DocuSign\Model\BillingPlanPreview',
         'user_id' => '?string'
     ];
 
@@ -365,7 +365,7 @@ class NewAccountSummary implements ModelInterface, ArrayAccess
     /**
      * Gets billing_plan_preview
      *
-     * @return \DocuSign\eSign\Model\BillingPlanPreview
+     * @return \DocuSign\Model\BillingPlanPreview
      */
     public function getBillingPlanPreview()
     {
@@ -375,7 +375,7 @@ class NewAccountSummary implements ModelInterface, ArrayAccess
     /**
      * Sets billing_plan_preview
      *
-     * @param \DocuSign\eSign\Model\BillingPlanPreview $billing_plan_preview billing_plan_preview
+     * @param \DocuSign\Model\BillingPlanPreview $billing_plan_preview billing_plan_preview
      *
      * @return $this
      */

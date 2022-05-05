@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplateRole Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,20 +60,20 @@ class TemplateRole implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'access_code' => '?string',
-        'additional_notifications' => '\DocuSign\eSign\Model\RecipientAdditionalNotification[]',
+        'additional_notifications' => '\DocuSign\Model\RecipientAdditionalNotification[]',
         'client_user_id' => '?string',
         'default_recipient' => '?string',
         'email' => '?string',
-        'email_notification' => '\DocuSign\eSign\Model\RecipientEmailNotification',
+        'email_notification' => '\DocuSign\Model\RecipientEmailNotification',
         'embedded_recipient_start_url' => '?string',
         'in_person_signer_name' => '?string',
         'name' => '?string',
-        'phone_number' => '\DocuSign\eSign\Model\RecipientPhoneNumber',
-        'recipient_signature_providers' => '\DocuSign\eSign\Model\RecipientSignatureProvider[]',
+        'phone_number' => '\DocuSign\Model\RecipientPhoneNumber',
+        'recipient_signature_providers' => '\DocuSign\Model\RecipientSignatureProvider[]',
         'role_name' => '?string',
         'routing_order' => '?string',
         'signing_group_id' => '?string',
-        'tabs' => '\DocuSign\eSign\Model\Tabs'
+        'tabs' => '\DocuSign\Model\Tabs'
     ];
 
     /**
@@ -317,7 +317,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Gets additional_notifications
      *
-     * @return \DocuSign\eSign\Model\RecipientAdditionalNotification[]
+     * @return \DocuSign\Model\RecipientAdditionalNotification[]
      */
     public function getAdditionalNotifications()
     {
@@ -327,7 +327,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Sets additional_notifications
      *
-     * @param \DocuSign\eSign\Model\RecipientAdditionalNotification[] $additional_notifications
+     * @param \DocuSign\Model\RecipientAdditionalNotification[] $additional_notifications
      *
      * @return $this
      */
@@ -413,7 +413,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Gets email_notification
      *
-     * @return \DocuSign\eSign\Model\RecipientEmailNotification
+     * @return \DocuSign\Model\RecipientEmailNotification
      */
     public function getEmailNotification()
     {
@@ -423,7 +423,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Sets email_notification
      *
-     * @param \DocuSign\eSign\Model\RecipientEmailNotification $email_notification email_notification
+     * @param \DocuSign\Model\RecipientEmailNotification $email_notification email_notification
      *
      * @return $this
      */
@@ -509,7 +509,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Gets phone_number
      *
-     * @return \DocuSign\eSign\Model\RecipientPhoneNumber
+     * @return \DocuSign\Model\RecipientPhoneNumber
      */
     public function getPhoneNumber()
     {
@@ -519,7 +519,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Sets phone_number
      *
-     * @param \DocuSign\eSign\Model\RecipientPhoneNumber $phone_number phone_number
+     * @param \DocuSign\Model\RecipientPhoneNumber $phone_number phone_number
      *
      * @return $this
      */
@@ -533,7 +533,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Gets recipient_signature_providers
      *
-     * @return \DocuSign\eSign\Model\RecipientSignatureProvider[]
+     * @return \DocuSign\Model\RecipientSignatureProvider[]
      */
     public function getRecipientSignatureProviders()
     {
@@ -543,7 +543,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Sets recipient_signature_providers
      *
-     * @param \DocuSign\eSign\Model\RecipientSignatureProvider[] $recipient_signature_providers
+     * @param \DocuSign\Model\RecipientSignatureProvider[] $recipient_signature_providers
      *
      * @return $this
      */
@@ -629,7 +629,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Gets tabs
      *
-     * @return \DocuSign\eSign\Model\Tabs
+     * @return \DocuSign\Model\Tabs
      */
     public function getTabs()
     {
@@ -639,7 +639,7 @@ class TemplateRole implements ModelInterface, ArrayAccess
     /**
      * Sets tabs
      *
-     * @param \DocuSign\eSign\Model\Tabs $tabs tabs
+     * @param \DocuSign\Model\Tabs $tabs tabs
      *
      * @return $this
      */

@@ -9,13 +9,13 @@
  *
  */
 
-namespace NashSaint\DocuSign\eSign\Client\Auth;
+namespace NashSaint\DocuSign\Client\Auth;
 
 /**
  * Oauth Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign\Client\Auth
+ * @package     DocuSign\Client\Auth
  * @author      DocuSign
  */
 class OAuth

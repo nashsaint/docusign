@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,17 +28,17 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * AccountBillingPlanResponse Class Doc Comment
  *
  * @category    Class
  * @description Defines an account billing plan response object.
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -60,18 +60,18 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'billing_address' => '\DocuSign\eSign\Model\AccountAddress',
+        'billing_address' => '\DocuSign\Model\AccountAddress',
         'billing_address_is_credit_card_address' => '?string',
-        'billing_plan' => '\DocuSign\eSign\Model\AccountBillingPlan',
-        'credit_card_information' => '\DocuSign\eSign\Model\CreditCardInformation',
-        'direct_debit_processor_information' => '\DocuSign\eSign\Model\DirectDebitProcessorInformation',
-        'downgrade_plan_information' => '\DocuSign\eSign\Model\DowngradePlanUpdateResponse',
-        'downgrade_request_information' => '\DocuSign\eSign\Model\DowngradeRequestInformation',
-        'entity_information' => '\DocuSign\eSign\Model\BillingEntityInformationResponse',
+        'billing_plan' => '\DocuSign\Model\AccountBillingPlan',
+        'credit_card_information' => '\DocuSign\Model\CreditCardInformation',
+        'direct_debit_processor_information' => '\DocuSign\Model\DirectDebitProcessorInformation',
+        'downgrade_plan_information' => '\DocuSign\Model\DowngradePlanUpdateResponse',
+        'downgrade_request_information' => '\DocuSign\Model\DowngradeRequestInformation',
+        'entity_information' => '\DocuSign\Model\BillingEntityInformationResponse',
         'payment_method' => '?string',
-        'payment_processor_information' => '\DocuSign\eSign\Model\PaymentProcessorInformation',
-        'referral_information' => '\DocuSign\eSign\Model\ReferralInformation',
-        'successor_plans' => '\DocuSign\eSign\Model\BillingPlan[]',
+        'payment_processor_information' => '\DocuSign\Model\PaymentProcessorInformation',
+        'referral_information' => '\DocuSign\Model\ReferralInformation',
+        'successor_plans' => '\DocuSign\Model\BillingPlan[]',
         'tax_exempt_id' => '?string'
     ];
 
@@ -282,7 +282,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_address
      *
-     * @return \DocuSign\eSign\Model\AccountAddress
+     * @return \DocuSign\Model\AccountAddress
      */
     public function getBillingAddress()
     {
@@ -292,7 +292,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_address
      *
-     * @param \DocuSign\eSign\Model\AccountAddress $billing_address billing_address
+     * @param \DocuSign\Model\AccountAddress $billing_address billing_address
      *
      * @return $this
      */
@@ -330,7 +330,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets billing_plan
      *
-     * @return \DocuSign\eSign\Model\AccountBillingPlan
+     * @return \DocuSign\Model\AccountBillingPlan
      */
     public function getBillingPlan()
     {
@@ -340,7 +340,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets billing_plan
      *
-     * @param \DocuSign\eSign\Model\AccountBillingPlan $billing_plan billing_plan
+     * @param \DocuSign\Model\AccountBillingPlan $billing_plan billing_plan
      *
      * @return $this
      */
@@ -354,7 +354,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets credit_card_information
      *
-     * @return \DocuSign\eSign\Model\CreditCardInformation
+     * @return \DocuSign\Model\CreditCardInformation
      */
     public function getCreditCardInformation()
     {
@@ -364,7 +364,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets credit_card_information
      *
-     * @param \DocuSign\eSign\Model\CreditCardInformation $credit_card_information credit_card_information
+     * @param \DocuSign\Model\CreditCardInformation $credit_card_information credit_card_information
      *
      * @return $this
      */
@@ -378,7 +378,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets direct_debit_processor_information
      *
-     * @return \DocuSign\eSign\Model\DirectDebitProcessorInformation
+     * @return \DocuSign\Model\DirectDebitProcessorInformation
      */
     public function getDirectDebitProcessorInformation()
     {
@@ -388,7 +388,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets direct_debit_processor_information
      *
-     * @param \DocuSign\eSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
+     * @param \DocuSign\Model\DirectDebitProcessorInformation $direct_debit_processor_information direct_debit_processor_information
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets downgrade_plan_information
      *
-     * @return \DocuSign\eSign\Model\DowngradePlanUpdateResponse
+     * @return \DocuSign\Model\DowngradePlanUpdateResponse
      */
     public function getDowngradePlanInformation()
     {
@@ -412,7 +412,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets downgrade_plan_information
      *
-     * @param \DocuSign\eSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
+     * @param \DocuSign\Model\DowngradePlanUpdateResponse $downgrade_plan_information downgrade_plan_information
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets downgrade_request_information
      *
-     * @return \DocuSign\eSign\Model\DowngradeRequestInformation
+     * @return \DocuSign\Model\DowngradeRequestInformation
      */
     public function getDowngradeRequestInformation()
     {
@@ -436,7 +436,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets downgrade_request_information
      *
-     * @param \DocuSign\eSign\Model\DowngradeRequestInformation $downgrade_request_information downgrade_request_information
+     * @param \DocuSign\Model\DowngradeRequestInformation $downgrade_request_information downgrade_request_information
      *
      * @return $this
      */
@@ -450,7 +450,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets entity_information
      *
-     * @return \DocuSign\eSign\Model\BillingEntityInformationResponse
+     * @return \DocuSign\Model\BillingEntityInformationResponse
      */
     public function getEntityInformation()
     {
@@ -460,7 +460,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets entity_information
      *
-     * @param \DocuSign\eSign\Model\BillingEntityInformationResponse $entity_information entity_information
+     * @param \DocuSign\Model\BillingEntityInformationResponse $entity_information entity_information
      *
      * @return $this
      */
@@ -498,7 +498,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payment_processor_information
      *
-     * @return \DocuSign\eSign\Model\PaymentProcessorInformation
+     * @return \DocuSign\Model\PaymentProcessorInformation
      */
     public function getPaymentProcessorInformation()
     {
@@ -508,7 +508,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payment_processor_information
      *
-     * @param \DocuSign\eSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
+     * @param \DocuSign\Model\PaymentProcessorInformation $payment_processor_information payment_processor_information
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets referral_information
      *
-     * @return \DocuSign\eSign\Model\ReferralInformation
+     * @return \DocuSign\Model\ReferralInformation
      */
     public function getReferralInformation()
     {
@@ -532,7 +532,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets referral_information
      *
-     * @param \DocuSign\eSign\Model\ReferralInformation $referral_information referral_information
+     * @param \DocuSign\Model\ReferralInformation $referral_information referral_information
      *
      * @return $this
      */
@@ -546,7 +546,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Gets successor_plans
      *
-     * @return \DocuSign\eSign\Model\BillingPlan[]
+     * @return \DocuSign\Model\BillingPlan[]
      */
     public function getSuccessorPlans()
     {
@@ -556,7 +556,7 @@ class AccountBillingPlanResponse implements ModelInterface, ArrayAccess
     /**
      * Sets successor_plans
      *
-     * @param \DocuSign\eSign\Model\BillingPlan[] $successor_plans
+     * @param \DocuSign\Model\BillingPlan[] $successor_plans
      *
      * @return $this
      */

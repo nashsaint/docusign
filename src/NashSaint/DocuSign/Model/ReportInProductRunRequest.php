@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * ReportInProductRunRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign eSignature PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -68,7 +68,7 @@ class ReportInProductRunRequest implements ModelInterface, ArrayAccess
         'envelope_recipient_name_contains_filter' => '?string',
         'envelope_status_filter' => '?string',
         'envelope_subject_contains_filter' => '?string',
-        'fields' => '\DocuSign\eSign\Model\ReportInProductField[]',
+        'fields' => '\DocuSign\Model\ReportInProductField[]',
         'for_download' => '?string',
         'is_dashboard' => '?string',
         'period_length_filter' => '?string',
@@ -563,7 +563,7 @@ class ReportInProductRunRequest implements ModelInterface, ArrayAccess
     /**
      * Gets fields
      *
-     * @return \DocuSign\eSign\Model\ReportInProductField[]
+     * @return \DocuSign\Model\ReportInProductField[]
      */
     public function getFields()
     {
@@ -573,7 +573,7 @@ class ReportInProductRunRequest implements ModelInterface, ArrayAccess
     /**
      * Sets fields
      *
-     * @param \DocuSign\eSign\Model\ReportInProductField[] $fields
+     * @param \DocuSign\Model\ReportInProductField[] $fields
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Contact Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,10 +62,10 @@ class Contact implements ModelInterface, ArrayAccess
         'cloud_provider' => '?string',
         'cloud_provider_container_id' => '?string',
         'contact_id' => '?string',
-        'contact_phone_numbers' => '\DocuSign\eSign\Model\ContactPhoneNumber[]',
+        'contact_phone_numbers' => '\DocuSign\Model\ContactPhoneNumber[]',
         'contact_uri' => '?string',
         'emails' => '?string[]',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'is_owner' => '?bool',
         'name' => '?string',
         'organization' => '?string',
@@ -359,7 +359,7 @@ class Contact implements ModelInterface, ArrayAccess
     /**
      * Gets contact_phone_numbers
      *
-     * @return \DocuSign\eSign\Model\ContactPhoneNumber[]
+     * @return \DocuSign\Model\ContactPhoneNumber[]
      */
     public function getContactPhoneNumbers()
     {
@@ -369,7 +369,7 @@ class Contact implements ModelInterface, ArrayAccess
     /**
      * Sets contact_phone_numbers
      *
-     * @param \DocuSign\eSign\Model\ContactPhoneNumber[] $contact_phone_numbers
+     * @param \DocuSign\Model\ContactPhoneNumber[] $contact_phone_numbers
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class Contact implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -441,7 +441,7 @@ class Contact implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */

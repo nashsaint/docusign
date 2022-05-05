@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swaagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserInfoResponse Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */
@@ -59,9 +59,9 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'envelope_id' => '?string',
         'language' => '?string',
-        'seal' => '\DocuSign\eSign\Model\Seal',
-        'sender' => '\DocuSign\eSign\Model\Sender',
-        'user' => '\DocuSign\eSign\Model\User'
+        'seal' => '\DocuSign\Model\Seal',
+        'sender' => '\DocuSign\Model\Sender',
+        'user' => '\DocuSign\Model\User'
     ];
 
     /**
@@ -279,7 +279,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets seal
      *
-     * @return \DocuSign\eSign\Model\Seal
+     * @return \DocuSign\Model\Seal
      */
     public function getSeal()
     {
@@ -289,7 +289,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets seal
      *
-     * @param \DocuSign\eSign\Model\Seal $seal seal
+     * @param \DocuSign\Model\Seal $seal seal
      *
      * @return $this
      */
@@ -303,7 +303,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets sender
      *
-     * @return \DocuSign\eSign\Model\Sender
+     * @return \DocuSign\Model\Sender
      */
     public function getSender()
     {
@@ -313,7 +313,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets sender
      *
-     * @param \DocuSign\eSign\Model\Sender $sender sender
+     * @param \DocuSign\Model\Sender $sender sender
      *
      * @return $this
      */
@@ -327,7 +327,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Gets user
      *
-     * @return \DocuSign\eSign\Model\User
+     * @return \DocuSign\Model\User
      */
     public function getUser()
     {
@@ -337,7 +337,7 @@ class UserInfoResponse implements ModelInterface, ArrayAccess
     /**
      * Sets user
      *
-     * @param \DocuSign\eSign\Model\User $user user
+     * @param \DocuSign\Model\User $user user
      *
      * @return $this
      */

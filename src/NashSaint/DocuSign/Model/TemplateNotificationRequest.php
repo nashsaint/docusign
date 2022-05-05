@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * TemplateNotificationRequest Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,9 +59,9 @@ class TemplateNotificationRequest implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'expirations' => '\DocuSign\eSign\Model\Expirations',
+        'expirations' => '\DocuSign\Model\Expirations',
         'password' => '?string',
-        'reminders' => '\DocuSign\eSign\Model\Reminders',
+        'reminders' => '\DocuSign\Model\Reminders',
         'use_account_defaults' => '?string'
     ];
 
@@ -227,7 +227,7 @@ class TemplateNotificationRequest implements ModelInterface, ArrayAccess
     /**
      * Gets expirations
      *
-     * @return \DocuSign\eSign\Model\Expirations
+     * @return \DocuSign\Model\Expirations
      */
     public function getExpirations()
     {
@@ -237,7 +237,7 @@ class TemplateNotificationRequest implements ModelInterface, ArrayAccess
     /**
      * Sets expirations
      *
-     * @param \DocuSign\eSign\Model\Expirations $expirations expirations
+     * @param \DocuSign\Model\Expirations $expirations expirations
      *
      * @return $this
      */
@@ -275,7 +275,7 @@ class TemplateNotificationRequest implements ModelInterface, ArrayAccess
     /**
      * Gets reminders
      *
-     * @return \DocuSign\eSign\Model\Reminders
+     * @return \DocuSign\Model\Reminders
      */
     public function getReminders()
     {
@@ -285,7 +285,7 @@ class TemplateNotificationRequest implements ModelInterface, ArrayAccess
     /**
      * Sets reminders
      *
-     * @param \DocuSign\eSign\Model\Reminders $reminders reminders
+     * @param \DocuSign\Model\Reminders $reminders reminders
      *
      * @return $this
      */

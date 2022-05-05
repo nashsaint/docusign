@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * UserInformation Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -61,19 +61,19 @@ class UserInformation implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'activation_access_code' => '?string',
         'company' => '?string',
-        'connect_configurations' => '\DocuSign\eSign\Model\ConnectUserObject[]',
+        'connect_configurations' => '\DocuSign\Model\ConnectUserObject[]',
         'country_code' => '?string',
         'created_date_time' => '?string',
-        'custom_settings' => '\DocuSign\eSign\Model\NameValue[]',
+        'custom_settings' => '\DocuSign\Model\NameValue[]',
         'default_account_id' => '?string',
         'email' => '?string',
         'enable_connect_for_user' => '?string',
-        'error_details' => '\DocuSign\eSign\Model\ErrorDetails',
+        'error_details' => '\DocuSign\Model\ErrorDetails',
         'first_name' => '?string',
-        'forgotten_password_info' => '\DocuSign\eSign\Model\ForgottenPasswordInformation',
-        'group_list' => '\DocuSign\eSign\Model\Group[]',
+        'forgotten_password_info' => '\DocuSign\Model\ForgottenPasswordInformation',
+        'group_list' => '\DocuSign\Model\Group[]',
         'has_remote_notary' => '?bool',
-        'home_address' => '\DocuSign\eSign\Model\AddressInformation',
+        'home_address' => '\DocuSign\Model\AddressInformation',
         'initials_image_uri' => '?string',
         'is_admin' => '?string',
         'is_alternate_admin' => '?string',
@@ -99,10 +99,10 @@ class UserInformation implements ModelInterface, ArrayAccess
         'user_id' => '?string',
         'user_name' => '?string',
         'user_profile_last_modified_date' => '?string',
-        'user_settings' => '\DocuSign\eSign\Model\UserSettingsInformation',
+        'user_settings' => '\DocuSign\Model\UserSettingsInformation',
         'user_status' => '?string',
         'user_type' => '?string',
-        'work_address' => '\DocuSign\eSign\Model\AddressInformation'
+        'work_address' => '\DocuSign\Model\AddressInformation'
     ];
 
     /**
@@ -515,7 +515,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets connect_configurations
      *
-     * @return \DocuSign\eSign\Model\ConnectUserObject[]
+     * @return \DocuSign\Model\ConnectUserObject[]
      */
     public function getConnectConfigurations()
     {
@@ -525,7 +525,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets connect_configurations
      *
-     * @param \DocuSign\eSign\Model\ConnectUserObject[] $connect_configurations
+     * @param \DocuSign\Model\ConnectUserObject[] $connect_configurations
      *
      * @return $this
      */
@@ -587,7 +587,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets custom_settings
      *
-     * @return \DocuSign\eSign\Model\NameValue[]
+     * @return \DocuSign\Model\NameValue[]
      */
     public function getCustomSettings()
     {
@@ -597,7 +597,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets custom_settings
      *
-     * @param \DocuSign\eSign\Model\NameValue[] $custom_settings The name/value pair information for the user custom setting.
+     * @param \DocuSign\Model\NameValue[] $custom_settings The name/value pair information for the user custom setting.
      *
      * @return $this
      */
@@ -683,7 +683,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets error_details
      *
-     * @return \DocuSign\eSign\Model\ErrorDetails
+     * @return \DocuSign\Model\ErrorDetails
      */
     public function getErrorDetails()
     {
@@ -693,7 +693,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets error_details
      *
-     * @param \DocuSign\eSign\Model\ErrorDetails $error_details error_details
+     * @param \DocuSign\Model\ErrorDetails $error_details error_details
      *
      * @return $this
      */
@@ -731,7 +731,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets forgotten_password_info
      *
-     * @return \DocuSign\eSign\Model\ForgottenPasswordInformation
+     * @return \DocuSign\Model\ForgottenPasswordInformation
      */
     public function getForgottenPasswordInfo()
     {
@@ -741,7 +741,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets forgotten_password_info
      *
-     * @param \DocuSign\eSign\Model\ForgottenPasswordInformation $forgotten_password_info forgotten_password_info
+     * @param \DocuSign\Model\ForgottenPasswordInformation $forgotten_password_info forgotten_password_info
      *
      * @return $this
      */
@@ -755,7 +755,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets group_list
      *
-     * @return \DocuSign\eSign\Model\Group[]
+     * @return \DocuSign\Model\Group[]
      */
     public function getGroupList()
     {
@@ -765,7 +765,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets group_list
      *
-     * @param \DocuSign\eSign\Model\Group[] $group_list A list of the group information for groups to add the user to. Group information can be found by calling [ML:GET group information]. The only required parameter is groupId.   The parameters are:  * groupId - The DocuSign group ID for the group. * groupName - The name of the group * permissionProfileId - The ID of the permission profile associated with the group. * groupType - The group type.
+     * @param \DocuSign\Model\Group[] $group_list A list of the group information for groups to add the user to. Group information can be found by calling [ML:GET group information]. The only required parameter is groupId.   The parameters are:  * groupId - The DocuSign group ID for the group. * groupName - The name of the group * permissionProfileId - The ID of the permission profile associated with the group. * groupType - The group type.
      *
      * @return $this
      */
@@ -803,7 +803,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets home_address
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getHomeAddress()
     {
@@ -813,7 +813,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets home_address
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $home_address home_address
+     * @param \DocuSign\Model\AddressInformation $home_address home_address
      *
      * @return $this
      */
@@ -1427,7 +1427,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets user_settings
      *
-     * @return \DocuSign\eSign\Model\UserSettingsInformation
+     * @return \DocuSign\Model\UserSettingsInformation
      */
     public function getUserSettings()
     {
@@ -1437,7 +1437,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets user_settings
      *
-     * @param \DocuSign\eSign\Model\UserSettingsInformation $user_settings user_settings
+     * @param \DocuSign\Model\UserSettingsInformation $user_settings user_settings
      *
      * @return $this
      */
@@ -1499,7 +1499,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Gets work_address
      *
-     * @return \DocuSign\eSign\Model\AddressInformation
+     * @return \DocuSign\Model\AddressInformation
      */
     public function getWorkAddress()
     {
@@ -1509,7 +1509,7 @@ class UserInformation implements ModelInterface, ArrayAccess
     /**
      * Sets work_address
      *
-     * @param \DocuSign\eSign\Model\AddressInformation $work_address work_address
+     * @param \DocuSign\Model\AddressInformation $work_address work_address
      *
      * @return $this
      */

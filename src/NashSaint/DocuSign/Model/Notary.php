@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * Notary Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -62,7 +62,7 @@ class Notary implements ModelInterface, ArrayAccess
         'created_date' => '?string',
         'enabled' => '?string',
         'searchable' => '?string',
-        'user_info' => '\DocuSign\eSign\Model\UserInformation'
+        'user_info' => '\DocuSign\Model\UserInformation'
     ];
 
     /**
@@ -299,7 +299,7 @@ class Notary implements ModelInterface, ArrayAccess
     /**
      * Gets user_info
      *
-     * @return \DocuSign\eSign\Model\UserInformation
+     * @return \DocuSign\Model\UserInformation
      */
     public function getUserInfo()
     {
@@ -309,7 +309,7 @@ class Notary implements ModelInterface, ArrayAccess
     /**
      * Sets user_info
      *
-     * @param \DocuSign\eSign\Model\UserInformation $user_info user_info
+     * @param \DocuSign\Model\UserInformation $user_info user_info
      *
      * @return $this
      */

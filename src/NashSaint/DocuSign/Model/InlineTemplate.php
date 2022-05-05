@@ -5,7 +5,7 @@
  * PHP version 7.4
  *
  * @category Class
- * @package  DocuSign\eSign
+ * @package  DocuSign
  * @author   Swagger Codegen team <apihelp@docusign.com>
  * @license  The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link     https://github.com/swagger-api/swagger-codegen
@@ -28,16 +28,16 @@
  * Do not edit the class manually.
  */
 
-namespace NashSaint\DocuSign\eSign\Model;
+namespace NashSaint\DocuSign\Model;
 
 use \ArrayAccess;
-use NashSaint\DocuSign\eSign\ObjectSerializer;
+use NashSaint\DocuSign\ObjectSerializer;
 
 /**
  * InlineTemplate Class Doc Comment
  *
  * @category    Class
- * @package     DocuSign\eSign
+ * @package     DocuSign
  * @author      Swagger Codegen team <apihelp@docusign.com>
  * @license     The DocuSign PHP Client SDK is licensed under the MIT License.
  * @link        https://github.com/swagger-api/swagger-codegen
@@ -59,10 +59,10 @@ class InlineTemplate implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'custom_fields' => '\DocuSign\eSign\Model\CustomFields',
-        'documents' => '\DocuSign\eSign\Model\Document[]',
-        'envelope' => '\DocuSign\eSign\Model\Envelope',
-        'recipients' => '\DocuSign\eSign\Model\Recipients',
+        'custom_fields' => '\DocuSign\Model\CustomFields',
+        'documents' => '\DocuSign\Model\Document[]',
+        'envelope' => '\DocuSign\Model\Envelope',
+        'recipients' => '\DocuSign\Model\Recipients',
         'sequence' => '?string'
     ];
 
@@ -233,7 +233,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets custom_fields
      *
-     * @return \DocuSign\eSign\Model\CustomFields
+     * @return \DocuSign\Model\CustomFields
      */
     public function getCustomFields()
     {
@@ -243,7 +243,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets custom_fields
      *
-     * @param \DocuSign\eSign\Model\CustomFields $custom_fields custom_fields
+     * @param \DocuSign\Model\CustomFields $custom_fields custom_fields
      *
      * @return $this
      */
@@ -257,7 +257,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets documents
      *
-     * @return \DocuSign\eSign\Model\Document[]
+     * @return \DocuSign\Model\Document[]
      */
     public function getDocuments()
     {
@@ -267,7 +267,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets documents
      *
-     * @param \DocuSign\eSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
+     * @param \DocuSign\Model\Document[] $documents Complex element contains the details on the documents in the envelope.
      *
      * @return $this
      */
@@ -281,7 +281,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets envelope
      *
-     * @return \DocuSign\eSign\Model\Envelope
+     * @return \DocuSign\Model\Envelope
      */
     public function getEnvelope()
     {
@@ -291,7 +291,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets envelope
      *
-     * @param \DocuSign\eSign\Model\Envelope $envelope envelope
+     * @param \DocuSign\Model\Envelope $envelope envelope
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Gets recipients
      *
-     * @return \DocuSign\eSign\Model\Recipients
+     * @return \DocuSign\Model\Recipients
      */
     public function getRecipients()
     {
@@ -315,7 +315,7 @@ class InlineTemplate implements ModelInterface, ArrayAccess
     /**
      * Sets recipients
      *
-     * @param \DocuSign\eSign\Model\Recipients $recipients recipients
+     * @param \DocuSign\Model\Recipients $recipients recipients
      *
      * @return $this
      */
