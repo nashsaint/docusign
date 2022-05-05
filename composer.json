@@ -1,0 +1,17 @@
+{
+    "name": "nashsaint/docusign",
+    "description": "A DocuSign package for L9",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Nash delos Santos",
+        "email": "nash@dencreatice.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "NashSaint\\DocuSign\\": "src/"
+        }
+    }
+}
