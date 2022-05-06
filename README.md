@@ -1,4 +1,4 @@
-# Laravel 9 Docusign
+# Docusign Wrapper for Laravel 9
 A Laravel 9 wrapper for the [Docusign Rest Client](https://github.com/docusign/docusign-esign-php-client)
 
 ### Install Through Composer
